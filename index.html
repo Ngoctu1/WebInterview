@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css"
+    />
     <script
       src="https://kit.fontawesome.com/041cb6b55e.js"
       crossorigin="anonymous"
@@ -37,7 +40,6 @@
       </div>
     </header>
 
-
     <section id="container">
       <div class="content">
         <div class="title">
@@ -49,8 +51,8 @@
             Giúp bạn giành chiến thắng trong bất kỳ cuộc phỏng vấn việc làm nào.
           </p>
           <div class="btn_btn">
-            <a >Đăng nhập</a>
-            <a >Test ngay</a>
+            <a>Đăng nhập</a>
+            <a>Test ngay</a>
           </div>
           <a href="#">Tìm hiểu thêm</a>
         </div>
@@ -58,31 +60,89 @@
           <img src="image/main.png" alt="" />
         </div>
       </div>
-    
-        <ul>
 
-        </ul>
+      <ul></ul>
     </section>
     <footer>
-        <div class="footer-column"><img src="image/logo.png"></div>
-        <div class="footer-column">Tìm hiểu về Depsenior</div>
-        <div class="footer-column">Chia sẻ</div>
-        <div class="footer-column">Hướng dãn</div>
-        <div class="footer-column flex3">app</div>
-    </footer>
+      <div class="infor">
+        <div class="footer-column"><img src="image/logo.png" /></div>
+      <div class="footer-column">
+        Tìm hiểu về Depsenior
+        <p>Giới thiệu</p>
+      </div>
+      <div class="footer-column">
+        Chia sẻ
+        <p>Chia sẻ Devsenior qua các social media</p>
+      </div>
+      <div class="footer-column">
+        Hướng dãn
+        <p>Hướng dẫn sử dụng Devsenior</p>
+      </div>
+      <div class="footer-column flex3">
+        <div class="dowload">
+          <a
+            href="https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fsonnh7289%2Fpython3-download%2Fraw%2Fmain%2FInterviewQuestion.apk%3Ffbclid%3DIwAR3YFXmHsh7_LIAqQ0HNXrwSxqvZa01YlhmLolnBPu1A5FOQZ7DfvuOEK74&h=AT0BDDy7VMwtesqH_tIfIuy2KsNivO4cNV4dNUunJSmbiFZseuwMReG5Vk5uEhl7RMNSIZkni-soSAGdUY7GFZKlaFsq2SmZ6IP-TQo_ko--ZqpztB-nit3Ksp-tjneijUtAeA"
+            ><img src="image/appstore.png" alt=""
+          /></a>
+          <a
+            href="https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fsonnh7289%2Fpython3-download%2Fraw%2Fmain%2FInterviewQuestion.apk%3Ffbclid%3DIwAR3YFXmHsh7_LIAqQ0HNXrwSxqvZa01YlhmLolnBPu1A5FOQZ7DfvuOEK74&h=AT0BDDy7VMwtesqH_tIfIuy2KsNivO4cNV4dNUunJSmbiFZseuwMReG5Vk5uEhl7RMNSIZkni-soSAGdUY7GFZKlaFsq2SmZ6IP-TQo_ko--ZqpztB-nit3Ksp-tjneijUtAeA"
+            ><img src="image/googleplay.png" alt=""
+          /></a>
+          <div class="social">
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-invision"></i></a>
+            <a href=""><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      </div>
+     <div class="footer_late">
+      <div class="infor2">
+        <div class="copyright-colum">
+          <i class='fas fa-globe'></i>
+          <div class="select-menu">
+            <div class="select-btn">
+                <span class="sBtn-text">Select your option</span>               
+            </div>
     
-</body>
-<script>
-    const lisli = document.querySelector('ul');
-    fetch('./json/Category.json')
-.then(res => res.json())
-.then(data => {
-console.log(data);
-data.forEach(post => {
-    lisli. insertAdjacentHTML('beforeend',`<li> ${post.name} </li>`);
-})
-});
+            <ul class="options">
+                <li class="option">              
+                    <span class="option-text">Vietnamese</span>
+                </li>
+                <li class="option">    
+                    <span class="option-text">Enghlish</span>
+                </li>
+            </ul>    
+          </div>
+        </div>
+      
+      
+      
 
-</script>
+     </div>
+     <div class="infor3">
+      <p>Chính sách riêng tư</p>
+      <p>Thuật ngữ</p>
+      <p>Cài đặt cookies</p>
+      <p>Bản quyền © 2023 abc</p>
+     </div>
+     </div>
+      </div>   
+    </div>
+   
+    </footer>
+  </body>
+  <script>
+    const lisli = document.querySelector("ul");
+    fetch("./json/Category.json")
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+        data.forEach((post) => {
+          lisli.insertAdjacentHTML("beforeend", `<li> ${post.name} </li>`);
+        });
+      });
+  </script>
 </html>
-
