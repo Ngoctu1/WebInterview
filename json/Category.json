@@ -1,0 +1,32 @@
+[
+    {
+        "_id": 1,
+        "image_name": "ic_python",
+        "name": "Python"
+    },
+    {
+        "_id": 2,
+        "image_name": "ic_oop",
+        "name": "OOP"
+    },
+    {
+        "_id": 3,
+        "image_name": "ic_php",
+        "name": "PHP"
+    },
+    {
+        "_id": 4,
+        "image_name": "ic_ios",
+        "name": "IOS"
+    },
+    {
+        "_id": 5,
+        "image_name": "ic_nodejs",
+        "name": "Nodejs"
+    },
+    {
+        "_id": 6,
+        "image_name": "ic_reactjs",
+        "name": "Reactjs"
+    }
+]

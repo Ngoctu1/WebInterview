@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,6 +12,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/script.js" defer></script>
+
     <title>Document</title>
   </head>
   <body>
@@ -35,6 +37,7 @@
       </div>
     </header>
 
+
     <section id="container">
       <div class="content">
         <div class="title">
@@ -55,14 +58,31 @@
           <img src="image/main.png" alt="" />
         </div>
       </div>
-    </section>
+    
+        <ul>
 
+        </ul>
+    </section>
     <footer>
-      <div class="footer-column"><img src="image/logo.png" /></div>
-      <div class="footer-column">aaa</div>
-      <div class="footer-column">aaa</div>
-      <div class="footer-column">aaa</div>
+        <div class="footer-column"><img src="image/logo.png"></div>
+        <div class="footer-column">Tìm hiểu về Depsenior</div>
+        <div class="footer-column">Chia sẻ</div>
+        <div class="footer-column">Hướng dãn</div>
+        <div class="footer-column flex3">app</div>
     </footer>
-  </body>
-  <script></script>
+    
+</body>
+<script>
+    const lisli = document.querySelector('ul');
+    fetch('./json/Category.json')
+.then(res => res.json())
+.then(data => {
+console.log(data);
+data.forEach(post => {
+    lisli. insertAdjacentHTML('beforeend',`<li> ${post.name} </li>`);
+})
+});
+
+</script>
 </html>
+

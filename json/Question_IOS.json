@@ -1,0 +1,1502 @@
+[
+    {
+        "_id": 1,
+        "answer_1": "iPhone Operation System",
+        "answer_2": "Internet Operating System",
+        "answer_3": "Intelligent Operating System",
+        "answer_4": "None of the above",
+        "answer_true": "iPhone Operation System",
+        "playlist_id": 10,
+        "question": "What does IOS stand for?"
+    },
+    {
+        "_id": 2,
+        "answer_1": "scripting language",
+        "answer_2": "object oriented programming language",
+        "answer_3": "type safe language",
+        "answer_4": "All of the above",
+        "answer_true": "All of the above",
+        "playlist_id": 10,
+        "question": "Swift is which type of language?"
+    },
+    {
+        "_id": 3,
+        "answer_1": "Remote",
+        "answer_2": "Jenga",
+        "answer_3": "Logmein",
+        "answer_4": "Talkbox",
+        "answer_true": "Jenga",
+        "playlist_id": 10,
+        "question": "Which of the following apps is a game?"
+    },
+    {
+        "_id": 4,
+        "answer_1": "swiftc",
+        "answer_2": "gas",
+        "answer_3": "Xcode",
+        "answer_4": "Ld",
+        "answer_true": "Xcode",
+        "playlist_id": 10,
+        "question": " The IDE used in swift is____"
+    },
+    {
+        "_id": 5,
+        "answer_1": "Sun Operations Corp",
+        "answer_2": "System of Copy",
+        "answer_3": "System on Chip",
+        "answer_4": "None of the these",
+        "answer_true": "System on Chip",
+        "playlist_id": 10,
+        "question": "What does SOC stand for?"
+    },
+    {
+        "_id": 6,
+        "answer_1": "let",
+        "answer_2": "conts",
+        "answer_3": "contants",
+        "answer_4": "none of above",
+        "answer_true": "let",
+        "playlist_id": 10,
+        "question": " To create contants in swift we use keyword …"
+    },
+    {
+        "_id": 7,
+        "answer_1": "UIKit framework",
+        "answer_2": "Foundation framework",
+        "answer_3": "AppKit framework",
+        "answer_4": "CoreMotion Framework",
+        "answer_true": "UIKit framework",
+        "playlist_id": 10,
+        "question": "Which of the following framework is not used in iOS?"
+    },
+    {
+        "_id": 8,
+        "answer_1": "UInt",
+        "answer_2": "Double",
+        "answer_3": "Char",
+        "answer_4": "Optional",
+        "answer_true": "Char",
+        "playlist_id": 10,
+        "question": "Which of the following is incorrect data type in SWIFT ?"
+    },
+    {
+        "_id": 9,
+        "answer_1": "True",
+        "answer_2": "False",
+        "answer_3": "null",
+        "answer_4": "null",
+        "answer_true": "False",
+        "playlist_id": 10,
+        "question": "When you using eggtimer, whilst GPS will work out your altitude on iPod touch"
+    },
+    {
+        "_id": 10,
+        "answer_1": "iPad OS",
+        "answer_2": "iOS is original name",
+        "answer_3": "iPhone OS",
+        "answer_4": "iPod OS",
+        "answer_true": "iPhone OS",
+        "playlist_id": 10,
+        "question": " What was the original name of iOS?"
+    },
+    {
+        "_id": 11,
+        "answer_1": "SBJSON",
+        "answer_2": "JSONP",
+        "answer_3": "JSON",
+        "answer_4": "JSONSP",
+        "answer_true": "SBJSON",
+        "playlist_id": 10,
+        "question": "Which JSON framework is supported by iOS?"
+    },
+    {
+        "_id": 12,
+        "answer_1": "iOS 2.0",
+        "answer_2": "iOS 4.0",
+        "answer_3": "iOS 6.0",
+        "answer_4": "iOS 7.0",
+        "answer_true": "iOS 4.0",
+        "playlist_id": 10,
+        "question": "Multitasking in iOS was introduced in which version?"
+    },
+    {
+        "_id": 13,
+        "answer_1": "Assign",
+        "answer_2": "Atomic",
+        "answer_3": "Non- atomic",
+        "answer_4": "None of Above",
+        "answer_true": "Assign",
+        "playlist_id": 10,
+        "question": "Which is a default UI Property?"
+    },
+    {
+        "_id": 14,
+        "answer_1": "Ctrl+B",
+        "answer_2": "Ctrl+F",
+        "answer_3": "Ctrl+Z",
+        "answer_4": "None of the above",
+        "answer_true": "Ctrl+Z",
+        "playlist_id": 10,
+        "question": "Which command will end configuration mode and returns to EXEC?"
+    },
+    {
+        "_id": 15,
+        "answer_1": "let x =[Int]()",
+        "answer_2": "var x=[Int]",
+        "answer_3": "var x=[Int]()",
+        "answer_4": "let x=[Int]",
+        "answer_true": "var x=[Int]()",
+        "playlist_id": 10,
+        "question": " Which of the following declares a mutable array in Swift?"
+    },
+    {
+        "_id": 16,
+        "answer_1": "True",
+        "answer_2": "False",
+        "answer_3": "null",
+        "answer_4": "null",
+        "answer_true": "False",
+        "playlist_id": 10,
+        "question": "The iPhone is a line of Internet and multimedia-enabled smartphones designed and marketed by Intel Corporation."
+    },
+    {
+        "_id": 17,
+        "answer_1": "CFNetwork.framework",
+        "answer_2": "Audiotoolbox.framework",
+        "answer_3": "AVFoundation.framework",
+        "answer_4": "AFNetwork.framework",
+        "answer_true": "AFNetwork.framework",
+        "playlist_id": 10,
+        "question": "which of the following ios framework is a commonly used third party library?"
+    },
+    {
+        "_id": 18,
+        "answer_1": "2.0",
+        "answer_2": "3.1",
+        "answer_3": "5.0",
+        "answer_4": "8.4",
+        "answer_true": "8.4",
+        "playlist_id": 10,
+        "question": " Which of the following is the latest version of Iphone OS?"
+    },
+    {
+        "_id": 19,
+        "answer_1": "Background state",
+        "answer_2": "Inactive state",
+        "answer_3": "Suspended state",
+        "answer_4": "Active state",
+        "answer_true": "Inactive state",
+        "playlist_id": 10,
+        "question": " Application running in foreground but currently not receiving any events .what is the current state of Application?"
+    },
+    {
+        "_id": 20,
+        "answer_1": "Widows",
+        "answer_2": "Linux",
+        "answer_3": "Mac OS",
+        "answer_4": "Unix",
+        "answer_true": "Mac OS",
+        "playlist_id": 10,
+        "question": "In which operating system iPhone/iPad development is done?"
+    },
+    {
+        "_id": 21,
+        "answer_1": "Iphone 2.4",
+        "answer_2": "Iphone 3.2",
+        "answer_3": "Iphone 4.0",
+        "answer_4": "Iphone 5.0",
+        "answer_true": "Iphone 4.0",
+        "playlist_id": 10,
+        "question": " Which of the following Iphone Os version supports video calling and multitasking?"
+    },
+    {
+        "_id": 22,
+        "answer_1": "var",
+        "answer_2": "let",
+        "answer_3": "both",
+        "answer_4": "none",
+        "answer_true": "var",
+        "playlist_id": 10,
+        "question": "To create mutable object __ is used"
+    },
+    {
+        "_id": 23,
+        "answer_1": "Integrated operating system",
+        "answer_2": "Integrated open system",
+        "answer_3": "Internetworking operating system",
+        "answer_4": "None of above",
+        "answer_true": "Internetworking operating system",
+        "playlist_id": 10,
+        "question": "Meaning of IOS is"
+    },
+    {
+        "_id": 24,
+        "answer_1": "Microsoft",
+        "answer_2": "Google",
+        "answer_3": "Yahoo",
+        "answer_4": "MapQuest",
+        "answer_true": "Google",
+        "playlist_id": 10,
+        "question": "Which company did Apple team up with to provide their iPhone/iPad Map software offering?"
+    },
+    {
+        "_id": 25,
+        "answer_1": "3.1",
+        "answer_2": "8.4",
+        "answer_3": "2.0",
+        "answer_4": "5.0",
+        "answer_true": "8.4",
+        "playlist_id": 10,
+        "question": " What is the latest version of iPhone operating system ?"
+    },
+    {
+        "_id": 26,
+        "answer_1": "Google LLC",
+        "answer_2": "Microsoft Corporation",
+        "answer_3": "Apple Inc.",
+        "answer_4": "IBM",
+        "answer_true": "Apple Inc.",
+        "playlist_id": 10,
+        "question": "Which of the following company owns Iphone?"
+    },
+    {
+        "_id": 27,
+        "answer_1": "var num =5",
+        "answer_2": "num =5",
+        "answer_3": "let num =5",
+        "answer_4": "all the above",
+        "answer_true": "let num =5",
+        "playlist_id": 10,
+        "question": " Which of the following is immutable?"
+    },
+    {
+        "_id": 28,
+        "answer_1": "Editing Photos",
+        "answer_2": "Video Calls",
+        "answer_3": "Digital Photos",
+        "answer_4": "Taking Videos",
+        "answer_true": "Video Calls",
+        "playlist_id": 10,
+        "question": "what is facetime in iPhone?"
+    },
+    {
+        "_id": 29,
+        "answer_1": "It is a class",
+        "answer_2": "It is used to send data",
+        "answer_3": "It is folder with .app extension",
+        "answer_4": "None of above",
+        "answer_true": "It is folder with .app extension",
+        "playlist_id": 10,
+        "question": "What is Bundle in iOS"
+    },
+    {
+        "_id": 30,
+        "answer_1": "2006",
+        "answer_2": "2007",
+        "answer_3": "2008",
+        "answer_4": "2005",
+        "answer_true": "2007",
+        "playlist_id": 10,
+        "question": "IOS was first released in …….."
+    },
+    {
+        "_id": 31,
+        "answer_1": "Developed and debugged",
+        "answer_2": "Debugged",
+        "answer_3": "Developed",
+        "answer_4": "Developed or debugged",
+        "answer_true": "Developed and debugged",
+        "playlist_id": 10,
+        "question": "iPhone applications can be ______ on a MacBook Pro:"
+    },
+    {
+        "_id": 32,
+        "answer_1": "Yes",
+        "answer_2": "No",
+        "answer_3": "It supports flash applications from apple only.",
+        "answer_4": "Supports partially",
+        "answer_true": "Yes",
+        "playlist_id": 10,
+        "question": "Flash Applications is  supported in iPhone browsers.Is it true?"
+    },
+    {
+        "_id": 33,
+        "answer_1": "iOS 2.0",
+        "answer_2": "iOS 3.0",
+        "answer_3": "iOS 4.0",
+        "answer_4": "iOS 6.0",
+        "answer_true": "iOS 3.0",
+        "playlist_id": 10,
+        "question": "iOS remote push notifications are introduced by apple in ………."
+    },
+    {
+        "_id": 34,
+        "answer_1": "Audiotoolbox.framework",
+        "answer_2": "AVFoundation.framework",
+        "answer_3": "CFNetwork.framework",
+        "answer_4": "AFNetwork.framework",
+        "answer_true": "AFNetwork.framework",
+        "playlist_id": 10,
+        "question": "Which iOS frameworks is a commonly used third party Library?"
+    },
+    {
+        "_id": 35,
+        "answer_1": "MS-DOS",
+        "answer_2": "Linux",
+        "answer_3": "Mac OS X",
+        "answer_4": "Windows Mobile 5",
+        "answer_true": "Mac OS X",
+        "playlist_id": 10,
+        "question": " The iPhone OS is a version of:"
+    },
+    {
+        "_id": 36,
+        "answer_1": "Apache",
+        "answer_2": "SQLite",
+        "answer_3": "Oracle",
+        "answer_4": "MySQL",
+        "answer_true": "MySQL",
+        "playlist_id": 10,
+        "question": "Which of the following built-in database used in iOS ?"
+    },
+    {
+        "_id": 37,
+        "answer_1": "Rotator",
+        "answer_2": "Accelerometer",
+        "answer_3": "Shadow detector",
+        "answer_4": "Special Sensor",
+        "answer_true": "Accelerometer",
+        "playlist_id": 10,
+        "question": "Which of the following iPhone feature activates when you rotate the device from portrait to landscape?"
+    },
+    {
+        "_id": 38,
+        "answer_1": "Yes",
+        "answer_2": "No",
+        "answer_3": "null",
+        "answer_4": "null",
+        "answer_true": "Yes",
+        "playlist_id": 10,
+        "question": "Are flash applications supported in iPhone browsers?"
+    },
+    {
+        "_id": 39,
+        "answer_1": "Nanometer",
+        "answer_2": "Rotating sensor",
+        "answer_3": "Proximity sensor",
+        "answer_4": "Accelerometer",
+        "answer_true": "Accelerometer",
+        "playlist_id": 10,
+        "question": " Standard to the iPhone/iPad is a device that allows the user to flip the screen from landscape to portrait mode simply by rotating the phone. By what name is this function better known?"
+    },
+    {
+        "_id": 40,
+        "answer_1": "The iPhone Simulator",
+        "answer_2": "Xcode",
+        "answer_3": "Interface Builder",
+        "answer_4": "SmallTalk-80",
+        "answer_true": "SmallTalk-80",
+        "playlist_id": 10,
+        "question": "Which one is NOT a development tool for iPhone/iPad applications?"
+    },
+    {
+        "_id": 41,
+        "answer_1": "1983",
+        "answer_2": "1984",
+        "answer_3": "1985",
+        "answer_4": "1986",
+        "answer_true": "1983",
+        "playlist_id": 10,
+        "question": " First ios was written in ……….."
+    },
+    {
+        "_id": 42,
+        "answer_1": "Object Owned Programming",
+        "answer_2": "Object Ordered Programming",
+        "answer_3": "Object-Oriented Programming",
+        "answer_4": "Object Original Programming",
+        "answer_true": "Object-Oriented Programming",
+        "playlist_id": 10,
+        "question": "OOP stands for?"
+    },
+    {
+        "_id": 43,
+        "answer_1": " Which of the following are the ways of achieving concurrency in iOS?",
+        "answer_2": "Dispatch queues",
+        "answer_3": "Operation queues",
+        "answer_4": "All of the Above",
+        "answer_true": "All of the Above",
+        "playlist_id": 10,
+        "question": " Which of the following are the ways of achieving concurrency in iOS?"
+    },
+    {
+        "_id": 44,
+        "answer_1": "Caller line interface",
+        "answer_2": "Command line interface",
+        "answer_3": "Common line interface",
+        "answer_4": "None of the above",
+        "answer_true": "Command line interface",
+        "playlist_id": 10,
+        "question": " What does CLI stand for?"
+    },
+    {
+        "_id": 45,
+        "answer_1": "240×320",
+        "answer_2": "320×480",
+        "answer_3": "480×960",
+        "answer_4": "800×600",
+        "answer_true": "320×480",
+        "playlist_id": 10,
+        "question": " What is iPhone’s screen resolution?"
+    },
+    {
+        "_id": 46,
+        "answer_1": "Special Sensor",
+        "answer_2": "Shadow detector",
+        "answer_3": "Accelerometer",
+        "answer_4": "None of the above",
+        "answer_true": "Accelerometer",
+        "playlist_id": 10,
+        "question": "The Iphone has a ……….. that activates when you rotate the device from portrait to landscape."
+    },
+    {
+        "_id": 47,
+        "answer_1": "Setup mode",
+        "answer_2": "User EXEC mode",
+        "answer_3": "Privileged EXEC mode",
+        "answer_4": "Specific configuration mode",
+        "answer_true": "User EXEC mode",
+        "playlist_id": 10,
+        "question": "Which user mode has limited monitoring commands in IOS?"
+    },
+    {
+        "_id": 48,
+        "answer_1": "Free Software",
+        "answer_2": "Proprietary Software",
+        "answer_3": "Open-source Software",
+        "answer_4": "A & C Both",
+        "answer_true": "A & C Both",
+        "playlist_id": 10,
+        "question": "iOS is a ……………."
+    },
+    {
+        "_id": 49,
+        "answer_1": "Version 2.5",
+        "answer_2": "Version 5.0",
+        "answer_3": "Version 3.1",
+        "answer_4": "Version 6.0",
+        "answer_true": "Version 6.0",
+        "playlist_id": 10,
+        "question": " Which is the latest version of the iPhone OS that is just released?"
+    },
+    {
+        "_id": 50,
+        "answer_1": "Cocoa",
+        "answer_2": "Cocoa touch",
+        "answer_3": "Cocoa iOS",
+        "answer_4": "Cocoa begin",
+        "answer_true": "Cocoa touch",
+        "playlist_id": 10,
+        "question": "Which of the following is Application development environments for iOS?"
+    },
+    {
+        "_id": 51,
+        "answer_1": " TRUE",
+        "answer_2": "FALSE",
+        "answer_3": "Can be true or false",
+        "answer_4": " Can not say",
+        "answer_true": " TRUE",
+        "playlist_id": 11,
+        "question": "Cocoa touch used to refer the application development using any programmatic interface?"
+    },
+    {
+        "_id": 52,
+        "answer_1": " UIKit",
+        "answer_2": " Django",
+        "answer_3": "SBJson",
+        "answer_4": " UCJson",
+        "answer_true": "SBJson",
+        "playlist_id": 11,
+        "question": "Which JSON framework is supported by iOS?"
+    },
+    {
+        "_id": 53,
+        "answer_1": "bundle ID",
+        "answer_2": "app ID",
+        "answer_3": "team ID",
+        "answer_4": " All of the above",
+        "answer_true": "app ID",
+        "playlist_id": 11,
+        "question": "___________ is a two-part string used to identify one or more apps from a single development team."
+    },
+    {
+        "_id": 54,
+        "answer_1": "1",
+        "answer_2": "2",
+        "answer_3": "3",
+        "answer_4": "4",
+        "answer_true": "3",
+        "playlist_id": 11,
+        "question": "How many ways to achieve concurrency in iOS?"
+    },
+    {
+        "_id": 55,
+        "answer_1": "When it is launched",
+        "answer_2": "When it is not launched",
+        "answer_3": "When it gets terminated by the system during running",
+        "answer_4": " Both B and C",
+        "answer_true": " Both B and C",
+        "playlist_id": 11,
+        "question": "When an app is said to be in not running state?"
+    },
+    {
+        "_id": 56,
+        "answer_1": "Not running",
+        "answer_2": " Inactive",
+        "answer_3": " Background",
+        "answer_4": "Active",
+        "answer_true": "Active",
+        "playlist_id": 11,
+        "question": "In Which state the app is running in the foreground and is receiving events?"
+    },
+    {
+        "_id": 57,
+        "answer_1": "TRUE",
+        "answer_2": " FALSE",
+        "answer_3": "Can be true or false",
+        "answer_4": "Can not say",
+        "answer_true": "TRUE",
+        "playlist_id": 11,
+        "question": "UIKit classes should be used only from an application’s main thread."
+    },
+    {
+        "_id": 58,
+        "answer_1": "1",
+        "answer_2": "2",
+        "answer_3": "3",
+        "answer_4": "4",
+        "answer_true": "3",
+        "playlist_id": 11,
+        "question": "How many parts of NSError object?"
+    },
+    {
+        "_id": 59,
+        "answer_1": "Auto Reference Counting",
+        "answer_2": " Automatic Reference Counting",
+        "answer_3": " Automatic Reference Cloud",
+        "answer_4": " Automatic Reference Cocoa",
+        "answer_true": " Automatic Reference Counting",
+        "playlist_id": 11,
+        "question": "ARC stands for?"
+    },
+    {
+        "_id": 60,
+        "answer_1": " POS",
+        "answer_2": "DOS",
+        "answer_3": " IOS",
+        "answer_4": " QOS",
+        "answer_true": " QOS",
+        "playlist_id": 11,
+        "question": "Through _________ users can dispatch queues, prioritize queues, POSIX threads, and thread objects."
+    },
+    {
+        "_id": 61,
+        "answer_1": "atomic",
+        "answer_2": " non-atomic",
+        "answer_3": "delete",
+        "answer_4": "retain",
+        "answer_true": "delete",
+        "playlist_id": 11,
+        "question": "Which of the following is not a property types?"
+    },
+    {
+        "_id": 62,
+        "answer_1": " KVA",
+        "answer_2": "KVO",
+        "answer_3": " KVR",
+        "answer_4": "KVZ",
+        "answer_true": "KVO",
+        "playlist_id": 11,
+        "question": "__________ is used to detect modifications to a value or property."
+    },
+    {
+        "_id": 63,
+        "answer_1": "TRUE",
+        "answer_2": " FALSE",
+        "answer_3": "Can be true or false",
+        "answer_4": "Can not say",
+        "answer_true": "TRUE",
+        "playlist_id": 11,
+        "question": "Key Value Coding (KVC) is used to access a value or property with the help of string."
+    },
+    {
+        "_id": 64,
+        "answer_1": "CoreMotion Framework",
+        "answer_2": "AppKit framework",
+        "answer_3": "Foundation framework",
+        "answer_4": " UIKit framework",
+        "answer_true": " UIKit framework",
+        "playlist_id": 11,
+        "question": "Which of the following framework is not used in iOS?"
+    },
+    {
+        "_id": 65,
+        "answer_1": "Non-atomic",
+        "answer_2": "Atomic",
+        "answer_3": "Assigne",
+        "answer_4": "Decline",
+        "answer_true": "Atomic",
+        "playlist_id": 11,
+        "question": " Which is a default UI Property?"
+    },
+    {
+        "_id": 66,
+        "answer_1": " c",
+        "answer_2": "cl",
+        "answer_3": "clock?",
+        "answer_4": "cd?",
+        "answer_true": "clock?",
+        "playlist_id": 11,
+        "question": "which of the following commands displays the syntax for the clock command?"
+    },
+    {
+        "_id": 67,
+        "answer_1": " Yes",
+        "answer_2": "No",
+        "answer_3": "Can be yes or no",
+        "answer_4": "Can not say",
+        "answer_true": " Yes",
+        "playlist_id": 11,
+        "question": " Delegate in iOS is used to generate the relationship between the objects."
+    },
+    {
+        "_id": 68,
+        "answer_1": "iOS 2.0",
+        "answer_2": " iOS 3.0",
+        "answer_3": "iOS 4.0",
+        "answer_4": " iOS 5.0",
+        "answer_true": " iOS 3.0",
+        "playlist_id": 11,
+        "question": "iOS remote push notifications are introduced by apple in?"
+    },
+    {
+        "_id": 69,
+        "answer_1": "TRUE",
+        "answer_2": "FALSE",
+        "answer_3": " Can be true or false",
+        "answer_4": "Can not say",
+        "answer_true": "FALSE",
+        "playlist_id": 11,
+        "question": "A unique string which is helpful in identifying the application to the system is called Admin ID."
+    },
+    {
+        "_id": 70,
+        "answer_1": "Integrated operating system",
+        "answer_2": "Intergrated open system",
+        "answer_3": "Internetworking operating system",
+        "answer_4": "None of above",
+        "answer_true": "Internetworking operating system",
+        "playlist_id": 11,
+        "question": "Meaning of IOS is"
+    },
+    {
+        "_id": 71,
+        "answer_1": "1984",
+        "answer_2": "1985",
+        "answer_3": "1986",
+        "answer_4": "1987",
+        "answer_true": "1986",
+        "playlist_id": 11,
+        "question": "First IOS was written in"
+    },
+    {
+        "_id": 72,
+        "answer_1": "Carrying network protocols and functions",
+        "answer_2": "Connecting high speed traffic between devices",
+        "answer_3": "Providing scalability for ease of network growth and redundancy",
+        "answer_4": "Creating session between hosts in LAN",
+        "answer_true": "Creating session between hosts in LAN",
+        "playlist_id": 11,
+        "question": " Which is not a function of IOS"
+    },
+    {
+        "_id": 73,
+        "answer_1": "Load IOS from flash memory",
+        "answer_2": "Power on self test of router",
+        "answer_3": "Searching by IOS of a valid configuration",
+        "answer_4": "None of above",
+        "answer_true": "Power on self test of router",
+        "playlist_id": 11,
+        "question": "What happens first after starting a router"
+    },
+    {
+        "_id": 74,
+        "answer_1": "Caller line interface",
+        "answer_2": "Common line interface",
+        "answer_3": "Command link interface",
+        "answer_4": "None of above",
+        "answer_true": "Command link interface",
+        "playlist_id": 11,
+        "question": "CLI in IOS terminology is short form of"
+    },
+    {
+        "_id": 75,
+        "answer_1": "Create logical interfaces within the router",
+        "answer_2": "Get into previleged mode",
+        "answer_3": "Get into user execution mode",
+        "answer_4": "None of above",
+        "answer_true": "Create logical interfaces within the router",
+        "playlist_id": 11,
+        "question": "Subinterfaces allows to you to"
+    },
+    {
+        "_id": 76,
+        "answer_1": "User EXEC mode",
+        "answer_2": "Privileged mode",
+        "answer_3": "Global configuration mode",
+        "answer_4": "Setup mode",
+        "answer_true": "Setup mode",
+        "playlist_id": 11,
+        "question": " Which mode provides interactive configuration dialog"
+    },
+    {
+        "_id": 77,
+        "answer_1": "User EXEC mode",
+        "answer_2": "Privileged EXEC mode",
+        "answer_3": "Specific configuration mode",
+        "answer_4": "Setup mode",
+        "answer_true": "User EXEC mode",
+        "playlist_id": 11,
+        "question": "Which user mode has limited monitoring commands in IOS"
+    },
+    {
+        "_id": 78,
+        "answer_1": "Global configuration mode",
+        "answer_2": "Privileged mode",
+        "answer_3": "Global configuration mode",
+        "answer_4": "Setup mode",
+        "answer_true": "Privileged mode",
+        "playlist_id": 11,
+        "question": ". Which mode provide access to all router commands"
+    },
+    {
+        "_id": 79,
+        "answer_1": "User EXEC mode",
+        "answer_2": "Privileged mode",
+        "answer_3": "Specific configuration mode",
+        "answer_4": "Setup mode",
+        "answer_true": "Specific configuration mode",
+        "playlist_id": 11,
+        "question": "Which mode commands affects interfaces/processes only"
+    },
+    {
+        "_id": 80,
+        "answer_1": "config",
+        "answer_2": "enable",
+        "answer_3": "interface",
+        "answer_4": "?",
+        "answer_true": "?",
+        "playlist_id": 11,
+        "question": " Which command will show all commands available from that particular mode"
+    },
+    {
+        "_id": 81,
+        "answer_1": "Ctrl+A",
+        "answer_2": "Ctrl+E",
+        "answer_3": "Ctrl+B",
+        "answer_4": "Ctrl+F",
+        "answer_true": "Ctrl+A",
+        "playlist_id": 11,
+        "question": "Which command will take cursor to beginning of line"
+    },
+    {
+        "_id": 82,
+        "answer_1": "Ctrl+A",
+        "answer_2": "Ctrl+B",
+        "answer_3": "Ctrl+F",
+        "answer_4": "Ctrl+D",
+        "answer_true": "Ctrl+B",
+        "playlist_id": 11,
+        "question": "Which command will take cursor to one word back"
+    },
+    {
+        "_id": 83,
+        "answer_1": "Ctrl+A",
+        "answer_2": "Ctrl+B",
+        "answer_3": "Ctrl+F",
+        "answer_4": "Ctrl+Z",
+        "answer_true": "Ctrl+Z",
+        "playlist_id": 11,
+        "question": "Which command will end configuration mode and returns to EXEC"
+    },
+    {
+        "_id": 84,
+        "answer_1": "show running-config",
+        "answer_2": "show startup-config",
+        "answer_3": "show interfaces",
+        "answer_4": "show protocols",
+        "answer_true": "show interfaces",
+        "playlist_id": 11,
+        "question": "Command to find the broadcast address from router"
+    },
+    {
+        "_id": 85,
+        "answer_1": "sh int s0",
+        "answer_2": "sh int serial 0",
+        "answer_3": "show serial 0 controllers",
+        "answer_4": "show serial 0 controllers",
+        "answer_true": "show serial 0 controllers",
+        "playlist_id": 11,
+        "question": "Command to show if DTE or DCE cable is plugged int o serial 0"
+    },
+    {
+        "_id": 86,
+        "answer_1": "3",
+        "answer_2": "4",
+        "answer_3": "5",
+        "answer_4": "6",
+        "answer_true": "5",
+        "playlist_id": 11,
+        "question": "How many simultaneous sessions a Cisco router support by default"
+    },
+    {
+        "_id": 87,
+        "answer_1": "delete NVRAM",
+        "answer_2": "delete running-config",
+        "answer_3": "erase NVRAM",
+        "answer_4": "erase start",
+        "answer_true": "erase start",
+        "playlist_id": 11,
+        "question": ". Command to delete NVRAM on a router"
+    },
+    {
+        "_id": 88,
+        "answer_1": "Physical Layer",
+        "answer_2": "Datalink Layer",
+        "answer_3": "Network layer",
+        "answer_4": "It is router problem",
+        "answer_true": "Physical Layer",
+        "playlist_id": 11,
+        "question": "Which layer of OSI model will have problem if you get message \"Serial1 is down, line protocol is down\" after typing \"show interface serial 1\""
+    },
+    {
+        "_id": 89,
+        "answer_1": "Privileged mode",
+        "answer_2": "Global mode",
+        "answer_3": "Setup mode",
+        "answer_4": "There will be error",
+        "answer_true": "Setup mode",
+        "playlist_id": 11,
+        "question": "If you delete contents of NVRAM and reboot router, in which mode you will enter"
+    },
+    {
+        "_id": 90,
+        "answer_1": "show running-config",
+        "answer_2": "show startup-config",
+        "answer_3": "show versions",
+        "answer_4": "show interfaces",
+        "answer_true": "show interfaces",
+        "playlist_id": 11,
+        "question": "How to display configurable parameters and statistics of all interfaces on router"
+    },
+    {
+        "_id": 91,
+        "answer_1": "Setup mode",
+        "answer_2": "User EXEC mode",
+        "answer_3": "Privileged EXEC mode",
+        "answer_4": "Specific configuration mode",
+        "answer_true": "User EXEC mode",
+        "playlist_id": 11,
+        "question": "Which user mode has limited monitoring commands in IOS?"
+    },
+    {
+        "_id": 92,
+        "answer_1": "Object Owned Programming",
+        "answer_2": "Object Ordered Programming",
+        "answer_3": "Object-Oriented Programming",
+        "answer_4": "Object Original Programming",
+        "answer_true": "Object-Oriented Programming",
+        "playlist_id": 11,
+        "question": "OOP stands for?"
+    },
+    {
+        "_id": 93,
+        "answer_1": "1983",
+        "answer_2": "1984",
+        "answer_3": "1985",
+        "answer_4": "1986",
+        "answer_true": "1983",
+        "playlist_id": 11,
+        "question": " First ios was written in ……….."
+    },
+    {
+        "_id": 94,
+        "answer_1": "Threads",
+        "answer_2": "Dispatch queues",
+        "answer_3": "Operation queues",
+        "answer_4": "All of the Above",
+        "answer_true": "All of the Above",
+        "playlist_id": 11,
+        "question": "Which of the following are the ways of achieving concurrency in iOS?"
+    },
+    {
+        "_id": 95,
+        "answer_1": "Caller line interface",
+        "answer_2": "Command line interface",
+        "answer_3": "Common line interface",
+        "answer_4": "None of the above",
+        "answer_true": "Command line interface",
+        "playlist_id": 11,
+        "question": "What does CLI stand for?"
+    },
+    {
+        "_id": 96,
+        "answer_1": "Special Sensor",
+        "answer_2": "Shadow detector",
+        "answer_3": "Accelerometer",
+        "answer_4": "None of the above",
+        "answer_true": "Accelerometer",
+        "playlist_id": 11,
+        "question": "The Iphone has a ……….. that activates when you rotate the device from portrait to landscape."
+    },
+    {
+        "_id": 97,
+        "answer_1": "Free Software",
+        "answer_2": "Proprietary Software",
+        "answer_3": "Open-source Software",
+        "answer_4": "A & C Both",
+        "answer_true": "A & C Both",
+        "playlist_id": 11,
+        "question": "iOS is a ……………."
+    },
+    {
+        "_id": 98,
+        "answer_1": "Version 2.5",
+        "answer_2": "Version 5.0",
+        "answer_3": "Version 3.1",
+        "answer_4": "Version 6.0",
+        "answer_true": "Version 6.0",
+        "playlist_id": 11,
+        "question": "Which is the latest version of the iPhone OS that is just released?"
+    },
+    {
+        "_id": 99,
+        "answer_1": "Rotator",
+        "answer_2": "Accelerometer",
+        "answer_3": "Shadow detector",
+        "answer_4": "Special Sensor",
+        "answer_true": "Accelerometer",
+        "playlist_id": 11,
+        "question": "Which of the following iPhone feature activates when you rotate the device from portrait to landscape?"
+    },
+    {
+        "_id": 100,
+        "answer_1": "Firstly, think like a user while designing the UX",
+        "answer_2": "Consider all the situations that prove to be useful while promoting an App",
+        "answer_3": "Continue to work on the utility of the App, even after the launch",
+        "answer_4": "All of the above",
+        "answer_true": "All of the above",
+        "playlist_id": 11,
+        "question": "How can we prioritize the usability of the demand Process?"
+    },
+    {
+        "_id": 101,
+        "answer_1": "Arrays and integers are checked for overflow",
+        "answer_2": "Switch function can be used instead of using “if” statement",
+        "answer_3": "It eliminates the classes that are in an unsafe mode",
+        "answer_4": " All of these",
+        "answer_true": " All of these",
+        "playlist_id": 12,
+        "question": "What are the features of Swift Programming?"
+    },
+    {
+        "_id": 102,
+        "answer_1": "Parameter",
+        "answer_2": " Closure Expression",
+        "answer_3": "Defined",
+        "answer_4": "Control",
+        "answer_true": " Closure Expression",
+        "playlist_id": 12,
+        "question": "The expression that creates a closure in Swift is called ____ in other languages it is also called a Lambda or Anonymous Function."
+    },
+    {
+        "_id": 103,
+        "answer_1": "Necessary",
+        "answer_2": "Missing",
+        "answer_3": "Optional",
+        "answer_4": "Changed",
+        "answer_true": "Optional",
+        "playlist_id": 12,
+        "question": "What does the question mark (?) indicate A particular property is"
+    },
+    {
+        "_id": 104,
+        "answer_1": "Not running",
+        "answer_2": "Inactive",
+        "answer_3": "Active",
+        "answer_4": "All of the above",
+        "answer_true": "All of the above",
+        "playlist_id": 12,
+        "question": "What are the common execution states in iOS?"
+    },
+    {
+        "_id": 105,
+        "answer_1": "Much faster than other languages",
+        "answer_2": "Supports pattern matching",
+        "answer_3": "Type-safe language",
+        "answer_4": " All of the above mentioned",
+        "answer_true": " All of the above mentioned",
+        "playlist_id": 12,
+        "question": "What are the advantages of swift?"
+    },
+    {
+        "_id": 106,
+        "answer_1": "Stop",
+        "answer_2": "Execute",
+        "answer_3": "Damper",
+        "answer_4": "Break",
+        "answer_true": "Break",
+        "playlist_id": 12,
+        "question": " What statement can be used to stop the execution of a loop, if, or switch statement?"
+    },
+    {
+        "_id": 107,
+        "answer_1": "Array",
+        "answer_2": "Dictionary",
+        "answer_3": "Both A and B",
+        "answer_4": "None",
+        "answer_true": "Both A and B",
+        "playlist_id": 12,
+        "question": " What are the collection types available in Swift?"
+    },
+    {
+        "_id": 108,
+        "answer_1": "1",
+        "answer_2": "2",
+        "answer_3": "3",
+        "answer_4": "4",
+        "answer_true": "3",
+        "playlist_id": 12,
+        "question": " How many types of integers are in Swift?"
+    },
+    {
+        "_id": 109,
+        "answer_1": "Poor interoperability with third-party tools and IDEs",
+        "answer_2": "Lack of support for earlier iOS versions",
+        "answer_3": "Both of these",
+        "answer_4": "None",
+        "answer_true": "Lack of support for earlier iOS versions",
+        "playlist_id": 12,
+        "question": "What are the disadvantages of Swift?"
+    },
+    {
+        "_id": 110,
+        "answer_1": "Binary Literals",
+        "answer_2": "Quad Literals",
+        "answer_3": "Hexadecimal Literals",
+        "answer_4": "Decimal Literals",
+        "answer_true": "Binary Literals",
+        "playlist_id": 12,
+        "question": " Which of the following is not a literals in swift?"
+    },
+    {
+        "_id": 111,
+        "answer_1": "decimal number",
+        "answer_2": "integer number",
+        "answer_3": "floating numbers",
+        "answer_4": " All of the above",
+        "answer_true": "floating numbers",
+        "playlist_id": 12,
+        "question": "Numbers with decimal values or fractional components are called?"
+    },
+    {
+        "_id": 112,
+        "answer_1": "Swift is very easy to learn and precise to use",
+        "answer_2": " Automatic memory management",
+        "answer_3": "Swift follows Objective-C like syntax",
+        "answer_4": "All of the above",
+        "answer_true": "All of the above",
+        "playlist_id": 12,
+        "question": "Which of the following features of Swift programming language?"
+    },
+    {
+        "_id": 113,
+        "answer_1": "single slashes",
+        "answer_2": "double slashes",
+        "answer_3": " asterisk",
+        "answer_4": "hash",
+        "answer_true": "double slashes",
+        "playlist_id": 12,
+        "question": "In Swift programming language, single-line comments are started with ___________?"
+    },
+    {
+        "_id": 114,
+        "answer_1": "Lazy Chaining",
+        "answer_2": "Swift Chaining",
+        "answer_3": " Optional Chaining",
+        "answer_4": " All of the above",
+        "answer_true": " Optional Chaining",
+        "playlist_id": 12,
+        "question": "_____________ is a process of querying and calling properties"
+    },
+    {
+        "_id": 115,
+        "answer_1": "1",
+        "answer_2": "2",
+        "answer_3": "3",
+        "answer_4": "4",
+        "answer_true": "2",
+        "playlist_id": 12,
+        "question": "How many types of classes in Inheritance in Swift?"
+    },
+    {
+        "_id": 116,
+        "answer_1": "2",
+        "answer_2": "3",
+        "answer_3": "4",
+        "answer_4": "5",
+        "answer_true": "2",
+        "playlist_id": 12,
+        "question": "How many varieties of collection types in Swift?"
+    },
+    {
+        "_id": 117,
+        "answer_1": "UInt",
+        "answer_2": "Double",
+        "answer_3": "Char",
+        "answer_4": " Optional",
+        "answer_true": "Char",
+        "playlist_id": 12,
+        "question": "Which Of The Following Is Incorrect Data Type In SWIFT ?"
+    },
+    {
+        "_id": 118,
+        "answer_1": "Double",
+        "answer_2": "Character",
+        "answer_3": " Enum",
+        "answer_4": " Class",
+        "answer_true": " Class",
+        "playlist_id": 12,
+        "question": "Which Of The Following Is Incorrect Value Type Of The Swift"
+    },
+    {
+        "_id": 119,
+        "answer_1": "TRUE",
+        "answer_2": "FALSE",
+        "answer_3": "Can be true or false",
+        "answer_4": "Can not say",
+        "answer_true": "TRUE",
+        "playlist_id": 12,
+        "question": "The class which inherits the properties from other class is called child class or sub class"
+    },
+    {
+        "_id": 120,
+        "answer_1": "It supports any kind of data, and not only synchronize but also checks for equality",
+        "answer_2": "When a case is matched in switch, the program exits from the switch case and does not continue checking the next cases. So you don’t need to explicitly break out the switch at the end of case",
+        "answer_3": "switch statement must be exhaustive, which means that you have to cover all possible values for your variable",
+        "answer_4": "All of the above",
+        "answer_true": "All of the above",
+        "playlist_id": 12,
+        "question": " What are the characteristics of Switch in Swift?"
+    },
+    {
+        "_id": 121,
+        "answer_1": " IBOutlet var button: UIButton",
+        "answer_2": "var button: UIButton(IBOutlet)",
+        "answer_3": " var button: UIButtonoutlet",
+        "answer_4": " None of the mentioned",
+        "answer_true": " None of the mentioned",
+        "playlist_id": 12,
+        "question": " How do you declare an Iboutlet property?"
+    },
+    {
+        "_id": 122,
+        "answer_1": "It eliminates entire classes of unsafe code",
+        "answer_2": " Variables are always initialized before use",
+        "answer_3": "Arrays and integers are checked for overflow",
+        "answer_4": " All of these",
+        "answer_true": " All of these",
+        "playlist_id": 12,
+        "question": "What are the features of Swift Programming?"
+    },
+    {
+        "_id": 123,
+        "answer_1": "Continue",
+        "answer_2": " Break",
+        "answer_3": "Fallthrough",
+        "answer_4": " All of these",
+        "answer_true": " All of these",
+        "playlist_id": 12,
+        "question": "What are the control transfer statements used in Swift?"
+    },
+    {
+        "_id": 124,
+        "answer_1": "Swift is safe",
+        "answer_2": "Swift is fast",
+        "answer_3": "Swift is open source",
+        "answer_4": "All of the above",
+        "answer_true": "All of the above",
+        "playlist_id": 12,
+        "question": "What are the advantages of Swift?"
+    },
+    {
+        "_id": 125,
+        "answer_1": "aster, easier to use Strings that retain Unicode correctness",
+        "answer_2": "Smart key paths for type-safe, efficient, extensible key-value coding for Swift types",
+        "answer_3": " Added some enhancements to creating a dictionary and Set types",
+        "answer_4": "All of the above",
+        "answer_true": "All of the above",
+        "playlist_id": 12,
+        "question": "What's are the new features in Swift 4.0?"
+    },
+    {
+        "_id": 126,
+        "answer_1": "Open",
+        "answer_2": "Signed",
+        "answer_3": "Signed",
+        "answer_4": "Close",
+        "answer_true": "Signed",
+        "playlist_id": 12,
+        "question": "What type of integer is denoted by \"Int8\"?"
+    },
+    {
+        "_id": 127,
+        "answer_1": "stringValue == nil",
+        "answer_2": "stringValue == “Justin Gif”",
+        "answer_3": "the compiler won't allow it",
+        "answer_4": "None",
+        "answer_true": "the compiler won't allow it",
+        "playlist_id": 12,
+        "question": "Given : var stringValue:String = “Justin Gif”. What is the result of stringValue = nil?"
+    },
+    {
+        "_id": 128,
+        "answer_1": "Dictionary and array",
+        "answer_2": "Array and library",
+        "answer_3": "Dictionary and library",
+        "answer_4": " Library, dictionary and array",
+        "answer_true": "Dictionary and array",
+        "playlist_id": 12,
+        "question": " What are the collection types in Swift?"
+    },
+    {
+        "_id": 129,
+        "answer_1": "scripting language",
+        "answer_2": " object-oriented programming language",
+        "answer_3": "type-safe language",
+        "answer_4": " All of the above",
+        "answer_true": " All of the above",
+        "playlist_id": 12,
+        "question": "Swift is which type of language?"
+    },
+    {
+        "_id": 130,
+        "answer_1": "Assign",
+        "answer_2": "Atomic",
+        "answer_3": "Non- atomic",
+        "answer_4": "None of Above",
+        "answer_true": "Assign",
+        "playlist_id": 12,
+        "question": "Which is a default UI Property?"
+    },
+    {
+        "_id": 131,
+        "answer_1": "let x =[Int]()",
+        "answer_2": "var x=[Int]",
+        "answer_3": "var x=[Int]()",
+        "answer_4": "let x=[Int]",
+        "answer_true": "var x=[Int]()",
+        "playlist_id": 12,
+        "question": "Which of the following declares a mutable array in Swift?"
+    },
+    {
+        "_id": 132,
+        "answer_1": "CFNetwork.framework",
+        "answer_2": "Audiotoolbox.framework",
+        "answer_3": "AVFoundation.framework",
+        "answer_4": "AFNetwork.framework",
+        "answer_true": "AFNetwork.framework",
+        "playlist_id": 12,
+        "question": "which of the following ios framework is a commonly used third party library?"
+    },
+    {
+        "_id": 133,
+        "answer_1": "Background state",
+        "answer_2": "Inactive state",
+        "answer_3": "Suspended state",
+        "answer_4": "Active state",
+        "answer_true": "Inactive state",
+        "playlist_id": 12,
+        "question": "Application running in foreground but currently not receiving any events .what is the current state of Application?"
+    },
+    {
+        "_id": 134,
+        "answer_1": "Rotator",
+        "answer_2": "Accelerometer",
+        "answer_3": "Shadow detector",
+        "answer_4": "Special Sensor",
+        "answer_true": "Accelerometer",
+        "playlist_id": 12,
+        "question": "Which of the following iPhone feature activates when you rotate the device from portrait to landscape?"
+    },
+    {
+        "_id": 135,
+        "answer_1": "Integrated operating system",
+        "answer_2": "Integrated open system",
+        "answer_3": "Internetworking operating system",
+        "answer_4": "None of above",
+        "answer_true": "Internetworking operating system",
+        "playlist_id": 12,
+        "question": "Meaning of IOS is"
+    },
+    {
+        "_id": 136,
+        "answer_1": "var num =5",
+        "answer_2": "num =5",
+        "answer_3": "let num =5",
+        "answer_4": "all the above",
+        "answer_true": "let num =5",
+        "playlist_id": 12,
+        "question": "Which of the following is immutable?"
+    },
+    {
+        "_id": 137,
+        "answer_1": "It is folder with .app extension",
+        "answer_2": "It is a class",
+        "answer_3": "It is used to send data",
+        "answer_4": "None of above",
+        "answer_true": "It is folder with .app extension",
+        "playlist_id": 12,
+        "question": "What is Bundle in iOS"
+    },
+    {
+        "_id": 138,
+        "answer_1": "2005",
+        "answer_2": "2006",
+        "answer_3": "2007",
+        "answer_4": "2008",
+        "answer_true": "2007",
+        "playlist_id": 12,
+        "question": "IOS was first released in …….."
+    },
+    {
+        "_id": 139,
+        "answer_1": "iPhone Operation System",
+        "answer_2": "Internet Operating System",
+        "answer_3": "Intelligent Operating System",
+        "answer_4": "None of the above",
+        "answer_true": "iPhone Operation System",
+        "playlist_id": 12,
+        "question": "What does IOS stand for?"
+    },
+    {
+        "_id": 140,
+        "answer_1": "scripting language",
+        "answer_2": "object oriented programming language",
+        "answer_3": "type safe language",
+        "answer_4": "All of the above",
+        "answer_true": "All of the above",
+        "playlist_id": 12,
+        "question": "Swift is which type of language?"
+    },
+    {
+        "_id": 141,
+        "answer_1": "Remote",
+        "answer_2": "Jenga",
+        "answer_3": "Logmein",
+        "answer_4": "Talkbox",
+        "answer_true": "Logmein",
+        "playlist_id": 12,
+        "question": "Which of the following apps is a game?"
+    },
+    {
+        "_id": 142,
+        "answer_1": "swiftc",
+        "answer_2": "gas",
+        "answer_3": "Xcode",
+        "answer_4": "Ld",
+        "answer_true": "Xcode",
+        "playlist_id": 12,
+        "question": "The IDE used in swift is____"
+    },
+    {
+        "_id": 143,
+        "answer_1": "Sun Operations Corp",
+        "answer_2": "System on Chip",
+        "answer_3": "System of Copy",
+        "answer_4": "None of the these",
+        "answer_true": "System on Chip",
+        "playlist_id": 12,
+        "question": "What does SOC stand for?"
+    },
+    {
+        "_id": 144,
+        "answer_1": "let",
+        "answer_2": "conts",
+        "answer_3": "contants",
+        "answer_4": "none of above",
+        "answer_true": "let",
+        "playlist_id": 12,
+        "question": "To create contants in swift we use keyword …"
+    },
+    {
+        "_id": 145,
+        "answer_1": "Foundation framework",
+        "answer_2": "UIKit framework",
+        "answer_3": "AppKit framework",
+        "answer_4": "CoreMotion Framework",
+        "answer_true": "UIKit framework",
+        "playlist_id": 12,
+        "question": "Which of the following framework is not used in iOS?"
+    },
+    {
+        "_id": 146,
+        "answer_1": "UInt",
+        "answer_2": "Double",
+        "answer_3": "Char",
+        "answer_4": "Optional",
+        "answer_true": "Char",
+        "playlist_id": 12,
+        "question": "Which of the following is incorrect data type in SWIFT ?"
+    },
+    {
+        "_id": 147,
+        "answer_1": "True",
+        "answer_2": "False",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "False",
+        "playlist_id": 12,
+        "question": "When you using eggtimer, whilst GPS will work out your altitude on iPod touch"
+    },
+    {
+        "_id": 148,
+        "answer_1": "iPad OS",
+        "answer_2": "iOS is original name",
+        "answer_3": "iPod OS",
+        "answer_4": "iPhone OS",
+        "answer_true": "iPhone OS",
+        "playlist_id": 12,
+        "question": "What was the original name of iOS?"
+    },
+    {
+        "_id": 149,
+        "answer_1": "SBJSON",
+        "answer_2": "JSONP",
+        "answer_3": "JSON",
+        "answer_4": "JSONSP",
+        "answer_true": "SBJSON",
+        "playlist_id": 12,
+        "question": "Which JSON framework is supported by iOS?"
+    },
+    {
+        "_id": 150,
+        "answer_1": "iOS 2.0",
+        "answer_2": "iOS 4.0",
+        "answer_3": "iOS 6.0",
+        "answer_4": "iOS 7.0",
+        "answer_true": "iOS 4.0",
+        "playlist_id": 12,
+        "question": "Multitasking in iOS was introduced in which version?"
+    }
+]
