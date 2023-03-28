@@ -178,11 +178,7 @@ footer .infor {
   
 }
 .select-menu .select-btn {
-  display: flex;
-  height: 55px;
-
-  font-size: 18px;
-  font-weight: 400;
+  
   margin-left: 5px;
 }
 .select-btn i {
@@ -242,7 +238,7 @@ flex-wrap: nowrap;
 .infor3{
   display: flex;
   justify-content: center;
-  padding: 21px;
+  padding: 15px;
 }
 .infor3 p{
   padding: 15px;
