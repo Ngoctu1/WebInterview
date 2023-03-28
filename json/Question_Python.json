@@ -1,0 +1,1502 @@
+[
+    {
+        "_id": 1,
+        "answer_1": "p(\"Hello World\")",
+        "answer_2": "echo(\"Hello World\");",
+        "answer_3": "echo \"Hello World\"",
+        "answer_4": "print(\"Hello World\")  ",
+        "answer_true": "print(\"Hello World\")  ",
+        "playlist_id": 1,
+        "question": "What is a correct syntax to output \"Hello World\" in Python?"
+    },
+    {
+        "_id": 2,
+        "answer_1": "//This is a comment  ",
+        "answer_2": "#This is a comment  ",
+        "answer_3": "/*This is a comment*/",
+        "answer_4": null,
+        "answer_true": "#This is a comment  ",
+        "playlist_id": 1,
+        "question": "How do you insert COMMENTS in Python code?"
+    },
+    {
+        "_id": 3,
+        "answer_1": "my-var  ",
+        "answer_2": "_myvar",
+        "answer_3": "Myvar",
+        "answer_4": "my_var",
+        "answer_true": "my-var  ",
+        "playlist_id": 1,
+        "question": "Which one is NOT a legal variable name?"
+    },
+    {
+        "_id": 4,
+        "answer_1": "x = 5",
+        "answer_2": "x = int(5)",
+        "answer_3": "Both the other answers are correct  ",
+        "answer_4": null,
+        "answer_true": "Both the other answers are correct  ",
+        "playlist_id": 1,
+        "question": "How do you create a variable with the numeric value 5?"
+    },
+    {
+        "_id": 5,
+        "answer_1": ".pyth",
+        "answer_2": ".pt",
+        "answer_3": ".py  ",
+        "answer_4": ".pyt",
+        "answer_true": ".py  ",
+        "playlist_id": 1,
+        "question": "What is the correct file extension for Python files?"
+    },
+    {
+        "_id": 6,
+        "answer_1": "x = 2.8",
+        "answer_2": "x = float(2.8)",
+        "answer_3": "Both the other answers are correct  ",
+        "answer_4": null,
+        "answer_true": "Both the other answers are correct  ",
+        "playlist_id": 1,
+        "question": "How do you create a variable with the floating number 2.8?"
+    },
+    {
+        "_id": 7,
+        "answer_1": "print(typeOf(x))",
+        "answer_2": "print(typeof(x))",
+        "answer_3": "print(typeof x)",
+        "answer_4": "print(type(x))  ",
+        "answer_true": "print(type(x))  ",
+        "playlist_id": 1,
+        "question": "What is the correct syntax to output the type of a variable or object in Python?"
+    },
+    {
+        "_id": 8,
+        "answer_1": "def myFunction():  ",
+        "answer_2": "function myfunction():",
+        "answer_3": "create myFunction():",
+        "answer_4": null,
+        "answer_true": "def myFunction():  ",
+        "playlist_id": 1,
+        "question": "What is the correct way to create a function in Python?"
+    },
+    {
+        "_id": 9,
+        "answer_1": "True  ",
+        "answer_2": "False",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "True  ",
+        "playlist_id": 1,
+        "question": "In Python, 'Hello', is the same as \"Hello\""
+    },
+    {
+        "_id": 10,
+        "answer_1": "x = \"Hello\".sub(0, 1)",
+        "answer_2": "x = \"Hello\"[0]  ",
+        "answer_3": "x = sub(\"Hello\", 0, 1)",
+        "answer_4": null,
+        "answer_true": "x = \"Hello\"[0]  ",
+        "playlist_id": 1,
+        "question": "What is a correct syntax to return the first character in a string?"
+    },
+    {
+        "_id": 11,
+        "answer_1": "len()",
+        "answer_2": "strip()  ",
+        "answer_3": "trim()",
+        "answer_4": "ptrim()",
+        "answer_true": "strip()  ",
+        "playlist_id": 1,
+        "question": "Which method can be used to remove any whitespace from both the beginning and the end of a string?\n\n"
+    },
+    {
+        "_id": 12,
+        "answer_1": "upperCase()",
+        "answer_2": "uppercase()",
+        "answer_3": "toUpperCase()",
+        "answer_4": "upper()  ",
+        "answer_true": "upper()  ",
+        "playlist_id": 1,
+        "question": "Which method can be used to return a string in upper case letters?"
+    },
+    {
+        "_id": 13,
+        "answer_1": "replaceString()  ",
+        "answer_2": "replace()  ",
+        "answer_3": "switch()",
+        "answer_4": "repl()",
+        "answer_true": "replace()  ",
+        "playlist_id": 1,
+        "question": "Which method can be used to replace parts of a string?"
+    },
+    {
+        "_id": 14,
+        "answer_1": "#",
+        "answer_2": "*  ",
+        "answer_3": "x",
+        "answer_4": "%",
+        "answer_true": "*  ",
+        "playlist_id": 1,
+        "question": "Which operator is used to multiply numbers?"
+    },
+    {
+        "_id": 15,
+        "answer_1": "<>",
+        "answer_2": "=",
+        "answer_3": "><",
+        "answer_4": "==  ",
+        "answer_true": "==  ",
+        "playlist_id": 1,
+        "question": "Which operator can be used to compare two values?"
+    },
+    {
+        "_id": 16,
+        "answer_1": "{\"apple\", \"banana\", \"cherry\"}",
+        "answer_2": "(\"apple\", \"banana\", \"cherry\")",
+        "answer_3": "[\"apple\", \"banana\", \"cherry\"]  ",
+        "answer_4": "{\"name\": \"apple\", \"color\": \"green\"}",
+        "answer_true": "[\"apple\", \"banana\", \"cherry\"]  ",
+        "playlist_id": 1,
+        "question": "Which of these collections defines a LIST?"
+    },
+    {
+        "_id": 17,
+        "answer_1": "{\"name\": \"apple\", \"color\": \"green\"}",
+        "answer_2": "(\"apple\", \"banana\", \"cherry\")  ",
+        "answer_3": "{\"apple\", \"banana\", \"cherry\"}",
+        "answer_4": "[\"apple\", \"banana\", \"cherry\"]",
+        "answer_true": "(\"apple\", \"banana\", \"cherry\")  ",
+        "playlist_id": 1,
+        "question": "Which of these collections defines a TUPLE?"
+    },
+    {
+        "_id": 18,
+        "answer_1": "[\"apple\", \"banana\", \"cherry\"]",
+        "answer_2": "{\"apple\", \"banana\", \"cherry\"}  ",
+        "answer_3": "{\"name\": \"apple\", \"color\": \"green\"}",
+        "answer_4": "(\"apple\", \"banana\", \"cherry\")",
+        "answer_true": "{\"apple\", \"banana\", \"cherry\"}  ",
+        "playlist_id": 1,
+        "question": "Which of these collections defines a SET?"
+    },
+    {
+        "_id": 19,
+        "answer_1": "[\"apple\", \"banana\", \"cherry\"]",
+        "answer_2": "{\"apple\", \"banana\", \"cherry\"}",
+        "answer_3": "(\"apple\", \"banana\", \"cherry\")",
+        "answer_4": "{\"name\": \"apple\", \"color\": \"green\"}  ",
+        "answer_true": "{\"name\": \"apple\", \"color\": \"green\"}  ",
+        "playlist_id": 1,
+        "question": "Which of these collections defines a DICTIONARY?"
+    },
+    {
+        "_id": 20,
+        "answer_1": "DICTIONARY",
+        "answer_2": "TUPLE",
+        "answer_3": "LIST  ",
+        "answer_4": "SET",
+        "answer_true": "LIST  ",
+        "playlist_id": 1,
+        "question": "Which collection is ordered, changeable, and allows duplicate members?"
+    },
+    {
+        "_id": 21,
+        "answer_1": "TUPLE",
+        "answer_2": "SET  ",
+        "answer_3": "LIST",
+        "answer_4": null,
+        "answer_true": "SET  ",
+        "playlist_id": 1,
+        "question": "Which collection does not allow duplicate members?"
+    },
+    {
+        "_id": 22,
+        "answer_1": "if x > y then:",
+        "answer_2": "if (x > y)",
+        "answer_3": "if x > y:  ",
+        "answer_4": null,
+        "answer_true": "if x > y:  ",
+        "playlist_id": 1,
+        "question": "How do you start writing an if statement in Python?"
+    },
+    {
+        "_id": 23,
+        "answer_1": "while x > y:  ",
+        "answer_2": "x > y while {",
+        "answer_3": "while x > y {",
+        "answer_4": "while (x > y)",
+        "answer_true": "while x > y:  ",
+        "playlist_id": 1,
+        "question": "How do you start writing a while loop in Python?"
+    },
+    {
+        "_id": 24,
+        "answer_1": "for x > y:",
+        "answer_2": "for each x in y:",
+        "answer_3": "for x in y:  ",
+        "answer_4": null,
+        "answer_true": "for x in y:  ",
+        "playlist_id": 1,
+        "question": "How do you start writing a for loop in Python?"
+    },
+    {
+        "_id": 25,
+        "answer_1": "return",
+        "answer_2": "break  ",
+        "answer_3": "exit",
+        "answer_4": "stop",
+        "answer_true": "break  ",
+        "playlist_id": 1,
+        "question": "Which statement is used to stop a loop?"
+    },
+    {
+        "_id": 26,
+        "answer_1": "True\r\nTrue",
+        "answer_2": "True\r\nFalse",
+        "answer_3": "False\r\nTrue",
+        "answer_4": null,
+        "answer_true": "True\r\nFalse",
+        "playlist_id": 1,
+        "question": "What is the output of the following code?\r\nlistOne = [20, 40, 60, 80]\r\nlistTwo = [20, 40, 60, 80]\r\n\r\nprint(listOne == listTwo)\r\nprint(listOne is listTwo)"
+    },
+    {
+        "_id": 27,
+        "answer_1": "10 20",
+        "answer_2": "10 20 30",
+        "answer_3": "Error: invalid syntax",
+        "answer_4": null,
+        "answer_true": "10 20 30",
+        "playlist_id": 1,
+        "question": "What is the output of the following code?\r\np, q, r = 10, 20 ,30\r\nprint(p, q, r)"
+    },
+    {
+        "_id": 28,
+        "answer_1": "py",
+        "answer_2": "yn",
+        "answer_3": "pyn",
+        "answer_4": "yna",
+        "answer_true": "yn",
+        "playlist_id": 1,
+        "question": "What is the output of the following code?\r\nstr = \"pynative\"\r\nprint (str[1:3])"
+    },
+    {
+        "_id": 29,
+        "answer_1": "The program executed with errors",
+        "answer_2": "[‘Jon’, ‘Kelly’, ‘Scott’, ‘Jessa’]",
+        "answer_3": "[‘Jon’, ‘Kelly’, ‘Jessa’, ‘Scott’]",
+        "answer_4": "[‘Jon’, ‘Scott’, ‘Kelly’, ‘Jessa’]",
+        "answer_true": "The program executed with errors",
+        "playlist_id": 1,
+        "question": "What is the output of the following code?\r\nsampleList = [\"Jon\", \"Kelly\", \"Jessa\"]\r\nsampleList.append(2, \"Scott\")\r\nprint(sampleList)"
+    },
+    {
+        "_id": 30,
+        "answer_1": "6",
+        "answer_2": "33",
+        "answer_3": "123",
+        "answer_4": "Error. Mixing operators between numbers and strings are not supported",
+        "answer_true": "Error. Mixing operators between numbers and strings are not supported",
+        "playlist_id": 1,
+        "question": "What is the output of the following code?\r\nvar1 = 1\r\nvar2 = 2\r\nvar3 = \"3\"\r\n\r\nprint(var1 + var2 + var3)"
+    },
+    {
+        "_id": 31,
+        "answer_1": "No",
+        "answer_2": "Yes",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "Yes",
+        "playlist_id": 1,
+        "question": "Can we use the “else” block for for loop?\r\nfor example:\r\nfor i in range(1, 5):\r\n    print(i)\r\nelse:\r\n    print(\"this is else block statement\" )"
+    },
+    {
+        "_id": 32,
+        "answer_1": "{‘Vicki’, ‘Jodi’, ‘Garry’, ‘Eric’}",
+        "answer_2": "{‘Jodi’, ‘Vicki’, ‘Garry’, ‘Eric’}",
+        "answer_3": "The program executed with error",
+        "answer_4": null,
+        "answer_true": "The program executed with error",
+        "playlist_id": 1,
+        "question": "What is the output of the following code?\r\nsampleSet = {\"Jodi\", \"Eric\", \"Garry\"}\r\nsampleSet.add(1, \"Vicki\")\r\nprint(sampleSet)"
+    },
+    {
+        "_id": 33,
+        "answer_1": "20",
+        "answer_2": "The program executed with errors",
+        "answer_3": "30",
+        "answer_4": null,
+        "answer_true": "30",
+        "playlist_id": 1,
+        "question": "What is the output of the following code?\r\ndef calculate (num1, num2=4):\r\n  res = num1 * num2\r\n  print(res)\r\n\r\ncalculate(5, 6)"
+    },
+    {
+        "_id": 34,
+        "answer_1": "Salary: 12000 Salary: 8000",
+        "answer_2": "Salary: 8000 Salary: 12000",
+        "answer_3": "The program failed with errors",
+        "answer_4": null,
+        "answer_true": "Salary: 12000 Salary: 8000",
+        "playlist_id": 1,
+        "question": "What is the output of the following code?\r\nsalary = 8000\r\n\r\ndef printSalary():\r\n  salary = 12000\r\n  print(\"Salary:\", salary)\r\n  \r\nprintSalary()\r\nprint(\"Salary:\", salary)"
+    },
+    {
+        "_id": 35,
+        "answer_1": "[0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 5.5]",
+        "answer_2": "[0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]",
+        "answer_3": "The Program executed with errors",
+        "answer_4": null,
+        "answer_true": "The Program executed with errors",
+        "playlist_id": 1,
+        "question": "What is the Output of the following code?\r\nfor x in range(0.5, 5.5, 0.5):\r\n  print(x)"
+    },
+    {
+        "_id": 36,
+        "answer_1": "True",
+        "answer_2": "False",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "True",
+        "playlist_id": 1,
+        "question": "A string is immutable in Python?\r\nEvery time when we modify the string, Python Always create a new String and assign a new string to that variable."
+    },
+    {
+        "_id": 37,
+        "answer_1": "10, 11, 12, 13, 14,",
+        "answer_2": "10, 11, 12, 13, 14, 15,",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "10, 11, 12, 13, 14,",
+        "playlist_id": 1,
+        "question": "What is the output of the following code?\r\nfor i in range(10, 15, 1):\r\n  print( i, end=', ')"
+    },
+    {
+        "_id": 38,
+        "answer_1": "10\r\n15",
+        "answer_2": "25\r\n125",
+        "answer_3": "Error: invalid syntax",
+        "answer_4": null,
+        "answer_true": "25\r\n125",
+        "playlist_id": 1,
+        "question": "What is the output of the following code?\r\nvalueOne = 5 ** 2\r\nvalueTwo = 5 ** 3\r\n\r\nprint(valueOne)\r\nprint(valueTwo)"
+    },
+    {
+        "_id": 39,
+        "answer_1": "Jam",
+        "answer_2": "dno",
+        "answer_3": "maJ",
+        "answer_4": "dnoB semaJ",
+        "answer_true": "maJ",
+        "playlist_id": 1,
+        "question": "What is the output of the following code?\r\nvar= \"James Bond\"\r\nprint(var[2::-1])"
+    },
+    {
+        "_id": 40,
+        "answer_1": "JamesJamesJamesJamesJamesJames",
+        "answer_2": "JamesJamesJamesJamesJames",
+        "answer_3": "Error: invalid syntax",
+        "answer_4": null,
+        "answer_true": "JamesJamesJamesJamesJamesJames",
+        "playlist_id": 1,
+        "question": "What is the output of the following code?\r\nvar = \"James\" * 2  * 3\r\nprint(var)"
+    },
+    {
+        "_id": 41,
+        "answer_1": "True",
+        "answer_2": "False",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "True",
+        "playlist_id": 1,
+        "question": "The in operator is used to check if a value exists within an iterable object container such as a list. Evaluate to True if it finds a variable in the specified sequence and False otherwise."
+    },
+    {
+        "_id": 42,
+        "answer_1": "% (Modulus)",
+        "answer_2": "& (BitWise AND)",
+        "answer_3": "** (Exponent)",
+        "answer_4": "> (Comparison)",
+        "answer_true": "** (Exponent)",
+        "playlist_id": 1,
+        "question": "Which operator has higher precedence in the following list"
+    },
+    {
+        "_id": 43,
+        "answer_1": "182.0",
+        "answer_2": "37",
+        "answer_3": "117",
+        "answer_4": "The Program executed with errors",
+        "answer_true": "182.0",
+        "playlist_id": 1,
+        "question": "What is the output of the following\r\nx = 36 / 4 * (3 +  2) * 4 + 2\r\nprint(x)"
+    },
+    {
+        "_id": 44,
+        "answer_1": "The function opens, the function evaluates, and the function closes.",
+        "answer_2": "The function is called, the function executes, and the function returns.",
+        "answer_3": "The function is imported, the function executes, and the function returns.",
+        "answer_4": "The function evaluates, the function produces a side effect, and the function closes.",
+        "answer_true": "The function is called, the function executes, and the function returns.",
+        "playlist_id": 1,
+        "question": "When you use a built-in function in your code, what steps occur?"
+    },
+    {
+        "_id": 45,
+        "answer_1": "num_squared = num ** 2",
+        "answer_2": "def square(num):",
+        "answer_3": "None of these",
+        "answer_4": "return num_squared",
+        "answer_true": "def square(num):",
+        "playlist_id": 1,
+        "question": "Consider the following function:\r\ndef square(num):\r\n    num_squared = num ** 2\r\n    return num_squared\r\nWhich of the following lines of code is the function’s signature?"
+    },
+    {
+        "_id": 46,
+        "answer_1": "loud_input = input_string.upper()",
+        "answer_2": "\"Prints and returns a string in uppercase.\"",
+        "answer_3": "def shout_and_return(input_string):",
+        "answer_4": null,
+        "answer_true": "\"Prints and returns a string in uppercase.\"",
+        "playlist_id": 1,
+        "question": "Consider the following function:\r\ndef shout_and_return(input_string):\r\n    \"\"\"Prints and returns a string in uppercase.\"\"\"\r\n    loud_input = input_string.upper()\r\n    print(loud_input)\r\n    return loud_input\r\nWhich of the following lines of code is the function’s docstring?\r\n\r\n\r\n"
+    },
+    {
+        "_id": 47,
+        "answer_1": "1\r\n2\r\n3\r\n4\r\n5",
+        "answer_2": "1\r\n2\r\n3\r\n4",
+        "answer_3": "0\r\n1\r\n2\r\n3\r\n4",
+        "answer_4": "4\r\n3\r\n2\r\n1",
+        "answer_true": "1\r\n2\r\n3\r\n4",
+        "playlist_id": 1,
+        "question": "Consider the following loop:\r\nfor num in range(1, 5):\r\n    print(num)\r\nWhat’s its output?"
+    },
+    {
+        "_id": 48,
+        "answer_1": "9",
+        "answer_2": "10",
+        "answer_3": "11",
+        "answer_4": "0",
+        "answer_true": "10",
+        "playlist_id": 1,
+        "question": "x = 0\r\nwhile x < 10:\r\n    x = x + 1\r\nWhat’s the value of x after the above code snippet executes?"
+    },
+    {
+        "_id": 49,
+        "answer_1": "Directs the order of execution of the statements in the program",
+        "answer_2": "Dictates what happens before the program starts and after it terminates",
+        "answer_3": "Defines program-specific data structures",
+        "answer_4": "Manages the input and output of control characters",
+        "answer_true": "Directs the order of execution of the statements in the program",
+        "playlist_id": 1,
+        "question": "In a Python program, a control structure:"
+    },
+    {
+        "_id": 50,
+        "answer_1": "}",
+        "answer_2": "end",
+        "answer_3": "A line that is indented less than the previous line",
+        "answer_4": "A comment",
+        "answer_true": "A line that is indented less than the previous line",
+        "playlist_id": 1,
+        "question": "What signifies the end of a statement block or suite in Python?"
+    },
+    {
+        "_id": 51,
+        "answer_1": "What the LEGB rule means",
+        "answer_2": "How many times your function will be called",
+        "answer_3": "When your while or for loop will end",
+        "answer_4": "Where a name is visible in your program",
+        "answer_true": "Where a name is visible in your program",
+        "playlist_id": 2,
+        "question": "What does Python scope determine?"
+    },
+    {
+        "_id": 52,
+        "answer_1": "True",
+        "answer_2": "False",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "False",
+        "playlist_id": 2,
+        "question": "The local scope contains the names that you define within a single for loop."
+    },
+    {
+        "_id": 53,
+        "answer_1": "True",
+        "answer_2": "False",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "True",
+        "playlist_id": 2,
+        "question": "Only nested, or inner, functions have an enclosing scope that exists separately from the global scope."
+    },
+    {
+        "_id": 54,
+        "answer_1": "Local, Enclosing, Global, Built-in",
+        "answer_2": "Life Expectancy of Grizzly Bears",
+        "answer_3": "Local, Extended, Global or Basic",
+        "answer_4": "Lack of Enthusiasm Generates Boredom",
+        "answer_true": "Local, Enclosing, Global, Built-in",
+        "playlist_id": 2,
+        "question": "The LEGB rule is useful for remembering how Python resolves the scope of a variable.\r\nWhat does LEGB stand for?"
+    },
+    {
+        "_id": 55,
+        "answer_1": "'o'",
+        "answer_2": "'t'",
+        "answer_3": "'h'",
+        "answer_4": "Negative index error.",
+        "answer_true": "'h'",
+        "playlist_id": 2,
+        "question": "What is the output for:\r\n'python ' [-3]?"
+    },
+    {
+        "_id": 56,
+        "answer_1": "[1j,4,5]",
+        "answer_2": "[5,4,1j]",
+        "answer_3": "[4,5,1j]",
+        "answer_4": "Type Error",
+        "answer_true": "Type Error",
+        "playlist_id": 2,
+        "question": "What is output for following code:\r\ny = [4, 5,1j]\r\ny.sort()"
+    },
+    {
+        "_id": 57,
+        "answer_1": "Numpy, scipy & matplotlib",
+        "answer_2": "Numpy, matplotlib & pandas",
+        "answer_3": "Numpy, pandas & matplotlib",
+        "answer_4": "Numpy, scipy & pandas",
+        "answer_true": "Numpy, scipy & matplotlib",
+        "playlist_id": 2,
+        "question": "Pylab is a package that combine _______,________&______ into a single namespace."
+    },
+    {
+        "_id": 58,
+        "answer_1": "We cannot remove an element from set.",
+        "answer_2": "Method is executed but no exception is raised.",
+        "answer_3": "Key error is raised.",
+        "answer_4": "There doesn’t exist such method as remove.",
+        "answer_true": "Key error is raised.",
+        "playlist_id": 2,
+        "question": "Suppose we have a set a = {10,9,8,7}, and we execute a.remove(14) what will happen?"
+    },
+    {
+        "_id": 59,
+        "answer_1": "-1",
+        "answer_2": "None",
+        "answer_3": "Error",
+        "answer_4": "Math.pi not defined",
+        "answer_true": "None",
+        "playlist_id": 2,
+        "question": "What is the output of the following code?\r\nimport math\r\n \r\n   def main():\r\n      math.cos(math.pi)\r\nmain()\r\n   print(main())"
+    },
+    {
+        "_id": 60,
+        "answer_1": "It doesn’t generate any output.",
+        "answer_2": "4",
+        "answer_3": "1\r\n2\r\n3\r\n4",
+        "answer_4": "1\r\n2\r\n4",
+        "answer_true": "1\r\n2\r\n4",
+        "playlist_id": 2,
+        "question": "What is the output of the following code snippet:\r\nif 'bar' in {'foo': 1, 'bar': 2, 'baz': 3}:\r\n    print(1)\r\n    print(2)\r\n    if 'a' in 'qux':\r\n        print(3)\r\nprint(4)"
+    },
+    {
+        "_id": 61,
+        "answer_1": "You cannot use print(self) as a function name.",
+        "answer_2": "Program has an error because class A does not have a constructor.",
+        "answer_3": "Program will print ‘Hello’ if we change print(d) to print(self.d).",
+        "answer_4": "Syntax Error.",
+        "answer_true": "Program will print ‘Hello’ if we change print(d) to print(self.d).",
+        "playlist_id": 2,
+        "question": "Analyze the given below code?\r\nclass Demo: \r\n   def __init__(self,d): \r\n      self.d=d \r\n   def print(self): \r\n      print(d)  \r\na = Demo(''Hello'') \r\na.print()"
+    },
+    {
+        "_id": 62,
+        "answer_1": "Tuple(''abc'')",
+        "answer_2": "List(''abc'')",
+        "answer_3": "Set(''abac'')",
+        "answer_4": "None of the above.",
+        "answer_true": "None of the above.",
+        "playlist_id": 2,
+        "question": "Which among them will produce {'a', 'b', 'c'}?"
+    },
+    {
+        "_id": 63,
+        "answer_1": "Len(s)",
+        "answer_2": "Sum(s)",
+        "answer_3": "Print(s[3])",
+        "answer_4": "Max(s)",
+        "answer_true": "Print(s[3])",
+        "playlist_id": 2,
+        "question": "Which among them is incorrect for set s={100,101,102,103}"
+    },
+    {
+        "_id": 64,
+        "answer_1": "char('char')",
+        "answer_2": "ord('char')",
+        "answer_3": "ascii('char')",
+        "answer_4": null,
+        "answer_true": "ord('char')",
+        "playlist_id": 2,
+        "question": "Choose the correct function to get the ASCII code of a character"
+    },
+    {
+        "_id": 65,
+        "answer_1": "False\r\nTrue",
+        "answer_2": "False\r\nFalse",
+        "answer_3": "True\r\nFalse",
+        "answer_4": null,
+        "answer_true": "False\r\nTrue",
+        "playlist_id": 2,
+        "question": "What is the output of the following code\r\nstr1 = \"My salary is 7000\";\r\nstr2 = \"7000\"\r\n\r\nprint(str1.isdigit())\r\nprint(str2.isdigit())"
+    },
+    {
+        "_id": 66,
+        "answer_1": "PYn PYnat ive PYnativ vitanYP",
+        "answer_2": "Yna PYnat tive PYnativ vitanYP",
+        "answer_3": "Yna PYnat tive PYnativ PYnativ",
+        "answer_4": null,
+        "answer_true": "Yna PYnat tive PYnativ PYnativ",
+        "playlist_id": 2,
+        "question": "Guess the correct output of the following code?\r\nstr1 = \"PYnative\"\r\nprint(str1[1:4], str1[:5], str1[4:], str1[0:-1], str1[:-1])"
+    },
+    {
+        "_id": 67,
+        "answer_1": "True",
+        "answer_2": "False",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "True",
+        "playlist_id": 2,
+        "question": "Strings are immutable in Python, which means a string cannot be modified."
+    },
+    {
+        "_id": 68,
+        "answer_1": "True\r\nFalse",
+        "answer_2": "True\r\nTrue",
+        "answer_3": "False\r\nTrue",
+        "answer_4": "False\r\nFalse",
+        "answer_true": "True\r\nTrue",
+        "playlist_id": 2,
+        "question": "Select the correct output of the following string operations\r\nmyString = \"pynative\"\r\nstringList = [\"abc\", \"pynative\", \"xyz\"]\r\n\r\nprint(stringList[1] == myString)\r\nprint(stringList[1] is myString)"
+    },
+    {
+        "_id": 69,
+        "answer_1": "capitalize()",
+        "answer_2": "title()",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "title()",
+        "playlist_id": 2,
+        "question": "Which method should I use to convert String \"welcome to the beautiful world of python\" to \"Welcome To The Beautiful World Of Python\""
+    },
+    {
+        "_id": 70,
+        "answer_1": "Welcome PYnative",
+        "answer_2": "WelcomPYnative",
+        "answer_3": "Welcom PYnative",
+        "answer_4": "WelcomePYnative",
+        "answer_true": "Welcom PYnative",
+        "playlist_id": 2,
+        "question": "Select the correct output of the following String operations\r\nstr1 = 'Welcome'\r\nprint (str1[:6] + ' PYnative')"
+    },
+    {
+        "_id": 71,
+        "answer_1": "they are used to indicate a private variables of a class",
+        "answer_2": "they confuse the interpreter",
+        "answer_3": "they are used to indicate global variables",
+        "answer_4": "they slow down execution",
+        "answer_true": "they are used to indicate a private variables of a class",
+        "playlist_id": 2,
+        "question": "Why are local variable names beginning with an underscore discouraged?"
+    },
+    {
+        "_id": 72,
+        "answer_1": "_var_",
+        "answer_2": "1var",
+        "answer_3": "_var_1",
+        "answer_4": "All the above",
+        "answer_true": "1var",
+        "playlist_id": 2,
+        "question": "Which of the following is an invalid variable?"
+    },
+    {
+        "_id": 73,
+        "answer_1": "Lower case",
+        "answer_2": "Upper case",
+        "answer_3": "None of the mentioned",
+        "answer_4": "Capitalized",
+        "answer_true": "None of the mentioned",
+        "playlist_id": 2,
+        "question": "All keywords in Python are in"
+    },
+    {
+        "_id": 74,
+        "answer_1": "3.2",
+        "answer_2": "3+.2",
+        "answer_3": "Shows error",
+        "answer_4": "Python 3.2",
+        "answer_true": "Python 3.2",
+        "playlist_id": 2,
+        "question": "Output of print(f\"Python {3 + .2}\")\r\n"
+    },
+    {
+        "_id": 75,
+        "answer_1": "eval",
+        "answer_2": "assert",
+        "answer_3": "nonlocal",
+        "answer_4": "pass",
+        "answer_true": "eval",
+        "playlist_id": 2,
+        "question": "Which of the following is not a keyword?"
+    },
+    {
+        "_id": 76,
+        "answer_1": "Yes",
+        "answer_2": "No",
+        "answer_3": "machine dependent",
+        "answer_4": "None of the above",
+        "answer_true": "Yes",
+        "playlist_id": 2,
+        "question": "Is Python case sensitive when dealing with identifiers?\r\n"
+    },
+    {
+        "_id": 77,
+        "answer_1": "Two objects, two references",
+        "answer_2": "One object, two references",
+        "answer_3": "Two objects, one reference",
+        "answer_4": "One object, one reference",
+        "answer_true": "One object, two references",
+        "playlist_id": 2,
+        "question": "From the execution of the statements  n = 300,  m = n how many objects and references will be created?  "
+    },
+    {
+        "_id": 78,
+        "answer_1": "True",
+        "answer_2": "False",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "True",
+        "playlist_id": 2,
+        "question": "In Python if a variable is assigned a value anywhere within the function’s body, it’s assumed to be a local unless explicitly declared as global."
+    },
+    {
+        "_id": 79,
+        "answer_1": "open",
+        "answer_2": "lambda",
+        "answer_3": "is",
+        "answer_4": "except",
+        "answer_true": "open",
+        "playlist_id": 2,
+        "question": "Which of the following is not a keyword?\n"
+    },
+    {
+        "_id": 80,
+        "answer_1": "31 characters",
+        "answer_2": "63 characters",
+        "answer_3": "79 characters",
+        "answer_4": "None of the above",
+        "answer_true": "79 characters",
+        "playlist_id": 2,
+        "question": "What is the maximum possible length of an identifier?"
+    },
+    {
+        "_id": 81,
+        "answer_1": "dict_items([('color', 'blue'), ('fruit', 'apple'), ('pet', 'dog')])",
+        "answer_2": "dict_items([('color'), ('fruit'), ('pet')])",
+        "answer_3": "[('color', 'blue'), ('fruit', 'apple'), ('pet', 'dog')]",
+        "answer_4": "('color', 'blue'), ('fruit', 'apple'), ('pet', 'dog')",
+        "answer_true": "dict_items([('color', 'blue'), ('fruit', 'apple'), ('pet', 'dog')])",
+        "playlist_id": 2,
+        "question": "What would be the output of the following code snippet?\r\na_dict = {'color': 'blue', 'fruit': 'apple', 'pet': 'dog'}\r\nd_items = a_dict.items()\r\nprint(d_items)"
+    },
+    {
+        "_id": 82,
+        "answer_1": "There will be no output.",
+        "answer_2": "apple\r\norange\r\nbanana",
+        "answer_3": "None",
+        "answer_4": "RuntimeError: dictionary changed size during iteration",
+        "answer_true": "RuntimeError: dictionary changed size during iteration",
+        "playlist_id": 2,
+        "question": "Consider the following code snippet:\r\n# Python 3. dict.keys() returns a view object, not a list\r\nprices = {'apple': 0.40, 'orange': 0.35, 'banana': 0.25}\r\nfor key in prices.keys():\r\n    if key == 'orange':\r\n        del prices[key]\r\nYou need to check if the key deletion is successful. What would be the console output of this program?"
+    },
+    {
+        "_id": 83,
+        "answer_1": "cycle()",
+        "answer_2": "filter()",
+        "answer_3": "iter()",
+        "answer_4": "chain()",
+        "answer_true": "iter()",
+        "playlist_id": 2,
+        "question": "Which one of the following methods can’t be used to iterate over items in a dictionary?"
+    },
+    {
+        "_id": 84,
+        "answer_1": "operands, an equation",
+        "answer_2": "terms, a group",
+        "answer_3": "operands, an expression",
+        "answer_4": "operators, a statement",
+        "answer_true": "operands, an expression",
+        "playlist_id": 2,
+        "question": "In the Python statement x = a + 5 - b:\r\na and b are ________\r\na + 5 - b is ________"
+    },
+    {
+        "_id": 85,
+        "answer_1": "0",
+        "answer_2": "None",
+        "answer_3": "True",
+        "answer_4": "False",
+        "answer_true": "True",
+        "playlist_id": 2,
+        "question": "Consider the following code snippet:\r\nx = 10.0\r\ny = (x < 100.0) and isinstance(x, float)\r\nAfter these are executed, what is the value of y?"
+    },
+    {
+        "_id": 86,
+        "answer_1": "random.select(range(3))",
+        "answer_2": "random.shuffle(range(3))",
+        "answer_3": "random.choice(range(0, 3))",
+        "answer_4": "range(3)",
+        "answer_true": "random.choice(range(0, 3))",
+        "playlist_id": 2,
+        "question": "Which of the following is equivalent to random.randrange(3)?"
+    },
+    {
+        "_id": 87,
+        "answer_1": "3.4",
+        "answer_2": "4",
+        "answer_3": "error",
+        "answer_4": "None of the Above",
+        "answer_true": "error",
+        "playlist_id": 2,
+        "question": "The function random.randint(4) can return only which one of the following values?"
+    },
+    {
+        "_id": 88,
+        "answer_1": "3 + random.randrange(3)",
+        "answer_2": "random.choice([3, 6])",
+        "answer_3": "random.randrange(3, 6)",
+        "answer_4": "3 + random.randrange(4)",
+        "answer_true": "3 + random.randrange(4)",
+        "playlist_id": 2,
+        "question": "Which of the following is equivalent to random.randint(3, 6)?"
+    },
+    {
+        "_id": 89,
+        "answer_1": "not in",
+        "answer_2": "is",
+        "answer_3": "//",
+        "answer_4": "**",
+        "answer_true": "not in",
+        "playlist_id": 2,
+        "question": "Which of the following operator in python evaluates to true if it does not finds a variable in the specified sequence and false otherwise?"
+    },
+    {
+        "_id": 90,
+        "answer_1": "title()",
+        "answer_2": "swapcase()",
+        "answer_3": "isdecimal()",
+        "answer_4": "upper()",
+        "answer_true": "isdecimal()",
+        "playlist_id": 2,
+        "question": "Which of the following function is used to check whether all the characters in a string are decimal?"
+    },
+    {
+        "_id": 91,
+        "answer_1": "PYTHONHOME",
+        "answer_2": "PYTHONCASEOK",
+        "answer_3": "PYTHONSTARTUP",
+        "answer_4": "PYTHONPATH",
+        "answer_true": "PYTHONHOME",
+        "playlist_id": 2,
+        "question": "Which of the following environment variable for Python is an alternative module search path?"
+    },
+    {
+        "_id": 92,
+        "answer_1": "Since \"susan\" is not a key in the set, Python raises a syntax error.",
+        "answer_2": "Since \"susan\" is not a value in the set, Python raises a KeyError exception.",
+        "answer_3": "It is executed fine and no exception is raised, and it returns None.",
+        "answer_4": "Since \"susan\" is not a key in the set, Python raises a KeyError exception.",
+        "answer_true": "Since \"susan\" is not a key in the set, Python raises a KeyError exception.",
+        "playlist_id": 2,
+        "question": "Suppose d = {\"john\":40, \"peter\":45}\r\nWhat will happen when retrieving a value using d[\"susan\"]?"
+    },
+    {
+        "_id": 93,
+        "answer_1": "cr",
+        "answer_2": "codescracker",
+        "answer_3": "Error says TypeError: center expected at least 1 argument, got 0",
+        "answer_4": "None of the Above",
+        "answer_true": "Error says TypeError: center expected at least 1 argument, got 0",
+        "playlist_id": 2,
+        "question": "What is the output of the following program?\r\nprint(\"codescracker\".center())"
+    },
+    {
+        "_id": 94,
+        "answer_1": "infile.readlines()",
+        "answer_2": "infile.readline()",
+        "answer_3": "infile.read()",
+        "answer_4": "infile.read(2)",
+        "answer_true": "infile.readline()",
+        "playlist_id": 2,
+        "question": "To read the next line of the file from a file object infile, we use"
+    },
+    {
+        "_id": 95,
+        "answer_1": "number of arguments + 1",
+        "answer_2": "number of arguments - 1",
+        "answer_3": "number of arguments",
+        "answer_4": "None of the Above",
+        "answer_true": "number of arguments + 1",
+        "playlist_id": 2,
+        "question": "What is the length of sys.argv?"
+    },
+    {
+        "_id": 96,
+        "answer_1": "main",
+        "answer_2": "getarg",
+        "answer_3": "os",
+        "answer_4": "getopt",
+        "answer_true": "getopt",
+        "playlist_id": 2,
+        "question": "Which module in the python standard library parses options received from the command line?"
+    },
+    {
+        "_id": 97,
+        "answer_1": "2.0000000000000004",
+        "answer_2": "2",
+        "answer_3": "20",
+        "answer_4": "2.0",
+        "answer_true": "2.0",
+        "playlist_id": 2,
+        "question": "What is the output produced by\r\nimport math\r\nprint(math.fsum([.1 for i in range(20)]))"
+    },
+    {
+        "_id": 98,
+        "answer_1": "0.5",
+        "answer_2": "1",
+        "answer_3": "2",
+        "answer_4": "None of the Above",
+        "answer_true": "None of the Above",
+        "playlist_id": 2,
+        "question": "What is the value of x if x = math.ldexp(0.5, 1)?"
+    },
+    {
+        "_id": 99,
+        "answer_1": "p ** math.e",
+        "answer_2": "p ** e",
+        "answer_3": "math.e ** p",
+        "answer_4": "e ** p",
+        "answer_true": "math.e ** p",
+        "playlist_id": 2,
+        "question": "Which of the following is same as math.exp(p)?"
+    },
+    {
+        "_id": 100,
+        "answer_1": "Functions do not provide better modularity for your application",
+        "answer_2": "Functions are reusable pieces of programs",
+        "answer_3": "you can not also create your own functions",
+        "answer_4": "None of the Above",
+        "answer_true": "Functions are reusable pieces of programs",
+        "playlist_id": 2,
+        "question": "Which of the following statement is true about function?"
+    },
+    {
+        "_id": 101,
+        "answer_1": "istitle()",
+        "answer_2": "isspace()",
+        "answer_3": "isnumeric()",
+        "answer_4": "islower()",
+        "answer_true": "islower()",
+        "playlist_id": 3,
+        "question": "Which of the following function is used to check whether all the characters in a string are in lowercase?"
+    },
+    {
+        "_id": 102,
+        "answer_1": "str(x)",
+        "answer_2": "float(x)",
+        "answer_3": "long(x [,base] )",
+        "answer_4": "int(x [,base])",
+        "answer_true": "str(x)",
+        "playlist_id": 3,
+        "question": "Which of the following function convert an object to a string in python?"
+    },
+    {
+        "_id": 103,
+        "answer_1": "Sometimes only",
+        "answer_2": "No",
+        "answer_3": "Yes",
+        "answer_4": "None of the above",
+        "answer_true": "Yes",
+        "playlist_id": 3,
+        "question": "Is Python case sensitive when dealing with identifiers?"
+    },
+    {
+        "_id": 104,
+        "answer_1": "79 characters",
+        "answer_2": "63 characters",
+        "answer_3": "31 characters",
+        "answer_4": "48 characters",
+        "answer_true": "79 characters",
+        "playlist_id": 3,
+        "question": "What is the maximum possible length of an identifier?"
+    },
+    {
+        "_id": 105,
+        "answer_1": "integers",
+        "answer_2": "tuples",
+        "answer_3": "lists",
+        "answer_4": "strings",
+        "answer_true": "lists",
+        "playlist_id": 3,
+        "question": "Which type of elements are accepted by random.shuffle()?"
+    },
+    {
+        "_id": 106,
+        "answer_1": "interpreted, high-level, general-purpose programming language",
+        "answer_2": "object-oriented programming language",
+        "answer_3": "procedural, functional, structured, and reflective programming language",
+        "answer_4": "All the above",
+        "answer_true": "All the above",
+        "playlist_id": 3,
+        "question": "Python is an"
+    },
+    {
+        "_id": 107,
+        "answer_1": ".py",
+        "answer_2": ".pyi",
+        "answer_3": ".pyc and .pyd",
+        "answer_4": "All the above",
+        "answer_true": "All the above",
+        "playlist_id": 3,
+        "question": "Python filename extensions is/are"
+    },
+    {
+        "_id": 108,
+        "answer_1": "Apache Groovy",
+        "answer_2": "JavaScript",
+        "answer_3": "Ruby and Swift",
+        "answer_4": "All the above",
+        "answer_true": "All the above",
+        "playlist_id": 3,
+        "question": "Python influenced"
+    },
+    {
+        "_id": 109,
+        "answer_1": "# this is a comment",
+        "answer_2": "\" this is a comment \"",
+        "answer_3": "Both the above",
+        "answer_4": "<< this is a comment",
+        "answer_true": "Both the above",
+        "playlist_id": 3,
+        "question": "Which of the following is considered as comment in Python?"
+    },
+    {
+        "_id": 110,
+        "answer_1": "k = 2 + 3J",
+        "answer_2": "k = 2 + 3l",
+        "answer_3": "k = complex(2, 3)",
+        "answer_4": "k = 2 + 3j",
+        "answer_true": "k = 2 + 3l",
+        "playlist_id": 3,
+        "question": "Which of the following is not a complex number?"
+    },
+    {
+        "_id": 111,
+        "answer_1": "A function that calls other function",
+        "answer_2": "A function which calls itself",
+        "answer_3": "Both the above",
+        "answer_4": "None of the above",
+        "answer_true": "A function which calls itself",
+        "playlist_id": 3,
+        "question": "What is a recursive function ?"
+    },
+    {
+        "_id": 112,
+        "answer_1": "stack",
+        "answer_2": "heap",
+        "answer_3": "Uninitialized data segment",
+        "answer_4": "None of the above",
+        "answer_true": "stack",
+        "playlist_id": 3,
+        "question": "In which part of memory does the system stores the parameter and local variables of function call?"
+    },
+    {
+        "_id": 113,
+        "answer_1": "s1.contains(s2)",
+        "answer_2": "s1.__contains__(s2)",
+        "answer_3": "si.in(s2)",
+        "answer_4": "None of the above",
+        "answer_true": "s1.__contains__(s2)",
+        "playlist_id": 3,
+        "question": "To check whether string s1 contains s2, use"
+    },
+    {
+        "_id": 114,
+        "answer_1": "[3]",
+        "answer_2": "[2]",
+        "answer_3": "[2, 3]",
+        "answer_4": "[3, 2]",
+        "answer_true": "[2, 3]",
+        "playlist_id": 3,
+        "question": "What is the output of following Python program ?\r\nmylist = [1, 2, 3]\r\nprint(mylist[1:])"
+    },
+    {
+        "_id": 115,
+        "answer_1": "string.lowercase_string.upercase",
+        "answer_2": "string.letters",
+        "answer_3": "string.ascii_lowercase+string.ascii_upercase",
+        "answer_4": "string.ascii_lowercase_string.digits",
+        "answer_true": "string.ascii_lowercase+string.ascii_upercase",
+        "playlist_id": 3,
+        "question": "The output of executing string.ascii_letters can also be achieved by"
+    },
+    {
+        "_id": 116,
+        "answer_1": "they slow down execution",
+        "answer_2": "they are used to indicate global variables",
+        "answer_3": "they confuse the interpreter",
+        "answer_4": "they are used to indicate a private variables of a class",
+        "answer_true": "they are used to indicate a private variables of a class",
+        "playlist_id": 3,
+        "question": "Why are local variable names beginning with an underscore discouraged?"
+    },
+    {
+        "_id": 117,
+        "answer_1": "underscore and ampersand are the only two special charaters allowed",
+        "answer_2": "all private members must have leading and trailing underscores",
+        "answer_3": "unlimited length",
+        "answer_4": "None of the above",
+        "answer_true": "unlimited length",
+        "playlist_id": 3,
+        "question": "Which of the following is true for variable names in Python?"
+    },
+    {
+        "_id": 118,
+        "answer_1": "del d(\"john\":40)",
+        "answer_2": "d.delete(\"john\":40)",
+        "answer_3": "d.delete(\"john\")",
+        "answer_4": "del d[\"john\"]",
+        "answer_true": "del d[\"john\"]",
+        "playlist_id": 3,
+        "question": "Suppose d = {\"john\":40, \"peter\":45}\r\nTo delete the entry for \"john\". What command do we use?"
+    },
+    {
+        "_id": 119,
+        "answer_1": "{}",
+        "answer_2": "{1, 2, 3}",
+        "answer_3": "[1, 2, 3]",
+        "answer_4": "(1, 2, 3)",
+        "answer_true": "(1, 2, 3)",
+        "playlist_id": 3,
+        "question": "Which of the following is a Python tuple?"
+    },
+    {
+        "_id": 120,
+        "answer_1": "Multiplication and Division",
+        "answer_2": "Addition and Subtraction",
+        "answer_3": "All of the above",
+        "answer_4": "None of the above",
+        "answer_true": "All of the above",
+        "playlist_id": 3,
+        "question": "Which one of the following has the same precedence?"
+    },
+    {
+        "_id": 121,
+        "answer_1": "Parentheses",
+        "answer_2": "Multiplication",
+        "answer_3": "Addition",
+        "answer_4": "Exponential",
+        "answer_true": "Parentheses",
+        "playlist_id": 3,
+        "question": "Which one of the following has the highest precedence in the expression?"
+    },
+    {
+        "_id": 122,
+        "answer_1": "infile.readlines()",
+        "answer_2": "infile.readline()",
+        "answer_3": "infile.read()",
+        "answer_4": "infile.read(2)",
+        "answer_true": "infile.read(2)",
+        "playlist_id": 3,
+        "question": "To read two characters from a file object infile, we use"
+    },
+    {
+        "_id": 123,
+        "answer_1": "a list of integers",
+        "answer_2": "a list of single characters",
+        "answer_3": "a list of lines",
+        "answer_4": "str",
+        "answer_true": "a list of lines",
+        "playlist_id": 3,
+        "question": "The readlines() method returns"
+    },
+    {
+        "_id": 124,
+        "answer_1": "Input",
+        "answer_2": "Raw_input",
+        "answer_3": "All of the Above",
+        "answer_4": "None of the Above",
+        "answer_true": "All of the Above",
+        "playlist_id": 3,
+        "question": "Which are the two built-in functions to read a line of text from standard input, which by default comes from the keyboard?"
+    },
+    {
+        "_id": 125,
+        "answer_1": "tells you the end position within the file",
+        "answer_2": "tells you the current position within the file",
+        "answer_3": "tells you the file is opened or not",
+        "answer_4": "None of the Above",
+        "answer_true": "tells you the current position within the file",
+        "playlist_id": 3,
+        "question": "What is the use of tell() method in python?"
+    },
+    {
+        "_id": 126,
+        "answer_1": "string",
+        "answer_2": "tuple",
+        "answer_3": "list",
+        "answer_4": "set",
+        "answer_true": "string",
+        "playlist_id": 3,
+        "question": "What is the type of each element in sys.argv?"
+    },
+    {
+        "_id": 127,
+        "answer_1": "identifier followed by the default value within square brackets ([])",
+        "answer_2": "identifier",
+        "answer_3": "identifier followed by the default value within backticks (\")",
+        "answer_4": "identifier followed by an equal to sign and the default value",
+        "answer_true": "identifier",
+        "playlist_id": 3,
+        "question": "How are required arguments specified in the function heading?"
+    },
+    {
+        "_id": 128,
+        "answer_1": "2",
+        "answer_2": "2.0",
+        "answer_3": "4",
+        "answer_4": "2.0",
+        "answer_true": "2.0000000000000004",
+        "playlist_id": 3,
+        "question": "What is the output produced by\r\nprint(sum([.1 for i in range(20)]))"
+    },
+    {
+        "_id": 129,
+        "answer_1": "True",
+        "answer_2": "False",
+        "answer_3": "error",
+        "answer_4": "None",
+        "answer_true": "False",
+        "playlist_id": 3,
+        "question": "What is returned by math.isfinite(float('inf'))?"
+    },
+    {
+        "_id": 130,
+        "answer_1": "(0.5, 1.0)",
+        "answer_2": "(0.5, 1)",
+        "answer_3": "(1.0, 0.0)",
+        "answer_4": "(0.0, 1.0)",
+        "answer_true": "(0.0, 1.0)",
+        "playlist_id": 3,
+        "question": "What is returned by math.modf(1.0)?"
+    },
+    {
+        "_id": 131,
+        "answer_1": "random.shuffleList(mylist)",
+        "answer_2": "random.shuffle(mylist)",
+        "answer_3": "mylist.shuffle()",
+        "answer_4": "shuffle(mylist)",
+        "answer_true": "random.shuffle(mylist)",
+        "playlist_id": 3,
+        "question": "To shuffle the list say mylist, what function do we use?"
+    },
+    {
+        "_id": 132,
+        "answer_1": "All functions should have a docstring",
+        "answer_2": "Provide a convenient way of associating documentation with Python modules, functions, classes, and methods",
+        "answer_3": "Docstrings can be accessed by the __doc__ attribute on objects",
+        "answer_4": "All of the Above",
+        "answer_true": "All of the Above",
+        "playlist_id": 3,
+        "question": "Which of the following is a features of DocString?"
+    },
+    {
+        "_id": 133,
+        "answer_1": "Method",
+        "answer_2": "Another function",
+        "answer_3": "Class",
+        "answer_4": "Module",
+        "answer_true": "Method",
+        "playlist_id": 3,
+        "question": "What is called when a function is defined inside a class?"
+    },
+    {
+        "_id": 134,
+        "answer_1": "the address of the module os",
+        "answer_2": "the name of the operating system dependent module imported",
+        "answer_3": "error, it should have been os.name()",
+        "answer_4": "None of the Above",
+        "answer_true": "the name of the operating system dependent module imported",
+        "playlist_id": 3,
+        "question": "What does os.name contain?"
+    },
+    {
+        "_id": 135,
+        "answer_1": "the user id of the current process",
+        "answer_2": "the group id of the current process",
+        "answer_3": "both the group id and the user of the current process",
+        "answer_4": "None of the Above",
+        "answer_true": "the user id of the current process",
+        "playlist_id": 3,
+        "question": "What does print(os.geteuid()) print?"
+    },
+    {
+        "_id": 136,
+        "answer_1": "gets a form to login as a different user",
+        "answer_2": "name of the current user logged in",
+        "answer_3": "name of the superuser",
+        "answer_4": "All of the Above",
+        "answer_true": "name of the current user logged in",
+        "playlist_id": 3,
+        "question": "What does os.getlogin() return?"
+    },
+    {
+        "_id": 137,
+        "answer_1": "0.1",
+        "answer_2": "1",
+        "answer_3": "3",
+        "answer_4": "3",
+        "answer_true": "3",
+        "playlist_id": 3,
+        "question": "What is the result of math.trunc(3.1) ?"
+    },
+    {
+        "_id": 138,
+        "answer_1": "change permission bits of the directory",
+        "answer_2": "change permission bits of the file",
+        "answer_3": "change permission bits of either the file or the directory",
+        "answer_4": "None of the Above",
+        "answer_true": "change permission bits of the file",
+        "playlist_id": 3,
+        "question": "What does os.fchmod(fd, mode) do?"
+    },
+    {
+        "_id": 139,
+        "answer_1": "os.scan()",
+        "answer_2": "os.quick_read()",
+        "answer_3": "os.read()",
+        "answer_4": "os.reader()",
+        "answer_true": "os.read()",
+        "playlist_id": 3,
+        "question": "Which of the following functions can be used to read data from a file using a file descriptor?"
+    },
+    {
+        "_id": 140,
+        "answer_1": "os.pwd()",
+        "answer_2": "os.getpwd()",
+        "answer_3": "os.cwd()",
+        "answer_4": "os.getcwd()",
+        "answer_true": "os.getcwd()",
+        "playlist_id": 3,
+        "question": "Which of the following returns a string that represents the present working directory?"
+    },
+    {
+        "_id": 141,
+        "answer_1": "create a soft link",
+        "answer_2": "create a symbolic link",
+        "answer_3": "create a hard link",
+        "answer_4": "None of the Above",
+        "answer_true": "create a hard link",
+        "playlist_id": 3,
+        "question": "What does os.link() do?"
+    },
+    {
+        "_id": 142,
+        "answer_1": "sets current position of the file within the file",
+        "answer_2": "sets current position of the file at the offset",
+        "answer_3": "sets previous position of the file at the offset",
+        "answer_4": "None of the Above",
+        "answer_true": "sets current position of the file at the offset",
+        "playlist_id": 3,
+        "question": "What is the use of seek() method in files?"
+    },
+    {
+        "_id": 143,
+        "answer_1": "It is used for object deserialization",
+        "answer_2": "It is used for object serialization",
+        "answer_3": "All of the Above",
+        "answer_4": "None of the Above",
+        "answer_true": "It is used for object serialization",
+        "playlist_id": 3,
+        "question": "What is the pickling?"
+    },
+    {
+        "_id": 144,
+        "answer_1": "mylist.addEnd(5)",
+        "answer_2": "mylist.addLast(5)",
+        "answer_3": "mylist.append(5)",
+        "answer_4": "mylist.add(5)",
+        "answer_true": "mylist.append(5)",
+        "playlist_id": 3,
+        "question": "To add a new element to a list, we use which of the following code, supposing the list is mylist?"
+    },
+    {
+        "_id": 145,
+        "answer_1": "JamesJamesJamesJamesJamesJames",
+        "answer_2": "JamesJamesJamesJamesJames",
+        "answer_3": "Error: invalid syntax",
+        "answer_4": null,
+        "answer_true": "JamesJamesJamesJamesJamesJames",
+        "playlist_id": 3,
+        "question": "What is the output of the following code?\r\nvar = \"James\" * 2  * 3\r\nprint(var)"
+    },
+    {
+        "_id": 146,
+        "answer_1": "0",
+        "answer_2": "1",
+        "answer_3": "2",
+        "answer_4": "None of the Above",
+        "answer_true": "1",
+        "playlist_id": 3,
+        "question": "What is the output of the following program?\r\nprint(ord('b') - ord('a'))"
+    },
+    {
+        "_id": 147,
+        "answer_1": "random.select(range(3))",
+        "answer_2": "random.shuffle(range(3))",
+        "answer_3": "random.choice(range(0, 3))",
+        "answer_4": "range(3)",
+        "answer_true": "random.choice(range(0, 3))",
+        "playlist_id": 3,
+        "question": "Which of the following is equivalent to random.randrange(3)?"
+    },
+    {
+        "_id": 148,
+        "answer_1": "Jam",
+        "answer_2": "dno",
+        "answer_3": "maJ",
+        "answer_4": "dnoB semaJ",
+        "answer_true": "maJ",
+        "playlist_id": 3,
+        "question": "What is the output of the following code?\r\nvar= \"James Bond\"\r\nprint(var[2::-1])"
+    },
+    {
+        "_id": 149,
+        "answer_1": "True",
+        "answer_2": "False",
+        "answer_3": "0",
+        "answer_4": "1",
+        "answer_true": "False",
+        "playlist_id": 3,
+        "question": "What is the output of the following program?\r\nprint(\"codescracker\".endswith(\"er\", 0, 2))"
+    },
+    {
+        "_id": 150,
+        "answer_1": "Abc Def",
+        "answer_2": "Abc def",
+        "answer_3": "ABC DEF",
+        "answer_4": "abc def",
+        "answer_true": "Abc def",
+        "playlist_id": 3,
+        "question": "What is the output of of the following program?\r\nmystr = \"abc DEF\"\r\nprint(mystr.capitalize())"
+    }
+]

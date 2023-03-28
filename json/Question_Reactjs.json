@@ -1,0 +1,1502 @@
+[
+    {
+        "_id": 1,
+        "answer_1": "npm create-react-app myReactApp",
+        "answer_2": "npm create-react-app",
+        "answer_3": "npx create-react-app",
+        "answer_4": "npx create-react-app myReactApp  ",
+        "answer_true": "npx create-react-app myReactApp  ",
+        "playlist_id": 16,
+        "question": "What is the correct command to create a new React project?"
+    },
+    {
+        "_id": 2,
+        "answer_1": "The type of app to create",
+        "answer_2": "A reference to an existing app",
+        "answer_3": "The name you want to use for the new app  ",
+        "answer_4": "The directory to create the new app in",
+        "answer_true": "The name you want to use for the new app  ",
+        "playlist_id": 16,
+        "question": "What does myReactApp refer to in the following command?\r\nnpx create-react-app myReactApp"
+    },
+    {
+        "_id": 3,
+        "answer_1": "npm serve",
+        "answer_2": "npm build",
+        "answer_3": "npm run dev",
+        "answer_4": "npm start  ",
+        "answer_true": "npm start  ",
+        "playlist_id": 16,
+        "question": "What command is used to start the React local development server?"
+    },
+    {
+        "_id": 4,
+        "answer_1": "3500",
+        "answer_2": "8080",
+        "answer_3": "5000",
+        "answer_4": "3000  ",
+        "answer_true": "3000  ",
+        "playlist_id": 16,
+        "question": "What is the default local host port that a React development server uses?"
+    },
+    {
+        "_id": 5,
+        "answer_1": "True  ",
+        "answer_2": "False",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "True  ",
+        "playlist_id": 16,
+        "question": "To develop and run React code, Node.js is required."
+    },
+    {
+        "_id": 6,
+        "answer_1": "ReactDom",
+        "answer_2": "div",
+        "answer_3": "h1  ",
+        "answer_4": "Component",
+        "answer_true": "h1  ",
+        "playlist_id": 16,
+        "question": "What type of element will be rendered from the following code?\r\nfunction Car() {\r\n  return <h1>Ford Mustang</h1>;\r\n}\r\n\r\nconst root = createRoot(document.getElementById('root'));\r\nroot.render(<Car />);"
+    },
+    {
+        "_id": 7,
+        "answer_1": "A property that adds child values to state",
+        "answer_2": "A property that lets you nest components in other components  ",
+        "answer_3": "A property that lets you pass data to child components",
+        "answer_4": "A property that lets you set an object as a property",
+        "answer_true": "A property that lets you nest components in other components  ",
+        "playlist_id": 16,
+        "question": "What is the children prop?"
+    },
+    {
+        "_id": 8,
+        "answer_1": "var",
+        "answer_2": "constant",
+        "answer_3": "let",
+        "answer_4": "const  ",
+        "answer_true": "const  ",
+        "playlist_id": 16,
+        "question": "Which keyword creates a constant in JavaScript?"
+    },
+    {
+        "_id": 9,
+        "answer_1": "DOM",
+        "answer_2": "Virtual DOM  ",
+        "answer_3": "React DOM",
+        "answer_4": "Shadow DOM",
+        "answer_true": "Virtual DOM  ",
+        "playlist_id": 16,
+        "question": "A copy of the 'real' DOM that is kept in memory is called what?"
+    },
+    {
+        "_id": 10,
+        "answer_1": "True  ",
+        "answer_2": "False",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "True  ",
+        "playlist_id": 16,
+        "question": "React component names must begin with an uppercase letter."
+    },
+    {
+        "_id": 11,
+        "answer_1": "??",
+        "answer_2": "||",
+        "answer_3": "::",
+        "answer_4": "&&  ",
+        "answer_true": "&&  ",
+        "playlist_id": 16,
+        "question": "Which operator can be used to conditionally render a React component?"
+    },
+    {
+        "_id": 12,
+        "answer_1": "key  ",
+        "answer_2": "data",
+        "answer_3": "index",
+        "answer_4": "id",
+        "answer_true": "key  ",
+        "playlist_id": 16,
+        "question": "When rendering a list using the JavaScript map() method, what is required for each element rendered?"
+    },
+    {
+        "_id": 13,
+        "answer_1": "ReactDOM",
+        "answer_2": "JSX Compiler",
+        "answer_3": "React Router",
+        "answer_4": "Babel  ",
+        "answer_true": "Babel  ",
+        "playlist_id": 16,
+        "question": "What tool does React use to compile JSX?"
+    },
+    {
+        "_id": 14,
+        "answer_1": "Use the useReducer Hook.",
+        "answer_2": "Use the useMemo Hook.",
+        "answer_3": "Use the shouldComponentUpdate lifecycle method.",
+        "answer_4": "Wrap it in the React.memo higher-order component.  ",
+        "answer_true": "Wrap it in the React.memo higher-order component.  ",
+        "playlist_id": 16,
+        "question": "How can you optimize performance for a function component that always renders the same way?"
+    },
+    {
+        "_id": 15,
+        "answer_1": "children",
+        "answer_2": "only static ones",
+        "answer_3": "all of them  ",
+        "answer_4": "only updated ones",
+        "answer_true": "all of them  ",
+        "playlist_id": 16,
+        "question": "What props will be available to the following component?\r\n<Car {...props} />"
+    },
+    {
+        "_id": 16,
+        "answer_1": "To directly access a DOM node  ",
+        "answer_2": "To refer to another JavaScript file",
+        "answer_3": "To bind the function",
+        "answer_4": "To refer to a function",
+        "answer_true": "To directly access a DOM node  ",
+        "playlist_id": 16,
+        "question": "What is a common use case for ref?"
+    },
+    {
+        "_id": 17,
+        "answer_1": "const combined = array1 + array2;",
+        "answer_2": "const combined = [array1, array2];",
+        "answer_3": "const combined = [...array1, ...array2];  ",
+        "answer_4": "const combined = ...array1 + ...array2;",
+        "answer_true": "const combined = [...array1, ...array2];  ",
+        "playlist_id": 16,
+        "question": "How can you combine the following arrays using the spread operator?\r\nconst array1 = [1, 2, 3];\r\nconst array2 = [4, 5, 6];"
+    },
+    {
+        "_id": 18,
+        "answer_1": "True",
+        "answer_2": "False  ",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "False  ",
+        "playlist_id": 16,
+        "question": "React can only render elements in the root document element."
+    },
+    {
+        "_id": 19,
+        "answer_1": "import Component from 'react'",
+        "answer_2": "import [ Component ] from 'react'",
+        "answer_3": "import React.Component from 'react'",
+        "answer_4": "import { Component } from 'react'  ",
+        "answer_true": "import { Component } from 'react'  ",
+        "playlist_id": 16,
+        "question": "What is the correct syntax to import a Component from React?"
+    },
+    {
+        "_id": 20,
+        "answer_1": "The first letter of the function must be capitalized  ",
+        "answer_2": "Wrap the return in a fragment",
+        "answer_3": "Remove the return statement",
+        "answer_4": "Add parenthesis around the return value",
+        "answer_true": "The first letter of the function must be capitalized  ",
+        "playlist_id": 16,
+        "question": "Find the bug in this code:\r\nfunction car({make, model}) {\r\n  return <h1>{make} {model}</h1>;\r\n};"
+    },
+    {
+        "_id": 21,
+        "answer_1": "By nesting components  ",
+        "answer_2": "With code splitting",
+        "answer_3": "By putting them in a folder structure",
+        "answer_4": "With webpack",
+        "answer_true": "By nesting components  ",
+        "playlist_id": 16,
+        "question": "React separates the user interface into components. How are components combinded to create a user interface?"
+    },
+    {
+        "_id": 22,
+        "answer_1": "True  ",
+        "answer_2": "False",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "True  ",
+        "playlist_id": 16,
+        "question": "Although React Hooks generally replace class components, there are no plans to remove classes from React."
+    },
+    {
+        "_id": 23,
+        "answer_1": "Hooks cannot be conditional",
+        "answer_2": "Hooks can be called in Class or Function components  ",
+        "answer_3": "Hooks can only be called at the top level of a component",
+        "answer_4": "Hooks can only be called inside React Function components",
+        "answer_true": "Hooks can be called in Class or Function components  ",
+        "playlist_id": 16,
+        "question": "Which of the following is NOT a rule for React Hooks?"
+    },
+    {
+        "_id": 24,
+        "answer_1": "{make: 'Ford', model: 'Mustang'}  ",
+        "answer_2": "{car: {make: 'Ford', model: 'Mustang'}}",
+        "answer_3": "{{make: 'Ford', model: 'Mustang'}}",
+        "answer_4": "{car: 'Ford', car: 'Mustang'}}",
+        "answer_true": "{make: 'Ford', model: 'Mustang'}  ",
+        "playlist_id": 16,
+        "question": "What is the output of the following code?\r\nconst make = 'Ford';\r\nconst model = 'Mustang';\r\nconst car = { make, model };\r\nconsole.log(car);"
+    },
+    {
+        "_id": 25,
+        "answer_1": "Because that would create two instances of the same state that could become out of sync  ",
+        "answer_2": "Because you should never mutate state",
+        "answer_3": "Because you want to allow data to flow back up to the parent",
+        "answer_4": "Because prop values cannot be stored in state",
+        "answer_true": "Because that would create two instances of the same state that could become out of sync  ",
+        "playlist_id": 16,
+        "question": "Why should you avoid copying the values of props into a component's state?"
+    },
+    {
+        "_id": 26,
+        "answer_1": "npx create-react-app appname",
+        "answer_2": "npm install create-react-app",
+        "answer_3": "npx install create-react-app -g",
+        "answer_4": "install - l create-react-app",
+        "answer_true": "npx create-react-app appname",
+        "playlist_id": 16,
+        "question": "Which of the following command is used to create react-js-app ?"
+    },
+    {
+        "_id": 27,
+        "answer_1": "Create",
+        "answer_2": "Extends",
+        "answer_3": "Inherits",
+        "answer_4": "Delete",
+        "answer_true": "Extends",
+        "playlist_id": 16,
+        "question": "In React.js which one of the following is used to create a class for Inheritance ?"
+    },
+    {
+        "_id": 28,
+        "answer_1": "3000",
+        "answer_2": "8080",
+        "answer_3": "5000",
+        "answer_4": "3030",
+        "answer_true": "3000",
+        "playlist_id": 16,
+        "question": "What is the default port number in which the application run ?"
+    },
+    {
+        "_id": 29,
+        "answer_1": "2",
+        "answer_2": "5",
+        "answer_3": "1",
+        "answer_4": "3",
+        "answer_true": "1",
+        "playlist_id": 16,
+        "question": "Which of the following valid component return type of React ?"
+    },
+    {
+        "_id": 30,
+        "answer_1": "State & Props",
+        "answer_2": "Services & Components",
+        "answer_3": "State & Services",
+        "answer_4": "State & Component",
+        "answer_true": "State & Props",
+        "playlist_id": 16,
+        "question": "Which of the following is a way to handle data in React.js ?"
+    },
+    {
+        "_id": 31,
+        "answer_1": "SetinitialComponent",
+        "answer_2": "renderComponent",
+        "answer_3": "render",
+        "answer_4": "All of the above",
+        "answer_true": "renderComponent",
+        "playlist_id": 16,
+        "question": "Which of the following is must for the API in React.js ?"
+    },
+    {
+        "_id": 32,
+        "answer_1": "Compiler",
+        "answer_2": "Transpilar",
+        "answer_3": "Both of the above",
+        "answer_4": "None of the above",
+        "answer_true": "Both of the above",
+        "playlist_id": 16,
+        "question": "Which of the following is true regarding Babel ?"
+    },
+    {
+        "_id": 33,
+        "answer_1": "SetState",
+        "answer_2": "Render with arguments",
+        "answer_3": "Props",
+        "answer_4": "PropTypes",
+        "answer_true": "Props",
+        "playlist_id": 16,
+        "question": "In React.js, how we can pass the data from one component to another in React.js ?"
+    },
+    {
+        "_id": 34,
+        "answer_1": "this.State{}",
+        "answer_2": "this.setState",
+        "answer_3": "this.setChangeState",
+        "answer_4": "All of the above",
+        "answer_true": "this.setState",
+        "playlist_id": 16,
+        "question": "Which of the following function is true about changing the state in React.js ?"
+    },
+    {
+        "_id": 35,
+        "answer_1": "self()",
+        "answer_2": "inherits()",
+        "answer_3": "this()",
+        "answer_4": "super()",
+        "answer_true": "super()",
+        "playlist_id": 16,
+        "question": "Which of the following method is true about referring parent class in React.js ?"
+    },
+    {
+        "_id": 36,
+        "answer_1": "DOM_render()",
+        "answer_2": "render()",
+        "answer_3": "ReactDOM_render()",
+        "answer_4": "transfer()",
+        "answer_true": "render()",
+        "playlist_id": 16,
+        "question": "Which of the following is used to render components in web pages ?"
+    },
+    {
+        "_id": 37,
+        "answer_1": "componentWillRecieveProps()",
+        "answer_2": "componentWillStopProps()",
+        "answer_3": "componentWillControlProps()",
+        "answer_4": "componentRecieveProps()",
+        "answer_true": "componentWillRecieveProps()",
+        "playlist_id": 16,
+        "question": "Which function in React.js is invoked before a component gets its props reassigned ?"
+    },
+    {
+        "_id": 38,
+        "answer_1": "\"Key\" props are used to look beauty",
+        "answer_2": "\"Key\" prop is a way to identify the newly added element",
+        "answer_3": "It is one type of attribute of HTML",
+        "answer_4": "It is not used in the array",
+        "answer_true": "\"Key\" prop is a way to identify the newly added element",
+        "playlist_id": 16,
+        "question": "Which of the following is true about key props ?"
+    },
+    {
+        "_id": 39,
+        "answer_1": "Server-side Framework",
+        "answer_2": "User-interface framework",
+        "answer_3": "A Library for building interaction interfaces",
+        "answer_4": "None of These",
+        "answer_true": "A Library for building interaction interfaces",
+        "playlist_id": 16,
+        "question": "What is the best definition of React.js ?"
+    },
+    {
+        "_id": 40,
+        "answer_1": "renderDOM()",
+        "answer_2": "componentAtNode()",
+        "answer_3": "getDOMNode()",
+        "answer_4": "findDOMNode()",
+        "answer_true": "findDOMNode()",
+        "playlist_id": 16,
+        "question": "Which below function in React.js is used to get the DOM node when the component is rendered ?"
+    },
+    {
+        "_id": 41,
+        "answer_1": "Module",
+        "answer_2": "Component",
+        "answer_3": "Package",
+        "answer_4": "Class",
+        "answer_true": "Component",
+        "playlist_id": 16,
+        "question": "Everything in React is a _____________"
+    },
+    {
+        "_id": 42,
+        "answer_1": "Inside js/components/",
+        "answer_2": "Inside vendor/components/",
+        "answer_3": "Inside vendor/components/",
+        "answer_4": "Inside vendor/",
+        "answer_true": "Inside js/components/",
+        "playlist_id": 16,
+        "question": "In which directory React Components are saved?"
+    },
+    {
+        "_id": 43,
+        "answer_1": "A transpiler.",
+        "answer_2": "An interpreter",
+        "answer_3": "A Compiler",
+        "answer_4": "Both Compiler and Transpilar",
+        "answer_true": "Both Compiler and Transpilar",
+        "playlist_id": 16,
+        "question": "What is Babel?"
+    },
+    {
+        "_id": 44,
+        "answer_1": "1 Element",
+        "answer_2": "2 Elements",
+        "answer_3": "Multiple Elements",
+        "answer_4": "None of the above",
+        "answer_true": "Multiple Elements",
+        "playlist_id": 16,
+        "question": "How many elements does a react component return?"
+    },
+    {
+        "_id": 45,
+        "answer_1": "A module bundler",
+        "answer_2": "Runs react local development server.",
+        "answer_3": "Transpiles all the Javascript down into one file",
+        "answer_4": "None of the above",
+        "answer_true": "A module bundler",
+        "playlist_id": 16,
+        "question": "What does the \"webpack\" command do?"
+    },
+    {
+        "_id": 46,
+        "answer_1": "Server-side Framework",
+        "answer_2": "User-interface framework",
+        "answer_3": "A Library for building interaction interfaces",
+        "answer_4": "None of the Above",
+        "answer_true": "A Library for building interaction interfaces",
+        "playlist_id": 16,
+        "question": "What is ReactJS?"
+    },
+    {
+        "_id": 47,
+        "answer_1": "React is only for view layer of the app so we still need the help of other technologies to get a complete tooling set for development",
+        "answer_2": "React is using inline templating and JSX. This can seem awkward to some developers",
+        "answer_3": "The library of react is too large",
+        "answer_4": "All of these",
+        "answer_true": "All of these",
+        "playlist_id": 16,
+        "question": "What are the limitations of ReactJS?"
+    },
+    {
+        "_id": 48,
+        "answer_1": "this.getState()",
+        "answer_2": "this.prototype.stateValue",
+        "answer_3": "this.state",
+        "answer_4": "this.values",
+        "answer_true": "this.values",
+        "playlist_id": 16,
+        "question": "How can you access the state of a component from inside of a member function?"
+    },
+    {
+        "_id": 49,
+        "answer_1": "injected",
+        "answer_2": "Methods",
+        "answer_3": "Both A and B",
+        "answer_4": "All of these",
+        "answer_true": "Methods",
+        "playlist_id": 16,
+        "question": "Props are __________ into other components"
+    },
+    {
+        "_id": 50,
+        "answer_1": "getInitialState",
+        "answer_2": "render",
+        "answer_3": "renderComponent",
+        "answer_4": "None of the Above",
+        "answer_true": "renderComponent",
+        "playlist_id": 16,
+        "question": "Which of the following API is a MUST for every ReactJS component?"
+    },
+    {
+        "_id": 51,
+        "answer_1": "3000",
+        "answer_2": "3306",
+        "answer_3": "8080",
+        "answer_4": "None of the above",
+        "answer_true": "8080",
+        "playlist_id": 17,
+        "question": "What port is the default where the webpack-dev-server will run?"
+    },
+    {
+        "_id": 52,
+        "answer_1": "setState",
+        "answer_2": "props",
+        "answer_3": "PropTypes",
+        "answer_4": "render with arguments",
+        "answer_true": "props",
+        "playlist_id": 17,
+        "question": "In React what is used to pass data to a component from outside?"
+    },
+    {
+        "_id": 53,
+        "answer_1": "Model",
+        "answer_2": "Controller",
+        "answer_3": "Router",
+        "answer_4": "Middleware",
+        "answer_true": "Controller",
+        "playlist_id": 17,
+        "question": "What is a react.js in MVC?"
+    },
+    {
+        "_id": 54,
+        "answer_1": "Virtual DOM",
+        "answer_2": "Original DOM",
+        "answer_3": "Both 1 & 2",
+        "answer_4": "None of the above",
+        "answer_true": "Virtual DOM",
+        "playlist_id": 17,
+        "question": "ReactJS uses _____ to increase performance"
+    },
+    {
+        "_id": 55,
+        "answer_1": "Unique in the DOM",
+        "answer_2": "Do not requires to be unique",
+        "answer_3": "Unique among the siblings only",
+        "answer_4": "All of the above",
+        "answer_true": "Unique among the siblings only",
+        "playlist_id": 17,
+        "question": "Keys are given to a list of elements in react. These keys should be -"
+    },
+    {
+        "_id": 56,
+        "answer_1": "Dispatcher->Action->Store->View",
+        "answer_2": "Action->Dispatcher->Store->View",
+        "answer_3": "Action->Dispatcher->View->Store",
+        "answer_4": "Action->Store->Dispatcher->View",
+        "answer_true": "Action->Dispatcher->Store->View",
+        "playlist_id": 17,
+        "question": "Which of the following is the correct data flow sequence of flux concept?"
+    },
+    {
+        "_id": 57,
+        "answer_1": "Tim Lee",
+        "answer_2": "Jordan Lee",
+        "answer_3": "Jordan mike",
+        "answer_4": "Jordan Walke",
+        "answer_true": "Jordan Walke",
+        "playlist_id": 17,
+        "question": "What is the name of React.js Developer ?"
+    },
+    {
+        "_id": 58,
+        "answer_1": "Google",
+        "answer_2": "Apple",
+        "answer_3": "Facebook",
+        "answer_4": "Twitter",
+        "answer_true": "Facebook",
+        "playlist_id": 17,
+        "question": "Who Develop React.js?"
+    },
+    {
+        "_id": 59,
+        "answer_1": "JSX",
+        "answer_2": "Flux",
+        "answer_3": "Dom",
+        "answer_4": "Props",
+        "answer_true": "Flux",
+        "playlist_id": 17,
+        "question": ".............. helps react for keeping their data unidirectional"
+    },
+    {
+        "_id": 60,
+        "answer_1": "Initialization",
+        "answer_2": "State/Property Updates",
+        "answer_3": "Destruction",
+        "answer_4": "All of these",
+        "answer_true": "All of these",
+        "playlist_id": 17,
+        "question": "At the highest level, React components have lifecycle events that fall into"
+    },
+    {
+        "_id": 61,
+        "answer_1": "import React.Component from 'react'",
+        "answer_2": "import [ Component ] from 'react'",
+        "answer_3": "import Component from 'react'",
+        "answer_4": "import { Component } from 'react'",
+        "answer_true": "import { Component } from 'react'",
+        "playlist_id": 17,
+        "question": "If you want to import just the Component from the React library, what syntax do you use?"
+    },
+    {
+        "_id": 62,
+        "answer_1": "Wrap it in the React.memo higher-order component.",
+        "answer_2": "Implement the useReducer Hook.",
+        "answer_3": "Implement the shouldComponentUpdate lifecycle method.",
+        "answer_4": "Implement the useMemo Hook.",
+        "answer_true": "Wrap it in the React.memo higher-order component.",
+        "playlist_id": 17,
+        "question": "If a function component should always render the same way given the same props, what is a simple performance optimization available for it?"
+    },
+    {
+        "_id": 63,
+        "answer_1": "Wrap the object in parentheses.",
+        "answer_2": "Call the function from another file.",
+        "answer_3": "Replace the with an array",
+        "answer_4": "Add a return statement before the first curly brace.",
+        "answer_true": "Wrap the object in parentheses.",
+        "playlist_id": 17,
+        "question": "How do you fix the syntax error that results from running this code?\r\nconst person =(firstName, lastName) =>\r\n       {\r\n            first: firstName,\r\n            last: lastName\r\n        }\r\nconsole.log(person(\"jhon\", \"Wolson\"))"
+    },
+    {
+        "_id": 64,
+        "answer_1": "stateful components",
+        "answer_2": "class components",
+        "answer_3": "math",
+        "answer_4": "React Hooks",
+        "answer_true": "React Hooks",
+        "playlist_id": 17,
+        "question": "If you see the following import in a file, what is being used for state management in the component?\r\nimport React, {useState} from 'react';"
+    },
+    {
+        "_id": 65,
+        "answer_1": "{{name: \"Venkat\", age: 30}} ",
+        "answer_2": "{name: \"Venkat\", age: 30} ",
+        "answer_3": "{person: \"Venkat\", person: 30}} ",
+        "answer_4": "{person: {name: \"Venkat\", age: 30}} ",
+        "answer_true": "{name: \"Venkat\", age: 30} ",
+        "playlist_id": 17,
+        "question": "Using object literal enhancement, you can put values back into an object. When you log person to the console, what is the output?\r\nconst name = 'Venkat';\r\nconst age = 30;\r\nconst person = { name, age };\r\nconsole.log(person);"
+    },
+    {
+        "_id": 66,
+        "answer_1": "<h1>{fetch()}</h1> ",
+        "answer_2": "<h1>${fetch()}</h1> ",
+        "answer_3": "<h1>{fetch}</h1> ",
+        "answer_4": "<h1>${fetch}</h1> ",
+        "answer_true": "<h1>{fetch()}</h1> ",
+        "playlist_id": 17,
+        "question": "How do you access a function fetch() from a h1 element in JSX?"
+    },
+    {
+        "_id": 67,
+        "answer_1": "Error. Cannot use direct JavaScript code in JSX",
+        "answer_2": "Error. Should be replaced with a for..loop for correct output",
+        "answer_3": "Displays the list of languages in the array",
+        "answer_4": "Displays nothing",
+        "answer_true": "Displays the list of languages in the array",
+        "playlist_id": 17,
+        "question": "What happens when the following render() method executes?\r\nrender(){\r\n   let langs = [\"Ruby\",\"ES6\",\"Scala\"]\r\n     return (<div>\r\n       {langs.map(it => <p>{it}</p>)}\r\n     </div>)\r\n }"
+    },
+    {
+        "_id": 68,
+        "answer_1": "style={{font-size:12,color:'red'}} ",
+        "answer_2": "style={{fontSize:'12px',color:'red'}} ",
+        "answer_3": "style={fontSize:'12px',color:'red'}",
+        "answer_4": "style={{font-size:12px,color:'red'}} ",
+        "answer_true": "style={{fontSize:'12px',color:'red'}} ",
+        "playlist_id": 17,
+        "question": "How do you write an inline style specifying the font-size:12px and color:red; in JSX"
+    },
+    {
+        "_id": 69,
+        "answer_1": "willComponentUpdate",
+        "answer_2": "shouldComponentUpdate",
+        "answer_3": "componentDidUpdate",
+        "answer_4": "componentDidMount",
+        "answer_true": "shouldComponentUpdate",
+        "playlist_id": 17,
+        "question": "Which method in a React Component should you override to stop the component from updating?"
+    },
+    {
+        "_id": 70,
+        "answer_1": "Repetitive output appears on the screen",
+        "answer_2": "Nothing happens. Life goes on!",
+        "answer_3": "Duplicate key error",
+        "answer_4": "Stack overflow error",
+        "answer_true": "Stack overflow error",
+        "playlist_id": 17,
+        "question": "What happens when you call setState() inside render() method?"
+    },
+    {
+        "_id": 71,
+        "answer_1": "Javascript library",
+        "answer_2": "Javascript framework",
+        "answer_3": "Both of above",
+        "answer_4": "None of the above",
+        "answer_true": "Javascript library",
+        "playlist_id": 17,
+        "question": "React is a ______"
+    },
+    {
+        "_id": 72,
+        "answer_1": "User Interface layer in an application",
+        "answer_2": "Data layer in an application",
+        "answer_3": "Both A and B",
+        "answer_4": "None of the above",
+        "answer_true": "User Interface layer in an application",
+        "playlist_id": 17,
+        "question": "ReactJS covers _____"
+    },
+    {
+        "_id": 73,
+        "answer_1": "1",
+        "answer_2": "2",
+        "answer_3": "3",
+        "answer_4": "4",
+        "answer_true": "1",
+        "playlist_id": 17,
+        "question": "Number of elements, a valid react component can return "
+    },
+    {
+        "_id": 74,
+        "answer_1": "Be changed inside the component",
+        "answer_2": "Not be changed in the component",
+        "answer_3": "Be changed in side other component",
+        "answer_4": "None of the above",
+        "answer_true": "Not be changed in the component",
+        "playlist_id": 17,
+        "question": "props in react can________"
+    },
+    {
+        "_id": 75,
+        "answer_1": "Mocha",
+        "answer_2": "Sinon",
+        "answer_3": "Chai",
+        "answer_4": "Jest",
+        "answer_true": "Jest",
+        "playlist_id": 17,
+        "question": "What is the testing library most often associated with React?"
+    },
+    {
+        "_id": 76,
+        "answer_1": "Internal storage of the component",
+        "answer_2": "A prement storage",
+        "answer_3": "Both A and B",
+        "answer_4": "None of the above",
+        "answer_true": "Internal storage of the component",
+        "playlist_id": 17,
+        "question": "What is state in react? "
+    },
+    {
+        "_id": 77,
+        "answer_1": "It will be rendered as disabled",
+        "answer_2": "It will be rendered as enabled",
+        "answer_3": "It will not be rendered at all",
+        "answer_4": "None of the above",
+        "answer_true": "It will be rendered as enabled",
+        "playlist_id": 17,
+        "question": "What will happen if you render an input element with disabled = {false} "
+    },
+    {
+        "_id": 78,
+        "answer_1": "const first = [\"cooking\", \"art\", \"history\"] ",
+        "answer_2": "const [] = [\"cooking\", \"art\", \"history\"] ",
+        "answer_3": "const [, first][\"cooking\", \"art\", \"history\"]",
+        "answer_4": "const [first] = [\"cooking\", \"art\", \"history\"] ",
+        "answer_true": "const [first] = [\"cooking\", \"art\", \"history\"] ",
+        "playlist_id": 17,
+        "question": "To get the first item from the array (\"cooking\") using array destructuring, how do you adjust this line?\r\nconst topics = ['cooking', 'art', 'history'];"
+    },
+    {
+        "_id": 79,
+        "answer_1": "React Send",
+        "answer_2": "React Pinpoint",
+        "answer_3": "React Router",
+        "answer_4": "React Context",
+        "answer_true": "React Context",
+        "playlist_id": 17,
+        "question": "How do you handle passing through the component tree without having to pass props down manually at every level?"
+    },
+    {
+        "_id": 80,
+        "answer_1": "Horse",
+        "answer_2": "Cat ",
+        "answer_3": "Mouse",
+        "answer_4": "None of the above",
+        "answer_true": "Cat ",
+        "playlist_id": 17,
+        "question": "What should the console read when the following code is run?\r\nconst [, , animal] = ['Horse', 'Mouse', 'Cat'];\r\nconsole.log(animal);"
+    },
+    {
+        "_id": 81,
+        "answer_1": "JSX Editor",
+        "answer_2": "ReactDOM",
+        "answer_3": "Browser Buddy",
+        "answer_4": "Babel",
+        "answer_true": "Babel",
+        "playlist_id": 17,
+        "question": "What is the name of the tool used to take JSX and turn it into createElement calls?"
+    },
+    {
+        "_id": 82,
+        "answer_1": "Component is created for the first time",
+        "answer_2": "Component is created for the first time",
+        "answer_3": "Both of above",
+        "answer_4": "None of the above",
+        "answer_true": "Both of above",
+        "playlist_id": 17,
+        "question": "React Lifecycle method static getDerivedSateFromProps(props , state) is called when ____"
+    },
+    {
+        "_id": 83,
+        "answer_1": "Unique in the DOM",
+        "answer_2": "Unique among the siblings only",
+        "answer_3": "Do not requires to be unique",
+        "answer_4": "None of the above",
+        "answer_true": "Unique among the siblings only",
+        "playlist_id": 17,
+        "question": "Keys are given to a list of elements in react. These keys should be "
+    },
+    {
+        "_id": 84,
+        "answer_1": "Source of truth is DOM",
+        "answer_2": "Source of truth is component state",
+        "answer_3": "Source of truth can be anything",
+        "answer_4": "None of the above",
+        "answer_true": "Source of truth is DOM",
+        "playlist_id": 17,
+        "question": "For uncontrolled components in react"
+    },
+    {
+        "_id": 85,
+        "answer_1": "when you want to replace Redux",
+        "answer_2": "when you want to replace Redux",
+        "answer_3": "when you want to break your production app",
+        "answer_4": "when you want to improve performance",
+        "answer_true": "when you want to replace Redux",
+        "playlist_id": 17,
+        "question": "Why might you use useReducer over useState in a React component?"
+    },
+    {
+        "_id": 86,
+        "answer_1": "any that have changed",
+        "answer_2": "any that have not changed",
+        "answer_3": "child props",
+        "answer_4": "all of them",
+        "answer_true": "all of them",
+        "playlist_id": 17,
+        "question": "Which props from the props object is available to the component with the following syntax?\r\n<Message {...props} />"
+    },
+    {
+        "_id": 87,
+        "answer_1": "This is a route modal",
+        "answer_2": "This is a route parameter",
+        "answer_3": "This is a route splitter",
+        "answer_4": "This is a route link",
+        "answer_true": "This is a route parameter",
+        "playlist_id": 17,
+        "question": "Consider the following code from React Router. What do you call :id in the path prop?\r\n<Route path=\"/:id\" />"
+    },
+    {
+        "_id": 88,
+        "answer_1": "<h1 props={null}>What's happening?</h1>",
+        "answer_2": "<h1>What's happening?</h1>",
+        "answer_3": "<h1 id=\"component\">What's happening?</h1>",
+        "answer_4": "<h1 id=\"element\">What's happening?</h1>",
+        "answer_true": "<h1 props={null}>What's happening?</h1>",
+        "playlist_id": 17,
+        "question": "What does this React element look like given the following function?\r\nReact.createElement('h1', null, \"What's happening?\");​"
+    },
+    {
+        "_id": 89,
+        "answer_1": "lazy",
+        "answer_2": "loading",
+        "answer_3": "fallback",
+        "answer_4": "spinner",
+        "answer_true": "fallback",
+        "playlist_id": 17,
+        "question": "What property do you need to add to the Suspense component in order to display a spinner or loading state?\r\nfunction MyComponent() {\r\n  return (\r\n    <Suspense>\r\n      <div>\r\n        <Message />\r\n      </div>\r\n    </Suspense>\r\n  );\r\n}\r\n\r\n"
+    },
+    {
+        "_id": 90,
+        "answer_1": "a",
+        "answer_2": "b",
+        "answer_3": "Both a and b",
+        "answer_4": "None of the above",
+        "answer_true": "b",
+        "playlist_id": 17,
+        "question": "Which of the following is a correct definition of state in react?\r\n a) A persistent storage\r\n b) An internal data store (object) of component"
+    },
+    {
+        "_id": 91,
+        "answer_1": "state & props",
+        "answer_2": "services & components",
+        "answer_3": "state & services",
+        "answer_4": "state & component",
+        "answer_true": "state & props",
+        "playlist_id": 17,
+        "question": "What are two ways data gets handled in react?"
+    },
+    {
+        "_id": 92,
+        "answer_1": "a JS function",
+        "answer_2": "a JS element",
+        "answer_3": "a JSX wrapper",
+        "answer_4": "a JS expression",
+        "answer_true": "a JS expression",
+        "playlist_id": 17,
+        "question": "What do you call the message wrapped in curly braces below?\r\nlet message = 'Hi there';\r\nconst element = <p>{message}</p>;"
+    },
+    {
+        "_id": 93,
+        "answer_1": "React.split",
+        "answer_2": "React.lazy",
+        "answer_3": "React.memo",
+        "answer_4": "React.fallback",
+        "answer_true": "React.lazy",
+        "playlist_id": 17,
+        "question": "What can you use to handle code splitting?"
+    },
+    {
+        "_id": 94,
+        "answer_1": "to optimize for all devices",
+        "answer_2": "to complete the update",
+        "answer_3": "to change the layout of the screen",
+        "answer_4": "when you need the browser to paint before the effect runs",
+        "answer_true": "when you need the browser to paint before the effect runs",
+        "playlist_id": 17,
+        "question": "When do you use useLayoutEffect?"
+    },
+    {
+        "_id": 95,
+        "answer_1": "Add a render function",
+        "answer_2": "Surround the h1 in a div.",
+        "answer_3": "Move the h1 to another component.",
+        "answer_4": "Change the curly braces to parentheses or add a return statement before the h1 tag.",
+        "answer_true": "Change the curly braces to parentheses or add a return statement before the h1 tag.",
+        "playlist_id": 17,
+        "question": "You have written the following code but nothing is rendering. How do you fix this problem?\r\nconst Heading = () => {\r\n  <h1>Hello!</h1>;\r\n};"
+    },
+    {
+        "_id": 96,
+        "answer_1": "declarative",
+        "answer_2": "imperative",
+        "answer_3": "integrated",
+        "answer_4": "closed",
+        "answer_true": "declarative",
+        "playlist_id": 17,
+        "question": "Which of these terms commonly describe React applications?"
+    },
+    {
+        "_id": 97,
+        "answer_1": "a property that lets you pass components as data to other components",
+        "answer_2": "a property that lets you pass data to child elements",
+        "answer_3": "a property that lets you set an array as a property",
+        "answer_4": "a property that adds child components to state",
+        "answer_true": "a property that lets you pass components as data to other components",
+        "playlist_id": 17,
+        "question": "What is the children prop?"
+    },
+    {
+        "_id": 98,
+        "answer_1": "because you should never mutate state",
+        "answer_2": "because you want to allow data to flow back up to the parent",
+        "answer_3": "because getDerivedStateFromProps() is an unsafe method to use",
+        "answer_4": "because you want to allow a component to update in response to changes in the props ",
+        "answer_true": "because you want to allow a component to update in response to changes in the props ",
+        "playlist_id": 17,
+        "question": "Why is it important to avoid copying the values of props into a component's state where possible?"
+    },
+    {
+        "_id": 99,
+        "answer_1": "when you do not want your component to have state",
+        "answer_2": "when you have sibling components that need to be compared",
+        "answer_3": "when you want a default implementation of shouldComponentUpdate()",
+        "answer_4": "when you do not want your component to have props",
+        "answer_true": "when you want a default implementation of shouldComponentUpdate()",
+        "playlist_id": 17,
+        "question": "When might you use React.PureComponent?"
+    },
+    {
+        "_id": 100,
+        "answer_1": "function Dish([name, cookingTime]) { return <h1>{name} {cookingTime}</h1>; } ",
+        "answer_2": "function Dish({name, cookingTime}) { return <h1>{name} {cookingTime}</h1>; }  ",
+        "answer_3": "function Dish(props) { return <h1>{name} {cookingTime}</h1>; }",
+        "answer_4": "function Dish(...props) { return <h1>{name} {cookingTime}</h1>; } ",
+        "answer_true": "function Dish({name, cookingTime}) { return <h1>{name} {cookingTime}</h1>; } ",
+        "playlist_id": 17,
+        "question": "How do you destructure the properties that are sent to the Dish component?\r\nfunction Dish(props) {\r\n  return (\r\n    <h1>\r\n      {props.name} {props.cookingTime}\r\n    </h1>\r\n  );\r\n}"
+    },
+    {
+        "_id": 101,
+        "answer_1": "Button A will not have access to the event object on click of the button.",
+        "answer_2": "Button B will not fire the handler this.handleClick successfully.",
+        "answer_3": "Button A will not fire the handler this.handleClick successfully.",
+        "answer_4": "There is no difference",
+        "answer_true": "Button B will not fire the handler this.handleClick successfully.",
+        "playlist_id": 18,
+        "question": "What is the difference between the click behaviors of these two buttons (assuming that this.handleClick is bound correctly)?\r\nA. <button onClick=\"{this.handleClick}>Click Me</button>\"\r\nB. <button onClick=\"{event => this.handleClick(event)}}>Click Me</button>\""
+    },
+    {
+        "_id": 102,
+        "answer_1": "error bosses",
+        "answer_2": "error catchers",
+        "answer_3": "error helpers",
+        "answer_4": "error boundaries",
+        "answer_true": "error boundaries",
+        "playlist_id": 18,
+        "question": "What do you call a React component that catches JavaScript errors anywhere in the child component tree?"
+    },
+    {
+        "_id": 103,
+        "answer_1": "constructor",
+        "answer_2": "componentDidMount",
+        "answer_3": "componentWillReceiveProps",
+        "answer_4": "componentWillMount",
+        "answer_true": "componentDidMount",
+        "playlist_id": 18,
+        "question": "In which lifecycle method do you make requests for data in a class component?"
+    },
+    {
+        "_id": 104,
+        "answer_1": "monads",
+        "answer_2": "pure functions",
+        "answer_3": "recursive functions",
+        "answer_4": "higher-order functions",
+        "answer_true": "pure functions",
+        "playlist_id": 18,
+        "question": "All React components must act like __ with respect to their props."
+    },
+    {
+        "_id": 105,
+        "answer_1": "to directly access the DOM node ",
+        "answer_2": "to refer to another JS file",
+        "answer_3": "to bind the function",
+        "answer_4": "to call a function",
+        "answer_true": "to directly access the DOM node ",
+        "playlist_id": 18,
+        "question": "Why might you use a ref?"
+    },
+    {
+        "_id": 106,
+        "answer_1": "a computer property name",
+        "answer_2": "a JSX code string",
+        "answer_3": "a dynamic key",
+        "answer_4": "a set value",
+        "answer_true": "a dynamic key",
+        "playlist_id": 18,
+        "question": "What is [e.target.id] called in the following code snippet?\r\nhandleChange(e) \r\n{\r\nthis.setState({[e.target.id]: e.target.value })\r\n}"
+    },
+    {
+        "_id": 107,
+        "answer_1": "Clock",
+        "answer_2": "Component",
+        "answer_3": "React.Component",
+        "answer_4": "It does not have a name prop.",
+        "answer_true": "Clock",
+        "playlist_id": 18,
+        "question": "What is the name of this component?\r\nclass Clock extends React.Component {\r\n   render() {\r\n    return <h1>Look at the time: {time}</h1>;\r\n   }\r\n  }"
+    },
+    {
+        "_id": 108,
+        "answer_1": "React",
+        "answer_2": "DOM",
+        "answer_3": "ReactDOM",
+        "answer_4": "Render",
+        "answer_true": "ReactDOM",
+        "playlist_id": 18,
+        "question": "What package contains the render() function that renders a React element tree to the DOM?"
+    },
+    {
+        "_id": 109,
+        "answer_1": "a callback function that is called once for each element in the array",
+        "answer_2": "the name of another array to iterate over",
+        "answer_3": "the number of times you want to call the function",
+        "answer_4": "a string describing what the function should do",
+        "answer_true": "a callback function that is called once for each element in the array",
+        "playlist_id": 18,
+        "question": "What is sent to an Array.map() function?"
+    },
+    {
+        "_id": 110,
+        "answer_1": "It is more functional than an object",
+        "answer_2": "It automatically updates a component",
+        "answer_3": "It makes sure that the object is not mutated",
+        "answer_4": "setState is asynchronous and might result in out of sync values.",
+        "answer_true": "setState is asynchronous and might result in out of sync values.",
+        "playlist_id": 18,
+        "question": "Why is it a good idea to pass a function to setState instead of an object?"
+    },
+    {
+        "_id": 111,
+        "answer_1": "Use the value property",
+        "answer_2": "Use the defaultValue property",
+        "answer_3": "Use the default property",
+        "answer_4": "It assigns one automatically",
+        "answer_true": "Use the defaultValue property",
+        "playlist_id": 18,
+        "question": "How do you set a default value for an uncontrolled form field?"
+    },
+    {
+        "_id": 112,
+        "answer_1": "useEffect(() => { setDone(true); });",
+        "answer_2": "useEffect(() => { setDone(true); }, []);",
+        "answer_3": "useEffect(() => { setDone(true); }, [setDone]);",
+        "answer_4": "useEffect(() => { setDone(true); }, [done, setDone]);",
+        "answer_true": "useEffect(() => { setDone(true); }, [setDone]);",
+        "playlist_id": 18,
+        "question": "How do you invoke setDone only when component mounts, using hooks?\r\nfunction MyComponent(props) {\r\n  const [done, setDone] = useState(false);\r\n  \r\n  return \r\n  <h1>Done: {done}</h1>;\r\n}\r\n\r\n"
+    },
+    {
+        "_id": 113,
+        "answer_1": "<button onClick={(name) => this.hug(name)>Hug Button</button>",
+        "answer_2": "<button onClick={this.hug(e, name)}>Hug Button</button>",
+        "answer_3": "<button onClick={(e) => hug(e,name)}>Hug Button</button>",
+        "answer_4": "<button onClick={(e) => this.hug(name, e)}>Hug Button</button>",
+        "answer_true": "<button onClick={(name) => this.hug(name)>Hug Button</button>",
+        "playlist_id": 18,
+        "question": "What value of button will allow you to pass the name of the person to be hugged?\r\nclass Huggable extends React.Component{\r\n\thug(id){\r\n\t\tconsole.log(\"hugging \" + id);\r\n\t}\r\n\r\n\trender() {\r\n\t\tlet name = \"kitteh\";\r\n\t\tlet button = // Missing Code\r\n\t\treturn button;\r\n\t}\r\n}\r\n\r\n"
+    },
+    {
+        "_id": 114,
+        "answer_1": "useEffect(function updateTitle() { document.title = name + ' ' ",
+        "answer_2": "useEffect(() => { title = name + ' ' + lastname; });",
+        "answer_3": "useEffect(function updateTitle() { name + ' ' + lastname; });",
+        "answer_4": "useEffect(function updateTitle() { title = name + ' ' + lastname; });\r\n  Show Answer\r\n5 .\r\nWhat do you need to change about this code to get it to run?\r\nclass clock extends React.Component {\r\n  render() {\r\n    return <h1>Look at the time: {this.props.time}</h1>;\r\n  }\r\n}\r\n\r\nA)\r\nRemove this\r\n\r\nB)\r\nCapitalize clock\r\n\r\nC)\r\nRemove the render method\r\n\r\nD)\r\nAdd quotes around the return value\r\n  Show Answer\r\n  Finish Quiz\r\n\r\nPrev1…678Next\r\nS/W RELATED LINKS\r\n  Practice Templates\r\n  Practice(PHP) Projects\r\n  Quiz (OR) MCQ\r\n  Interview Questions\r\nCOMPETITIVE EXAMS\r\n  Current Affairs\r\n  General Knowledge\r\n  Verbal Ability\r\n  Mental Ability\r\n  UPSC Question\r\nAbout F T L\r\nAbout Us\r\nPrivacy Policy\r\nTerms & Conditions\r\nBlog\r\nContact\r\nContact Us\r\nComments\r\nArticles\r\nAdvertisement New\r\nGovt Exams\r\nCurrent Affairs New\r\nGeneral Knowledge New\r\nSSL site seal - click to verify\r\nConnecting\r\n \r\n \r\n \r\n \r\n  © 2017 - 2023. All Rights Reserved by Free Time Learning .    Designed by F T L\r\n\r\n",
+        "answer_true": "useEffect(function updateTitle() { document.title = name + ' ' + lastname; });",
+        "playlist_id": 18,
+        "question": "Which Hook could be used to update the document's title?"
+    },
+    {
+        "_id": 115,
+        "answer_1": "Remove this",
+        "answer_2": "Capitalize clock",
+        "answer_3": "Remove the render method",
+        "answer_4": "Add quotes around the return value",
+        "answer_true": "Capitalize clock",
+        "playlist_id": 18,
+        "question": "What do you need to change about this code to get it to run?\r\nclass clock extends React.Component {\r\n  render() {\r\n    return <h1>Look at the time: {this.props.time}</h1>;\r\n  }\r\n}"
+    },
+    {
+        "_id": 116,
+        "answer_1": "To pass date from one component to another",
+        "answer_2": "To add custom attributes",
+        "answer_3": "To add JavaScript expression",
+        "answer_4": "To initiate the component’s properties",
+        "answer_true": "To add custom attributes",
+        "playlist_id": 18,
+        "question": "When do we use data-prefix in React?"
+    },
+    {
+        "_id": 117,
+        "answer_1": "Props are sent into the component as attributes ",
+        "answer_2": "Props are sent into the component as objects",
+        "answer_3": "Send using super()",
+        "answer_4": "Send props as a JavaScript Expression",
+        "answer_true": "Send props as a JavaScript Expression",
+        "playlist_id": 18,
+        "question": "How props are sent into the component in React?"
+    },
+    {
+        "_id": 118,
+        "answer_1": "Lowercase letter",
+        "answer_2": "Uppercase letter ",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "Uppercase letter ",
+        "playlist_id": 18,
+        "question": "Component’s name in React always begins with:"
+    },
+    {
+        "_id": 119,
+        "answer_1": "const element = <div tabIndex=’20’></div>;",
+        "answer_2": "const element = <div tabIndex=”20″></div>;",
+        "answer_3": "setState({tabIndex: “20”})",
+        "answer_4": "setState({tabIndex: ‘20’})",
+        "answer_true": "const element = <div tabIndex=”20″></div>; ",
+        "playlist_id": 18,
+        "question": "How to specify string literals as attributes in React?"
+    },
+    {
+        "_id": 120,
+        "answer_1": "TRUE: It helps in code re-usability.",
+        "answer_2": "FALSE: It won’t be of much use later on.",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "TRUE: It helps in code re-usability.",
+        "playlist_id": 18,
+        "question": "Is it a good approach to insert some of the components in separate files?"
+    },
+    {
+        "_id": 121,
+        "answer_1": "TRUE",
+        "answer_2": "False",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "False",
+        "playlist_id": 18,
+        "question": " Will this re-render the component in React?"
+    },
+    {
+        "_id": 122,
+        "answer_1": "render()",
+        "answer_2": "componentDidUpdate()",
+        "answer_3": "setState() method",
+        "answer_4": "componentWillUpdate()",
+        "answer_true": "setState() method",
+        "playlist_id": 18,
+        "question": "this.state.sports = 'Cricket';"
+    },
+    {
+        "_id": 123,
+        "answer_1": "Phase I: Mount, Phase2: Receive Props, Phase 3: Unmount",
+        "answer_2": "Phase I: Mount, Phase2: Render, Phase3: Update, Phase: Unmount",
+        "answer_3": "Phase I: Mount, Phase2: Update, Phase 3: Unmount",
+        "answer_4": "Phase I: Mount, Phase2: Update, Phase 3: Unmount ",
+        "answer_true": "Phase I: Mount, Phase2: Update, Phase 3: Unmount ",
+        "playlist_id": 18,
+        "question": "Which method is used to update the state of the component?"
+    },
+    {
+        "_id": 124,
+        "answer_1": "HTML tags into react elements",
+        "answer_2": "JavaScript into HTML",
+        "answer_3": "XML into react elements",
+        "answer_4": "JavaScript into react elements",
+        "answer_true": "HTML tags into react elements",
+        "playlist_id": 18,
+        "question": "What are the phases in React Lifecycle of Components?"
+    },
+    {
+        "_id": 125,
+        "answer_1": "angle brackets <>",
+        "answer_2": "double quotes",
+        "answer_3": "single quotes",
+        "answer_4": "curly braces { }",
+        "answer_true": "curly braces { }",
+        "playlist_id": 18,
+        "question": "JSX converts"
+    },
+    {
+        "_id": 126,
+        "answer_1": "Rank 1 of cricketer amit",
+        "answer_2": "Rank 1 of cricketer david",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "Rank 1 of cricketer amit",
+        "playlist_id": 18,
+        "question": "With JSX, expressions can be written inside?"
+    },
+    {
+        "_id": 127,
+        "answer_1": "componentDidMount",
+        "answer_2": "componentWillMount",
+        "answer_3": "componentWillUpdate",
+        "answer_4": "componentWillReceiveProps",
+        "answer_true": "componentDidMount",
+        "playlist_id": 18,
+        "question": "Consider the following program and predict the output:\r\n \r\nimport React from 'react';\r\nimport ReactDOM from 'react-dom';\r\n \r\nclass Demo extends React.Component {\r\n  constructor(props) {\r\n    super(props);\r\n    this.state = {topplayer: \"david\"};\r\n  }\r\n  static getDerivedStateFromProps(props, state) {\r\n    return {topplayer: props.firstrank };\r\n  }\r\n  render() {\r\n    return (\r\n      <h1>Rank 1 of cricketer {this.state.topplayer}</h1>\r\n    );\r\n  }\r\n}\r\n \r\nReactDOM.render(<Demo firstrank=\"amit\"/>, document.getElementById('root'));"
+    },
+    {
+        "_id": 128,
+        "answer_1": "Useful since it converts HTML tags into react elements",
+        "answer_2": "Performs optimization and is also type safe ",
+        "answer_3": "We can use custom attributes",
+        "answer_4": "Since JavaScript expressions can be used inside of JSX",
+        "answer_true": "Performs optimization and is also type safe ",
+        "playlist_id": 18,
+        "question": "If JSX is not necessary to use, then why it is still considered in React? Select any of the opting supporting the statement:"
+    },
+    {
+        "_id": 129,
+        "answer_1": "TRUE",
+        "answer_2": "FALSE",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "TRUE",
+        "playlist_id": 18,
+        "question": "Are React Props read-only?"
+    },
+    {
+        "_id": 130,
+        "answer_1": "Inside angle brackets",
+        "answer_2": "Wrap it in HTML",
+        "answer_3": "Pass it through document.getElementById()",
+        "answer_4": "Inside curly brackets",
+        "answer_true": "Inside curly brackets",
+        "playlist_id": 18,
+        "question": "While sending a variable to a component in React, where it should be placed? Select the immediate answer."
+    },
+    {
+        "_id": 131,
+        "answer_1": "shouldComponentUpdate()",
+        "answer_2": "render() method",
+        "answer_3": "getDerivedStateFromProps()",
+        "answer_4": "constructor()",
+        "answer_true": "render() method",
+        "playlist_id": 18,
+        "question": "The _______ method is called when a component gets updated"
+    },
+    {
+        "_id": 132,
+        "answer_1": "TRUE",
+        "answer_2": "FALSE ",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "FALSE ",
+        "playlist_id": 18,
+        "question": "A component doesn’t get updated when there is a change in the component’s state or props?"
+    },
+    {
+        "_id": 133,
+        "answer_1": "TRUE ",
+        "answer_2": "FALSE ",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "TRUE ",
+        "playlist_id": 18,
+        "question": "Consider the following program?\r\n \r\nclass Team extends React.Component {\r\n  render() {\r\n    return <p>WorldCup winners {this.props.teamname}!</p>;\r\n  }\r\n}\r\n \r\nclass Result extends React.Component {\r\n  render() {\r\n    const winningTeam = \"India\";\r\n    return (\r\n      <div>\r\n      <h2>The winning team?</h2>\r\n      <Team teamname={winningTeam} />\r\n      </div>\r\n    )\r\n  }\r\n}\r\n \r\nReactDOM.render(<Result />, document.getElementById('root'));"
+    },
+    {
+        "_id": 134,
+        "answer_1": "2525",
+        "answer_2": "50",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "50",
+        "playlist_id": 18,
+        "question": "Predict the output of the following code?\r\n \r\nimport React from 'react';\r\n \r\nclass App extends React.Component {\r\n   render() {\r\n      return (\r\n         <div>\r\n            <h2>{25+25}</h2>\r\n         </div>\r\n      );\r\n   }\r\n}\r\nexport default App;\r\n "
+    },
+    {
+        "_id": 135,
+        "answer_1": "TRUE",
+        "answer_2": "FALSE ",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "FALSE ",
+        "playlist_id": 18,
+        "question": "Is the below code using JSX in React?\r\nimport React from 'react';\r\nimport ReactDOM from 'react-dom';\r\n \r\nconst demo = React.createElement('h2', {}, 'This is demo heading2');\r\n \r\nReactDOM.render(demo, document.getElementById('root'));\r\n "
+    },
+    {
+        "_id": 136,
+        "answer_1": "TRUE ",
+        "answer_2": "FALSE ",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "TRUE ",
+        "playlist_id": 18,
+        "question": "Consider the below code snippet. Is this a correct way to display a component in the “root” element?\r\n1\r\n2\r\n3\r\n \r\nReactDOM.render(<Team />, document.getElementById('root'));"
+    },
+    {
+        "_id": 137,
+        "answer_1": "Updated",
+        "answer_2": "Initiated ",
+        "answer_3": "Unmounted",
+        "answer_4": "All of the above",
+        "answer_true": "Initiated",
+        "playlist_id": 18,
+        "question": "A constructor() function, if present in the component, gets called when the component gets ________?"
+    },
+    {
+        "_id": 138,
+        "answer_1": "To return HTML",
+        "answer_2": "To set state",
+        "answer_3": "To call another component",
+        "answer_4": "All of the above",
+        "answer_true": "To return HTML ",
+        "playlist_id": 18,
+        "question": "Why does a component requires a render() method?"
+    },
+    {
+        "_id": 139,
+        "answer_1": "The changes won’t get added to the original state",
+        "answer_2": "Since, it updates the state manually.",
+        "answer_3": "setState() replaces the state",
+        "answer_4": "It will lead to infinite loop, since defining it will call the render again.",
+        "answer_true": "It will lead to infinite loop, since defining it will call the render again.",
+        "playlist_id": 18,
+        "question": " Why we cannot define setState() inside render() function?"
+    },
+    {
+        "_id": 140,
+        "answer_1": "bind",
+        "answer_2": "render()",
+        "answer_3": "setState() ",
+        "answer_4": "forceUpdate()",
+        "answer_true": "setState()",
+        "playlist_id": 18,
+        "question": "React batch multiple _____ calls into a single update for performance"
+    },
+    {
+        "_id": 141,
+        "answer_1": "Server-side Framework",
+        "answer_2": "User-interface framework",
+        "answer_3": "Both",
+        "answer_4": " None",
+        "answer_true": "Both",
+        "playlist_id": 18,
+        "question": "What is ReactJS?"
+    },
+    {
+        "_id": 142,
+        "answer_1": "React is only for view layer of the app so we still need the help of other technologies to get a complete tooling set for development",
+        "answer_2": "React is using inline templating and JSX. This can seem awkward to some developers",
+        "answer_3": "The library of react is too large",
+        "answer_4": " All of these",
+        "answer_true": " All of these",
+        "playlist_id": 18,
+        "question": "What are the limitations of ReactJS?"
+    },
+    {
+        "_id": 143,
+        "answer_1": " this.getState()",
+        "answer_2": "this.prototype.stateValue",
+        "answer_3": "this.state",
+        "answer_4": " this.values",
+        "answer_true": " this.values",
+        "playlist_id": 18,
+        "question": " How can you access the state of a component from inside of a member function?"
+    },
+    {
+        "_id": 144,
+        "answer_1": " Injected",
+        "answer_2": "Methods",
+        "answer_3": "Both A and B",
+        "answer_4": "All of these",
+        "answer_true": " Methods",
+        "playlist_id": 18,
+        "question": " Props are __________ into other components"
+    },
+    {
+        "_id": 145,
+        "answer_1": "getInitialState",
+        "answer_2": "render",
+        "answer_3": "renderComponent",
+        "answer_4": "None",
+        "answer_true": "renderComponent",
+        "playlist_id": 18,
+        "question": "Which of the following API is a MUST for every ReactJS component?"
+    },
+    {
+        "_id": 146,
+        "answer_1": "Initialization",
+        "answer_2": "State/Property Updates",
+        "answer_3": "Destruction",
+        "answer_4": "All of these",
+        "answer_true": "All of these",
+        "playlist_id": 18,
+        "question": "At the highest level, React components have lifecycle events that fall into"
+    },
+    {
+        "_id": 147,
+        "answer_1": "React can be used on client and as well as server side too",
+        "answer_2": "Using React increases readability and makes maintainability easier. Component, Data patterns improves readability and thus makes it easier for manitaining larger apps",
+        "answer_3": "React can be used with any other framework (Backbone.js, Angular.js) as it is only a view layer",
+        "answer_4": "All of the above",
+        "answer_true": "All of the above",
+        "playlist_id": 18,
+        "question": "What are the advantages of React JS?"
+    },
+    {
+        "_id": 148,
+        "answer_1": "aria-* HTML attributes are fully supported in JSX. Where most DOM properties and attributes in React are camelCased, these attributes should be lowercased",
+        "answer_2": "aria-* attributes should be converted to camelCase like other attributes eg. className, onChange and so on",
+        "answer_3": " React processes aria-* attributes separately and update the DOM for accessibility if the user requires it",
+        "answer_4": "React is yet to support WAI-ARIA standard",
+        "answer_true": "React is yet to support WAI-ARIA standard",
+        "playlist_id": 18,
+        "question": "How does React handle Web Accessibility Initiative - Accessible Rich Internet Applications (WAI-ARIA) standard?"
+    },
+    {
+        "_id": 149,
+        "answer_1": "Transpiles all the Javascript down into one file",
+        "answer_2": "Runs react local development server",
+        "answer_3": "Both A and B",
+        "answer_4": " None",
+        "answer_true": "Transpiles all the Javascript down into one file",
+        "playlist_id": 18,
+        "question": " What does the \"webpack command do?"
+    },
+    {
+        "_id": 150,
+        "answer_1": " Controller",
+        "answer_2": "Middleware",
+        "answer_3": "Model",
+        "answer_4": "Router",
+        "answer_true": " Controller",
+        "playlist_id": 18,
+        "question": "What is a react.js in MVC?"
+    }
+]

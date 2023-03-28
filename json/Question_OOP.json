@@ -1,0 +1,1502 @@
+[
+    {
+        "_id": 1,
+        "answer_1": "Polymorphism",
+        "answer_2": "Encapsualtion",
+        "answer_3": "Inheritence",
+        "answer_4": "Abstraction",
+        "answer_true": "Encapsualtion",
+        "playlist_id": 4,
+        "question": "Which OOPS concept means exposing only necessary information to the calling functions?"
+    },
+    {
+        "_id": 2,
+        "answer_1": "Call by Value",
+        "answer_2": "Call by Reference",
+        "answer_3": "Call by function",
+        "answer_4": "Call by Variable",
+        "answer_true": "Call by Value",
+        "playlist_id": 4,
+        "question": "In which method changes made to the parameter inside the function have no effect on the argument?"
+    },
+    {
+        "_id": 3,
+        "answer_1": "Virtual class",
+        "answer_2": "Singleton class",
+        "answer_3": " Friend class",
+        "answer_4": "Abstract class",
+        "answer_true": "Singleton class",
+        "playlist_id": 4,
+        "question": " Which of the following type of class allows only a single instance of itself to be created?"
+    },
+    {
+        "_id": 4,
+        "answer_1": "Abstraction",
+        "answer_2": "Dynamic binding",
+        "answer_3": "Inheritance",
+        "answer_4": "Encapsulation",
+        "answer_true": "Inheritance",
+        "playlist_id": 4,
+        "question": "Which oops concept is used as reuse mechanism?"
+    },
+    {
+        "_id": 5,
+        "answer_1": " Virtual function",
+        "answer_2": "Const function",
+        "answer_3": "Friend function",
+        "answer_4": "Static function",
+        "answer_true": "Friend function",
+        "playlist_id": 4,
+        "question": "Which function of a class is defined outside that class' scope but it has the right to access all private and protected members of the class?"
+    },
+    {
+        "_id": 6,
+        "answer_1": "Copy constructor",
+        "answer_2": "Friend constructor  ",
+        "answer_3": "Default constructor",
+        "answer_4": "Parameterized constructor",
+        "answer_true": "Copy constructor",
+        "playlist_id": 4,
+        "question": " Which constructor creates a new object of the same class using an existing object?"
+    },
+    {
+        "_id": 7,
+        "answer_1": "Null Constructor",
+        "answer_2": "Parametric Constructor",
+        "answer_3": "Copy Constructor",
+        "answer_4": "Default Constructor",
+        "answer_true": "Default Constructor",
+        "playlist_id": 4,
+        "question": "Which constructor has no parameters?"
+    },
+    {
+        "_id": 8,
+        "answer_1": "Super class",
+        "answer_2": "Sub class",
+        "answer_3": "Child class",
+        "answer_4": "Base class",
+        "answer_true": "Base class",
+        "playlist_id": 4,
+        "question": "Which class is the most generalized class and the parent class of a derived class?"
+    },
+    {
+        "_id": 9,
+        "answer_1": "Sub class",
+        "answer_2": "Super class",
+        "answer_3": "Base class",
+        "answer_4": "Parent class",
+        "answer_true": "Sub class",
+        "playlist_id": 4,
+        "question": "Which class is a class that inherits a method or methods from a superclass?"
+    },
+    {
+        "_id": 10,
+        "answer_1": "0",
+        "answer_2": "1",
+        "answer_3": "5",
+        "answer_4": "3",
+        "answer_true": "0",
+        "playlist_id": 4,
+        "question": "How many instances can be created for an abstract class?"
+    },
+    {
+        "_id": 11,
+        "answer_1": "No",
+        "answer_2": "Yes",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "No",
+        "playlist_id": 4,
+        "question": "Do we require parameter for constructors?"
+    },
+    {
+        "_id": 12,
+        "answer_1": "Copy constructor",
+        "answer_2": "Friend constructor",
+        "answer_3": "Default constructor",
+        "answer_4": "Parameterized constructor",
+        "answer_true": "Friend constructor",
+        "playlist_id": 4,
+        "question": "Which of the following is not a type of constructor?"
+    },
+    {
+        "_id": 13,
+        "answer_1": "Data hiding",
+        "answer_2": "Dynamic Typing",
+        "answer_3": "Dynamic binding",
+        "answer_4": "Dynamic loading",
+        "answer_true": "Dynamic binding",
+        "playlist_id": 4,
+        "question": "Which is also known as late binding or run-time binding?"
+    },
+    {
+        "_id": 14,
+        "answer_1": "Base class pointer cannot point to derived class.",
+        "answer_2": "Derived class pointer cannot point to base class.",
+        "answer_3": "Pointer to derived class cannot be created.",
+        "answer_4": "Pointer to base class cannot be created.",
+        "answer_true": "Derived class pointer cannot point to base class.",
+        "playlist_id": 4,
+        "question": "Which of the following statements is correct?"
+    },
+    {
+        "_id": 15,
+        "answer_1": "Call by value",
+        "answer_2": "Call by reference",
+        "answer_3": "Default arguments",
+        "answer_4": "Call by pointer",
+        "answer_true": "Default arguments",
+        "playlist_id": 4,
+        "question": "Which of the following is a value provided in function declaration that is automatically assigned by the compiler if caller of the function doesn't provide a value for the argument with default value?"
+    },
+    {
+        "_id": 16,
+        "answer_1": "Data hiding",
+        "answer_2": "Dynamic Typing",
+        "answer_3": "Dynamic binding",
+        "answer_4": "Dynamic loading",
+        "answer_true": "Dynamic binding",
+        "playlist_id": 4,
+        "question": "In Which of the following concepts the function calls are not resolved until runtime and they are not bound until runtime?"
+    },
+    {
+        "_id": 17,
+        "answer_1": "Member Variable",
+        "answer_2": "Member function",
+        "answer_3": "Class function",
+        "answer_4": "Classic function",
+        "answer_true": "Member function",
+        "playlist_id": 4,
+        "question": "Which of the following is a normal function but it can only called by using an object rather a normal function that can be called directly?"
+    },
+    {
+        "_id": 18,
+        "answer_1": "0",
+        "answer_2": "1",
+        "answer_3": "2",
+        "answer_4": "3",
+        "answer_true": "0",
+        "playlist_id": 4,
+        "question": "How many instances of an abstract class can be created?"
+    },
+    {
+        "_id": 19,
+        "answer_1": "Static function",
+        "answer_2": "Friend function",
+        "answer_3": "Const function",
+        "answer_4": "Virtual function",
+        "answer_true": "Friend function",
+        "playlist_id": 4,
+        "question": "Which of the following is not the member of class?"
+    },
+    {
+        "_id": 20,
+        "answer_1": "Function",
+        "answer_2": "Class",
+        "answer_3": "Object  ",
+        "answer_4": "a and b",
+        "answer_true": "a and b",
+        "playlist_id": 4,
+        "question": "Which of the following can be friend?"
+    },
+    {
+        "_id": 21,
+        "answer_1": "Encapsulation",
+        "answer_2": "Abstraction",
+        "answer_3": "Data hiding",
+        "answer_4": "Data binding",
+        "answer_true": "Data hiding",
+        "playlist_id": 4,
+        "question": "Which of the following concepts of OOPS means exposing only necessary information to client?"
+    },
+    {
+        "_id": 22,
+        "answer_1": "Yes",
+        "answer_2": "No",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "Yes",
+        "playlist_id": 4,
+        "question": "Dynamic loading means adding new components to a program as it runs."
+    },
+    {
+        "_id": 23,
+        "answer_1": "A reference can never be null.",
+        "answer_2": "A reference once established cannot be changed.",
+        "answer_3": "Reference doesn't need an explicit dereferencing mechanism.",
+        "answer_4": "All of the above.",
+        "answer_true": "All of the above.",
+        "playlist_id": 4,
+        "question": "Why reference is not same as a pointer?"
+    },
+    {
+        "_id": 24,
+        "answer_1": "Encapsulation",
+        "answer_2": "Abstraction",
+        "answer_3": "Composition",
+        "answer_4": "Inheritance",
+        "answer_true": "Composition",
+        "playlist_id": 4,
+        "question": "Which of the following concepts provides facility of using object of one class inside another class?"
+    },
+    {
+        "_id": 25,
+        "answer_1": "1",
+        "answer_2": "2",
+        "answer_3": "3",
+        "answer_4": "4",
+        "answer_true": "2",
+        "playlist_id": 4,
+        "question": "How many types of polymorphisms are supported by C++?"
+    },
+    {
+        "_id": 26,
+        "answer_1": "A constructor is called at the time of declaration of an object.  ",
+        "answer_2": "A constructor call create a new object",
+        "answer_3": "A constructor initializes a newly created object",
+        "answer_4": "a and c",
+        "answer_true": "a and c",
+        "playlist_id": 4,
+        "question": "Which of the following statement is correct about a constructor?"
+    },
+    {
+        "_id": 27,
+        "answer_1": "you don't need to use different names for same action",
+        "answer_2": "you don't need many functions",
+        "answer_3": "you don't need many arguments",
+        "answer_4": null,
+        "answer_true": "you don't need to use different names for same action",
+        "playlist_id": 4,
+        "question": "Function overloading increases the readability of the program because"
+    },
+    {
+        "_id": 28,
+        "answer_1": "Encapsulation",
+        "answer_2": "Abstraction",
+        "answer_3": "Data hiding   ",
+        "answer_4": "Data binding",
+        "answer_true": "Encapsulation",
+        "playlist_id": 4,
+        "question": "Which of the following concepts of OOPS means wrapping data (variables) and code together as a single unit?"
+    },
+    {
+        "_id": 29,
+        "answer_1": "The types of arguments are different.",
+        "answer_2": "The order of argument is different.",
+        "answer_3": "The number of argument is same.",
+        "answer_4": "Both a and b",
+        "answer_true": "Both a and b",
+        "playlist_id": 4,
+        "question": "Which of the following is correct about function overloading?"
+    },
+    {
+        "_id": 30,
+        "answer_1": "Dynamic binding",
+        "answer_2": "Late binding",
+        "answer_3": "Data binding",
+        "answer_4": "Dynamic loading",
+        "answer_true": "Dynamic binding",
+        "playlist_id": 4,
+        "question": "Which of the following concepts means that the code to be executed for a specific procedure call is not known until run-time?"
+    },
+    {
+        "_id": 31,
+        "answer_1": "Construct a new class",
+        "answer_2": "initialize the object of a class",
+        "answer_3": "Construct a new object",
+        "answer_4": "Construct a new function",
+        "answer_true": "initialize the object of a class",
+        "playlist_id": 4,
+        "question": "The purpose of constructor is to"
+    },
+    {
+        "_id": 32,
+        "answer_1": "Yes",
+        "answer_2": "No",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "Yes",
+        "playlist_id": 4,
+        "question": "Is an exception a runtime error?"
+    },
+    {
+        "_id": 33,
+        "answer_1": "Static function",
+        "answer_2": "Const function",
+        "answer_3": "Operator function",
+        "answer_4": "Virtual function",
+        "answer_true": "Virtual function",
+        "playlist_id": 4,
+        "question": "Late Binding in C++ can be achieved using"
+    },
+    {
+        "_id": 34,
+        "answer_1": "decreases the testing time.",
+        "answer_2": "lowers the maintenance cost.",
+        "answer_3": "reduces the compilation time.",
+        "answer_4": "Both a and b",
+        "answer_true": "Both a and b",
+        "playlist_id": 4,
+        "question": "Reusability is a desirable feature of a language because it"
+    },
+    {
+        "_id": 35,
+        "answer_1": "Operator overloading",
+        "answer_2": "Method Overriding",
+        "answer_3": "Method overloading",
+        "answer_4": "a and c",
+        "answer_true": "a and c",
+        "playlist_id": 4,
+        "question": "Which of the following is an example of static polymorphism?"
+    },
+    {
+        "_id": 36,
+        "answer_1": "Encapsulation",
+        "answer_2": "Abstraction",
+        "answer_3": "Polymorphism",
+        "answer_4": "Inheritance",
+        "answer_true": "Encapsulation",
+        "playlist_id": 4,
+        "question": "Which of the following concepts means wrapping the data variables and code acting on the methods together as a single unit?"
+    },
+    {
+        "_id": 37,
+        "answer_1": "Less overhead and faster program execution",
+        "answer_2": "It increases the code size.",
+        "answer_3": "It slows down execution.",
+        "answer_4": "Both a and b",
+        "answer_true": "Both a and b",
+        "playlist_id": 4,
+        "question": "Choose the correct statement(s) regarding inline functions."
+    },
+    {
+        "_id": 38,
+        "answer_1": "class data members are public by default while that of structure are private.",
+        "answer_2": "class can have member functions while structure cannot.",
+        "answer_3": "class data members are private by default while that of structure are public by default.",
+        "answer_4": "Pointer to structure or classes cannot be declared.",
+        "answer_true": "class data members are private by default while that of structure are public by default.",
+        "playlist_id": 4,
+        "question": "Which of the following is correct about class and structure?"
+    },
+    {
+        "_id": 39,
+        "answer_1": "methods",
+        "answer_2": "classes",
+        "answer_3": "properties",
+        "answer_4": "functions",
+        "answer_true": "properties",
+        "playlist_id": 4,
+        "question": "Attributes of an object are also known as"
+    },
+    {
+        "_id": 40,
+        "answer_1": "Encapsulation",
+        "answer_2": "Polymorphism",
+        "answer_3": "Inheritance",
+        "answer_4": "Modularity",
+        "answer_true": "Inheritance",
+        "playlist_id": 4,
+        "question": "Which one of the following is the process where an object of one class receives the properties of objects of another class?"
+    },
+    {
+        "_id": 41,
+        "answer_1": "Ease of evolution.",
+        "answer_2": "Encapsulating code.",
+        "answer_3": "Monitoring maintenance.",
+        "answer_4": "Information hiding.",
+        "answer_true": "Ease of evolution.",
+        "playlist_id": 4,
+        "question": "What is the main goal of Object oriented programming?"
+    },
+    {
+        "_id": 42,
+        "answer_1": "Abstraction",
+        "answer_2": "Polymorphism",
+        "answer_3": "Encapsulation",
+        "answer_4": "Inheritance",
+        "answer_true": "Polymorphism",
+        "playlist_id": 4,
+        "question": "Which from the following is a feature that allows us to perform a single action in different ways."
+    },
+    {
+        "_id": 43,
+        "answer_1": "Polymorphism",
+        "answer_2": "Data Hiding",
+        "answer_3": "Association",
+        "answer_4": "Inheritance",
+        "answer_true": "Inheritance",
+        "playlist_id": 4,
+        "question": "The process by which objects of one class acquire the properties of objects of another class is known as"
+    },
+    {
+        "_id": 44,
+        "answer_1": "Dynamic binding",
+        "answer_2": "Static allocation",
+        "answer_3": "Dynamic allocation",
+        "answer_4": "Static typing",
+        "answer_true": "Dynamic binding",
+        "playlist_id": 4,
+        "question": "Pick the term that relates to polymorphism"
+    },
+    {
+        "_id": 45,
+        "answer_1": "Polymorphism",
+        "answer_2": "Inheritance",
+        "answer_3": "Interface",
+        "answer_4": "Abstract class",
+        "answer_true": "Polymorphism",
+        "playlist_id": 4,
+        "question": "An object that has more than one form is referred to as"
+    },
+    {
+        "_id": 46,
+        "answer_1": "Information hiding",
+        "answer_2": "Polymorphism",
+        "answer_3": "Multitasking",
+        "answer_4": "Inheritance",
+        "answer_true": "Multitasking",
+        "playlist_id": 4,
+        "question": "Which of the following is not a part of OOP?"
+    },
+    {
+        "_id": 47,
+        "answer_1": "Inheritance",
+        "answer_2": "Overloading",
+        "answer_3": "Data hiding",
+        "answer_4": "Abstraction",
+        "answer_true": "Abstraction",
+        "playlist_id": 4,
+        "question": "Hiding complexity can also be termed as"
+    },
+    {
+        "_id": 48,
+        "answer_1": "Encapsulation",
+        "answer_2": "Abstraction",
+        "answer_3": "Data hiding",
+        "answer_4": "Data binding",
+        "answer_true": "Abstraction",
+        "playlist_id": 4,
+        "question": "Which of the following concepts of OOPS means exposing only necessary information to client?"
+    },
+    {
+        "_id": 49,
+        "answer_1": "A class is a blueprint to make an object",
+        "answer_2": "An object is a blueprint to make a class",
+        "answer_3": "A blueprint is an object to make a class",
+        "answer_4": "Blueprint class is an object make a",
+        "answer_true": "A class is a blueprint to make an object",
+        "playlist_id": 4,
+        "question": "What is the difference between a class and an object?"
+    },
+    {
+        "_id": 50,
+        "answer_1": "class",
+        "answer_2": "method",
+        "answer_3": "object",
+        "answer_4": "void",
+        "answer_true": "object",
+        "playlist_id": 4,
+        "question": "These have identity, state, and behavior."
+    },
+    {
+        "_id": 51,
+        "answer_1": "object",
+        "answer_2": "variable",
+        "answer_3": "constant",
+        "answer_4": "statement",
+        "answer_true": "object",
+        "playlist_id": 5,
+        "question": "As a blueprint is a design for a house, a class is a design for a(n):"
+    },
+    {
+        "_id": 52,
+        "answer_1": "overloading",
+        "answer_2": "class",
+        "answer_3": "object",
+        "answer_4": "encapsulation ",
+        "answer_true": "encapsulation ",
+        "playlist_id": 5,
+        "question": "The wrapping up of data and functions into a single unit is called"
+    },
+    {
+        "_id": 53,
+        "answer_1": "Class is an object factory",
+        "answer_2": "Class is an instance of an object.",
+        "answer_3": "Class is a composite type.",
+        "answer_4": "Class is a user defined type.",
+        "answer_true": "Class is an instance of an object.",
+        "playlist_id": 5,
+        "question": "Which of the following statements is incorrect?\r\n"
+    },
+    {
+        "_id": 54,
+        "answer_1": "Encapsulation.",
+        "answer_2": "Inheritance",
+        "answer_3": "Polymorphism",
+        "answer_4": "Modularity",
+        "answer_true": "Inheritance",
+        "playlist_id": 5,
+        "question": "Which one of the following is the process where an object of one class receives the properties of objects of another class?"
+    },
+    {
+        "_id": 55,
+        "answer_1": " double",
+        "answer_2": "float",
+        "answer_3": "char",
+        "answer_4": " int",
+        "answer_true": "float",
+        "playlist_id": 5,
+        "question": "_____ data type is further divided into float and double."
+    },
+    {
+        "_id": 56,
+        "answer_1": "return",
+        "answer_2": "call",
+        "answer_3": "call by value",
+        "answer_4": "call by reference",
+        "answer_true": "call by reference",
+        "playlist_id": 5,
+        "question": "In _____ method, the called function arguments formal parameters become alias to the actual parameters in the calling function."
+    },
+    {
+        "_id": 57,
+        "answer_1": "double",
+        "answer_2": "string",
+        "answer_3": "character",
+        "answer_4": "integer",
+        "answer_true": "character",
+        "playlist_id": 5,
+        "question": "The declaration statement char *cp, is a _____ type pointer."
+    },
+    {
+        "_id": 58,
+        "answer_1": "dimension",
+        "answer_2": " variable",
+        "answer_3": "constant",
+        "answer_4": "modifiers",
+        "answer_true": "modifiers",
+        "playlist_id": 5,
+        "question": "The base data type should be prefixed with the _____ at the time of declaring a variable."
+    },
+    {
+        "_id": 59,
+        "answer_1": "32767 to 32768",
+        "answer_2": "32768 to 32769",
+        "answer_3": "-32768 to 32767",
+        "answer_4": "-32768 to 32768",
+        "answer_true": "-32768 to 32767",
+        "playlist_id": 5,
+        "question": "In C++ int data type has the range of values"
+    },
+    {
+        "_id": 60,
+        "answer_1": " ==",
+        "answer_2": " ! =",
+        "answer_3": "< =",
+        "answer_4": "both a and b",
+        "answer_true": "both a and b",
+        "playlist_id": 5,
+        "question": "What are the equality operators?"
+    },
+    {
+        "_id": 61,
+        "answer_1": " float",
+        "answer_2": "double",
+        "answer_3": "integer",
+        "answer_4": " char",
+        "answer_true": "integer",
+        "playlist_id": 5,
+        "question": "Integral is the _____ data type."
+    },
+    {
+        "_id": 62,
+        "answer_1": "-126 to 127",
+        "answer_2": "-127 to 128",
+        "answer_3": "128 to -127",
+        "answer_4": "-128 to 127",
+        "answer_true": "-128 to 127",
+        "playlist_id": 5,
+        "question": "What is the range for char data type in C++?"
+    },
+    {
+        "_id": 63,
+        "answer_1": " - =",
+        "answer_2": "+",
+        "answer_3": "*",
+        "answer_4": " /",
+        "answer_true": " /",
+        "playlist_id": 5,
+        "question": "What is the prefix character used to represent escape sequence?"
+    },
+    {
+        "_id": 64,
+        "answer_1": " #",
+        "answer_2": "/",
+        "answer_3": "&",
+        "answer_4": " *",
+        "answer_true": " *",
+        "playlist_id": 5,
+        "question": "The _____ symbol is used to declare a pointer variable."
+    },
+    {
+        "_id": 65,
+        "answer_1": "Integral",
+        "answer_2": "Floating",
+        "answer_3": "Derived",
+        "answer_4": "User defined",
+        "answer_true": "User defined",
+        "playlist_id": 5,
+        "question": "_____ data type enables to invent his own data type and define values."
+    },
+    {
+        "_id": 66,
+        "answer_1": " Additive",
+        "answer_2": "Comma",
+        "answer_3": "Logical",
+        "answer_4": "Relational",
+        "answer_true": "Logical",
+        "playlist_id": 5,
+        "question": "_____ operators combine the results of one or more condition or variables having numerical values."
+    },
+    {
+        "_id": 67,
+        "answer_1": "Constant",
+        "answer_2": "Data type",
+        "answer_3": "Float",
+        "answer_4": "Variable",
+        "answer_true": "Variable",
+        "playlist_id": 5,
+        "question": "_____ must be declared before it is used."
+    },
+    {
+        "_id": 68,
+        "answer_1": "Enumerated",
+        "answer_2": "Char",
+        "answer_3": " Float",
+        "answer_4": "Int",
+        "answer_true": "Enumerated",
+        "playlist_id": 5,
+        "question": "_____ data type helps users in creating a list of identifiers."
+    },
+    {
+        "_id": 69,
+        "answer_1": " Assignment",
+        "answer_2": "Equality",
+        "answer_3": "Ternary",
+        "answer_4": " Unary",
+        "answer_true": " Unary",
+        "playlist_id": 5,
+        "question": "Bitwise(~), Decrement(--), unary minus(--) and unary plus(+) are _____ operators."
+    },
+    {
+        "_id": 70,
+        "answer_1": "Class scope",
+        "answer_2": "File scope",
+        "answer_3": "Local scope",
+        "answer_4": "Function scope",
+        "answer_true": "Function scope",
+        "playlist_id": 5,
+        "question": "_____ of variables declared within a function is extended to the function block and all sub blocks therein."
+    },
+    {
+        "_id": 71,
+        "answer_1": "Stcp ()",
+        "answer_2": "Scpy ()",
+        "answer_3": "Str ()",
+        "answer_4": "Strcpy ()",
+        "answer_true": "Strcpy ()",
+        "playlist_id": 5,
+        "question": "_____ functions copies source to target string."
+    },
+    {
+        "_id": 72,
+        "answer_1": "Strlength ()",
+        "answer_2": " Stlen ()",
+        "answer_3": "Str ()",
+        "answer_4": " Strlen ()",
+        "answer_true": " Strlen ()",
+        "playlist_id": 5,
+        "question": "_____ function returns the number of character stored in the array."
+    },
+    {
+        "_id": 73,
+        "answer_1": "The default value for an argument can be given in between the argument list.",
+        "answer_2": "The default value in the formal parameters can be given in the form of variable initialization.",
+        "answer_3": "The actual parameters can be passed only as variables to formal parameters of reference type.",
+        "answer_4": "The actual parameters can be passed in the form of constants to the formal parameters of value type.",
+        "answer_true": "The default value for an argument can be given in between the argument list.",
+        "playlist_id": 5,
+        "question": "Which of the following is NOT true, related to functions?"
+    },
+    {
+        "_id": 74,
+        "answer_1": "Char",
+        "answer_2": "Data",
+        "answer_3": "Constant",
+        "answer_4": "Variables",
+        "answer_true": "Variables",
+        "playlist_id": 5,
+        "question": "_____ are user defined named entities of memory locations that can store data."
+    },
+    {
+        "_id": 75,
+        "answer_1": "/*",
+        "answer_2": "()",
+        "answer_3": "[]",
+        "answer_4": "{}",
+        "answer_true": "[]",
+        "playlist_id": 5,
+        "question": "The index value for an element in an array is indicated within _____ brackets."
+    },
+    {
+        "_id": 76,
+        "answer_1": "15",
+        "answer_2": "16",
+        "answer_3": "32",
+        "answer_4": "64",
+        "answer_true": "15",
+        "playlist_id": 5,
+        "question": "How many bits are used to store data starting from right extreme?"
+    },
+    {
+        "_id": 77,
+        "answer_1": "null",
+        "answer_2": "address",
+        "answer_3": "0 to 1",
+        "answer_4": "data",
+        "answer_true": "address",
+        "playlist_id": 5,
+        "question": "Every bite in the computer's memory has an"
+    },
+    {
+        "_id": 78,
+        "answer_1": " 0",
+        "answer_2": "1",
+        "answer_3": "2",
+        "answer_4": "3",
+        "answer_true": "0",
+        "playlist_id": 5,
+        "question": "Static and Register variables are automatically initialized to _____ value when they are declared."
+    },
+    {
+        "_id": 79,
+        "answer_1": "2",
+        "answer_2": "3",
+        "answer_3": "4",
+        "answer_4": "8",
+        "answer_true": "4",
+        "playlist_id": 5,
+        "question": "The long int, signed long int has _____ bytes."
+    },
+    {
+        "_id": 80,
+        "answer_1": ">",
+        "answer_2": "<",
+        "answer_3": ">>",
+        "answer_4": "<<",
+        "answer_true": "<<",
+        "playlist_id": 5,
+        "question": "The operator _____ is called the insertion operator or put to operator."
+    },
+    {
+        "_id": 81,
+        "answer_1": "row, columns",
+        "answer_2": "row, row",
+        "answer_3": " columns, columns",
+        "answer_4": "rows, columns",
+        "answer_true": "rows, columns",
+        "playlist_id": 5,
+        "question": "The number of elements in a 2 dimensional array is determined by multiplying the number of _____ with number of _____"
+    },
+    {
+        "_id": 82,
+        "answer_1": " while",
+        "answer_2": "for",
+        "answer_3": " if",
+        "answer_4": "switch",
+        "answer_true": "switch",
+        "playlist_id": 5,
+        "question": "_____ creates branches for multiple alternatives section of code, depending on the value of a single variable."
+    },
+    {
+        "_id": 83,
+        "answer_1": "/",
+        "answer_2": "//",
+        "answer_3": "+",
+        "answer_4": "*",
+        "answer_true": "//",
+        "playlist_id": 5,
+        "question": "_____ punctuator is used to treat statements as comments."
+    },
+    {
+        "_id": 84,
+        "answer_1": " 32780",
+        "answer_2": " -32767",
+        "answer_3": "32769",
+        "answer_4": "-32768",
+        "answer_true": "-32768",
+        "playlist_id": 5,
+        "question": "The minimum value stored in an integer variable is"
+    },
+    {
+        "_id": 85,
+        "answer_1": "2^13",
+        "answer_2": "2^14",
+        "answer_3": "2^15",
+        "answer_4": "2^16",
+        "answer_true": "2^16",
+        "playlist_id": 5,
+        "question": "The range to store integer data goes upto"
+    },
+    {
+        "_id": 86,
+        "answer_1": " double",
+        "answer_2": "float",
+        "answer_3": "char",
+        "answer_4": "int",
+        "answer_true": "char",
+        "playlist_id": 5,
+        "question": "_____ data type that can hold both character data and the integer data."
+    },
+    {
+        "_id": 87,
+        "answer_1": "&",
+        "answer_2": "#",
+        "answer_3": "/",
+        "answer_4": "*",
+        "answer_true": "&",
+        "playlist_id": 5,
+        "question": "The pointer data type address of _____ operator is used."
+    },
+    {
+        "_id": 88,
+        "answer_1": "8",
+        "answer_2": "16",
+        "answer_3": "32",
+        "answer_4": "64",
+        "answer_true": "8",
+        "playlist_id": 5,
+        "question": "The unsigned char, and char data types has _____ bits."
+    },
+    {
+        "_id": 89,
+        "answer_1": " register",
+        "answer_2": "static",
+        "answer_3": " extern",
+        "answer_4": "auto",
+        "answer_true": "register",
+        "playlist_id": 5,
+        "question": "The modifier _____ instructs the compiler to store the variable in the CPU register to optimize access."
+    },
+    {
+        "_id": 90,
+        "answer_1": "row",
+        "answer_2": "column",
+        "answer_3": " row-major",
+        "answer_4": "column-major",
+        "answer_true": "column-major",
+        "playlist_id": 5,
+        "question": "When elements are stored column-wise manner it is called as _______ order."
+    },
+    {
+        "_id": 91,
+        "answer_1": "one",
+        "answer_2": "two",
+        "answer_3": "positive",
+        "answer_4": "negative",
+        "answer_true": "positive",
+        "playlist_id": 5,
+        "question": "When the modifier unsigned is used the integer data type will store only _____ values, the sign bit is also used to store data."
+    },
+    {
+        "_id": 92,
+        "answer_1": "15th",
+        "answer_2": "16th",
+        "answer_3": "17th",
+        "answer_4": "18th",
+        "answer_true": "16th",
+        "playlist_id": 5,
+        "question": "_____ bit is also called as the most significant bit or sign bit."
+    },
+    {
+        "_id": 93,
+        "answer_1": "32768",
+        "answer_2": "-32768",
+        "answer_3": "32767",
+        "answer_4": " 32780",
+        "answer_true": " 32767",
+        "playlist_id": 5,
+        "question": "The maximum value stored in an integer variable is"
+    },
+    {
+        "_id": 94,
+        "answer_1": "either by number of arguments or by data types of arguments",
+        "answer_2": "by number of argument",
+        "answer_3": "by type of arguments",
+        "answer_4": " none of the given",
+        "answer_true": "either by number of arguments or by data types of arguments",
+        "playlist_id": 5,
+        "question": "Each overloaded function must differ"
+    },
+    {
+        "_id": 95,
+        "answer_1": " both the right and left objects must be object of the relevant class",
+        "answer_2": " the right hand object must be an object of the relevant class",
+        "answer_3": " the left hand object must be an object of the relevant class",
+        "answer_4": "none of the given",
+        "answer_true": " the left hand object must be an object of the relevant class",
+        "playlist_id": 5,
+        "question": "When binary operators are overloaded, _____"
+    },
+    {
+        "_id": 96,
+        "answer_1": "array",
+        "answer_2": "row",
+        "answer_3": "determinant",
+        "answer_4": "matrix",
+        "answer_true": "matrix",
+        "playlist_id": 5,
+        "question": "A _____ is a set of mn numbers arranged in the form of a rectangular array of m rows and n columns."
+    },
+    {
+        "_id": 97,
+        "answer_1": " int",
+        "answer_2": "*",
+        "answer_3": "a",
+        "answer_4": ";",
+        "answer_true": "a",
+        "playlist_id": 5,
+        "question": "In an example int *a; which one is the pointer variable?"
+    },
+    {
+        "_id": 98,
+        "answer_1": " all the operands of C++ data type",
+        "answer_2": " atleast one operand of user defined type",
+        "answer_3": " all the operands of user defined type",
+        "answer_4": "none of the given",
+        "answer_true": "atleast one operand of user defined type",
+        "playlist_id": 5,
+        "question": "When overloading operators, the overloaded operator must have"
+    },
+    {
+        "_id": 99,
+        "answer_1": "double",
+        "answer_2": " long int",
+        "answer_3": "float",
+        "answer_4": " int",
+        "answer_true": "float",
+        "playlist_id": 5,
+        "question": "In implicit conversion if one of the operand is a _____ the other is converted to a float."
+    },
+    {
+        "_id": 100,
+        "answer_1": "arrays",
+        "answer_2": "constant",
+        "answer_3": " data",
+        "answer_4": "modifier",
+        "answer_true": "modifier",
+        "playlist_id": 5,
+        "question": "_____ alters the base data type to yield new data type."
+    },
+    {
+        "_id": 101,
+        "answer_1": "integer",
+        "answer_2": " character",
+        "answer_3": "constant",
+        "answer_4": "string",
+        "answer_true": "constant",
+        "playlist_id": 6,
+        "question": "The declaration statement char * const.cp.cp is a _____ pointer."
+    },
+    {
+        "_id": 102,
+        "answer_1": "char",
+        "answer_2": " float",
+        "answer_3": "built in data type",
+        "answer_4": "int-built data type",
+        "answer_true": "built in data type",
+        "playlist_id": 6,
+        "question": "_____ is also called as fundamental or basic data type."
+    },
+    {
+        "_id": 103,
+        "answer_1": "0",
+        "answer_2": "1",
+        "answer_3": "-1",
+        "answer_4": "-2",
+        "answer_true": "1",
+        "playlist_id": 6,
+        "question": "The 16th bit will have a value _____ if negative value is stored."
+    },
+    {
+        "_id": 104,
+        "answer_1": "Andrea Ferro",
+        "answer_2": "Adele Goldberg",
+        "answer_3": "Alan Kay",
+        "answer_4": "Dennis Ritchie",
+        "answer_true": " Alan Kay",
+        "playlist_id": 6,
+        "question": "Who invented OOP?"
+    },
+    {
+        "_id": 105,
+        "answer_1": " Efficient Code",
+        "answer_2": "Code reusability",
+        "answer_3": "Modularity",
+        "answer_4": " Duplicate/Redundant data",
+        "answer_true": " Duplicate/Redundant data",
+        "playlist_id": 6,
+        "question": "Which is not a feature of OOP in general definitions?"
+    },
+    {
+        "_id": 106,
+        "answer_1": "Kotlin",
+        "answer_2": "SmallTalk",
+        "answer_3": "Java",
+        "answer_4": "C++",
+        "answer_true": "SmallTalk",
+        "playlist_id": 6,
+        "question": "Which was the first purely object oriented programming language developed?"
+    },
+    {
+        "_id": 107,
+        "answer_1": "1980’s",
+        "answer_2": "1995",
+        "answer_3": "1970’s",
+        "answer_4": "1993",
+        "answer_true": "1970’s",
+        "playlist_id": 6,
+        "question": "When OOP concept did first came into picture?"
+    },
+    {
+        "_id": 108,
+        "answer_1": "Abstraction",
+        "answer_2": "Polymorphism",
+        "answer_3": "Encapsulation",
+        "answer_4": "Inheritance",
+        "answer_true": "Inheritance",
+        "playlist_id": 6,
+        "question": "Which feature of OOP indicates code reusability?"
+    },
+    {
+        "_id": 109,
+        "answer_1": "OOP can be used without using any header file",
+        "answer_2": "stdlib.h",
+        "answer_3": " iostream.h",
+        "answer_4": "stdio.h",
+        "answer_true": "OOP can be used without using any header file",
+        "playlist_id": 6,
+        "question": "Which header file is required in C++ to use OOP?"
+    },
+    {
+        "_id": 110,
+        "answer_1": "It allows code to be written outside classes",
+        "answer_2": " It supports usual declaration of primitive data types",
+        "answer_3": " It supports usual declaration of primitive data types",
+        "answer_4": "It doesn’t support all types of inheritance",
+        "answer_true": " It supports usual declaration of primitive data types",
+        "playlist_id": 6,
+        "question": "Why Java is Partially OOP language?"
+    },
+    {
+        "_id": 111,
+        "answer_1": "Data hiding",
+        "answer_2": "Message passing",
+        "answer_3": "Platform independent",
+        "answer_4": "Data binding",
+        "answer_true": "Platform independent",
+        "playlist_id": 6,
+        "question": "Which among the following doesn’t come under OOP concept?"
+    },
+    {
+        "_id": 112,
+        "answer_1": "class base_classname :access derived_classname{ /*define class body*/ };",
+        "answer_2": "class derived_classname : access base_classname{ /*define class body*/ };",
+        "answer_3": "class derived_classname : base_classname{ /*define class body*/ };",
+        "answer_4": "class base_classname : derived_classname{ /*define class body*/ };",
+        "answer_true": "class derived_classname : access base_classname{ /*define class body*/ };",
+        "playlist_id": 6,
+        "question": " Which is the correct syntax of inheritance?"
+    },
+    {
+        "_id": 113,
+        "answer_1": "Encapsulation and Inheritance",
+        "answer_2": "Inheritance and polymorphism",
+        "answer_3": "Polymorphism",
+        "answer_4": " Inheritance",
+        "answer_true": "Encapsulation and Inheritance",
+        "playlist_id": 6,
+        "question": "Which feature of OOP is indicated by the following code?\r\n\r\nclass student{  int marks;  };\r\nclass topper:public student{  int age;  topper(int age){ this.age=age; } };"
+    },
+    {
+        "_id": 114,
+        "answer_1": "Message reading",
+        "answer_2": "Message Passing",
+        "answer_3": "Data transfer",
+        "answer_4": "Data Binding",
+        "answer_true": "Message Passing",
+        "playlist_id": 6,
+        "question": "The feature by which one object can interact with another object is _____________"
+    },
+    {
+        "_id": 115,
+        "answer_1": "The language should follow at least 1 feature of OOP",
+        "answer_2": "The language must follow only 3 features of OOP",
+        "answer_3": " The language must follow all the rules of OOP",
+        "answer_4": "The language should follow 3 or more features of OOP",
+        "answer_true": "The language must follow all the rules of OOP",
+        "playlist_id": 6,
+        "question": "Which among the following, for a pure OOP language, is true?"
+    },
+    {
+        "_id": 116,
+        "answer_1": "4",
+        "answer_2": "3",
+        "answer_3": "2",
+        "answer_4": "1",
+        "answer_true": "3",
+        "playlist_id": 6,
+        "question": "How many types of access specifiers are provided in OOP (C++)?"
+    },
+    {
+        "_id": 117,
+        "answer_1": "Code efficiency",
+        "answer_2": "Code readability",
+        "answer_3": "Flexibility",
+        "answer_4": "Code reusability",
+        "answer_true": "Code reusability",
+        "playlist_id": 6,
+        "question": "In multilevel inheritance, which is the most significant feature of OOP used?"
+    },
+    {
+        "_id": 118,
+        "answer_1": "It is a way of combining various data members and member functions that operate on those data members into a single unit",
+        "answer_2": "It is a way of combining various data members and member functions into a single unit which can operate on any data",
+        "answer_3": "It is a way of combining various data members into a single unit",
+        "answer_4": "It is a way of combining various member functions into a single unit",
+        "answer_true": " It is a way of combining various data members and member functions that operate on those data members into a single unit",
+        "playlist_id": 6,
+        "question": " What is encapsulation in OOP?"
+    },
+    {
+        "_id": 119,
+        "answer_1": "Helps in redefining the same functionality",
+        "answer_2": "Increases overhead of function definition always",
+        "answer_3": " It is feature of OOP",
+        "answer_4": "Ease in readability of program",
+        "answer_true": "Increases overhead of function definition always",
+        "playlist_id": 6,
+        "question": " Which of the following is not true about polymorphism?"
+    },
+    {
+        "_id": 120,
+        "answer_1": " Parameterized constructor",
+        "answer_2": "Default constructor",
+        "answer_3": "Run time error",
+        "answer_4": "Compile time error",
+        "answer_true": "Compile time error",
+        "playlist_id": 6,
+        "question": "Which constructor will be called from the object created in the below C++ code?\r\n\r\nclass A\r\n{ \r\n\tint i;\r\n\tA()\r\n\t{ \r\n\t\ti=0; cout&lt;&lt;i; \r\n\t}\r\n\tA(int x=0)\r\n\t{ \r\n\t\ti=x;  cout&lt;&lt;I;  \r\n\t}\r\n};\r\nA obj1;"
+    },
+    {
+        "_id": 121,
+        "answer_1": "Hiding the implementation and showing only the features",
+        "answer_2": "Hiding the important data",
+        "answer_3": "Hiding the implementation",
+        "answer_4": "Showing the important data",
+        "answer_true": "Hiding the implementation and showing only the features",
+        "playlist_id": 6,
+        "question": "What is an abstraction in object-oriented programming?"
+    },
+    {
+        "_id": 122,
+        "answer_1": "Overloading &&",
+        "answer_2": "Overloading <<",
+        "answer_3": "Overloading ||",
+        "answer_4": "Overloading +=",
+        "answer_true": "Overloading <<",
+        "playlist_id": 6,
+        "question": "Which among the following can show polymorphism?"
+    },
+    {
+        "_id": 123,
+        "answer_1": "Any access specifier will work",
+        "answer_2": "Private",
+        "answer_3": "Public",
+        "answer_4": " Protected",
+        "answer_true": "Public",
+        "playlist_id": 6,
+        "question": "In which access should a constructor be defined, so that object of the class can be created in any function?"
+    },
+    {
+        "_id": 124,
+        "answer_1": "Program will give compile time error",
+        "answer_2": "Object s3, syntax error",
+        "answer_3": "Only object s1 and s2 will be created",
+        "answer_4": "Program runs and all objects are created",
+        "answer_true": "Program runs and all objects are created",
+        "playlist_id": 6,
+        "question": " Which among the following is correct for the class defined below?\r\n\r\nclass student\r\n{\r\n    int marks;\r\n    public: student(){}\r\n    student(int x)\r\n    { \r\n         marks=x; \r\n    }\r\n};\r\nmain()\r\n{\r\n    student s1(100);\r\n    student s2();\r\n    student s3=100;\r\n    return 0;\r\n}"
+    },
+    {
+        "_id": 125,
+        "answer_1": "Copy an object so that it can be passed to another primitive type variable",
+        "answer_2": "Copy an object for type casting",
+        "answer_3": "Copy an object so that it can be passed to a function",
+        "answer_4": "Copy an object so that it can be passed to a class",
+        "answer_true": "Copy an object so that it can be passed to a function",
+        "playlist_id": 6,
+        "question": "The copy constructors can be used to ________"
+    },
+    {
+        "_id": 126,
+        "answer_1": "A(int y, int x)",
+        "answer_2": "A(int y; int x)",
+        "answer_3": " A(int y)",
+        "answer_4": "A(int x)",
+        "answer_true": "A(int y, int x)",
+        "playlist_id": 6,
+        "question": "Which constructor will be called from the object obj2 in the following C++ program?\r\n\r\nclass A\r\n{\r\n\tint i;\r\n\tA()\r\n\t{  \r\n\t\ti=0;  \r\n\t}\r\n\tA(int x)\r\n\t{  \r\n\t\ti=x+1;  \r\n\t}\r\n\tA(int y, int x)\r\n\t{  \r\n\t\ti=x+y;  \r\n\t}\r\n};\r\nA obj1(10);\r\nA obj2(10,20);\r\nA obj3;"
+    },
+    {
+        "_id": 127,
+        "answer_1": "–classname()",
+        "answer_2": " classname()",
+        "answer_3": " ()classname",
+        "answer_4": "~classname()",
+        "answer_true": "classname()",
+        "playlist_id": 6,
+        "question": "Which among the following represents correct constructor?"
+    },
+    {
+        "_id": 128,
+        "answer_1": "Destructor is called at end of function",
+        "answer_2": "Destructor is called when called explicitly",
+        "answer_3": "Destructor is not called",
+        "answer_4": "Destructor is called when function is out of scope",
+        "answer_true": "Destructor is not called",
+        "playlist_id": 6,
+        "question": "What happens when an object is passed by reference?"
+    },
+    {
+        "_id": 129,
+        "answer_1": " Protected",
+        "answer_2": "Private",
+        "answer_3": "Public",
+        "answer_4": "Default",
+        "answer_true": "Private",
+        "playlist_id": 6,
+        "question": "Which access specifier is usually used for data members of a class?"
+    },
+    {
+        "_id": 130,
+        "answer_1": "Dot, arrow or direct call",
+        "answer_2": " Dot operator",
+        "answer_3": "Arrow operator",
+        "answer_4": "Dot or arrow as required",
+        "answer_true": "Dot or arrow as required",
+        "playlist_id": 6,
+        "question": "How to access data members of a class?"
+    },
+    {
+        "_id": 131,
+        "answer_1": "Inheritance",
+        "answer_2": "Binding",
+        "answer_3": "Abstraction",
+        "answer_4": "Encapsulation",
+        "answer_true": "Inheritance",
+        "playlist_id": 6,
+        "question": "Which feature of OOP reduces the use of nested classes?"
+    },
+    {
+        "_id": 132,
+        "answer_1": "allocate",
+        "answer_2": "arr",
+        "answer_3": "new",
+        "answer_4": " create",
+        "answer_true": "new",
+        "playlist_id": 6,
+        "question": "Which keyword among the following can be used to declare an array of objects in java?"
+    },
+    {
+        "_id": 133,
+        "answer_1": "Unallocate",
+        "answer_2": "Free()",
+        "answer_3": "Collect",
+        "answer_4": "delete",
+        "answer_true": "delete",
+        "playlist_id": 6,
+        "question": "Which operator can be used to free the memory allocated for an object in C++?"
+    },
+    {
+        "_id": 134,
+        "answer_1": "Properties",
+        "answer_2": "Names",
+        "answer_3": " Identity",
+        "answer_4": "Attributes",
+        "answer_true": " Names",
+        "playlist_id": 6,
+        "question": "Which of the following is not a property of an object?"
+    },
+    {
+        "_id": 135,
+        "answer_1": "All can be accessed",
+        "answer_2": "Protected",
+        "answer_3": "Private",
+        "answer_4": " Public",
+        "answer_true": "Private",
+        "playlist_id": 6,
+        "question": "Which type of members can’t be accessed in derived classes of a base class?"
+    },
+    {
+        "_id": 136,
+        "answer_1": "Using the data and functions into derived segment",
+        "answer_2": "Using already defined functions in a programming language",
+        "answer_3": "Using the code already written once",
+        "answer_4": " Copying the code already written",
+        "answer_true": "Using the data and functions into derived segment",
+        "playlist_id": 6,
+        "question": "Which among the following best describes the Inheritance?"
+    },
+    {
+        "_id": 137,
+        "answer_1": "Language independency",
+        "answer_2": "Multiple inheritance",
+        "answer_3": "Compile time",
+        "answer_4": "Runtime",
+        "answer_true": "Runtime",
+        "playlist_id": 6,
+        "question": "Single level inheritance supports _____________ inheritance."
+    },
+    {
+        "_id": 138,
+        "answer_1": "Using seperate derived class",
+        "answer_2": "Using virtual keyword with same name function",
+        "answer_3": "Can’t be done",
+        "answer_4": " Using alias name",
+        "answer_true": "Using virtual keyword with same name function",
+        "playlist_id": 6,
+        "question": "How to overcome diamond problem?"
+    },
+    {
+        "_id": 139,
+        "answer_1": "virt",
+        "answer_2": "virtually",
+        "answer_3": "virtual",
+        "answer_4": "anonymous",
+        "answer_true": "virtual",
+        "playlist_id": 6,
+        "question": "Which keyword is used to declare virtual functions?"
+    },
+    {
+        "_id": 140,
+        "answer_1": "Executes fine",
+        "answer_2": "Compile time error",
+        "answer_3": "Executes if that member function is not used",
+        "answer_4": "Runtime error",
+        "answer_true": "Compile time error",
+        "playlist_id": 6,
+        "question": "What happens if non static members are used in static member function?"
+    },
+    {
+        "_id": 141,
+        "answer_1": "Non-member functions which have access to all the members (including private) of a class",
+        "answer_2": "Member function which doesn’t have access to private members",
+        "answer_3": "Member function which can modify any data of a class",
+        "answer_4": "Member function which can access all the members of a class",
+        "answer_true": "Non-member functions which have access to all the members (including private) of a class",
+        "playlist_id": 6,
+        "question": "What is friend member functions in C++?"
+    },
+    {
+        "_id": 142,
+        "answer_1": "Cache",
+        "answer_2": "ROM",
+        "answer_3": "HDD",
+        "answer_4": "RAM",
+        "answer_true": "RAM",
+        "playlist_id": 6,
+        "question": "Where is the memory allocated for the objects?"
+    },
+    {
+        "_id": 143,
+        "answer_1": "Member functions having the same name in derived class only",
+        "answer_2": "Member functions having the same name and different signature inside main function",
+        "answer_3": "Member functions having the same name in base and derived classes",
+        "answer_4": "Member functions having the same name in base class only",
+        "answer_true": "Member functions having the same name in base and derived classes",
+        "playlist_id": 6,
+        "question": "Which of the following best describes member function overriding?"
+    },
+    {
+        "_id": 144,
+        "answer_1": "Hiding and hiding respectively",
+        "answer_2": "Binding and Hiding respectively",
+        "answer_3": "Hiding and Binding respectively",
+        "answer_4": "Can be used any way",
+        "answer_true": "Binding and Hiding respectively",
+        "playlist_id": 6,
+        "question": "Encapsulation and abstraction differ as ____________"
+    },
+    {
+        "_id": 145,
+        "answer_1": "Polymorphism",
+        "answer_2": "Encapsulation",
+        "answer_3": " Abstraction",
+        "answer_4": "Inheritance",
+        "answer_true": "Polymorphism",
+        "playlist_id": 6,
+        "question": "Which feature of OOP is exhibited by the function overriding?"
+    },
+    {
+        "_id": 146,
+        "answer_1": "Using class address",
+        "answer_2": "Using object of class",
+        "answer_3": "Using object pointer",
+        "answer_4": "Using address of member function",
+        "answer_true": "Using address of member function",
+        "playlist_id": 6,
+        "question": "How to access the private member function of a class?"
+    },
+    {
+        "_id": 147,
+        "answer_1": " const",
+        "answer_2": "common",
+        "answer_3": " static",
+        "answer_4": "stat",
+        "answer_true": "static",
+        "playlist_id": 6,
+        "question": " Which keyword should be used to declare static variables?"
+    },
+    {
+        "_id": 148,
+        "answer_1": "*className objectName;",
+        "answer_2": "className* objectName;",
+        "answer_3": " className objectName();",
+        "answer_4": "className objectName;",
+        "answer_true": "className* objectName;",
+        "playlist_id": 6,
+        "question": "Which is correct syntax for declaring pointer to object?"
+    },
+    {
+        "_id": 149,
+        "answer_1": "Only class student and topper together can show polymorphism",
+        "answer_2": "Only class student can show polymorphism",
+        "answer_3": "Class failed should also inherit class student for this code to work for polymorphism",
+        "answer_4": "All class student, topper and average together can show polymorphism",
+        "answer_true": "All class student, topper and average together can show polymorphism",
+        "playlist_id": 6,
+        "question": "Which class/set of classes can illustrate polymorphism in the following C++ code?\r\n\r\nabstract class student\r\n{\r\n   public : int marks;\r\n   calc_grade();\r\n}\r\nclass topper:public student\r\n{\r\n    public : calc_grade()\r\n    { \r\n        return 10; \r\n    }\r\n};\r\nclass average:public student\r\n{ \r\n     public : calc_grade()\r\n     {\r\n         return 20; \r\n     }\r\n};\r\nclass failed{ int marks; };"
+    },
+    {
+        "_id": 150,
+        "answer_1": "Its name must be same as that of class",
+        "answer_2": "It must not have any return type",
+        "answer_3": "It must contain a definition body",
+        "answer_4": " It can contains arguments",
+        "answer_true": "It must contain a definition body",
+        "playlist_id": 6,
+        "question": "If data members are private, what can we do to access them from the class object?"
+    }
+]

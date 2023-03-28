@@ -1,0 +1,1502 @@
+[
+    {
+        "_id": 1,
+        "answer_1": "PHP: Hypertext Preprocessor  ",
+        "answer_2": "Personal Hypertext Processor",
+        "answer_3": "Private Home Page",
+        "answer_4": null,
+        "answer_true": "PHP: Hypertext Preprocessor  ",
+        "playlist_id": 7,
+        "question": "What does PHP stand for?"
+    },
+    {
+        "_id": 2,
+        "answer_1": "<script>...</script>",
+        "answer_2": "<&>...</&>",
+        "answer_3": "<?php...?>  ",
+        "answer_4": "<?php>...</?>",
+        "answer_true": "<?php...?>  ",
+        "playlist_id": 7,
+        "question": "PHP server scripts are surrounded by delimiters, which?"
+    },
+    {
+        "_id": 3,
+        "answer_1": "\"Hello World\";",
+        "answer_2": "echo \"Hello World\";  ",
+        "answer_3": "Document.Write(\"Hello World\");",
+        "answer_4": null,
+        "answer_true": "echo \"Hello World\";  ",
+        "playlist_id": 7,
+        "question": "How do you write \"Hello World\" in PHP"
+    },
+    {
+        "_id": 4,
+        "answer_1": "&",
+        "answer_2": "$  ",
+        "answer_3": "!",
+        "answer_4": null,
+        "answer_true": "$  ",
+        "playlist_id": 7,
+        "question": "All variables in PHP start with which symbol?"
+    },
+    {
+        "_id": 5,
+        "answer_1": "</php>",
+        "answer_2": "New line",
+        "answer_3": ".",
+        "answer_4": ";  ",
+        "answer_true": ";  ",
+        "playlist_id": 7,
+        "question": "What is the correct way to end a PHP statement?"
+    },
+    {
+        "_id": 6,
+        "answer_1": "VBScript",
+        "answer_2": "Perl and C  ",
+        "answer_3": "JavaScript",
+        "answer_4": null,
+        "answer_true": "Perl and C  ",
+        "playlist_id": 7,
+        "question": "The PHP syntax is most similar to:"
+    },
+    {
+        "_id": 7,
+        "answer_1": "Request.QueryString;",
+        "answer_2": "Request.Form;",
+        "answer_3": "$_GET[];  ",
+        "answer_4": null,
+        "answer_true": "$_GET[];  ",
+        "playlist_id": 7,
+        "question": "How do you get information from a form that is submitted using the \"get\" method?"
+    },
+    {
+        "_id": 8,
+        "answer_1": "True",
+        "answer_2": "False  ",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "False  ",
+        "playlist_id": 7,
+        "question": "When using the POST method, variables are displayed in the URL:"
+    },
+    {
+        "_id": 9,
+        "answer_1": "True  ",
+        "answer_2": "False",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "True  ",
+        "playlist_id": 7,
+        "question": "In PHP you can use both single quotes ( ' ' ) and double quotes ( \" \" ) for strings:"
+    },
+    {
+        "_id": 10,
+        "answer_1": "True",
+        "answer_2": "False  ",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "False  ",
+        "playlist_id": 7,
+        "question": "Include files must have the file extension \".inc\""
+    },
+    {
+        "_id": 11,
+        "answer_1": "<?php include:\"time.inc\"; ?>",
+        "answer_2": "<?php include file=\"time.inc\"; ?>",
+        "answer_3": "<?php include \"time.inc\"; ?>  ",
+        "answer_4": "<!-- include file=\"time.inc\" -->",
+        "answer_true": "<?php include \"time.inc\"; ?>  ",
+        "playlist_id": 7,
+        "question": "What is the correct way to include the file \"time.inc\" ?"
+    },
+    {
+        "_id": 12,
+        "answer_1": "function myFunction()  ",
+        "answer_2": "create myFunction()",
+        "answer_3": "new_function myFunction()",
+        "answer_4": null,
+        "answer_true": "function myFunction()  ",
+        "playlist_id": 7,
+        "question": "What is the correct way to create a function in PHP?"
+    },
+    {
+        "_id": 13,
+        "answer_1": "fopen(\"time.txt\",\"r+\");",
+        "answer_2": "open(\"time.txt\",\"read\");",
+        "answer_3": "fopen(\"time.txt\",\"r\");  ",
+        "answer_4": "open(\"time.txt\");",
+        "answer_true": "fopen(\"time.txt\",\"r\");  ",
+        "playlist_id": 7,
+        "question": "What is the correct way to open the file \"time.txt\" as readable?"
+    },
+    {
+        "_id": 14,
+        "answer_1": "False",
+        "answer_2": "True  ",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "True  ",
+        "playlist_id": 7,
+        "question": "PHP allows you to send emails directly from a script"
+    },
+    {
+        "_id": 15,
+        "answer_1": "$_SESSION",
+        "answer_2": "$_GET",
+        "answer_3": "$GLOBALS",
+        "answer_4": "$_SERVER  ",
+        "answer_true": "$_SERVER  ",
+        "playlist_id": 7,
+        "question": "Which superglobal variable holds information about headers, paths, and script locations?"
+    },
+    {
+        "_id": 16,
+        "answer_1": "$count =+1",
+        "answer_2": "++count",
+        "answer_3": "$count++;  ",
+        "answer_4": "count++;",
+        "answer_true": "$count++;  ",
+        "playlist_id": 7,
+        "question": "What is the correct way to add 1 to the $count variable?"
+    },
+    {
+        "_id": 17,
+        "answer_1": "/*...*/  ",
+        "answer_2": "<comment>...</comment>",
+        "answer_3": "*\\...\\*",
+        "answer_4": "<!--...-->",
+        "answer_true": "/*...*/  ",
+        "playlist_id": 7,
+        "question": "What is a correct way to add a comment in PHP?"
+    },
+    {
+        "_id": 18,
+        "answer_1": "False",
+        "answer_2": "True  ",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "True  ",
+        "playlist_id": 7,
+        "question": "PHP can be run on Microsoft Windows IIS(Internet Information Server):"
+    },
+    {
+        "_id": 19,
+        "answer_1": "False",
+        "answer_2": "True  ",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "True  ",
+        "playlist_id": 7,
+        "question": "The die() and exit() functions do the exact same thing."
+    },
+    {
+        "_id": 20,
+        "answer_1": "$my-Var  ",
+        "answer_2": "$myVar",
+        "answer_3": "$my_Var",
+        "answer_4": null,
+        "answer_true": "$my-Var  ",
+        "playlist_id": 7,
+        "question": "Which one of these variables has an illegal name?"
+    },
+    {
+        "_id": 21,
+        "answer_1": "createcookie",
+        "answer_2": "makecookie()",
+        "answer_3": "setcookie()  ",
+        "answer_4": null,
+        "answer_true": "setcookie()  ",
+        "playlist_id": 7,
+        "question": "How do you create a cookie in PHP?"
+    },
+    {
+        "_id": 22,
+        "answer_1": "True",
+        "answer_2": "False  ",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "False  ",
+        "playlist_id": 7,
+        "question": "In PHP, the only way to output text is with echo."
+    },
+    {
+        "_id": 23,
+        "answer_1": "$cars = array(\"Volvo\", \"BMW\", \"Toyota\");  ",
+        "answer_2": "$cars = array[\"Volvo\", \"BMW\", \"Toyota\"];",
+        "answer_3": "$cars = \"Volvo\", \"BMW\", \"Toyota\";",
+        "answer_4": null,
+        "answer_true": "$cars = array(\"Volvo\", \"BMW\", \"Toyota\");  ",
+        "playlist_id": 7,
+        "question": "How do you create an array in PHP?"
+    },
+    {
+        "_id": 24,
+        "answer_1": "True  ",
+        "answer_2": "False",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "True  ",
+        "playlist_id": 7,
+        "question": "The if statement is used to execute some code only if a specified condition is true"
+    },
+    {
+        "_id": 25,
+        "answer_1": "!=",
+        "answer_2": "==",
+        "answer_3": "===  ",
+        "answer_4": "=",
+        "answer_true": "===  ",
+        "playlist_id": 7,
+        "question": "Which operator is used to check if two values are equal and of same data type?"
+    },
+    {
+        "_id": 26,
+        "answer_1": "The PHP configuration file, php.ini, is the final and most immediate way to affect PHP's functionality.",
+        "answer_2": "The php.ini file is read each time PHP is initialized.",
+        "answer_3": "Both of the above.",
+        "answer_4": "None of the above.",
+        "answer_true": "Both of the above.",
+        "playlist_id": 7,
+        "question": "Which of the following is true about php.ini file?"
+    },
+    {
+        "_id": 27,
+        "answer_1": "Strings",
+        "answer_2": "Arrays",
+        "answer_3": "Objects",
+        "answer_4": "Resources",
+        "answer_true": "Strings",
+        "playlist_id": 7,
+        "question": "Which of the following type of variables are sequences of characters, like 'PHP supports string operations.'?"
+    },
+    {
+        "_id": 28,
+        "answer_1": "_LINE_",
+        "answer_2": "_FILE_",
+        "answer_3": "_FUNCTION_",
+        "answer_4": "_CLASS_",
+        "answer_true": "_FILE_",
+        "playlist_id": 7,
+        "question": "Which of the following magic constant of PHP returns full path and filename of the file?"
+    },
+    {
+        "_id": 29,
+        "answer_1": "break",
+        "answer_2": "continue",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "break",
+        "playlist_id": 7,
+        "question": "Which of the following keyword terminates the for loop or switch statement and transfers execution to the statement immediately following the for loop or switch?"
+    },
+    {
+        "_id": 30,
+        "answer_1": "rsort()",
+        "answer_2": "sort()",
+        "answer_3": "shuffle()",
+        "answer_4": "reset()",
+        "answer_true": "rsort()",
+        "playlist_id": 7,
+        "question": "Which of the following function sorts an array in reverse order?"
+    },
+    {
+        "_id": 31,
+        "answer_1": "true",
+        "answer_2": "false",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "false",
+        "playlist_id": 7,
+        "question": "If there is any problem in loading a file then the require() function generates a warning but the script will continue execution."
+    },
+    {
+        "_id": 32,
+        "answer_1": "getcookie() function",
+        "answer_2": "$_COOKIE variable",
+        "answer_3": "isset() function",
+        "answer_4": "None of the above.",
+        "answer_true": "$_COOKIE variable",
+        "playlist_id": 7,
+        "question": "Which of the following is used to get cookies?"
+    },
+    {
+        "_id": 33,
+        "answer_1": "$_FILES['file']['tmp_name']",
+        "answer_2": "$_FILES['file']['name']",
+        "answer_3": "$_FILES['file']['size']",
+        "answer_4": "$_FILES['file']['type']",
+        "answer_true": "$_FILES['file']['name']",
+        "playlist_id": 7,
+        "question": "Which of the following provides the actual name of the uploaded file?"
+    },
+    {
+        "_id": 34,
+        "answer_1": "getMessage()",
+        "answer_2": "getCode()",
+        "answer_3": "getFile()",
+        "answer_4": "getLine()",
+        "answer_true": "getMessage()",
+        "playlist_id": 7,
+        "question": "Which of the following method of Exception class retrieve the error message when error occured?"
+    },
+    {
+        "_id": 35,
+        "answer_1": "simplexml_load_string()",
+        "answer_2": "loadxml()",
+        "answer_3": "Both of the above.",
+        "answer_4": "None of the above.",
+        "answer_true": "Both of the above.",
+        "playlist_id": 7,
+        "question": "Which of the following method can be used to parse an XML document using PHP?"
+    },
+    {
+        "_id": 36,
+        "answer_1": "casesort()",
+        "answer_2": "dsort()",
+        "answer_3": "natcasesort()",
+        "answer_4": "naturalsort()",
+        "answer_true": "natcasesort()",
+        "playlist_id": 7,
+        "question": "If you need to get the array sorted in the manner we humans would have done it i.e picture1 then picture2 etc. Which of the following function should be used?"
+    },
+    {
+        "_id": 37,
+        "answer_1": "Hard-coding a login pair directly into the script",
+        "answer_2": "File-based authentication",
+        "answer_3": "Data-based authentication",
+        "answer_4": "PEAR'S HTTP authentication",
+        "answer_true": "Hard-coding a login pair directly into the script",
+        "playlist_id": 7,
+        "question": "In which authentication method does changing the username or password can be done only by entering the code and making the manual adjustment."
+    },
+    {
+        "_id": 38,
+        "answer_1": "scope function functionName() { function body }",
+        "answer_2": "function functionName() { function body }",
+        "answer_3": "All of the Above",
+        "answer_4": "None of the Above",
+        "answer_true": "All of the Above",
+        "playlist_id": 7,
+        "question": "Which of the following is/are the right way to declare a method?"
+    },
+    {
+        "_id": 39,
+        "answer_1": "include",
+        "answer_2": "inherit",
+        "answer_3": "implements",
+        "answer_4": "extends",
+        "answer_true": "extends",
+        "playlist_id": 7,
+        "question": "Which one of the following keyword is used to inherit our subclass into a superclass?"
+    },
+    {
+        "_id": 40,
+        "answer_1": "__unset",
+        "answer_2": "__wakeup",
+        "answer_3": "__invoke",
+        "answer_4": "__call",
+        "answer_true": "__call",
+        "playlist_id": 7,
+        "question": "Which magic method is used to implement overloading in PHP?"
+    },
+    {
+        "_id": 41,
+        "answer_1": "14",
+        "answer_2": "15",
+        "answer_3": "16",
+        "answer_4": "17",
+        "answer_true": "16",
+        "playlist_id": 7,
+        "question": "How many error levels are available in PHP?"
+    },
+    {
+        "_id": 42,
+        "answer_1": "Fatal Compile-time error",
+        "answer_2": "Compile-time error",
+        "answer_3": "Near-fatal error",
+        "answer_4": "Fatal run-time error",
+        "answer_true": "Fatal run-time error",
+        "playlist_id": 7,
+        "question": "What is the description of Error level E_ERROR?"
+    },
+    {
+        "_id": 43,
+        "answer_1": "PHP 5.3",
+        "answer_2": "PHP 5.2",
+        "answer_3": "PHP 5",
+        "answer_4": "PHP 4",
+        "answer_true": "PHP 5",
+        "playlist_id": 7,
+        "question": "Which version of PHP introduced E_STRICT Error level?"
+    },
+    {
+        "_id": 44,
+        "answer_1": "error_reporting = E_ALL",
+        "answer_2": "error_reporting = E_ERROR | E_COMPILE_WARNING | E_CORE_ERROR",
+        "answer_3": "error_reporting = E_ERROR | E_PARSE | E_CORE_ERROR",
+        "answer_4": "error_reporting = E_ERROR | E_COMPILE_ERROR | E_CORE_ERROR",
+        "answer_true": "error_reporting = E_ERROR | E_COMPILE_ERROR | E_CORE_ERROR",
+        "playlist_id": 7,
+        "question": "Say you want to report error concerned about fatal run-time, fatal compile-time error and core error which statement would you use?"
+    },
+    {
+        "_id": 45,
+        "answer_1": "repeated_error_ignore",
+        "answer_2": "ignore_repeated_errors",
+        "answer_3": "repeatedly_ignore_error",
+        "answer_4": "ignore_repeat_error",
+        "answer_true": "ignore_repeated_errors",
+        "playlist_id": 7,
+        "question": "Which of the following statements causes PHP to disregard repeated error messages that occur within the same file and on the same line?"
+    },
+    {
+        "_id": 46,
+        "answer_1": "log_variable()",
+        "answer_2": "define_variable()",
+        "answer_3": "define_log_variable()",
+        "answer_4": "define_syslog_variable()",
+        "answer_true": "define_syslog_variable()",
+        "playlist_id": 7,
+        "question": "Which function initializes the constants necessary for using the openlog(), clodelog(), and syslog() functions?"
+    },
+    {
+        "_id": 47,
+        "answer_1": "LOG_CONS",
+        "answer_2": "LOG_PERROR",
+        "answer_3": "LOG_ODELAY",
+        "answer_4": "LOG_NDELAY",
+        "answer_true": "LOG_CONS",
+        "playlist_id": 7,
+        "question": "Which logging option description is, if an error occurs when writing to the syslog, send output to the system console?"
+    },
+    {
+        "_id": 48,
+        "answer_1": "OverflowException",
+        "answer_2": "OutOfBoundException",
+        "answer_3": "OutOfRangeException",
+        "answer_4": "All of the Above",
+        "answer_true": "All of the Above",
+        "playlist_id": 7,
+        "question": "Which of the following is/are an exception?"
+    },
+    {
+        "_id": 49,
+        "answer_1": "Returns the expected type on success or FALSE on failure",
+        "answer_2": "Strict format rules",
+        "answer_3": "Are used to validate user input",
+        "answer_4": "Are used to allow or disallow specified characters in a string",
+        "answer_true": "Are used to allow or disallow specified characters in a string",
+        "playlist_id": 7,
+        "question": "Which one of the following does not describe a validating filter?"
+    },
+    {
+        "_id": 50,
+        "answer_1": "filter_has_var",
+        "answer_2": "filter_var",
+        "answer_3": "filter_id",
+        "answer_4": "filter_var_array",
+        "answer_true": "filter_has_var",
+        "playlist_id": 7,
+        "question": "Which one of the following filter checks if variable of specified type exists?"
+    },
+    {
+        "_id": 51,
+        "answer_1": "$SELF",
+        "answer_2": "$PHP",
+        "answer_3": "$_PHP_SELF",
+        "answer_4": "None of the above",
+        "answer_true": "$_PHP_SELF",
+        "playlist_id": 8,
+        "question": "Which of the following variable is used for the PHP script name ?"
+    },
+    {
+        "_id": 52,
+        "answer_1": "1",
+        "answer_2": "5",
+        "answer_3": "12",
+        "answer_4": "Error",
+        "answer_true": "5",
+        "playlist_id": 8,
+        "question": "If $a = 12 what will be returned when ($a == 12) ? 5 : 1 is executed?"
+    },
+    {
+        "_id": 53,
+        "answer_1": "array_search()",
+        "answer_2": "array_slice()",
+        "answer_3": "array_shift()",
+        "answer_4": "array_reverse()",
+        "answer_true": "array_reverse()",
+        "playlist_id": 8,
+        "question": "Which of the following function can be used to get an array in the reverse order?"
+    },
+    {
+        "_id": 54,
+        "answer_1": "$state[0] = \"codescracker\";",
+        "answer_2": "$state = array(\"codescracker\");",
+        "answer_3": "All of the Above",
+        "answer_4": "None of the Above",
+        "answer_true": "All of the Above",
+        "playlist_id": 8,
+        "question": "Which of the following are correct ways of creating an array?"
+    },
+    {
+        "_id": 55,
+        "answer_1": "in_array()",
+        "answer_2": "do_array()",
+        "answer_3": "is_array()",
+        "answer_4": "this_array()",
+        "answer_true": "is_array()",
+        "playlist_id": 8,
+        "question": "Which function will return true if a variable is an array or false if it is not?"
+    },
+    {
+        "_id": 56,
+        "answer_1": "previous()",
+        "answer_2": "prev()",
+        "answer_3": "before()",
+        "answer_4": "last()",
+        "answer_true": "prev()",
+        "playlist_id": 8,
+        "question": "Which function can be used to move the pointer to the previous array position?"
+    },
+    {
+        "_id": 57,
+        "answer_1": "function __construct()",
+        "answer_2": "function _construct()",
+        "answer_3": "classname()",
+        "answer_4": "_construct()",
+        "answer_true": "function __construct()",
+        "playlist_id": 8,
+        "question": "PHP recognizes constructors by the name _________"
+    },
+    {
+        "_id": 58,
+        "answer_1": "Interface",
+        "answer_2": "Object",
+        "answer_3": "Abstract class",
+        "answer_4": "Static class",
+        "answer_true": "Interface",
+        "playlist_id": 8,
+        "question": "If your object must inherit behavior from a number of sources you must use a/an"
+    },
+    {
+        "_id": 59,
+        "answer_1": "echo \"$x;\";",
+        "answer_2": "echo \"/$x\";",
+        "answer_3": "echo \"$$x\";",
+        "answer_4": "echo \"\\$x\";",
+        "answer_true": "echo \"\\$x\";",
+        "playlist_id": 8,
+        "question": "Which statement will output $x on the screen?"
+    },
+    {
+        "_id": 60,
+        "answer_1": "functionName(parameters) { function body }",
+        "answer_2": "function fumctionName(parameters) { function body }",
+        "answer_3": "function { function body }",
+        "answer_4": "data type functionName(parameters) { function body }",
+        "answer_true": "function fumctionName(parameters) { function body }",
+        "playlist_id": 8,
+        "question": "Which one of the following is the right way of defining a function in PHP?"
+    },
+    {
+        "_id": 61,
+        "answer_1": "locate()",
+        "answer_2": "strpos()",
+        "answer_3": "search()",
+        "answer_4": "None of the above",
+        "answer_true": "strpos()",
+        "playlist_id": 8,
+        "question": "Which of the following function is used to locate a string within a string?"
+    },
+    {
+        "_id": 62,
+        "answer_1": "3",
+        "answer_2": "4",
+        "answer_3": "5",
+        "answer_4": "6",
+        "answer_true": "6",
+        "playlist_id": 8,
+        "question": "What will be the output of the following PHP program?\r\n<?php\r\n   $fruits = array(\"apple\", \"orange\", array(\"pear\", \"mango\"), \"banana\");\r\n   echo(count($fruits, 1));\r\n?>"
+    },
+    {
+        "_id": 63,
+        "answer_1": "Array ( [0] => red [1] => green [2] => blue [3] => yellow )",
+        "answer_2": "Array ( [0] => blue [1] => yellow [2] => red [3] => green )",
+        "answer_3": "Array ( [0] => red [1] => green )",
+        "answer_4": "Array ( [0] => blue [1] => yellow )",
+        "answer_true": "Array ( [0] => red [1] => green [2] => blue [3] => yellow )",
+        "playlist_id": 8,
+        "question": "What will be the output of the following PHP code?\r\n<?php\r\n   $arr = array(\"red\", \"green\");\r\n   array_push($arr, \"blue\", \"yellow\");\r\n   print_r($arr);\r\n?>"
+    },
+    {
+        "_id": 64,
+        "answer_1": "5",
+        "answer_2": "6",
+        "answer_3": "7",
+        "answer_4": "8",
+        "answer_true": "7",
+        "playlist_id": 8,
+        "question": "How many validation filters like FILTER_VALIDATE_EMAIL are currently available?"
+    },
+    {
+        "_id": 65,
+        "answer_1": "selected few",
+        "answer_2": "everyone",
+        "answer_3": "only you",
+        "answer_4": "none",
+        "answer_true": "only you",
+        "playlist_id": 8,
+        "question": "When you use the $_POST variable to collect data, the data is visible to"
+    },
+    {
+        "_id": 66,
+        "answer_1": "fileltime()",
+        "answer_2": "filectime()",
+        "answer_3": "fileatime()",
+        "answer_4": "filetime()",
+        "answer_true": "fileatime()",
+        "playlist_id": 8,
+        "question": "Which one of the following PHP function is used to determine a file's last access time?"
+    },
+    {
+        "_id": 67,
+        "answer_1": "PHPSESSID",
+        "answer_2": "PHPSESID",
+        "answer_3": "PHPSESSIONID",
+        "answer_4": "PHPIDSESS",
+        "answer_true": "PHPSESSID",
+        "playlist_id": 8,
+        "question": "Which one of the following is the default PHP session name?"
+    },
+    {
+        "_id": 68,
+        "answer_1": "function()",
+        "answer_2": ".function()",
+        "answer_3": "$function()",
+        "answer_4": "�()",
+        "answer_true": "�()",
+        "playlist_id": 8,
+        "question": "Which of the following are valid function names?"
+    },
+    {
+        "_id": 69,
+        "answer_1": "get_file()",
+        "answer_2": "fold()",
+        "answer_3": "glob()",
+        "answer_4": "file()",
+        "answer_true": "glob()",
+        "playlist_id": 8,
+        "question": "Which one of the following PHP functions can be used to find files ?"
+    },
+    {
+        "_id": 70,
+        "answer_1": "get_memory_peak_usage()",
+        "answer_2": "get_usage()",
+        "answer_3": "get_peak_usage()",
+        "answer_4": "get_memory_usage()",
+        "answer_true": "get_memory_usage()",
+        "playlist_id": 8,
+        "question": "Which of the following PHP functions can be used to get the current memory usage?"
+    },
+    {
+        "_id": 71,
+        "answer_1": "uniqueid()",
+        "answer_2": "mdid()",
+        "answer_3": "md5()",
+        "answer_4": "id()",
+        "answer_true": "uniqueid()",
+        "playlist_id": 8,
+        "question": "Which of the following PHP functions can be used for generating unique id?"
+    },
+    {
+        "_id": 72,
+        "answer_1": "gzcompress()",
+        "answer_2": "compress()",
+        "answer_3": "zip()",
+        "answer_4": "zip_compress()",
+        "answer_true": "gzcompress()",
+        "playlist_id": 8,
+        "question": "Which one of the following functions can be used to compress a string?"
+    },
+    {
+        "_id": 73,
+        "answer_1": "Differential",
+        "answer_2": "Inheritance",
+        "answer_3": "Polymorphism",
+        "answer_4": "Abstraction",
+        "answer_true": "Polymorphism",
+        "playlist_id": 8,
+        "question": "Which of the following term originates from the Greek language that means \"having multiple forms,\" defines OOP ability to redefine, a class characteristics?"
+    },
+    {
+        "_id": 74,
+        "answer_1": "static",
+        "answer_2": "friendly",
+        "answer_3": "public",
+        "answer_4": "final",
+        "answer_true": "friendly",
+        "playlist_id": 8,
+        "question": "Which one of the following property scopes is not supported by PHP?"
+    },
+    {
+        "_id": 75,
+        "answer_1": "static",
+        "answer_2": "private",
+        "answer_3": "final",
+        "answer_4": "None of the Above",
+        "answer_true": "None of the Above",
+        "playlist_id": 8,
+        "question": "Which of the following method scopes is/are not supported by PHP?"
+    },
+    {
+        "_id": 76,
+        "answer_1": "Constructors can accept parameters.",
+        "answer_2": "Constructors can call class methods or other functions.",
+        "answer_3": "Class constructors can call on other constructors.",
+        "answer_4": "All of the Above",
+        "answer_true": "All of the Above",
+        "playlist_id": 8,
+        "question": "Which of the following statements is/are true about Constructors in PHP?"
+    },
+    {
+        "_id": 77,
+        "answer_1": "$_COOKIE variable",
+        "answer_2": "$HTTP_COOKIE_VARS variable",
+        "answer_3": "setcookie() function",
+        "answer_4": "isset() function",
+        "answer_true": "setcookie() function",
+        "playlist_id": 8,
+        "question": "Which of the following is used to set cookies?"
+    },
+    {
+        "_id": 78,
+        "answer_1": "class_exist()",
+        "answer_2": "exist()",
+        "answer_3": "exist_class()",
+        "answer_4": "__exist()",
+        "answer_true": "class_exist()",
+        "playlist_id": 8,
+        "question": "Which one of the following functions is used to determine whether a class exists?"
+    },
+    {
+        "_id": 79,
+        "answer_1": "is_obj()",
+        "answer_2": "is_a()",
+        "answer_3": "type()",
+        "answer_4": "obj_type()",
+        "answer_true": "is_a()",
+        "playlist_id": 8,
+        "question": "Which one of the following functions is used to determine object type?"
+    },
+    {
+        "_id": 80,
+        "answer_1": "Attempting to instantiate an abstract class results in an error.",
+        "answer_2": "It is a class that really is not supposed to ever be instantiated but instead serves as a base class.",
+        "answer_3": "A class is declared abstract by prefacing the definition with the word abstract.",
+        "answer_4": "A class is declare abstract by using the keyword implements.",
+        "answer_true": "A class is declare abstract by using the keyword implements.",
+        "playlist_id": 8,
+        "question": "Which of the following is/are true for an abstract class?"
+    },
+    {
+        "_id": 81,
+        "answer_1": "Interface",
+        "answer_2": "Abstract class",
+        "answer_3": "Static class",
+        "answer_4": "Normal class",
+        "answer_true": "Abstract class",
+        "playlist_id": 8,
+        "question": "If one intends to create a model that will be assumed by a number of closely related objects, which class must be used?"
+    },
+    {
+        "_id": 82,
+        "answer_1": "object_clone()",
+        "answer_2": "_clone",
+        "answer_3": "__clone()",
+        "answer_4": "clone()",
+        "answer_true": "__clone()",
+        "playlist_id": 8,
+        "question": "Which method is used to tweak an object cloning behavior?"
+    },
+    {
+        "_id": 83,
+        "answer_1": "Method chaining",
+        "answer_2": "Method adding",
+        "answer_3": "Method Including",
+        "answer_4": "Typecasting",
+        "answer_true": "Method chaining",
+        "playlist_id": 8,
+        "question": "Which feature allows us to call more than one method or function of the class in single instruction?"
+    },
+    {
+        "_id": 84,
+        "answer_1": "-",
+        "answer_2": "~",
+        "answer_3": "/",
+        "answer_4": "^",
+        "answer_true": "~",
+        "playlist_id": 8,
+        "question": "Which character do the error_reporting directive use to represent the logical operator NOT?"
+    },
+    {
+        "_id": 85,
+        "answer_1": "sys_log()",
+        "answer_2": "log_system()",
+        "answer_3": "syslog()",
+        "answer_4": "systemlog()",
+        "answer_true": "syslog()",
+        "playlist_id": 8,
+        "question": "Which function is responsible for sending a custom message to the system log?"
+    },
+    {
+        "_id": 86,
+        "answer_1": "PHP 6",
+        "answer_2": "PHP 5.3",
+        "answer_3": "PHP 5",
+        "answer_4": "PHP 4",
+        "answer_true": "PHP 5",
+        "playlist_id": 8,
+        "question": "Which version of PHP was added with Exception handling?"
+    },
+    {
+        "_id": 87,
+        "answer_1": "6",
+        "answer_2": "7",
+        "answer_3": "8",
+        "answer_4": "4",
+        "answer_true": "7",
+        "playlist_id": 8,
+        "question": "How many methods are available for the exception class?"
+    },
+    {
+        "_id": 88,
+        "answer_1": "throw new Exception();",
+        "answer_2": "new throws Exception();",
+        "answer_3": "new Exception();",
+        "answer_4": "throws new Exception();",
+        "answer_true": "throw new Exception();",
+        "playlist_id": 8,
+        "question": "Which of the following statements invoke the exception class?"
+    },
+    {
+        "_id": 89,
+        "answer_1": "Returns the message if it is passed to the object.",
+        "answer_2": "Returns the message if it is passed to the file.",
+        "answer_3": "Returns the message if it is passed to the class.",
+        "answer_4": "Returns the message if it is passed to the constructor.",
+        "answer_true": "Returns the message if it is passed to the constructor.",
+        "playlist_id": 8,
+        "question": "Which one of the following is the right description for the method getMessage()?"
+    },
+    {
+        "_id": 90,
+        "answer_1": "concatenate()",
+        "answer_2": "concat()",
+        "answer_3": "implode()",
+        "answer_4": "explode()",
+        "answer_true": "implode()",
+        "playlist_id": 8,
+        "question": "Which one of the following functions can be used to concatenate array elements to form a single delimited string?"
+    },
+    {
+        "_id": 91,
+        "answer_1": "strrpos()",
+        "answer_2": "strlast()",
+        "answer_3": "strpos()",
+        "answer_4": "strlastpos()",
+        "answer_true": "strrpos()",
+        "playlist_id": 8,
+        "question": "Which one of the following functions finds the last occurrence of a string, returning its numerical position?"
+    },
+    {
+        "_id": 92,
+        "answer_1": "7",
+        "answer_2": "8",
+        "answer_3": "9",
+        "answer_4": "10",
+        "answer_true": "7",
+        "playlist_id": 8,
+        "question": "How many functions does PHP offer for searching strings using POSIX style regular expression?"
+    },
+    {
+        "_id": 93,
+        "answer_1": "fool",
+        "answer_2": "fooool",
+        "answer_3": "All of the Above",
+        "answer_4": "None of the Above",
+        "answer_true": "All of the Above",
+        "playlist_id": 8,
+        "question": "Which of the following would be a potential match for the Perl-based regular expression /fo{2,4}/?"
+    },
+    {
+        "_id": 94,
+        "answer_1": "strspn()",
+        "answer_2": "strcmp()",
+        "answer_3": "strcasecmp()",
+        "answer_4": "All of the Above",
+        "answer_true": "All of the Above",
+        "playlist_id": 8,
+        "question": "Say we have two compare two strings which of the following function/functions can you use?"
+    },
+    {
+        "_id": 95,
+        "answer_1": "struppercase()",
+        "answer_2": "str_uppercase()",
+        "answer_3": "strtoupper()",
+        "answer_4": "uppercase()",
+        "answer_true": "strtoupper()",
+        "playlist_id": 8,
+        "question": "Which one of the following functions will convert a string to all uppercase?"
+    },
+    {
+        "_id": 96,
+        "answer_1": "filegets()",
+        "answer_2": "fgets()",
+        "answer_3": "fileget()",
+        "answer_4": "fget()",
+        "answer_true": "fgets()",
+        "playlist_id": 8,
+        "question": "Which one of the following function is capable of reading a specific number of characters form a file?"
+    },
+    {
+        "_id": 97,
+        "answer_1": "fgetsa()",
+        "answer_2": "fgetss()",
+        "answer_3": "fgetsp()",
+        "answer_4": "fgetsh()",
+        "answer_true": "fgetss()",
+        "playlist_id": 8,
+        "question": "Which one of the following function operates similarly to fgets(), except that it also strips any HTML and PHP tags form the input?"
+    },
+    {
+        "_id": 98,
+        "answer_1": "fwrites()",
+        "answer_2": "filewrites()",
+        "answer_3": "fwrite()",
+        "answer_4": "filewrite()",
+        "answer_true": "fwrite()",
+        "playlist_id": 8,
+        "question": "Which one of the following function outputs the contents of a string variable to the specified resource ?"
+    },
+    {
+        "_id": 99,
+        "answer_1": "touched()",
+        "answer_2": "touch()",
+        "answer_3": "set()",
+        "answer_4": "sets()",
+        "answer_true": "touch()",
+        "playlist_id": 8,
+        "question": "Which function sets last-modified and last-accessed times of the file filename?"
+    },
+    {
+        "_id": 100,
+        "answer_1": "Day of month, without zeros",
+        "answer_2": "Daylight saving time",
+        "answer_3": "Day of month, with leading zero",
+        "answer_4": "Complete text representation of month",
+        "answer_true": "Complete text representation of month",
+        "playlist_id": 8,
+        "question": "If the format is F then which one of the following will be returned?"
+    },
+    {
+        "_id": 101,
+        "answer_1": "PHP is an open-source programming language",
+        "answer_2": "PHP is used to develop dynamic and interactive websites",
+        "answer_3": "PHP is a server-side scripting language",
+        "answer_4": "All of the above",
+        "answer_true": "All of the above",
+        "playlist_id": 9,
+        "question": "What is PHP?"
+    },
+    {
+        "_id": 102,
+        "answer_1": "Drek Kolkevi",
+        "answer_2": "List Barely",
+        "answer_3": "Willam Makepiece",
+        "answer_4": "Rasmus Lerdorf",
+        "answer_true": "Rasmus Lerdorf",
+        "playlist_id": 9,
+        "question": "Who is the father of PHP?"
+    },
+    {
+        "_id": 103,
+        "answer_1": "<?php ?>",
+        "answer_2": "< php >",
+        "answer_3": "< ? php ?>",
+        "answer_4": "<? ?>",
+        "answer_true": "<? ?>",
+        "playlist_id": 9,
+        "question": "Which of the following is the correct syntax to write a PHP code?"
+    },
+    {
+        "_id": 104,
+        "answer_1": "#",
+        "answer_2": "//",
+        "answer_3": "/* */",
+        "answer_4": "All of the above",
+        "answer_true": "All of the above",
+        "playlist_id": 9,
+        "question": "Which of the following is the correct way to add a comment in PHP code?"
+    },
+    {
+        "_id": 105,
+        "answer_1": "functionName(parameters) {function body}",
+        "answer_2": "function {function body}",
+        "answer_3": "function functionName(parameters) {function body}",
+        "answer_4": "data type functionName(parameters) {function body}",
+        "answer_true": "function functionName(parameters) {function body}",
+        "playlist_id": 9,
+        "question": "How to define a function in PHP?"
+    },
+    {
+        "_id": 106,
+        "answer_1": "111 = $num;",
+        "answer_2": "int $num = 111;",
+        "answer_3": "int mum = 111;",
+        "answer_4": "$num = 111;",
+        "answer_true": "$num = 111;",
+        "playlist_id": 9,
+        "question": "Which of the following php statement/statements will store 111 in variable num?"
+    },
+    {
+        "_id": 107,
+        "answer_1": "printf (\"Hello World\");",
+        "answer_2": "echo (\"Hello World\");",
+        "answer_3": "print (\"Hello World\");",
+        "answer_4": "All of the Above",
+        "answer_true": "All of the Above",
+        "playlist_id": 9,
+        "question": "Which of the following PHP statements will output Hello World on the screen?"
+    },
+    {
+        "_id": 108,
+        "answer_1": "$add = $add +$add",
+        "answer_2": "$add = $add + $add + 1",
+        "answer_3": "$add = $add + 1",
+        "answer_4": "$add = $add",
+        "answer_true": "$add = $add +$add",
+        "playlist_id": 9,
+        "question": "Which of the below statements is equivalent to $add += $add?"
+    },
+    {
+        "_id": 109,
+        "answer_1": "no output",
+        "answer_2": "PHP is Awesome!",
+        "answer_3": "PHP is Fun!",
+        "answer_4": "error",
+        "answer_true": "PHP is Fun!",
+        "playlist_id": 9,
+        "question": "What will be the output of the following PHP code?\r\n<?php\r\n   $x = 5;\r\n   $y = 2;\r\n   if($x > $y)\r\n      print \"PHP is Fun!\" ;\r\n   else\r\n      print \"PHP is Awesome!\";\r\n?>"
+    },
+    {
+        "_id": 110,
+        "answer_1": "True",
+        "answer_2": "False",
+        "answer_3": "1",
+        "answer_4": "2",
+        "answer_true": "2",
+        "playlist_id": 9,
+        "question": "What will be the output of the following PHP code?\r\n<?php\r\n   $state = array(\"Vancouver\", \"Berlin\", \"New York\", \"Frankfurt\");\r\n   echo(array_search(\"New York\", $state));\r\n?>"
+    },
+    {
+        "_id": 111,
+        "answer_1": "orangebanana",
+        "answer_2": "appleorange",
+        "answer_3": "orangeorange",
+        "answer_4": "appleapple",
+        "answer_true": "orangebanana",
+        "playlist_id": 9,
+        "question": "What will be the output of the following PHP code?\r\n<?php\r\n   $fruits = array(\"apple\", \"orange\", \"banana\");\r\n   echo(next($fruits));\r\n   echo(next($fruits));\r\n?>"
+    },
+    {
+        "_id": 112,
+        "answer_1": "object",
+        "answer_2": "prototype",
+        "answer_3": "type",
+        "answer_4": "None of the Above",
+        "answer_true": "None of the Above",
+        "playlist_id": 9,
+        "question": "An Object is a/an _____ of a class."
+    },
+    {
+        "_id": 113,
+        "answer_1": "Functions",
+        "answer_2": "Programs",
+        "answer_3": "Classes",
+        "answer_4": "Objects",
+        "answer_true": "Classes",
+        "playlist_id": 9,
+        "question": "A package is a set of related"
+    },
+    {
+        "_id": 114,
+        "answer_1": "variables",
+        "answer_2": "classes",
+        "answer_3": "functions",
+        "answer_4": "All of the Above",
+        "answer_true": "All of the Above",
+        "playlist_id": 9,
+        "question": "Which of the following can you place inside a namespace?"
+    },
+    {
+        "_id": 115,
+        "answer_1": "User Defined Function",
+        "answer_2": "Default Function",
+        "answer_3": "Inbuilt Function",
+        "answer_4": "Magic Function",
+        "answer_true": "Magic Function",
+        "playlist_id": 9,
+        "question": "A function in PHP which starts with __ (double underscore) is know as"
+    },
+    {
+        "_id": 116,
+        "answer_1": "get_argc()",
+        "answer_2": "get_argv()",
+        "answer_3": "func_get_argv()",
+        "answer_4": "func_get_argc()",
+        "answer_true": "func_get_argc()",
+        "playlist_id": 9,
+        "question": "Which one of the following PHP functions can be used to build a function that accepts any number of arguments?"
+    },
+    {
+        "_id": 117,
+        "answer_1": "0",
+        "answer_2": "1",
+        "answer_3": "2",
+        "answer_4": "3",
+        "answer_true": "0",
+        "playlist_id": 9,
+        "question": "Numerically indexed array in PHP begin with position"
+    },
+    {
+        "_id": 118,
+        "answer_1": "$obj = new foo ();",
+        "answer_2": "obj = new foo ();",
+        "answer_3": "$obj = new $foo;",
+        "answer_4": "$obj = new foo;",
+        "answer_true": "$obj = new foo ();",
+        "playlist_id": 9,
+        "question": "Which one of the following can be used to instantiate an object in PHP assuming class name to be Foo?"
+    },
+    {
+        "_id": 119,
+        "answer_1": "constant PI = '3.1415';",
+        "answer_2": "const PI = '3.1415';",
+        "answer_3": "const $PI = \"3.1415\";",
+        "answer_4": "constant PI = \"3.1415\";",
+        "answer_true": "const PI = '3.1415';",
+        "playlist_id": 9,
+        "question": "Which one of the following is the right way to define a constant?"
+    },
+    {
+        "_id": 120,
+        "answer_1": "echo mathFunction=PI;",
+        "answer_2": "echo mathFunction::PI;",
+        "answer_3": "echo mathFunction->PI;",
+        "answer_4": "echo PI;",
+        "answer_true": "echo mathFunction::PI;",
+        "playlist_id": 9,
+        "question": "Which one of the following is the right way to call a class constant, given that the class is mathFunction?"
+    },
+    {
+        "_id": 121,
+        "answer_1": "$object::methodName();",
+        "answer_2": "object::methodName();",
+        "answer_3": "object->methodName();",
+        "answer_4": "$object->methodName();",
+        "answer_true": "$object->methodName();",
+        "playlist_id": 9,
+        "question": "Which one of the following is the right way to invoke a method?"
+    },
+    {
+        "_id": 122,
+        "answer_1": "protected",
+        "answer_2": "$this",
+        "answer_3": "public",
+        "answer_4": "private",
+        "answer_true": "$this",
+        "playlist_id": 9,
+        "question": "Which keyword is used to refer to properties or methods within the class itself?"
+    },
+    {
+        "_id": 123,
+        "answer_1": "private",
+        "answer_2": "static",
+        "answer_3": "final",
+        "answer_4": "protected",
+        "answer_true": "static",
+        "playlist_id": 9,
+        "question": "Which keyword allows class members (methods and properties) to be used without needing to instantiate a new instance of the class?"
+    },
+    {
+        "_id": 124,
+        "answer_1": "Multiple Inheritance",
+        "answer_2": "Method overloading",
+        "answer_3": "All of the Above",
+        "answer_4": "None of the Above",
+        "answer_true": "All of the Above",
+        "playlist_id": 9,
+        "question": "Which of the following advanced OOP features is/are not supported by PHP?"
+    },
+    {
+        "_id": 125,
+        "answer_1": "destinationObject = clone(targetObject);",
+        "answer_2": "destinationObject = _clone(targetObject);",
+        "answer_3": "_clone(targetObject);",
+        "answer_4": "destinationObject = clone targetObject;",
+        "answer_true": "destinationObject = clone targetObject;",
+        "playlist_id": 9,
+        "question": "Which one of the following is the right way to clone an object?"
+    },
+    {
+        "_id": 126,
+        "answer_1": "PHP 5.3",
+        "answer_2": "PHP 5.2",
+        "answer_3": "PHP 5",
+        "answer_4": "PHP 4",
+        "answer_true": "PHP 5.2",
+        "playlist_id": 9,
+        "question": "Which version introduced the function error_get_last() ?"
+    },
+    {
+        "_id": 127,
+        "answer_1": "Source PHP List",
+        "answer_2": "Standard PHP List",
+        "answer_3": "Source PHP Library",
+        "answer_4": "Standard PHP Library",
+        "answer_true": "Standard PHP Library",
+        "playlist_id": 9,
+        "question": "What does SPL stand for?"
+    },
+    {
+        "_id": 128,
+        "answer_1": "12",
+        "answer_2": "13",
+        "answer_3": "14",
+        "answer_4": "15",
+        "answer_true": "13",
+        "playlist_id": 9,
+        "question": "How many predefined exceptions does SPL provide access to?"
+    },
+    {
+        "_id": 129,
+        "answer_1": "LogicException",
+        "answer_2": "BadFunctionCallException",
+        "answer_3": "BadMethodCallException",
+        "answer_4": "None of the Above",
+        "answer_true": "None of the Above",
+        "playlist_id": 9,
+        "question": "Which of the following is/are not an exception?"
+    },
+    {
+        "_id": 130,
+        "answer_1": "Web services data",
+        "answer_2": "Cookies",
+        "answer_3": "Input data from a form",
+        "answer_4": "All of the Above",
+        "answer_true": "All of the Above",
+        "playlist_id": 9,
+        "question": "Which of the following is/are an external data?"
+    },
+    {
+        "_id": 131,
+        "answer_1": "p#",
+        "answer_2": "P?",
+        "answer_3": "p*",
+        "answer_4": "p+",
+        "answer_true": "P?",
+        "playlist_id": 9,
+        "question": "Which one of the following regular expression matches any string containing zero or one p?"
+    },
+    {
+        "_id": 132,
+        "answer_1": "/b",
+        "answer_2": "/a",
+        "answer_3": "/A",
+        "answer_4": "All of the Above",
+        "answer_true": "/a",
+        "playlist_id": 9,
+        "question": "Which among the following is/are not a metacharacter?"
+    },
+    {
+        "_id": 133,
+        "answer_1": "file_arr()",
+        "answer_2": "arr_file()",
+        "answer_3": "arrfile()",
+        "answer_4": "file()",
+        "answer_true": "file()",
+        "playlist_id": 9,
+        "question": "Which one of the following function is capable of reading a file into an array?"
+    },
+    {
+        "_id": 134,
+        "answer_1": "file_get_content()",
+        "answer_2": "file_content()",
+        "answer_3": "file_get_contents()",
+        "answer_4": "file_contents()",
+        "answer_true": "file_get_contents()",
+        "playlist_id": 9,
+        "question": "Which one of the following function is capable of reading a file into a string variable?"
+    },
+    {
+        "_id": 135,
+        "answer_1": "mtime()",
+        "answer_2": "mrtime()",
+        "answer_3": "mktime()",
+        "answer_4": "time()",
+        "answer_true": "mktime()",
+        "playlist_id": 9,
+        "question": "Which one of the following function is useful for producing a timestamp based on a given date and time?"
+    },
+    {
+        "_id": 136,
+        "answer_1": "get_last_mod()",
+        "answer_2": "last_mod()",
+        "answer_3": "lastmod()",
+        "answer_4": "getlastmod()",
+        "answer_true": "getlastmod()",
+        "playlist_id": 9,
+        "question": "Which function displays the web page most recent modification date?"
+    },
+    {
+        "_id": 137,
+        "answer_1": "totime(\"+45\")",
+        "answer_2": "totime(\"+45 days\")",
+        "answer_3": "strtotime(\"-45 days\")",
+        "answer_4": "strtotime(\"+45 days\")",
+        "answer_true": "strtotime(\"+45 days\")",
+        "playlist_id": 9,
+        "question": "Say you want to calculate the date 45 days from the present date which one of the following statement will you use?"
+    },
+    {
+        "_id": 138,
+        "answer_1": "$date = new DateTime(\"22 JUNE 2013\")",
+        "answer_2": "$date = new Date(\"JUNE 22 2013\")",
+        "answer_3": "$date = Date(\"22 JUNE 2013\")",
+        "answer_4": "$date = DateTime(\"22 JUNE 2013\")",
+        "answer_true": "$date = new DateTime(\"22 JUNE 2013\")",
+        "playlist_id": 9,
+        "question": "To create an object and set the date to JUNE 22, 2013, which one of the following statement should be executed?"
+    },
+    {
+        "_id": 139,
+        "answer_1": "7",
+        "answer_2": "8",
+        "answer_3": "9",
+        "answer_4": "10",
+        "answer_true": "9",
+        "playlist_id": 9,
+        "question": "How many methods does the DateTime class have?"
+    },
+    {
+        "_id": 140,
+        "answer_1": "DateTime::setDate()",
+        "answer_2": "DateTime::format()",
+        "answer_3": "DateTime::setTime()",
+        "answer_4": "DateTime::modify()",
+        "answer_true": "DateTime::format()",
+        "playlist_id": 9,
+        "question": "Which method is simply an object-oriented version of date()?"
+    },
+    {
+        "_id": 141,
+        "answer_1": "date_default_timezone('Europe/London');",
+        "answer_2": "date_set_default_timezone('Europe/London');",
+        "answer_3": "date_set_timezone('Europe/London');",
+        "answer_4": "date_default_timezone_set('Europe/London');",
+        "answer_true": "date_default_timezone_set('Europe/London');",
+        "playlist_id": 9,
+        "question": "Which of the following statements can be used to set the time zone in individual scripts?"
+    },
+    {
+        "_id": 142,
+        "answer_1": "listIdentifiers()",
+        "answer_2": "getOffset()",
+        "answer_3": "getName()",
+        "answer_4": "listAbbreviations()",
+        "answer_true": "getName()",
+        "playlist_id": 9,
+        "question": "Among the four PHP DateTimeZone classes given below how many are static?"
+    },
+    {
+        "_id": 143,
+        "answer_1": "tags_remove()",
+        "answer_2": "tags_strip()",
+        "answer_3": "strip_tags()",
+        "answer_4": "remove_tags()",
+        "answer_true": "strip_tags()",
+        "playlist_id": 9,
+        "question": "Which function is used to remove all HTML tags from a string passed to a form?"
+    },
+    {
+        "_id": 144,
+        "answer_1": "VALIDATE_MAIL",
+        "answer_2": "VALIDATE_EMAIL",
+        "answer_3": "FILTER_VALIDATE_MAIL",
+        "answer_4": "FILTER_VALIDATE_EMAIL",
+        "answer_true": "FILTER_VALIDATE_EMAIL",
+        "playlist_id": 9,
+        "question": "To validate an e-mail address, which flag is to be passed to the function filter_var()?"
+    },
+    {
+        "_id": 145,
+        "answer_1": "isset()",
+        "answer_2": "header()",
+        "answer_3": "All of the Above",
+        "answer_4": "None of the Above",
+        "answer_true": "All of the Above",
+        "playlist_id": 9,
+        "question": "Which of the following PHP function is commonly used when handling authentication via PHP?"
+    },
+    {
+        "_id": 146,
+        "answer_1": "isset()",
+        "answer_2": "inset()",
+        "answer_3": "footer()",
+        "answer_4": "header()",
+        "answer_true": "isset()",
+        "playlist_id": 9,
+        "question": "Which function is used to verify whether a variable contains a value?"
+    },
+    {
+        "_id": 147,
+        "answer_1": "Data-based authentication",
+        "answer_2": "Hard-coding a login pair directly into the script",
+        "answer_3": "File-based authentication",
+        "answer_4": "All of the Above",
+        "answer_true": "All of the Above",
+        "playlist_id": 9,
+        "question": "Which of the following are types of PHP authentication implementation methodologies?"
+    },
+    {
+        "_id": 148,
+        "answer_1": "Within",
+        "answer_2": "Inside",
+        "answer_3": "Outside",
+        "answer_4": "None of the Above",
+        "answer_true": "Outside",
+        "playlist_id": 9,
+        "question": "The authenticationFile.txt, the file which stores username and password should be stored _____ the server document root."
+    },
+    {
+        "_id": 149,
+        "answer_1": "md5()",
+        "answer_2": "explode()",
+        "answer_3": "divide()",
+        "answer_4": "break()",
+        "answer_true": "explode()",
+        "playlist_id": 9,
+        "question": "Which function is used to split a string into a series of substrings, with each string boundary is determined by a specific separator?"
+    },
+    {
+        "_id": 150,
+        "answer_1": "Data-based authentication",
+        "answer_2": "Hard-coding a login pair directly into the script",
+        "answer_3": "File-based authentication",
+        "answer_4": "None of the Above",
+        "answer_true": "Data-based authentication",
+        "playlist_id": 9,
+        "question": "Which is the most powerful authentication method among the four?"
+    }
+]
