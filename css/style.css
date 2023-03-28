@@ -7,6 +7,7 @@
     color: #ffffff;
     
 }
+/* header - footer */
 main {
     
     display: flex;
@@ -135,6 +136,7 @@ header{
   }
   body{
     background-color: rgb(0, 0, 0);
+    
 }
 li{
     list-style: none;
@@ -146,7 +148,7 @@ a{
   
 footer{
     padding: 0 50px;
-    padding-top: 400px;
+    
     display: flex;
     justify-items: center;
     justify-content: center;
