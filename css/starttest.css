@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 15px;
+    color: #ffffff;
+  }
+#container{
+   
+}
+.content{
+    text-align: center;
+    padding: 100px;
+}
+.pick_level button{
+    height: 61px;
+    width: 20%;
+    
+
+}
+.pick_level .level{
+    padding: 15px;
+}
+
+
+
+
+
+.pick_level .level  button {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color:#FDFFB0;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  .green{
+    background-color: #97F38F !important;
+    box-shadow: greenyellow;
+  }
+  .red{
+    background-color: #FF5151 !important;
+  }
+button:hover {
+   transition: 0.5s;
+    transform: translateY(-7px);
+  }
+  
+  button:active {
+    transform: translateY(-1px);
+  }
