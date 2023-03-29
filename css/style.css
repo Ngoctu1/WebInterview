@@ -202,6 +202,7 @@ footer .infor {
 .select-menu .select-btn {
   margin-top: 5px;
   margin-left: 5px;
+  cursor: pointer;
 }
 .select-btn i {
   font-size: 25px;
@@ -270,7 +271,7 @@ flex-wrap: nowrap;
 }
 .infor4{
   flex: 1;
-
+}
 /* body */
 #container {
   padding: 0 10%;
