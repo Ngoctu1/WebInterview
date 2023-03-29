@@ -1,10 +1,20 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 15px;
-  color: #ffffff;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-size: 15px;
+    color: #ffffff;
+    
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500; 
+    
+    
+}
+body{
+  color: #ffffff ;
 }
 /* header - footer */
 main {
@@ -28,9 +38,11 @@ header {
   background-color: #000000;
   display: flex;
 }
+
 /*------------------------*/
 
 .topnav {
+
   overflow: hidden;
   align-items: center;
   display: flex;
@@ -85,6 +97,7 @@ header {
 @media (max-width: 1000px) {
   .topnav a:not(:first-child) {
     display: none;
+
   }
   .topnav-right {
     display: none;
@@ -170,6 +183,7 @@ footer .infor {
   width: 49%;
   height: auto;
 }
+
 .social {
   text-align: center;
   padding: 20px;
@@ -256,4 +270,14 @@ flex-wrap: nowrap;
 }
 .infor4{
   flex: 1;
+
+/* body */
+#container {
+  padding: 0 10%;
+  padding-bottom: 50px;
+  block-size: fit-content;
+  height: 700px;
+  width: 100%;
+  height: fit-content;
+
 }
