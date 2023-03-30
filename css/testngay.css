@@ -1,0 +1,117 @@
+.content {
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+    
+  }
+  .img_main{
+    flex: 2;
+  }
+  
+  .img_main img {
+    width: 100%;
+  }
+  @media (max-width:1200px) {
+    .img_main{
+      width: 20%;
+      position: relative;
+      display: none;
+      
+    }
+    .img_main img{
+      position: absolute;
+      height: 100%;
+      width: auto;
+      left: 30%;
+      
+    }
+    .infoform{
+      width: 90% !important;
+    }
+  }
+  .info{
+    margin-top: 7%;
+    flex: 3;
+
+    
+  }
+  .info h2{
+    font-size: 24px;
+    max-width: 520px;
+    padding: 5px;
+  }
+  .info h3{
+    font-size: 12px;
+    max-width: 500px;
+    padding: 5px;
+  }
+  .info select{
+color: black;
+  }
+  .info select option{
+    
+  }
+
+  .infoform{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 60%;
+  }
+  .infoform p{
+    padding: 5px 0;
+  }
+  .infoform input{
+    
+    padding: 20px;
+  }
+  .infoform select{
+    
+    padding: 20px;
+  }
+  .infoform select option{
+    padding: 15px;
+    margin-top: 5px;
+    
+    color: black;
+    width: 50%;
+    
+  }
+  .infoform button {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 0.8em 1.3em 0.8em 0.9em;
+    color: white;
+    background: #4141cf;
+    background: linear-gradient(to right, #30268e, #3226b4, #17173f);
+    border: none;
+    letter-spacing: 0.05em;
+    border-radius: 16px;
+    text-align: center;
+  }
+  
+  .infoform button svg {
+    margin-right: 3px;
+    transform: rotate(30deg);
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  
+  .infoform button span {
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  
+  .infoform button:hover svg {
+    transform: translateX(5px) rotate(90deg);
+  }
+  
+  .infoform button:hover span {
+    transform: translateX(7px);
+  }
+
+
+
+  
+  
