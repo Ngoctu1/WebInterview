@@ -1,60 +1,84 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter';
-    font-style: normal;
-    font-size: 15px;
-    color: #ffffff;
-  }
-#container{
-   
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 15px;
+  color: #ffffff;
 }
-.content{
-    text-align: center;
-    padding: 100px;
+@media(max-width: 800px){
+    h1{
+        font-size: 35px;
+    }
 }
-.pick_level button{
-    height: 61px;
-    width: 20%;
-    
-
-}
-.pick_level .level{
-    padding: 15px;
+#container {
+    width: 100%;
 }
 
+h1 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+}
+.title p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+.content {
+  text-align: center;
+  padding: 100px;
+}
+.pick_level {
+  margin-top: 50px;
+}
+.pick_level button {
+  height: 61px;
+  width: 203px;
+}
+.pick_level .level {
+  padding: 15px;
+}
 
-
-
-
-.pick_level .level  button {
-    padding: 1.3em 3em;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    font-weight: 500;
-    color: #000;
-    background-color:#FDFFB0;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    outline: none;
-  }
-  .green{
-    background-color: #97F38F !important;
-    box-shadow: greenyellow;
-  }
-  .red{
-    background-color: #FF5151 !important;
-  }
+.pick_level p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+.pick_level .level button {
+  padding: 1.3em 3em;
+text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  background-color: #fdffb0;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+.green {
+  background-color: #97f38f !important;
+  box-shadow: greenyellow;
+}
+.red {
+  background-color: #ff5151 !important;
+}
 button:hover {
-   transition: 0.5s;
-    transform: translateY(-7px);
-  }
-  
-  button:active {
-    transform: translateY(-1px);
-  }
+  transition: 0.5s;
+  transform: translateY(-7px);
+}
+
+.start button {
+  background: #8000ff;
+  width: 242px;
+  height: 80px;
+  margin-top: 35px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
