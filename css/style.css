@@ -92,6 +92,8 @@ header {
 .topnav .icon {
   display: none;
   margin-top: 10px;
+  position: absolute;
+  right: 10px;
 }
 
 @media (max-width: 1000px) {
@@ -107,7 +109,10 @@ header {
     float: right;
     display: block !important;
   }
-
+  footer{
+    padding: 0 15px !important;
+    
+  }
   
 
   header {
@@ -124,7 +129,7 @@ header {
   }
   .topnav.responsive .icon {
     position: absolute;
-    right: 0;
+    
     top: 0;
   }
   .topnav.responsive a {
@@ -149,7 +154,17 @@ a {
   }
   .footer-column{
     padding: 20px 0;
+    text-align: center;
   }
+  .infor4{
+    display: none;
+  }
+
+  
+  
+  
+}
+@media (max-width:400px) {
   
 }
 footer {
@@ -157,8 +172,7 @@ footer {
   background-color: #131313;
   justify-items: center;
 
-  padding-right: 50px;
-  padding-left: 130px;
+  
 }
 footer .infor {
   display: flex;
@@ -266,9 +280,11 @@ flex-wrap: nowrap;
   justify-content: center;
   padding: 15px;
   flex: 3;
+  flex-wrap: wrap;
 }
 .infor3 p{
   padding: 15px;
+  flex: 1;
 }
 .infor4{
   flex: 1;
