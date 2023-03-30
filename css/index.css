@@ -58,8 +58,11 @@ font-size: 20px;
   padding: 10px 0;
   width: 100%;
   height: fit-content;
-  justify-content: center;
-  justify-items: center;
+  
+ 
+  align-items: baseline;
+  display: flex;
+  
 }
 .btn_btn a:first-child {
   padding: 12px 22px;
@@ -67,15 +70,17 @@ font-size: 20px;
   background: #ffffff;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
-  
   color: #000000;
   text-align: center;
   
 }
 .btn_btn a:last-child {
   text-align: center;
-  padding: 10px 22px;
-  padding-bottom: 12px;
+  padding: 20px 30px ;
+  margin-left: 10px;
+  justify-content: center;
+  align-items: center;
+  
   text-decoration: none;
   font-size: 20px;
   background: #8000FF;
@@ -83,5 +88,19 @@ font-size: 20px;
   border-radius: 5px;
   
   color: #ffffff;
+
+}
+@media(max-width:1000px){
+  .content {
+    flex-direction: column;
+  }
+
+  .title h1{
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .img_main{
+    padding-top: 20px;
+  }
 
 }
