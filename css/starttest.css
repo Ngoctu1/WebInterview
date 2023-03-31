@@ -11,6 +11,10 @@
     h1{
         font-size: 35px;
     }
+    .content{
+      text-align: center !important;
+    }
+    
 }
 #container {
     width: 100%;
@@ -28,7 +32,7 @@ h1 {
 }
 .content {
   text-align: center;
-  padding: 100px;
+  margin-top: 120px;
 }
 .pick_level {
   margin-top: 50px;
