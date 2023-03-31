@@ -62,11 +62,11 @@ color: black;
     padding: 5px 0;
   }
   .infoform input{
-    
+    border-radius: 10px;
     padding: 20px;
   }
   .infoform select{
-    
+    border-radius: 10px;
     padding: 20px;
   }
   .infoform select option{
