@@ -4,12 +4,11 @@
     padding: 0;
     box-sizing: border-box;
     
-    font-size: 15px;
-    color: #ffffff;
+    
     
       font-family: "Inter";
       font-style: normal;
-      font-weight: 500; 
+     
     
     
 }
@@ -171,14 +170,13 @@ footer {
   padding: 0 50px;
   background-color: #131313;
   justify-items: center;
-
   
 }
 footer .infor {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 35px;
-    padding-top: 15px;
+  padding-top: 15px;
 }
 .footer-column {
   flex: 2;
@@ -207,11 +205,11 @@ footer .infor {
   padding: 10px;
 }
 /* footer */
-.footer_late{
+.footer_late {
   display: flex;
   align-items: baseline;
 }
-.select-menu.active{
+.select-menu.active {
   position: relative;
 }
 .select-menu .select-btn {
@@ -260,33 +258,30 @@ footer .infor {
   color: #333;
 }
 footer .infor2 {
-
   width: fit-content;
   flex: 1;
 }
 .infor2 .copyr {
   display: flex;
   justify-content: center;
-  
 }
 
-
-.infor2 .copyright-colum{
-display: flex;
-flex-wrap: nowrap;
+.infor2 .copyright-colum {
+  display: flex;
+  flex-wrap: nowrap;
 }
-.infor3{
+.infor3 {
   display: flex;
   justify-content: center;
   padding: 15px;
   flex: 3;
   flex-wrap: wrap;
 }
-.infor3 p{
+.infor3 p {
   padding: 15px;
   flex: 1;
 }
-.infor4{
+.infor4 {
   flex: 1;
 }
 .dowload{
@@ -298,6 +293,7 @@ flex-wrap: nowrap;
   max-width: 130px;
   padding: 5px;
 }
+
 /* body */
 #container {
   padding: 0 10%;
