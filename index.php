@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/index.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css" />
+  <script src="https://kit.fontawesome.com/041cb6b55e.js" crossorigin="anonymous"></script>
+  <script src="js/script.js" defer></script>
+
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <div class="topnav" id="myTopnav">
+      <a href="#"><img width="130px" height="auto" src="image/logo.png" /></a>
+      <a class="menuitem" href="#" class="hidden">Đăng nhập</a>
+      <a  class="menuitem" href="#" class="hidden">Test kiến thức ngay</a>
+
+      <a class="menuitem" href="#">Giới thiệu</a>
+      <a class="menuitem" href="#">Chia sẻ</a>
+      <a class="menuitem" href="#">Đánh giá</a>
+      <a class="menuitem" href="#">Hướng dẫn</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <div class="topnav-right">
+      <a href="#">Đăng nhập</a>
+
+      <a href="/Webinterview2/WebInterview/testnow.html" class="blue">Test kiến thức ngay</a>
+    </div>
+  </header>
+
+  <section id="container">
+    <div class="content">
+      <div class="title">
+        <h1>
+          Devsenior - Phỏng vấn Pocket của bạn. Cung cấp cho bạn một loạt các
+          Câu hỏi Phỏng vấn Việc làm
+        </h1>
+        <p>
+          Giúp bạn giành chiến thắng trong bất kỳ cuộc phỏng vấn việc làm nào.
+        </p>
+        <div class="btn_btn">
+          <a href="#">Đăng nhập</a>
+          <a href="/Webinterview2/WebInterview/testnow.html">Test ngay</a>
+        </div>
+        <a href="#">Tìm hiểu thêm</a>
+      </div>
+      <div class="img_main">
+        <img src="image/main.png" alt="" />
+      </div>
+    </div>
+
+    
+  </section>
+  <footer>
+    <div class="infor">
+      <div class="footer-column"><img class="logofoot" src="image/logo.png" /></div>
+      <div class="footer-column">
+        Tìm hiểu về Depsenior
+        <p>Giới thiệu</p>
+      </div>
+
+      <div class="footer-column">
+        Chia sẻ
+        <p>Chia sẻ Devsenior qua các social media</p>
+      </div>
+      <div class="footer-column">
+        Hướng dãn
+        <p>Hướng dẫn sử dụng Devsenior</p>
+      </div>
+      <div class="footer-column flex3">
+        <div class="dowload">
+          <a
+            href="https://github.com/sonnh7289/python3-download/raw/main/InterviewQuestion.apk"><img
+              src="image/appstore.png" alt="" /></a>
+          <a
+            href="https://github.com/sonnh7289/python3-download/raw/main/InterviewQuestion.apk"><img
+              src="image/googleplay.png" alt="" /></a>
+          
+        </div>
+        <div class="social">
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-invision"></i></a>
+            <a href=""><i class="fab fa-youtube"></i></a>
+
+          </div>
+      </div>
+    </div>
+    <div class="footer_late">
+      <div class="infor2">
+
+        <div class="copyright-colum">
+
+          <div class="select-menu">
+
+
+            <ul class="options">
+              <li class="option">
+                <span class="option-text">Vietnamese</span>
+              </li>
+              <li class="option">
+                <span class="option-text">Enghlish</span>
+              </li>
+            </ul>
+
+            <div class="select-btn">
+              <i class='fas fa-globe'></i>
+              <span class="sBtn-text">Select your option</span>
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+
+      </div>
+      <div class="infor3">
+        <p>Chính sách riêng tư</p>
+        <p>Thuật ngữ</p>
+        <p>Cài đặt cookies</p>
+        <p>Bản quyền © 2023 abc</p>
+      </div>
+      <div class="infor4">
+
+      </div>
+
+    </div>
+    </div>
+    </div>
+
+  </footer>
+
+</body>
+
+
+</html>

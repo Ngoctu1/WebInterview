@@ -57,7 +57,7 @@
                 </div>
             </div>
             <div class="start">
-                <a href="exercise.html"><button class="ready">Bắt đầu bài test</button></a>
+                <a href="exercise.php?id=1"><button class="ready">Bắt đầu bài test</button></a>
             </div>
         </div>
 
