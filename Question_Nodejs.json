@@ -1,0 +1,1502 @@
+[
+    {
+        "_id": 1,
+        "answer_1": "buf.length",
+        "answer_2": "buf.size",
+        "answer_3": "buf.length()",
+        "answer_4": "buf.size()",
+        "answer_true": "buf.length",
+        "playlist_id": 13,
+        "question": "Which of the following code gets length of a buffer buf?"
+    },
+    {
+        "_id": 2,
+        "answer_1": " $ node",
+        "answer_2": "$ node start",
+        "answer_3": "$ node repl",
+        "answer_4": "$ node console\n",
+        "answer_true": " $ node",
+        "playlist_id": 13,
+        "question": "Which of following command starts a REPL session?"
+    },
+    {
+        "_id": 3,
+        "answer_1": "Node Package Manager",
+        "answer_2": "Node Project Manager",
+        "answer_3": "New Project Manager",
+        "answer_4": "New Package Manager",
+        "answer_true": "Node Package Manager",
+        "playlist_id": 13,
+        "question": "What npm stands for?"
+    },
+    {
+        "_id": 4,
+        "answer_1": "fs.open(path, flags[, mode], callback)",
+        "answer_2": "fs.stat(path, callback)",
+        "answer_3": "fs.readFile(path, flags[, mode], callback)",
+        "answer_4": "None of the above.",
+        "answer_true": "fs.stat(path, callback)",
+        "playlist_id": 13,
+        "question": "Which method of fs module is used to get information about file?"
+    },
+    {
+        "_id": 5,
+        "answer_1": "Chanining is a mechanism to connect output of one stream to another stream and create a chain of multiple stream operations.",
+        "answer_2": "Chanining is normally used with piping operations.",
+        "answer_3": "Both of the above.",
+        "answer_4": "None of the above.",
+        "answer_true": "Both of the above.",
+        "playlist_id": 13,
+        "question": "Which of the following is true about Chaining streams?"
+    },
+    {
+        "_id": 6,
+        "answer_1": "var fs = require(\"fs\");",
+        "answer_2": "var fs = import(\"fs\");",
+        "answer_3": "package fs;",
+        "answer_4": "import fs;",
+        "answer_true": "var fs = require(\"fs\");",
+        "playlist_id": 13,
+        "question": "Which of the following statement is valid to use a Node module fs in a Node based application?"
+    },
+    {
+        "_id": 7,
+        "answer_1": "console.log('Current version: ' + process.version());",
+        "answer_2": "console.log('Current version: ' + process.version);",
+        "answer_3": "console.log('Current version: ' + process.getVersion());",
+        "answer_4": "None of the above.",
+        "answer_true": "console.log('Current version: ' + process.version);",
+        "playlist_id": 13,
+        "question": "Which of the following code prints process version?"
+    },
+    {
+        "_id": 8,
+        "answer_1": "The process object is an instance of EventEmitter.",
+        "answer_2": "process emits exit event when process is about to exit.",
+        "answer_3": "process emits uncaughtException when when an exception bubbles all the way back to the event loop.",
+        "answer_4": "All of the above.",
+        "answer_true": "All of the above.",
+        "playlist_id": 13,
+        "question": "Which of the following is true about process global object?"
+    },
+    {
+        "_id": 9,
+        "answer_1": "package.json is present in the root directory of any Node application/module.",
+        "answer_2": "package.json is used to define the properties of a package.",
+        "answer_3": "package.json can be used to update dependencies of a Node application.",
+        "answer_4": "All of the above.",
+        "answer_true": "All of the above.",
+        "playlist_id": 13,
+        "question": "Which of the following is true about package.json?"
+    },
+    {
+        "_id": 10,
+        "answer_1": "path.normalize('/test/test1//2slashes/1slash/tab/..')",
+        "answer_2": "fs.normalize('/test/test1//2slashes/1slash/tab/..')",
+        "answer_3": "os.normalize('/test/test1//2slashes/1slash/tab/..')",
+        "answer_4": "None of the above.",
+        "answer_true": "path.normalize('/test/test1//2slashes/1slash/tab/..')",
+        "playlist_id": 13,
+        "question": "Which of the following is the correct way to get a normalized path?"
+    },
+    {
+        "_id": 11,
+        "answer_1": "There are built-in methods to be used for printing informational, warning and error messages in console.",
+        "answer_2": "console is used in synchronous way when destination is file or a terminal.",
+        "answer_3": "console is used in asynchronous way when destination is a pipe.",
+        "answer_4": "All of the above.",
+        "answer_true": "All of the above.",
+        "playlist_id": 13,
+        "question": "Which of the following is true about console global object?"
+    },
+    {
+        "_id": 12,
+        "answer_1": "The setInterval(cb, ms) global function is used to run callback cb repeatedly after at least ms milliseconds.",
+        "answer_2": "The setInterval(cb, ms) method returns an opaque value that represents the timer which can be used to clear the timer using the function clearInterval(t).",
+        "answer_3": "Both of the above.",
+        "answer_4": "None of the above.",
+        "answer_true": "Both of the above.",
+        "playlist_id": 13,
+        "question": "Which of the following is true about setInterval(cb, ms) global function?"
+    },
+    {
+        "_id": 13,
+        "answer_1": "buf.toJSON()",
+        "answer_2": "buf.json()",
+        "answer_3": "buf.covertToJson()",
+        "answer_4": "buf.jsonify()",
+        "answer_true": "buf.toJSON()",
+        "playlist_id": 13,
+        "question": "Which of the following code converts a buffer buf to JSON object?"
+    },
+    {
+        "_id": 14,
+        "answer_1": "Readable stream is used for read operation.",
+        "answer_2": "Output of readable stream can be input to a writable stream.",
+        "answer_3": "Both of the above.",
+        "answer_4": "None of the above.",
+        "answer_true": "Both of the above.",
+        "playlist_id": 13,
+        "question": "Which of the following is true about readable stream?"
+    },
+    {
+        "_id": 15,
+        "answer_1": "true",
+        "answer_2": "false",
+        "answer_3": null,
+        "answer_4": null,
+        "answer_true": "true",
+        "playlist_id": 13,
+        "question": "net.isIP(input) returns 6 for IP version 6 addresses."
+    },
+    {
+        "_id": 16,
+        "answer_1": "Resolves a hostname (e.g. 'google.com') into the first found A (IPv4) or AAAA (IPv6) record.",
+        "answer_2": "If options is not provided, then IP v4 and v6 addresses are both valid. If options is an integer, then it must be 4 or 6.",
+        "answer_3": "Both of the above.",
+        "answer_4": "None of the above.",
+        "answer_true": "Both of the above.",
+        "playlist_id": 13,
+        "question": "Which of the following stands true for dns.lookup(hostname[, options], callback) method?"
+    },
+    {
+        "_id": 17,
+        "answer_1": "fs.write(path, flags[, mode], callback)",
+        "answer_2": "fs.writeFile(path, flags[, mode], callback)",
+        "answer_3": "fs.writePath(path, flags[, mode], callback)",
+        "answer_4": "None of the above.",
+        "answer_true": "fs.writeFile(path, flags[, mode], callback)",
+        "playlist_id": 13,
+        "question": "Which method of fs module is used to write a file?"
+    },
+    {
+        "_id": 18,
+        "answer_1": "emit property is used to locate an event handler.",
+        "answer_2": "emit property is used to bind a function with the event.",
+        "answer_3": "emit property is used to fire an event.",
+        "answer_4": "None of the above.",
+        "answer_true": "emit property is used to fire an event.",
+        "playlist_id": 13,
+        "question": "Which of the following is true about EventEmitter.emit property?"
+    },
+    {
+        "_id": 19,
+        "answer_1": "Node.JS internally converts JavaScript code to Java based code and then execute the same.",
+        "answer_2": "Node.JS internally converts JavaScript code to C based code and then execute the same.",
+        "answer_3": "Being built on Google Chrome's V8 JavaScript Engine.",
+        "answer_4": "None of the above.",
+        "answer_true": "Being built on Google Chrome's V8 JavaScript Engine.",
+        "playlist_id": 13,
+        "question": "Why code written in Node.JS is pretty fast although being written in JavaScript?"
+    },
+    {
+        "_id": 20,
+        "answer_1": "dns.reverse(ip, callback)",
+        "answer_2": "dns.resolve(hostname[, rrtype], callback)",
+        "answer_3": "dns.resolve4(hostname, callback)",
+        "answer_4": "None of the above.",
+        "answer_true": "dns.reverse(ip, callback)",
+        "playlist_id": 13,
+        "question": "Which of the following method resolves an ip address to an array of hostnames?"
+    },
+    {
+        "_id": 21,
+        "answer_1": "js is Server Side Language.",
+        "answer_2": "js is the Client Side Language",
+        "answer_3": "js is both Server Side and Client Side Language.",
+        "answer_4": "None of the above.",
+        "answer_true": "js is Server Side Language.",
+        "playlist_id": 13,
+        "question": "Which of the following statement is correct?"
+    },
+    {
+        "_id": 22,
+        "answer_1": "REPL stands for \"Read Eval Print Loop.\"",
+        "answer_2": "REPL stands for \"Research Eval Program Learn.\"",
+        "answer_3": "REPL stands for \"Read Earn Point Learn.\"",
+        "answer_4": "REPL stands for \"Read Eval Point Loop.\"",
+        "answer_true": "REPL stands for \"Read Eval Print Loop.\"",
+        "playlist_id": 13,
+        "question": "What does the REPL stand for?"
+    },
+    {
+        "_id": 23,
+        "answer_1": "JavaScript",
+        "answer_2": "C",
+        "answer_3": "C++",
+        "answer_4": "All of the above.",
+        "answer_true": "All of the above.",
+        "playlist_id": 13,
+        "question": "In which language is Node.js written?"
+    },
+    {
+        "_id": 24,
+        "answer_1": "$ npm install express",
+        "answer_2": "$ node install express",
+        "answer_3": "$ install express",
+        "answer_4": "None of the above",
+        "answer_true": "$ npm install express",
+        "playlist_id": 13,
+        "question": "Which of the following command is used to install the Node.js express module?"
+    },
+    {
+        "_id": 25,
+        "answer_1": "The callback is a technique in which a method calls back the caller method.",
+        "answer_2": "The callback is an asynchronous equivalent for a function.",
+        "answer_3": "Both of the above",
+        "answer_4": "None of the above.",
+        "answer_true": "The callback is an asynchronous equivalent for a function.",
+        "playlist_id": 13,
+        "question": "What is Callback?"
+    },
+    {
+        "_id": 26,
+        "answer_1": ".js",
+        "answer_2": ".node",
+        "answer_3": ".java",
+        "answer_4": ".txt",
+        "answer_true": ".js",
+        "playlist_id": 13,
+        "question": " Which of the following extension is used to save the Node.js files?"
+    },
+    {
+        "_id": 27,
+        "answer_1": "expose",
+        "answer_2": "module",
+        "answer_3": "exports",
+        "answer_4": "All of the above",
+        "answer_true": "exports",
+        "playlist_id": 13,
+        "question": "The Node.js modules can be exposed using:"
+    },
+    {
+        "_id": 28,
+        "answer_1": "zlib",
+        "answer_2": "https",
+        "answer_3": "dgram",
+        "answer_4": "fsread",
+        "answer_true": "fsread",
+        "playlist_id": 13,
+        "question": "Which of the following module is not a built-in node module?"
+    },
+    {
+        "_id": 29,
+        "answer_1": "File Service",
+        "answer_2": "File System",
+        "answer_3": "File Store",
+        "answer_4": "File Sharing",
+        "answer_true": "File System",
+        "playlist_id": 13,
+        "question": "What does the fs module stand for?"
+    },
+    {
+        "_id": 30,
+        "answer_1": "fs.open(path, flags[, mode], callback)",
+        "answer_2": "fs.stat(path, callback)",
+        "answer_3": "fs.readFile(path, flags[, mode], callback)",
+        "answer_4": "None of the above.",
+        "answer_true": "fs.stat(path, callback)",
+        "playlist_id": 13,
+        "question": "Which of the following method of fs module is used to get file information?"
+    },
+    {
+        "_id": 31,
+        "answer_1": "fs.delete(fd, len, callback)",
+        "answer_2": "fs.remove(fd, len, callback)",
+        "answer_3": "fs.ftruncate(fd, len, callback)",
+        "answer_4": "None of the above.",
+        "answer_true": "fs.ftruncate(fd, len, callback)",
+        "playlist_id": 13,
+        "question": "Which of the following method of fs module is used to truncate a file?"
+    },
+    {
+        "_id": 32,
+        "answer_1": "Jade",
+        "answer_2": "Vash",
+        "answer_3": "Handlebars",
+        "answer_4": "All of the above",
+        "answer_true": "Handlebars",
+        "playlist_id": 13,
+        "question": "Which of the following template engines can be used with Node.js?"
+    },
+    {
+        "_id": 33,
+        "answer_1": "console.log('platform : ' + os.platform);",
+        "answer_2": "console.log('platform : ' + os.platform());",
+        "answer_3": "console.log('platform : ' + os.getPlatform());",
+        "answer_4": "None of the above.",
+        "answer_true": "console.log('platform : ' + os.platform());",
+        "playlist_id": 13,
+        "question": "Which of the following code print the platform of operating system?"
+    },
+    {
+        "_id": 34,
+        "answer_1": "cwd();",
+        "answer_2": "pwd();",
+        "answer_3": "Both of the above",
+        "answer_4": "None of the above.",
+        "answer_true": "cwd();",
+        "playlist_id": 13,
+        "question": " Which of the following method is used to return the current working directory of the process?"
+    },
+    {
+        "_id": 35,
+        "answer_1": "Express is an application framework that provides a robust set of features to develop desktop-based applications.",
+        "answer_2": "Express is a minimal and flexible Node.js web application framework that provides a robust set of features to develop web and mobile applications.",
+        "answer_3": "Both of the above.",
+        "answer_4": "None of the above.",
+        "answer_true": "Express is a minimal and flexible Node.js web application framework that provides a robust set of features to develop web and mobile applications.",
+        "playlist_id": 13,
+        "question": " Which of the following statement defines Express?"
+    },
+    {
+        "_id": 36,
+        "answer_1": "It provides a means of dividing up tasks.",
+        "answer_2": "It provides a means of reuse of program code.",
+        "answer_3": "It provides a means of reducing the size of the program.",
+        "answer_4": "It provides a means of testing individual parts of the program.",
+        "answer_true": "It provides a means of reducing the size of the program.",
+        "playlist_id": 13,
+        "question": " Which of the following is not a benefit of using modules in Express?"
+    },
+    {
+        "_id": 37,
+        "answer_1": "Using gzip compression.",
+        "answer_2": "Don't use synchronous functions.",
+        "answer_3": "Do logging correctly.",
+        "answer_4": "Handle exceptions properly.",
+        "answer_true": "Using gzip compression.",
+        "playlist_id": 13,
+        "question": "What is the best practice to do in your code to improve the performance of your application?"
+    },
+    {
+        "_id": 38,
+        "answer_1": "Global",
+        "answer_2": "Local",
+        "answer_3": "Global Function",
+        "answer_4": "Local to object",
+        "answer_true": "Local",
+        "playlist_id": 13,
+        "question": "What is the default scope in the Node.js application?"
+    },
+    {
+        "_id": 39,
+        "answer_1": "Chrome V8",
+        "answer_2": "Microsoft Chakra",
+        "answer_3": "SpiderMonkey",
+        "answer_4": "Node En",
+        "answer_true": "Chrome V8",
+        "playlist_id": 13,
+        "question": "Which of the following engine Node in core?"
+    },
+    {
+        "_id": 40,
+        "answer_1": "sample.js",
+        "answer_2": "node sample.js",
+        "answer_3": "nodejs sample.js",
+        "answer_4": "None of the above.",
+        "answer_true": "node sample.js",
+        "playlist_id": 13,
+        "question": " Which of the following statement is used to execute the code of the sample.js file?"
+    },
+    {
+        "_id": 41,
+        "answer_1": "JavaScript",
+        "answer_2": "Java",
+        "answer_3": "C",
+        "answer_4": "C++",
+        "answer_true": "Java",
+        "playlist_id": 13,
+        "question": "Which of the following is not a valid language for Node.js?"
+    },
+    {
+        "_id": 42,
+        "answer_1": "Ctrl + B",
+        "answer_2": "Ctrl + K",
+        "answer_3": "Ctrl + T",
+        "answer_4": "Ctrl + C",
+        "answer_true": "Ctrl + C",
+        "playlist_id": 13,
+        "question": "Which of the following shortcut command is used to kill a process in Node.js?"
+    },
+    {
+        "_id": 43,
+        "answer_1": " Synchronous",
+        "answer_2": "Multi-threaded",
+        "answer_3": "Asynchronous",
+        "answer_4": "None of the above",
+        "answer_true": "Multi-threaded",
+        "playlist_id": 13,
+        "question": " Node.js is ________ by default."
+    },
+    {
+        "_id": 44,
+        "answer_1": "console.log('endianness : ' + os.getEndianness());",
+        "answer_2": "console.log('endianness : ' + os.endianness);",
+        "answer_3": "console.log('endianness : ' + os.endianness());",
+        "answer_4": "None of the above.",
+        "answer_true": "console.log('endianness : ' + os.endianness);",
+        "playlist_id": 13,
+        "question": "What code print the endianness of operating system?"
+    },
+    {
+        "_id": 45,
+        "answer_1": "21",
+        "answer_2": "18",
+        "answer_3": "19",
+        "answer_4": "20",
+        "answer_true": "18",
+        "playlist_id": 13,
+        "question": "How many Node object methods are available?"
+    },
+    {
+        "_id": 46,
+        "answer_1": "To specify the preview of the Node.js application.",
+        "answer_2": "For testing Node.js/JavaScript expressions.",
+        "answer_3": "For executing browser's JavaScript expressions.",
+        "answer_4": "None of the above.",
+        "answer_true": "For testing Node.js/JavaScript expressions.",
+        "playlist_id": 13,
+        "question": "What is the main usage of Node.js terminal (REPL)?"
+    },
+    {
+        "_id": 47,
+        "answer_1": "Web Application",
+        "answer_2": "Chat Application",
+        "answer_3": "RESTful Service",
+        "answer_4": "All of the above",
+        "answer_true": "All of the above",
+        "playlist_id": 13,
+        "question": "Which of the following types of applications can be built using Node.js?"
+    },
+    {
+        "_id": 48,
+        "answer_1": "==",
+        "answer_2": "equal()",
+        "answer_3": "isEqualNode()",
+        "answer_4": "None of the above.",
+        "answer_true": "isEqualNode()",
+        "playlist_id": 13,
+        "question": "Which of the following is used to test if two nodes are equal?"
+    },
+    {
+        "_id": 49,
+        "answer_1": "Express.js",
+        "answer_2": "GruntJS",
+        "answer_3": "NPM",
+        "answer_4": "None of the above",
+        "answer_true": "GruntJS",
+        "playlist_id": 13,
+        "question": "Which of the following tool is used to automate the various tasks of the Node.js application?"
+    },
+    {
+        "_id": 50,
+        "answer_1": "Single Page Applications",
+        "answer_2": "JSON APIs based Applications",
+        "answer_3": "CPU intensive applications",
+        "answer_4": "Data-Intensive Real-time Applications (DIRT)",
+        "answer_true": "CPU intensive applications",
+        "playlist_id": 13,
+        "question": "Which of the following areas, Node.js, is not advised to be used?"
+    },
+    {
+        "_id": 51,
+        "answer_1": "/books/!:from-:to",
+        "answer_2": "/flights/:from-:to",
+        "answer_3": "/users/:userId/books/:bookId",
+        "answer_4": "None of the above.",
+        "answer_true": "/books/!:from-:to",
+        "playlist_id": 14,
+        "question": " Which of the following route parameter formats are valid?"
+    },
+    {
+        "_id": 52,
+        "answer_1": "net module",
+        "answer_2": "http module",
+        "answer_3": "net module",
+        "answer_4": "url module",
+        "answer_true": "url module",
+        "playlist_id": 14,
+        "question": "Which of the following module is required to create a web server?"
+    },
+    {
+        "_id": 53,
+        "answer_1": "filename.js",
+        "answer_2": "javascript filename.js",
+        "answer_3": "node filename.js",
+        "answer_4": "node filename",
+        "answer_true": "node filename.js",
+        "playlist_id": 14,
+        "question": "Which of the following is the correct syntax to initiate the Node.js File?"
+    },
+    {
+        "_id": 54,
+        "answer_1": "cloneNode()",
+        "answer_2": "compareDocumentPosition()",
+        "answer_3": "getFeature()",
+        "answer_4": "getUserData()",
+        "answer_true": "compareDocumentPosition()",
+        "playlist_id": 14,
+        "question": "Which of the following method is used to compare the placement of two nodes in the DOM hierarchy (document)?"
+    },
+    {
+        "_id": 55,
+        "answer_1": "Windows",
+        "answer_2": "Macintosh",
+        "answer_3": "Unix/Linux",
+        "answer_4": "All of the above.",
+        "answer_true": "All of the above.",
+        "playlist_id": 14,
+        "question": "Which of the following platforms does Node.js support?"
+    },
+    {
+        "_id": 56,
+        "answer_1": "import",
+        "answer_2": "module",
+        "answer_3": "exports",
+        "answer_4": "require",
+        "answer_true": "exports",
+        "playlist_id": 14,
+        "question": "Which of the following keyword is used to make properties and methods available outside the module file?"
+    },
+    {
+        "_id": 57,
+        "answer_1": "localName",
+        "answer_2": "index",
+        "answer_3": "previousSibling",
+        "answer_4": "textContent",
+        "answer_true": "previousSibling",
+        "playlist_id": 14,
+        "question": "Which of the following Node.js object property is used to return the node immediately before a node?"
+    },
+    {
+        "_id": 58,
+        "answer_1": "fs.appendFile()",
+        "answer_2": "fs.open()",
+        "answer_3": "fs.writeFile()",
+        "answer_4": "None of the above.",
+        "answer_true": "fs.appendFile()",
+        "playlist_id": 14,
+        "question": "Which of the following method can append specified content to a file?"
+    },
+    {
+        "_id": 59,
+        "answer_1": "Core node debugger",
+        "answer_2": "Console",
+        "answer_3": "REPL",
+        "answer_4": "Node Inspector",
+        "answer_true": "Node Inspector",
+        "playlist_id": 14,
+        "question": "Which of the following is a GUI-based debugging tool for Node.js?"
+    },
+    {
+        "_id": 60,
+        "answer_1": "It is used to store the result.",
+        "answer_2": "It is used to get the last command used.",
+        "answer_3": "It is used to get the last result.",
+        "answer_4": "None of the above.",
+        "answer_true": "It is used to get the last result.",
+        "playlist_id": 14,
+        "question": "What is the use of underscore variable in REPL session in Node.js?"
+    },
+    {
+        "_id": 61,
+        "answer_1": "Node based server process request much faster than traditional server.",
+        "answer_2": "Node based server uses a single threaded model and can services much larger number of requests than traditional server like Apache HTTP Server.",
+        "answer_3": "There is no much difference between the two.",
+        "answer_4": "None of the above.",
+        "answer_true": " Node based server uses a single threaded model and can services much larger number of requests than traditional server like Apache HTTP Server.",
+        "playlist_id": 14,
+        "question": "How Node based web servers are different from traditional web servers?"
+    },
+    {
+        "_id": 62,
+        "answer_1": "Callback is an asynchronous equivalent for a function.",
+        "answer_2": "Callback is a technique in which a method call back the caller method.",
+        "answer_3": "Both of the above.",
+        "answer_4": "None of the above.",
+        "answer_true": "Callback is an asynchronous equivalent for a function.",
+        "playlist_id": 14,
+        "question": " What is Callback?"
+    },
+    {
+        "_id": 63,
+        "answer_1": " Readable stream is used for read operation.",
+        "answer_2": "Output of readable stream can be input to a writable stream.",
+        "answer_3": "Both of the above.",
+        "answer_4": " None of the above",
+        "answer_true": " Both of the above.",
+        "playlist_id": 14,
+        "question": "Which of the following is true about readable stream?"
+    },
+    {
+        "_id": 64,
+        "answer_1": " fs.open(path, flags[, mode], callback)",
+        "answer_2": "fs.openFile(path, flags[, mode], callback)",
+        "answer_3": " fs.openPath(path, flags[, mode], callback)",
+        "answer_4": "None of the above.",
+        "answer_true": " fs.open(path, flags[, mode], callback)",
+        "playlist_id": 14,
+        "question": "Which method of fs module is used to open a file?"
+    },
+    {
+        "_id": 65,
+        "answer_1": "The clearTimeout( t ) global function is used to stop a timer that was previously created with setTimeout().",
+        "answer_2": "The clearTimeout( t ) function returns an opaque value that represents the timer which can be used to clear the timer.",
+        "answer_3": "Both of the above.",
+        "answer_4": "None of the above.",
+        "answer_true": "The clearTimeout( t ) global function is used to stop a timer that was previously created with setTimeout().",
+        "playlist_id": 14,
+        "question": "Which of the following is true about clearTimeout(t) global function?"
+    },
+    {
+        "_id": 66,
+        "answer_1": "console.log(process.memoryUsage());",
+        "answer_2": "console.log('Current version: ' + process.memory());",
+        "answer_3": "console.log('Current version: ' + process.getMemory());",
+        "answer_4": "None of the above.",
+        "answer_true": "console.log(process.memoryUsage());",
+        "playlist_id": 14,
+        "question": " Which of the following code prints memory usage?"
+    },
+    {
+        "_id": 67,
+        "answer_1": "path.join('/test', 'test1', '2slashes/1slash', 'tab', '..')",
+        "answer_2": "path.combine('/test', 'test1', '2slashes/1slash', 'tab', '..')",
+        "answer_3": "buffer.join('/test', 'test1', '2slashes/1slash', 'tab', '..')",
+        "answer_4": " None of the above.",
+        "answer_true": "path.join('/test', 'test1', '2slashes/1slash', 'tab', '..')",
+        "playlist_id": 14,
+        "question": "Which of the following is the correct way to get a joint path?"
+    },
+    {
+        "_id": 68,
+        "answer_1": "Webservices based on REST Architecture are known as RESTful web services.",
+        "answer_2": "Webservices uses HTTP methods to implement the concept of REST architecture.",
+        "answer_3": "Both of the above.",
+        "answer_4": "None of the above.",
+        "answer_true": "Both of the above.",
+        "playlist_id": 14,
+        "question": "Which of the following is true about RESTful webservices?"
+    },
+    {
+        "_id": 69,
+        "answer_1": "module.expose",
+        "answer_2": "module",
+        "answer_3": "module.exports",
+        "answer_4": "All of the above",
+        "answer_true": "module.exports",
+        "playlist_id": 14,
+        "question": "The Node.js modules can be exposed using"
+    },
+    {
+        "_id": 70,
+        "answer_1": "Node based server uses a single threaded model and can serve much larger number of requests compared to any traditional server like Apache HTTP Server.",
+        "answer_2": "Node based server process request much faster than traditional server.",
+        "answer_3": "There is no much difference between the two.",
+        "answer_4": "All of the above",
+        "answer_true": "Node based server uses a single threaded model and can serve much larger number of requests compared to any traditional server like Apache HTTP Server.",
+        "playlist_id": 14,
+        "question": " In Nodejs how node based web servers differ from traditional web servers?"
+    },
+    {
+        "_id": 71,
+        "answer_1": "nodejs sample.js",
+        "answer_2": "node sample.js",
+        "answer_3": "sample.js",
+        "answer_4": "None of the above",
+        "answer_true": "node sample.js",
+        "playlist_id": 14,
+        "question": "Which statement executes the code of sample.js file?"
+    },
+    {
+        "_id": 72,
+        "answer_1": "Real time Data intensive",
+        "answer_2": "Highly scalable servers for Web Applications",
+        "answer_3": "Builds fast and scalable network Applications",
+        "answer_4": "All of the above",
+        "answer_true": "All of the above",
+        "playlist_id": 14,
+        "question": "What are the key features of Node.js?"
+    },
+    {
+        "_id": 73,
+        "answer_1": "npm --version",
+        "answer_2": "npm --ver",
+        "answer_3": "npm help",
+        "answer_4": " None of the above",
+        "answer_true": "npm --version",
+        "playlist_id": 14,
+        "question": " How can we check the current version of NPM?"
+    },
+    {
+        "_id": 74,
+        "answer_1": "It provides an easy way to build scalable network programs",
+        "answer_2": "Generally fast",
+        "answer_3": "Great concurrency",
+        "answer_4": "All of these",
+        "answer_true": "All of these",
+        "playlist_id": 14,
+        "question": "What is the advantage of using node.js?"
+    },
+    {
+        "_id": 75,
+        "answer_1": " Node.JS internally converts JavaScript code to Java based code and then execute the same",
+        "answer_2": "Node.JS internally converts JavaScript code to C based code and then execute the same",
+        "answer_3": "Being built on Google Chrome's V8 JavaScript Engine",
+        "answer_4": "None of the above",
+        "answer_true": "Being built on Google Chrome's V8 JavaScript Engine",
+        "playlist_id": 14,
+        "question": " Why a Node.JS code is pretty fast although being written in JavaScript?"
+    },
+    {
+        "_id": 76,
+        "answer_1": "Eval",
+        "answer_2": "Print",
+        "answer_3": "Loop",
+        "answer_4": "All of these",
+        "answer_true": "All of these",
+        "playlist_id": 14,
+        "question": "What is REPL in Node.js?"
+    },
+    {
+        "_id": 77,
+        "answer_1": "node-static",
+        "answer_2": "http",
+        "answer_3": "node-resource",
+        "answer_4": "static",
+        "answer_true": "node-static",
+        "playlist_id": 14,
+        "question": "Which module is used to serve static resources in Node.js?"
+    },
+    {
+        "_id": 78,
+        "answer_1": "Use gzip compression",
+        "answer_2": " Don't use synchronous functions",
+        "answer_3": " Do logging correctly",
+        "answer_4": "Handle exceptions properly",
+        "answer_true": " Use gzip compression",
+        "playlist_id": 14,
+        "question": " What should you do in your code to improve your application's performance?"
+    },
+    {
+        "_id": 79,
+        "answer_1": "null",
+        "answer_2": " false",
+        "answer_3": "true",
+        "answer_4": "None",
+        "answer_true": "null",
+        "playlist_id": 14,
+        "question": "Is console a global object?"
+    },
+    {
+        "_id": 80,
+        "answer_1": " $ npm install express",
+        "answer_2": " $ node install express",
+        "answer_3": " $ install express",
+        "answer_4": " None of above",
+        "answer_true": "$ npm install express",
+        "playlist_id": 14,
+        "question": "To install Node.js express module"
+    },
+    {
+        "_id": 81,
+        "answer_1": "JavaScript",
+        "answer_2": " Java",
+        "answer_3": "C++",
+        "answer_4": "C#",
+        "answer_true": "JavaScript",
+        "playlist_id": 14,
+        "question": "Which of the followings are valid languages for Node.js?"
+    },
+    {
+        "_id": 82,
+        "answer_1": "Express.js",
+        "answer_2": "GruntJS",
+        "answer_3": " NPM",
+        "answer_4": " None of the above",
+        "answer_true": "GruntJS",
+        "playlist_id": 14,
+        "question": "Which of the following tool automates various tasks of Node.js application?"
+    },
+    {
+        "_id": 83,
+        "answer_1": " Asynchronous",
+        "answer_2": "Synchronous",
+        "answer_3": "Both of the above",
+        "answer_4": "None of the above",
+        "answer_true": "Asynchronous",
+        "playlist_id": 14,
+        "question": " In Node.js APIs of Node.JS are which of the following?"
+    },
+    {
+        "_id": 84,
+        "answer_1": "EventEmitter",
+        "answer_2": "Events",
+        "answer_3": "NodeEvent",
+        "answer_4": " None of the above",
+        "answer_true": " EventEmitter",
+        "playlist_id": 14,
+        "question": "Which of the following class is used to create and consume custom events in Node.js?"
+    },
+    {
+        "_id": 85,
+        "answer_1": "Jade",
+        "answer_2": "Vash",
+        "answer_3": "Handlebars",
+        "answer_4": " All of the above",
+        "answer_true": "All of the above",
+        "playlist_id": 14,
+        "question": " Which of the following template engines can be used with Node.js?"
+    },
+    {
+        "_id": 86,
+        "answer_1": "var http = require(\"http\")",
+        "answer_2": "var http = new require(\"http\")",
+        "answer_3": "var http = new http()",
+        "answer_4": "var http = new http()",
+        "answer_true": "var http = require(\"http\")",
+        "playlist_id": 14,
+        "question": "How can we create instance of http module?"
+    },
+    {
+        "_id": 87,
+        "answer_1": "Windows",
+        "answer_2": " Macintosh",
+        "answer_3": "Unix/Linux",
+        "answer_4": "All of the above",
+        "answer_true": " All of the above",
+        "playlist_id": 14,
+        "question": " Node.js supports which of the following platform?"
+    },
+    {
+        "_id": 88,
+        "answer_1": " strings",
+        "answer_2": "string patterns",
+        "answer_3": "regular expressions",
+        "answer_4": "All of above",
+        "answer_true": "All of above",
+        "playlist_id": 14,
+        "question": "Which of following are a valid form of route path?"
+    },
+    {
+        "_id": 89,
+        "answer_1": "Node being a single thread, and uses async function calls to maintain the concurrency",
+        "answer_2": "Every API of Node js are asynchronous",
+        "answer_3": "Node thread keeps an event loop and whenever any task get completed, it fires the corresponding event which signals the event listener function to get executed",
+        "answer_4": "All of these",
+        "answer_true": "Node being a single thread, and uses async function calls to maintain the concurrency",
+        "playlist_id": 14,
+        "question": "Node being a single thread, and uses async function calls to maintain the concurrency"
+    },
+    {
+        "_id": 90,
+        "answer_1": "to store the result",
+        "answer_2": "to get the last command used",
+        "answer_3": "None of the above",
+        "answer_4": " to get the last result",
+        "answer_true": "to get the last result",
+        "playlist_id": 14,
+        "question": "In Nodejs what is use of underscore variable in REPL session?"
+    },
+    {
+        "_id": 91,
+        "answer_1": "var fs = import(\"fs\")",
+        "answer_2": " import fs",
+        "answer_3": " package fs",
+        "answer_4": "var fs = require(\"fs\")",
+        "answer_true": "var fs = import(\"fs\")",
+        "playlist_id": 14,
+        "question": " Which statement is valid in using a Node module fs in a Node based application?"
+    },
+    {
+        "_id": 92,
+        "answer_1": " false",
+        "answer_2": "true",
+        "answer_3": "All the above",
+        "answer_4": "None",
+        "answer_true": " false",
+        "playlist_id": 14,
+        "question": " Child processes always have three streams child.stdin, child.stdout, and child.stderr which may be shared with the stdio streams of the parent process"
+    },
+    {
+        "_id": 93,
+        "answer_1": " It has fast I/O",
+        "answer_2": "Single threaded",
+        "answer_3": " It makes Routing easy",
+        "answer_4": " All of the above",
+        "answer_true": " All of the above",
+        "playlist_id": 14,
+        "question": "What are the advantages of express?"
+    },
+    {
+        "_id": 94,
+        "answer_1": " 14 LTS",
+        "answer_2": "16 current",
+        "answer_3": " 12",
+        "answer_4": " All of the above",
+        "answer_true": " 14 LTS",
+        "playlist_id": 14,
+        "question": "Which version of nodejs is recommended for installation?"
+    },
+    {
+        "_id": 95,
+        "answer_1": " It is a huge repository.",
+        "answer_2": "It provides package-lock.json and package.json",
+        "answer_3": "It helps to easily switch versions of our tool.",
+        "answer_4": " All of the above",
+        "answer_true": " All of the above",
+        "playlist_id": 14,
+        "question": "What are the advantages of npm?"
+    },
+    {
+        "_id": 96,
+        "answer_1": "npm npm@latest -g",
+        "answer_2": " npm npm_latest -g",
+        "answer_3": " npm npm-latest -g",
+        "answer_4": " npm npm@latest @g",
+        "answer_true": "npm npm@latest -g",
+        "playlist_id": 14,
+        "question": "What is the syntax of updating the npm version?"
+    },
+    {
+        "_id": 97,
+        "answer_1": " To initialize repository",
+        "answer_2": " Delete repo",
+        "answer_3": " Update",
+        "answer_4": "Edit",
+        "answer_true": " To initialize repository",
+        "playlist_id": 14,
+        "question": "Why is npm init used?"
+    },
+    {
+        "_id": 98,
+        "answer_1": "npm install -l",
+        "answer_2": " npm install -g",
+        "answer_3": " npm install -lg",
+        "answer_4": " npm install -lg",
+        "answer_true": " npm install -g",
+        "playlist_id": 14,
+        "question": "What is the syntax of installing a package globally?"
+    },
+    {
+        "_id": 99,
+        "answer_1": " npm un-install express",
+        "answer_2": " npm uninstall –express",
+        "answer_3": " npm uninstall express",
+        "answer_4": " npm express uninstall",
+        "answer_true": " npm uninstall express",
+        "playlist_id": 14,
+        "question": "What is the syntax of uninstalling a package?"
+    },
+    {
+        "_id": 100,
+        "answer_1": " Name-",
+        "answer_2": " Version",
+        "answer_3": " Description",
+        "answer_4": "All of the above",
+        "answer_true": " All of the above",
+        "playlist_id": 14,
+        "question": "What are the attributes of package.json?"
+    },
+    {
+        "_id": 101,
+        "answer_1": " npm install -savedev",
+        "answer_2": " npm install -save-dev",
+        "answer_3": " npm install save-dev",
+        "answer_4": " npm install -save",
+        "answer_true": " npm install -save-dev",
+        "playlist_id": 15,
+        "question": "How to install a package as a dev dependency?"
+    },
+    {
+        "_id": 102,
+        "answer_1": " Npm ci",
+        "answer_2": " Npm audit",
+        "answer_3": " Npm publish",
+        "answer_4": " Npm exec",
+        "answer_true": " Npm exec",
+        "playlist_id": 15,
+        "question": "Which is not a valid npm command?"
+    },
+    {
+        "_id": 103,
+        "answer_1": " Local",
+        "answer_2": " Global",
+        "answer_3": "Third party",
+        "answer_4": "Core",
+        "answer_true": " Third party",
+        "playlist_id": 15,
+        "question": "Http module falls under which type of module?"
+    },
+    {
+        "_id": 104,
+        "answer_1": " Delete",
+        "answer_2": "Update",
+        "answer_3": " Read",
+        "answer_4": "All of the above",
+        "answer_true": "All of the above",
+        "playlist_id": 15,
+        "question": "What operations can the fs module do in file?"
+    },
+    {
+        "_id": 105,
+        "answer_1": "Ctrl+ twice",
+        "answer_2": " Ctrl++",
+        "answer_3": " Ctrl+ once",
+        "answer_4": " Shift+ twice",
+        "answer_true": "Ctrl+ twice",
+        "playlist_id": 15,
+        "question": "To break out of the repl loop what key has to be pressed?"
+    },
+    {
+        "_id": 106,
+        "answer_1": " Ctrl+ twice",
+        "answer_2": " Ctrl++",
+        "answer_3": " Ctrl+ once",
+        "answer_4": " Shift+ twice",
+        "answer_true": " Ctrl+ once",
+        "playlist_id": 15,
+        "question": "What is the  command for terminating the current common in repl?"
+    },
+    {
+        "_id": 107,
+        "answer_1": " Ctrl+ twice",
+        "answer_2": " Ctrl++",
+        "answer_3": " Ctrl+ once",
+        "answer_4": " ctrl+d",
+        "answer_true": " ctrl+d",
+        "playlist_id": 15,
+        "question": "What is the command for quitting the repl terminal?"
+    },
+    {
+        "_id": 108,
+        "answer_1": " Breaks out of the loop",
+        "answer_2": " Exits from multiline command",
+        "answer_3": " Quits from current command",
+        "answer_4": " All of the above",
+        "answer_true": " Exits from multiline command",
+        "playlist_id": 15,
+        "question": "What is the use of .break in repl terminal?"
+    },
+    {
+        "_id": 109,
+        "answer_1": " Jpg",
+        "answer_2": "Png",
+        "answer_3": "Pdf",
+        "answer_4": " All of the above",
+        "answer_true": " All of the above",
+        "playlist_id": 15,
+        "question": "What kind of files can be uploaded in nodejs?"
+    },
+    {
+        "_id": 110,
+        "answer_1": " Multer",
+        "answer_2": "File upload",
+        "answer_3": " Formidable",
+        "answer_4": "All of the above",
+        "answer_true": "All of the above",
+        "playlist_id": 15,
+        "question": "Which libraries can be used for uploading files?"
+    },
+    {
+        "_id": 111,
+        "answer_1": "Smtp",
+        "answer_2": " Transaction api",
+        "answer_3": " Multichannel",
+        "answer_4": "All of the above",
+        "answer_true": "All of the above",
+        "playlist_id": 15,
+        "question": "What are the ways to send an email in nodejs?"
+    },
+    {
+        "_id": 112,
+        "answer_1": "Blocking",
+        "answer_2": " Non blocking",
+        "answer_3": " Semi-blocking",
+        "answer_4": "Both a and b",
+        "answer_true": "Both a and b",
+        "playlist_id": 15,
+        "question": "What are the types of callback functions?"
+    },
+    {
+        "_id": 113,
+        "answer_1": "Node.js is an open source server environment",
+        "answer_2": "Node.js allows you to run JavaScript on the server.",
+        "answer_3": "Node.js runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)",
+        "answer_4": " All of the above",
+        "answer_true": " All of the above",
+        "playlist_id": 15,
+        "question": "Which of the following is true about Node.js?"
+    },
+    {
+        "_id": 114,
+        "answer_1": " asynchronous",
+        "answer_2": "synchronous",
+        "answer_3": " Both A and B",
+        "answer_4": "None of the above",
+        "answer_true": "asynchronous",
+        "playlist_id": 15,
+        "question": "Node.js uses _____________ programming."
+    },
+    {
+        "_id": 115,
+        "answer_1": " Node.js can create, open, read, write, delete, and close files on the server",
+        "answer_2": "Node.js can generate static page content",
+        "answer_3": "Node.js can collect form data",
+        "answer_4": "Node.js can add, delete, modify data in your database",
+        "answer_true": "Node.js can generate static page content",
+        "playlist_id": 15,
+        "question": "Which of the following is false?"
+    },
+    {
+        "_id": 116,
+        "answer_1": ".njs",
+        "answer_2": " .node",
+        "answer_3": " .js",
+        "answer_4": ".nj",
+        "answer_true": " .js",
+        "playlist_id": 15,
+        "question": "Node.js files have extension?"
+    },
+    {
+        "_id": 117,
+        "answer_1": "Command Prompt",
+        "answer_2": "nodejs Editor",
+        "answer_3": "Both A and B",
+        "answer_4": " None of the above",
+        "answer_true": "Command Prompt",
+        "playlist_id": 15,
+        "question": " Node.js files must be initiated in the?"
+    },
+    {
+        "_id": 118,
+        "answer_1": " single-threaded",
+        "answer_2": ". non-blocking",
+        "answer_3": "asynchronously programming",
+        "answer_4": "All of the above",
+        "answer_true": "All of the above",
+        "playlist_id": 15,
+        "question": "Node.js runs?"
+    },
+    {
+        "_id": 119,
+        "answer_1": "filename.js",
+        "answer_2": "javascript filename.js",
+        "answer_3": "node filename.js",
+        "answer_4": " node filename",
+        "answer_true": "node filename.js",
+        "playlist_id": 15,
+        "question": "Syntax to Initiate the Node.js File is?"
+    },
+    {
+        "_id": 120,
+        "answer_1": "function()",
+        "answer_2": " require()",
+        "answer_3": "exports()",
+        "answer_4": "module()",
+        "answer_true": " require()",
+        "playlist_id": 15,
+        "question": " To include a module, use the ___________ function with the name of the module."
+    },
+    {
+        "_id": 121,
+        "answer_1": "import",
+        "answer_2": " module",
+        "answer_3": "exports",
+        "answer_4": " require",
+        "answer_true": "exports",
+        "playlist_id": 15,
+        "question": "Which keyword is used to make properties and methods available outside the module file?"
+    },
+    {
+        "_id": 122,
+        "answer_1": " https",
+        "answer_2": " http",
+        "answer_3": " server",
+        "answer_4": "module",
+        "answer_true": " http",
+        "playlist_id": 15,
+        "question": "Node.js has a built-in module called?"
+    },
+    {
+        "_id": 123,
+        "answer_1": " fs.appendFile()",
+        "answer_2": "fs.open()",
+        "answer_3": " fs.writeFile()",
+        "answer_4": "None of the above",
+        "answer_true": " fs.appendFile()",
+        "playlist_id": 15,
+        "question": "Which method appends specified content to a file."
+    },
+    {
+        "_id": 124,
+        "answer_1": "createServer()",
+        "answer_2": " getServer()",
+        "answer_3": "putServer()",
+        "answer_4": "setServer()",
+        "answer_true": "createServer()",
+        "playlist_id": 15,
+        "question": "Which method to create an HTTP server?"
+    },
+    {
+        "_id": 125,
+        "answer_1": "$ npm --version",
+        "answer_2": "$ npm getVersion",
+        "answer_3": "$ node getVersion",
+        "answer_4": "$ node --version",
+        "answer_true": " $ node --version",
+        "playlist_id": 15,
+        "question": "Which of the following command will show version of Node?"
+    },
+    {
+        "_id": 126,
+        "answer_1": "module.expose",
+        "answer_2": "module",
+        "answer_3": " module.exports",
+        "answer_4": "All of the above",
+        "answer_true": " module.exports",
+        "playlist_id": 15,
+        "question": "The Node.js modules can be exposed using"
+    },
+    {
+        "_id": 127,
+        "answer_1": "Real time Data intensive",
+        "answer_2": "Highly scalable servers for Web Applications",
+        "answer_3": " Builds fast and scalable network Applications",
+        "answer_4": "All of the above",
+        "answer_true": "All of the above",
+        "playlist_id": 15,
+        "question": "What are the key features of Node.js?"
+    },
+    {
+        "_id": 128,
+        "answer_1": "The process object is an instance of EventEmitter.",
+        "answer_2": "process emits exit event when process is about to exit.",
+        "answer_3": "process emits uncaughtException when when an exception bubbles all the way back to the event loop.",
+        "answer_4": "All of the above",
+        "answer_true": "All of the above",
+        "playlist_id": 15,
+        "question": "Which of the following is true about process global object?"
+    },
+    {
+        "_id": 129,
+        "answer_1": "Single Page Applications",
+        "answer_2": "JSON APIs based Applications",
+        "answer_3": "CPU intensive applications",
+        "answer_4": " Data Intensive Realtime Applications (DIRT)",
+        "answer_true": "CPU intensive applications",
+        "playlist_id": 15,
+        "question": "which of the following areas, Node.js is not advised to be used?"
+    },
+    {
+        "_id": 130,
+        "answer_1": "TRUE",
+        "answer_2": "FALSE",
+        "answer_3": "Can be true or false",
+        "answer_4": "Can not say",
+        "answer_true": "TRUE",
+        "playlist_id": 15,
+        "question": "A package in Node.js contains all the files you need for a module."
+    },
+    {
+        "_id": 131,
+        "answer_1": "TRUE",
+        "answer_2": "FALSE",
+        "answer_3": "Can be true or false",
+        "answer_4": "Can not say",
+        "answer_true": "TRUE",
+        "playlist_id": 15,
+        "question": "The URL module splits up a web address into readable parts."
+    },
+    {
+        "_id": 132,
+        "answer_1": "TRUE",
+        "answer_2": "FALSE",
+        "answer_3": "Can be true or false",
+        "answer_4": "Can not say",
+        "answer_true": "FALSE",
+        "playlist_id": 15,
+        "question": "The fs.read() method is used to read files on your computer."
+    },
+    {
+        "_id": 133,
+        "answer_1": "11",
+        "answer_2": "12",
+        "answer_3": "13",
+        "answer_4": "14",
+        "answer_true": "12",
+        "playlist_id": 15,
+        "question": "How many node types are there in total?"
+    },
+    {
+        "_id": 134,
+        "answer_1": "Returns the root element",
+        "answer_2": "Returns the last element",
+        "answer_3": "Returns the parent node",
+        "answer_4": " Returns the immediate node",
+        "answer_true": "Returns the root element",
+        "playlist_id": 15,
+        "question": "What is the purpose of the Node object property ownerDocument?"
+    },
+    {
+        "_id": 135,
+        "answer_1": " lastName",
+        "answer_2": "localName",
+        "answer_3": " firstName",
+        "answer_4": " objectname",
+        "answer_true": "localName",
+        "playlist_id": 15,
+        "question": " Which of the following Node object property returns the local part of the name of a node?"
+    },
+    {
+        "_id": 136,
+        "answer_1": "Sets the textual content of a node",
+        "answer_2": "Returns the textual content of a node",
+        "answer_3": "Sets & Returns the textual content of a node",
+        "answer_4": "Modifies texual content",
+        "answer_true": "Sets & Returns the textual content of a node",
+        "playlist_id": 15,
+        "question": "What is the property textContent?"
+    },
+    {
+        "_id": 137,
+        "answer_1": "18",
+        "answer_2": "19",
+        "answer_3": "20",
+        "answer_4": "21",
+        "answer_true": "18",
+        "playlist_id": 15,
+        "question": "How many Node object methods are available?"
+    },
+    {
+        "_id": 138,
+        "answer_1": "previousSibling",
+        "answer_2": "textContent",
+        "answer_3": "index",
+        "answer_4": "localName",
+        "answer_true": "previousSibling",
+        "playlist_id": 15,
+        "question": "Which of the following Node object property returns the node immediately before a node?"
+    },
+    {
+        "_id": 139,
+        "answer_1": "Returns the associated object",
+        "answer_2": "Gets the user data",
+        "answer_3": " Returns the user data",
+        "answer_4": " Gets the user key",
+        "answer_true": "Returns the associated object",
+        "playlist_id": 15,
+        "question": "What is the purpose of the method getUserData(key)?"
+    },
+    {
+        "_id": 140,
+        "answer_1": "isEqualNode()",
+        "answer_2": "equal()",
+        "answer_3": "==",
+        "answer_4": "equalto()",
+        "answer_true": "isEqualNode()",
+        "playlist_id": 15,
+        "question": "How to test if two nodes are equal?"
+    },
+    {
+        "_id": 141,
+        "answer_1": "getUserData()",
+        "answer_2": "cloneNode()",
+        "answer_3": "setUserData(key,data,handler)",
+        "answer_4": "clonedata()",
+        "answer_true": "setUserData(key,data,handler)",
+        "playlist_id": 15,
+        "question": " How to associate an object to a key on a node?"
+    },
+    {
+        "_id": 142,
+        "answer_1": "compareDocumentPosition()",
+        "answer_2": "cloneNode()",
+        "answer_3": "getUserData()",
+        "answer_4": "getUserData()",
+        "answer_true": "compareDocumentPosition()",
+        "playlist_id": 15,
+        "question": "Which method is used to compare the placement of two nodes in the DOM hierarchy (document)?"
+    },
+    {
+        "_id": 143,
+        "answer_1": "zlib",
+        "answer_2": "https",
+        "answer_3": "dgram",
+        "answer_4": "fsread",
+        "answer_true": "dgram",
+        "playlist_id": 15,
+        "question": "Which of following is not builtin node module."
+    },
+    {
+        "_id": 144,
+        "answer_1": "module.exports",
+        "answer_2": "module.expose",
+        "answer_3": "module.spread",
+        "answer_4": "None of the Above",
+        "answer_true": "module.exports",
+        "playlist_id": 15,
+        "question": "How Node.js modules are availble externally"
+    },
+    {
+        "_id": 145,
+        "answer_1": "Expose",
+        "answer_2": "Module",
+        "answer_3": "Exports",
+        "answer_4": "All of the above",
+        "answer_true": "Exports",
+        "playlist_id": 15,
+        "question": "How modules in Node.js can be connected from one component to another ?"
+    },
+    {
+        "_id": 146,
+        "answer_1": "Jade",
+        "answer_2": "Vash",
+        "answer_3": "Handlebars",
+        "answer_4": "All of the above",
+        "answer_true": "All of the above",
+        "playlist_id": 15,
+        "question": "Which template engines can be used with Node.js ?"
+    },
+    {
+        "_id": 147,
+        "answer_1": "path.get()",
+        "answer_2": "path.set()",
+        "answer_3": "path.format()",
+        "answer_4": "path.return()",
+        "answer_true": "path.format()",
+        "playlist_id": 15,
+        "question": "How do we return a path string from the given path object in Node.js ?"
+    },
+    {
+        "_id": 148,
+        "answer_1": "Global",
+        "answer_2": "Local",
+        "answer_3": "Global Function",
+        "answer_4": "Local to object",
+        "answer_true": "Local",
+        "playlist_id": 15,
+        "question": "What is the default scope in the Node.js application ?"
+    },
+    {
+        "_id": 149,
+        "answer_1": "path.Query()",
+        "answer_2": "path.render()",
+        "answer_3": "path.isAbsolute()",
+        "answer_4": "path.Absolute()",
+        "answer_true": "path.isAbsolute()",
+        "playlist_id": 15,
+        "question": "Which below method is used to check whether the given path is an absolute path or not in Node.js ?"
+    },
+    {
+        "_id": 150,
+        "answer_1": "npm ls",
+        "answer_2": "npm ls -g",
+        "answer_3": "node ls -g",
+        "answer_4": "node ls",
+        "answer_true": "npm ls",
+        "playlist_id": 15,
+        "question": "Which of the below command will show all the modules installed locally ?"
+    }
+]
