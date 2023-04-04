@@ -1,4 +1,5 @@
 <?php 
+              if(isset($_GET["id"])){
                 $id = $_GET["id"];
                 if($id >= 1 && $id <= 3 ){
                   $myjson = file_get_contents("json/Question_Python.json");
@@ -19,7 +20,7 @@
                   $myjson = file_get_contents("json/Question_Reactjs.json");
                   $name = "Reactjs";
                 }
-      $json_array = json_decode($myjson,true);// suppose your json data variable name is $json then decode it and assing to a new variable $json_array
+      $json_array = json_decode($myjson,true);}// suppose your json data variable name is $json then decode it and assing to a new variable $json_array
       ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -64,9 +65,18 @@
         </div>
     </header>
     <div id="container">
+      <?php if(isset($id)){?>
         <div class="title">
             <h1>Bài kiểm tra kiến thức <?php echo $name; ?></h1>
-            <p>Mức độ Trung bình</p>
+            <p>Mức độ <?php if($id == 1||$id= 4||$id= 7||$id= 10||$id= 13||$id= 16 ){
+              echo "Dễ";
+            }elseif($id == 2||$id= 5||$id= 8||$id= 11||$id= 14||$id= 17 ){
+              echo "Trung Bình";
+            }else{
+              echo "Khó";
+            }
+            
+            ?></p>
         </div>
         <div class="content">
             <form class="quiz">
@@ -142,6 +152,11 @@
 
             </form>
         </div>
+        <?php }else{?>
+        <h1 style="color : white; padding-top: 200px">
+        <?php
+          echo " 404 NOT FOUND <br>Trang Không Hợp Lệ!!!!";
+        } ?></h1>
     </div>
 
 </body>
