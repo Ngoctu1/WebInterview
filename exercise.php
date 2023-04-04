@@ -21,26 +21,9 @@
   </head>
 
   <body>
-    <header>
-      <div class="topnav" id="myTopnav">
-        <a href="#"><img width="130px" height="auto" src="image/logo.png" /></a>
-        <a href="#" class="hidden">Đăng nhập</a>
-        <a href="#" class="hidden">Test kiến thức ngay</a>
-
-        <a href="#">Giới thiệu</a>
-        <a href="#">Chia sẻ</a>
-        <a href="#">Đánh giá</a>
-        <a href="#">Hướng dẫn</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
-      <div class="topnav-right">
-        <a href="#">Đăng nhập</a>
-
-        <a href="#" class="blue">Test kiến thức ngay</a>
-      </div>
-    </header>
+  <?php
+  include('header.php');
+  ?>
     <div id="container">
       <div class="title">
         <h1>Bài kiểm tra kiến thức PYTHON</h1>
@@ -114,5 +97,8 @@
        
       </div>
     </div>
+    <?php
+include('footer.php')
+?>
   </body>
 </html>
