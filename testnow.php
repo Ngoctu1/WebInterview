@@ -14,48 +14,48 @@
 </head>
 
 <body>
-  <header>
-    <div class="topnav" id="myTopnav">
-      <a href="#"><img width="130px" height="auto" src="image/logo.png" /></a>
-      <a class="menuitem" href="#" class="hidden">Đăng nhập</a>
-      <a  class="menuitem" href="#" class="hidden">Test kiến thức ngay</a>
 
-      <a class="menuitem" href="#">Giới thiệu</a>
-      <a class="menuitem" href="#">Chia sẻ</a>
-      <a class="menuitem" href="#">Đánh giá</a>
-      <a class="menuitem" href="#">Hướng dẫn</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </div>
-    <div class="topnav-right">
-      <a href="#">Đăng nhập</a>
+  <?php
+  include('header.php');
+  ?>
 
-    </div>
-  </header>
-
-
-  <section style="" id="container">
+  <section id="container">
     <div class="content">
       <div class="info">
         <h2> Bắt đầu kiểm tra kiến thức của bạn, trước tiên hay cho chúng tôi biết thêm về bạn nhé</h2>
         <h3>Thông tin chỉ mang tính chất lưu trữ kết quả cho lần sau và hoàn toàn bảo mật</h3>
-        <form class="infoform">
+        <form action="startest.php" method="post" class="infoform">
           <p> Tên của bạn</p>
-          <input type="text" placeholder="Hãy nhập tên của bạn">
+          <input type="text" placeholder="Hãy nhập tên của bạn" name="name_user">
+          <input name="name_quiz" id="id_quiz" type="text" style="display: none;">
           <p> Chọn bài test mà bạn muốn tham gia</p>
-          <select style="">
-            <option style="display: none">Tên Bài Test</option>
+          <select onchange="onclick1()" id="name_id" name="nametest">
+
+            <option style="display: none" >Tên Bài Test</option>
+            <?php
+            $myjson = file_get_contents("json/Category.json");
+            $json_array = json_decode($myjson, true);
+            $a = 0;
+
+            foreach ($json_array as $json_arr) { ?>
+              <option name="<?php echo $a++ ?>"  value="<?php echo $json_arr['_id']; ?>"><?php echo $json_arr['name'];  ?></option>
+            <?php
+
+            }
+            ?>
 
           </select>
           <div style="display: flex;padding-top: 10px;">
             <div style="flex:3"></div>
-            <button >
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M5 13c0-5.088 2.903-9.436 7-11.182C16.097 3.564 19 7.912 19 13c0 .823-.076 1.626-.22 2.403l1.94 1.832a.5.5 0 0 1 .095.603l-2.495 4.575a.5.5 0 0 1-.793.114l-2.234-2.234a1 1 0 0 0-.707-.293H9.414a1 1 0 0 0-.707.293l-2.234 2.234a.5.5 0 0 1-.793-.114l-2.495-4.575a.5.5 0 0 1 .095-.603l1.94-1.832C5.077 14.626 5 13.823 5 13zm1.476 6.696l.817-.817A3 3 0 0 1 9.414 18h5.172a3 3 0 0 1 2.121.879l.817.817.982-1.8-1.1-1.04a2 2 0 0 1-.593-1.82c.124-.664.187-1.345.187-2.036 0-3.87-1.995-7.3-5-8.96C8.995 5.7 7 9.13 7 13c0 .691.063 1.372.187 2.037a2 2 0 0 1-.593 1.82l-1.1 1.039.982 1.8zM12 13a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"></path></svg>
-              <a href="/Webinterview2/WebInterview/startest.html">Bắt đầu</a>
+            <button type="submit">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path fill="none" d="M0 0h24v24H0z"></path>
+                <path fill="currentColor" d="M5 13c0-5.088 2.903-9.436 7-11.182C16.097 3.564 19 7.912 19 13c0 .823-.076 1.626-.22 2.403l1.94 1.832a.5.5 0 0 1 .095.603l-2.495 4.575a.5.5 0 0 1-.793.114l-2.234-2.234a1 1 0 0 0-.707-.293H9.414a1 1 0 0 0-.707.293l-2.234 2.234a.5.5 0 0 1-.793-.114l-2.495-4.575a.5.5 0 0 1 .095-.603l1.94-1.832C5.077 14.626 5 13.823 5 13zm1.476 6.696l.817-.817A3 3 0 0 1 9.414 18h5.172a3 3 0 0 1 2.121.879l.817.817.982-1.8-1.1-1.04a2 2 0 0 1-.593-1.82c.124-.664.187-1.345.187-2.036 0-3.87-1.995-7.3-5-8.96C8.995 5.7 7 9.13 7 13c0 .691.063 1.372.187 2.037a2 2 0 0 1-.593 1.82l-1.1 1.039.982 1.8zM12 13a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"></path>
+              </svg>
+              <a href="/Webinterview2/WebInterview/startest.php">Bắt đầu</a>
             </button>
             <div style="flex:3"></div>
-        </div>
+          </div>
         </form>
       </div>
 
@@ -66,100 +66,18 @@
     </div>
 
   </section>
-  <footer>
-    <div class="infor">
-      <div class="footer-column"><img class="logofoot" src="image/logo.png" /></div>
-      <div class="footer-column">
-        Tìm hiểu về Depsenior
-        <p>Giới thiệu</p>
-      </div>
-
-      <div class="footer-column">
-        Chia sẻ
-        <p>Chia sẻ Devsenior qua các social media</p>
-      </div>
-      <div class="footer-column">
-        Hướng dãn
-        <p>Hướng dẫn sử dụng Devsenior</p>
-      </div>
-      <div class="footer-column flex3">
-        <div class="dowload">
-          <a
-            href="https://github.com/sonnh7289/python3-download/raw/main/InterviewQuestion.apk"><img
-              src="image/appstore.png" alt="" /></a>
-          <a
-            href="https://github.com/sonnh7289/python3-download/raw/main/InterviewQuestion.apk"><img
-              src="image/googleplay.png" alt="" /></a>
-          
-        </div>
-        <div class="social">
-            <a href=""><i class="fab fa-facebook"></i></a>
-            <a href=""><i class="fab fa-instagram"></i></a>
-            <a href=""><i class="fab fa-twitter"></i></a>
-            <a href=""><i class="fab fa-invision"></i></a>
-            <a href=""><i class="fab fa-youtube"></i></a>
-
-          </div>
-      </div>
-    </div>
-    <div class="footer_late">
-      <div class="infor2">
-
-        <div class="copyright-colum">
-
-          <div class="select-menu">
-
-
-            <ul class="options">
-              <li class="option">
-                <span class="option-text">Vietnamese</span>
-              </li>
-              <li class="option">
-                <span class="option-text">Enghlish</span>
-              </li>
-            </ul>
-
-            <div class="select-btn">
-              <i class='fas fa-globe'></i>
-              <span class="sBtn-text">Select your option</span>
-            </div>
-
-          </div>
-
-        </div>
-
-
-
-
-      </div>
-      <div class="infor3">
-        <p>Chính sách riêng tư</p>
-        <p>Thuật ngữ</p>
-        <p>Cài đặt cookies</p>
-        <p>Bản quyền © 2023 abc</p>
-      </div>
-      <div class="infor4">
-
-      </div>
-
-    </div>
-    </div>
-    </div>
-
-  </footer>
+  <?php
+  include('footer.php')
+  ?>
 
 </body>
 <script>
-  const lisli = document.querySelector('select');
-  fetch('./json/Category.json')
-    .then(res => res.json())
-    .then(data => {
-      console.log(data);
-      data.forEach(post => {
-        lisli.insertAdjacentHTML('beforeend', `<option> ${post.name} </option>`);
-      })
-    });
+function onclick1(){
+var name_id =document.getElementById('name_id');
+document.getElementById('id_quiz').value =name_id;
+console.log(name_id.value);
 
+}
 </script>
 
 </html>

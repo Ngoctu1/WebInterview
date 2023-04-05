@@ -1,3 +1,12 @@
+<?php
+if (isset($_POST['nametest'])) {
+    $myjson = file_get_contents("json/Playlist.json");
+    $json_array = json_decode($myjson, true);
+    $id_test = $_POST['nametest'];
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,121 +25,51 @@
 </head>
 
 <body>
-    <header>
-        <div class="topnav" id="myTopnav">
-            <a href="#"><img width="130px" height="auto" src="image/logo.png" /></a>
-            <a href="#" class="hidden">Đăng nhập</a>
-            <a href="#" class="hidden">Test kiến thức ngay</a>
+    <?php
+    include('header.php');
 
-            <a href="#">Giới thiệu</a>
-            <a href="#">Chia sẻ</a>
-            <a href="#">Đánh giá</a>
-            <a href="#">Hướng dẫn</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
-        </div>
-        <div class="topnav-right">
-            <a href="#">Đăng nhập</a>
 
-            <a href="#" class="blue">Test kiến thức ngay</a>
-        </div>
-    </header>
+
+    ?>
+
     <div id="container">
-        <div class="content">
-            <div class="title">
-                <h1>Bài kiểm tra kiến thức PYTHON</h1>
-                <p>Thời gian làm bài : 30 phút</p>
-                <p>Số lượng câu hỏi : 50 câu</p>
-            </div>
-            <div class="pick_level">
-                <p>Chọn độ khó bài test</p>
-                <div class="level">
-                    <a href=""><button class="">Dễ</button></a>
+        <?php if (isset($_POST['name_user'])) { ?>
+            <div class="content">
+                <div class="title">
+                    <h1>Bài kiểm tra kiến thức PYTHON</h1>
+                    <p>Thời gian làm bài : 30 phút</p>
+                    <p>Số lượng câu hỏi : 50 câu</p>
                 </div>
-                <div class="level">
-                    <a href=""><button class="green">Trung bình</button></a>
+                <div class="pick_level">
+                    <p>Chọn độ khó bài test</p>
+                    <?php
+                    foreach ($json_array as $json_arr) {
+                        if ($json_arr['category_id'] == $_POST['nametest']) {
+                    ?>
+                            <div class="level">
+                                <a href=""><button class=""><?php echo $json_arr['title']; ?></button></a>
+                            </div>
+                    <?php }
+                    } ?>
                 </div>
-                
-                <div class="level">
-                    <a href=""><button class="red">Khó</button></a>
+                <div class="start">
+                    <a href="exercise.php?id=1"><button class="ready">Bắt đầu bài test</button></a>
                 </div>
             </div>
-            <div class="start">
-                <a href="exercise.php?id=1"><button class="ready">Bắt đầu bài test</button></a>
-            </div>
-        </div>
-
+        <?php
+        } else {
+        ?>
+            <h1 style="
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;">404 NOT FOUND</h1>
+        <?php
+        } ?>
     </div>
-    <footer>
-        <div class="infor">
-            <div class="footer-column"><img src="image/logo.png" /></div>
-            <div class="footer-column">
-                Tìm hiểu về Depsenior
-                <p>Giới thiệu</p>
-            </div>
-            <div class="footer-column">
-                Chia sẻ
-                <p>Chia sẻ Devsenior qua các social media</p>
-            </div>
-            <div class="footer-column">
-                Hướng dãn
-                <p>Hướng dẫn sử dụng Devsenior</p>
-            </div>
-            <div class="footer-column flex3">
-                <div class="dowload">
-                    <a
-                        href="https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fsonnh7289%2Fpython3-download%2Fraw%2Fmain%2FInterviewQuestion.apk%3Ffbclid%3DIwAR3YFXmHsh7_LIAqQ0HNXrwSxqvZa01YlhmLolnBPu1A5FOQZ7DfvuOEK74&h=AT0BDDy7VMwtesqH_tIfIuy2KsNivO4cNV4dNUunJSmbiFZseuwMReG5Vk5uEhl7RMNSIZkni-soSAGdUY7GFZKlaFsq2SmZ6IP-TQo_ko--ZqpztB-nit3Ksp-tjneijUtAeA"><img
-                            src="image/appstore.png" alt="" /></a>
-                    <a
-                        href="https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2Fsonnh7289%2Fpython3-download%2Fraw%2Fmain%2FInterviewQuestion.apk%3Ffbclid%3DIwAR3YFXmHsh7_LIAqQ0HNXrwSxqvZa01YlhmLolnBPu1A5FOQZ7DfvuOEK74&h=AT0BDDy7VMwtesqH_tIfIuy2KsNivO4cNV4dNUunJSmbiFZseuwMReG5Vk5uEhl7RMNSIZkni-soSAGdUY7GFZKlaFsq2SmZ6IP-TQo_ko--ZqpztB-nit3Ksp-tjneijUtAeA"><img
-                            src="image/googleplay.png" alt="" /></a>
-                    <div class="social">
-                        <a href=""><i class="fab fa-facebook"></i></a>
-                        <a href=""><i class="fab fa-instagram"></i></a>
-                        <a href=""><i class="fab fa-twitter"></i></a>
-                        <a href=""><i class="fab fa-invision"></i></a>
-                        <a href=""><i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer_late">
-            <div class="infor2">
-
-                <div class="copyright-colum">
-
-                    <div class="select-menu">
-
-
-                        <ul class="options">
-                            <li class="option">
-                                <span class="option-text">Vietnamese</span>
-                            </li>
-                            <li class="option">
-                                <span class="option-text">Enghlish</span>
-                            </li>
-                        </ul>
-
-                        <div class="select-btn">
-                            <i class='fas fa-globe'></i>
-                            <span class="sBtn-text">Select your option</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="infor3">
-                <p>Chính sách riêng tư</p>
-                <p>Thuật ngữ</p>
-                <p>Cài đặt cookies</p>
-                <p>Bản quyền © 2023 abc</p>
-            </div>
-            <div class="infor4">
-            </div>
-        </div>
-        </div>
-        </div>
-    </footer>
+    <?php
+    include('footer.php')
+    ?>
 </body>
 
 </html>

@@ -1,31 +1,34 @@
-<?php 
-              if(isset($_GET["id"])){
-                $id = $_GET["id"];
-                if($id >= 1 && $id <= 3 ){
-                  $myjson = file_get_contents("json/Question_Python.json");
-                  $name = "Python";
-                }elseif($id >= 4 && $id <= 6 ){
-                  $myjson = file_get_contents("json/Question_OOP.json");
-                  $name = "OOP";
-                }elseif($id >= 7 && $id <= 9 ){
-                  $myjson = file_get_contents("json/Question_PHP.json");
-                  $name = "PHP";
-                }elseif($id >= 10 && $id <= 12 ){
-                  $myjson = file_get_contents("json/Question_IOS.json");
-                  $name = "IOS";
-                }elseif($id >= 13 && $id <= 15 ){
-                  $myjson = file_get_contents("json/Question_Nodejs.json");
-                  $name = "Nodejs";
-                }elseif($id >= 16 && $id <= 18 ){
-                  $myjson = file_get_contents("json/Question_Reactjs.json");
-                  $name = "Reactjs";
-                }
-      $json_array = json_decode($myjson,true);}// suppose your json data variable name is $json then decode it and assing to a new variable $json_array
-      ?>
+<?php
+if (isset($_GET["id"])) {
+  $id = $_GET["id"];
+  if ($id >= 1 && $id <= 3) {
+    $myjson = file_get_contents("json/Question_Python.json");
+    $name = "Python";
+    
+  } elseif ($id >= 4 && $id <= 6) {
+    $myjson = file_get_contents("json/Question_OOP.json");
+    $name = "OOP";
+  } elseif ($id >= 7 && $id <= 9) {
+    $myjson = file_get_contents("json/Question_PHP.json");
+    $name = "PHP";
+  } elseif ($id >= 10 && $id <= 12) {
+    $myjson = file_get_contents("json/Question_IOS.json");
+    $name = "IOS";
+  } elseif ($id >= 13 && $id <= 15) {
+    $myjson = file_get_contents("json/Question_Nodejs.json");
+    $name = "Nodejs";
+  } elseif ($id >= 16 && $id <= 18) {
+    $myjson = file_get_contents("json/Question_Reactjs.json");
+    $name = "Reactjs";
+  }
+  $json_array = json_decode($myjson, true);
+} // suppose your json data variable name is $json then decode it and assing to a new variable $json_array
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -40,7 +43,12 @@
     
     
 
-    <title>Document</title>
+
+  <!-- <script src="js/script.js" defer></script> -->
+  <script src="jsonpath-0.8.0.js" defer></script>
+
+
+  <title>Document</title>
 </head>
 
 <body>
@@ -119,15 +127,29 @@
                             </div>
                             <?php } ?>
                         </div>
+
                     </div>
+                    <div class="radio">
+                      <input name="radio<?php echo $json_arr['_id']; ?>" type="radio" />
+                      <label><?php echo $json_arr['answer_2']; ?></label>
+                    </div>
+                    <div class="radio">
+                      <input name="radio<?php echo $json_arr['_id']; ?>" type="radio" />
+                      <label><?php echo $json_arr['answer_3']; ?></label>
+                    </div>
+                    <div class="radio">
+                      <input name="radio<?php echo $json_arr['_id']; ?>" type="radio" />
+                      <label><?php echo $json_arr['answer_4']; ?></label>
+                    </div>
+                  </div>
                 </div>
+              </div>
 
-                <?php }
+          <?php }
+          }
+          ?>
 
-  }
- ?>
-
-                <!-- <div class="ques">
+          <!-- <div class="ques">
           <div class="question">
             <p>Câu hỏi số 1:</p>
           </div>
@@ -173,10 +195,12 @@ const quiz = document.querySelector('form');
 const aws = document.getElementById('aws');
 function countdown( elementName, minutes, seconds )
 
+
 {
   
 
     var element, endTime, hours, mins, msLeft, time;
+
 
     function twoDigits( n )
 
@@ -245,9 +269,11 @@ function checkboxes() {
         }
       }
     }
+
     document.getElementById('dem').innerHTML = count;
     document.getElementById('diem').innerHTML = score;
 }
+
 
 
 </script>
