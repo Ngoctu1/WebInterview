@@ -28,15 +28,21 @@ if (isset($_GET["id"])) {
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/exercise.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-  <script src="https://kit.fontawesome.com/041cb6b55e.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/exercise.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/041cb6b55e.js" crossorigin="anonymous"></script>
+
+    <!-- <script src="js/script.js" defer></script> -->
+    
+    
+
 
   <!-- <script src="js/script.js" defer></script> -->
   <script src="jsonpath-0.8.0.js" defer></script>
@@ -46,42 +52,82 @@ if (isset($_GET["id"])) {
 </head>
 
 <body>
-  <?php
-  include('header.php');
-  ?>
-  <div id="container">
-    <?php if (isset($id)) { ?>
-      <div class="title">
-        <h1>Bài kiểm tra kiến thức <?php echo $name; ?></h1>
-        <p>Mức độ <?php if ($id == 1 || $id = 4 || $id = 7 || $id = 10 || $id = 13 || $id = 16) {
-                    echo "Dễ";
-                  } elseif ($id == 2 || $id = 5 || $id = 8 || $id = 11 || $id = 14 || $id = 17) {
-                    echo "Trung Bình";
-                  } else {
-                    echo "Khó";
-                  }
+<header>
+    <div class="topnav" id="myTopnav">
+      <a href="#"><img width="130px" height="auto" src="image/logo.png" /></a>
+      <a class="menuitem" href="#" class="hidden">Đăng nhập</a>
+      <a  class="menuitem" href="#" class="hidden">Test kiến thức ngay</a>
 
-                  ?></p>
-      </div>
-      <div class="content">
-        <form class="quiz">
+      <a class="menuitem" href="#">Giới thiệu</a>
+      <a class="menuitem" href="#">Chia sẻ</a>
+      <a class="menuitem" href="#">Đánh giá</a>
+      <a class="menuitem" href="#">Hướng dẫn</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <div class="topnav-right">
+      <p id="dem">0</p><p>/50</p>
+      <br>
+      <div id="tg"></div>
+      <p id="diem"></p>
+      <a href="#">Đăng nhập</a>
 
-          <?php
+      <a href="/Webinterview2/WebInterview/testnow.html" class="blue">Test kiến thức ngay</a>
+    </div>
+  </header>
+    <div id="container">
+      <?php if(isset($id)){?>
+        <div class="title">
+            <h1>Bài kiểm tra kiến thức <?php echo $name; ?></h1>
+            <p>Mức độ <?php if($id == 1||$id= 4||$id= 7||$id= 10||$id= 13||$id= 16 ){
+              echo "Dễ";
+            }elseif($id == 2||$id= 5||$id= 8||$id= 11||$id= 14||$id= 17 ){
+              echo "Trung Bình";
+            }else{
+              echo "Khó";
+            }
+            
+            ?></p>
+        </div>
+        <div class="content">
+            <form class="quiz" method="POST" >
+                
+      <?php 
+ $a = 0;
+  foreach($json_array as $json_arr){ // now iterate through that array
+      if($json_arr['playlist_id'] == $id){  ?>
 
-          foreach ($json_array as $json_arr) { // now iterate through that array
-            if ($json_arr['playlist_id'] == $id) { ?>
+                <div class="ques">
+                    <div class="question">
+                        <p>Câu hỏi số <?php echo $json_arr['_id']; ?>:</p>
+                    </div>
 
-              <div class="ques">
-                <div class="question">
-                  <p>Câu hỏi số <?php echo $json_arr['_id']; ?>:</p>
-                </div>
+                    <div class="box_ques">
+                        <div id="aws" class="choose">
+                            <p>Chọn đáp án đúng : <span><?php echo $json_arr['question']; ?> </span></p>
+                            <div class="radio">
+                                <input id="inputcheck" name='<?php echo $json_arr['answer_true'], $a; ?>'  value='<?php echo $json_arr['answer_1'], $a; ?>' type="radio" onclick="checkboxes()" />
+                                <label id="answer" ><?php echo $json_arr['answer_1']; ?></label>
+                            </div>
+                            <div class="radio">
+                                <input id="inputcheck" name='<?php echo $json_arr['answer_true'], $a; ?>'  value='<?php echo $json_arr['answer_2'], $a; ?>' type="radio"  onclick="checkboxes()"/>
+                                <label><?php echo $json_arr['answer_2']; ?></label>
+                            </div>
+                            <?php if(isset($json_arr['answer_3'])){?>
+                            <div class="radio">
+                                <input id="inputcheck" name='<?php echo $json_arr['answer_true'], $a; ?>'  value='<?php echo $json_arr['answer_3'], $a; ?>' type="radio" onclick="checkboxes()"/>
+                                <label><?php echo $json_arr['answer_3']; ?></label>
+                            </div>
+                            <?php }
+                            if(isset($json_arr['answer_4'])){ ?>
+                            <div class="radio">
+                                <input id="inputcheck" name='<?php echo $json_arr['answer_true'], $a; ?>'  value='<?php echo $json_arr['answer_4'], $a++; ?>' type="radio" onclick="checkboxes()"/>
+                                <label><?php echo $json_arr['answer_4']; ?></label>
+                            </div>
+                            <?php } ?>
+                        </div>
 
-                <div class="box_ques">
-                  <div id="aws" class="choose">
-                    <p>Chọn đáp án đúng : <span><?php echo $json_arr['question']; ?> </span></p>
-                    <div class="radio">
-                      <input name="radio<?php echo $json_arr['_id']; ?>" type="radio" />
-                      <label><?php echo $json_arr['answer_1']; ?></label>
                     </div>
                     <div class="radio">
                       <input name="radio<?php echo $json_arr['_id']; ?>" type="radio" />
@@ -133,40 +179,103 @@ if (isset($_GET["id"])) {
 
 
 
+<input type="submit"> hoan thanh</input>
+            </form>
+        </div>
+        <?php }else{?>
+        <h1 style="color : white; padding-top: 200px">
+        <?php
+          echo " 404 NOT FOUND <br>Trang Không Hợp Lệ!!!!";
+        } ?></h1>
+    </div>
 
-        </form>
-      </div>
-    <?php } else { ?>
-      <h1 style="color : white; padding-top: 200px">
-      <?php
-      echo " 404 NOT FOUND <br>Trang Không Hợp Lệ!!!!";
-    } ?></h1>
-  </div>
-  <?php
-  include('footer.php')
-  ?>
 </body>
 <script>
-  const quiz = document.querySelector('form');
-  const aws = document.getElementById('aws');
-  const checked = document.querySelector('input');
+const quiz = document.querySelector('form');
+const aws = document.getElementById('aws');
+function countdown( elementName, minutes, seconds )
 
 
+{
+  
 
-  function checkboxes() {
-    var inputElems = document.querySelector('input'),
-      count = 0;
+    var element, endTime, hours, mins, msLeft, time;
 
-    for (var i = 0; i < inputElems.length; i++) {
-      if (inputElems[i].type == "checkbox" && inputElems[i].checked == true) {
-        count++;
-        console.log(count);
-      }
+
+    function twoDigits( n )
+
+    {return (n <= 9 ? "0" + n : n);}
+
+    element = document.getElementById( elementName ); 
+
+    endTime = (+new Date) + 1000 * (60*minutes + seconds) + 500;
+
+    updateTimer();
+
+     function updateTimer()
+
+    {
+
+        msLeft = endTime - (+ new Date);
+
+        if ( msLeft < 1000 ) {
+
+            element.innerHTML = "het gio";
+
+        }
+
+        else {
+
+            time = new Date( msLeft );
+
+            hours = time.getUTCHours();
+
+            mins = time.getUTCMinutes();
+
+            element.innerHTML = (hours ? hours + ':' + twoDigits( mins ) : mins) + ':' + twoDigits( time.getUTCSeconds() );
+
+            setTimeout( updateTimer, time.getUTCMilliseconds() + 500 );
+
+        }
 
     }
-  }
 
-  console.log(checked);
+}
+
+
+
+countdown( 'tg', 30, 0 );
+
+
+
+
+
+function checkboxes() {
+    var inputElems = document.getElementsByTagName('input');
+        
+    console.log(inputElems);
+     count = 0;       
+     score = 0;
+    for (var i = 0; i < inputElems.length; i++) {
+      
+        if (inputElems[i].checked == true) {
+          count++;  
+          console.log(count);
+          
+        
+        if (inputElems[i].value == inputElems[i].name ){
+          score++;
+          console.log(score);
+        }
+      }
+    }
+
+    document.getElementById('dem').innerHTML = count;
+    document.getElementById('diem').innerHTML = score;
+}
+
+
+
 </script>
 
 </html>
