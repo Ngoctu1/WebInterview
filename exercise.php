@@ -59,8 +59,9 @@ if (isset($_GET["id"])) {
       <p id="dem">0</p><p>/50</p>
       <br>
       <div id="tg"></div>
-      <p id="diem"></p>
+      <p id="diem">0</p>
       <a href="#">Đăng nhập</a>
+      
 
       <a href="/Webinterview2/WebInterview/testnow.html" class="blue">Test kiến thức ngay</a>
     </div>
@@ -112,7 +113,7 @@ if (isset($_GET["id"])) {
                             if(isset($json_arr['answer_4'])){ ?>
                             <div class="radio">
                                 <input id="inputcheck" name='<?php echo $json_arr['answer_true'], $a; ?>'  value='<?php echo $json_arr['answer_4'], $a; ?>' type="radio" onclick="checkboxes()"/>
-                                <label><?php $output = $json_arr['answer_4'] . ""; ?></label>
+                                <label><?php echo $json_arr['answer_4']  ?></label>
                             </div>
                             <?php } ?>
                         </div>
