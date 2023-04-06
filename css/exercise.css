@@ -113,3 +113,17 @@ label {
     padding-bottom: 5px;
 
 }
+.time{
+   display: flex;
+}
+#tg{
+   
+}
+.score{
+    display: flex;
+}
+.number_quiz{
+    padding: 10px 15px;
+    width: 150px;
+    text-align: center;
+}
