@@ -158,6 +158,9 @@ if (isset($_GET["id"])) {
 
 <input type="submit"> hoan thanh</input>
             </form>
+            <button onclick="myalert()">
+    Show Alert Message
+</button>
         </div>
         <?php }else{?>
         <h1 style="color : white; padding-top: 200px">
@@ -250,6 +253,16 @@ function checkboxes() {
     document.getElementById('dem').innerHTML = count;
     document.getElementById('diem').innerHTML = score;
 }
+
+function myalert() {
+  if (confirm('Bạn có muốn nộp luôn không ?')) {
+  
+  console.log('OK');
+} else {
+  
+  console.log('HỦY');
+}
+    }
 
 
 

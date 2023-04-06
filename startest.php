@@ -1,8 +1,25 @@
 <?php
-if (isset($_POST['nametest'])) {
+if (isset($_POST['nametest']) && isset($_POST['name_user'])) {
     $myjson = file_get_contents("json/Playlist.json");
     $json_array = json_decode($myjson, true);
     $id_test = $_POST['nametest'];
+
+    
+        
+        if ($id_test == 1) {
+          $name = "Python";
+        } elseif ($id_test == 2 ) {
+          $name = "OOP";
+        } elseif ($id_test == 3) {
+          $name = "PHP";
+        } elseif ($id_test == 4) {
+          $name = "IOS";
+        } elseif ($id_test == 5) {
+          $name = "Nodejs";
+        } elseif ($id_test == 6) {
+          $name = "Reactjs";
+        }
+       
 }
 
 ?>
@@ -33,10 +50,10 @@ if (isset($_POST['nametest'])) {
     ?>
 
     <div id="container">
-        <?php if (isset($_POST['name_user'])) { ?>
+        <?php if (isset($_POST['name_user'])  && isset($_POST['nametest'])) { ?>
             <div class="content">
                 <div class="title">
-                    <h1>Bài kiểm tra kiến thức PYTHON</h1>
+                    <h1>Bài kiểm tra kiến thức <?php echo $name?></h1>
                     <p>Thời gian làm bài : 30 phút</p>
                     <p>Số lượng câu hỏi : 50 câu</p>
                 </div>
@@ -44,10 +61,10 @@ if (isset($_POST['nametest'])) {
                     <p>Chọn độ khó bài test</p>
                     <?php
                     foreach ($json_array as $json_arr) {
-                        if ($json_arr['category_id'] == $_POST['nametest']) {
+                        if ($json_arr['category_id'] == $id_test) {
                     ?>
                             <div class="level">
-                                <a href=""><button class=""><?php echo $json_arr['title']; ?></button></a>
+                                <a href="exercise.php?id=<?php echo $json_arr['_id']; ?>"><button class=""><?php echo $json_arr['title']; ?></button></a>
                             </div>
                     <?php }
                     } ?>
@@ -63,8 +80,8 @@ if (isset($_POST['nametest'])) {
     color: white;
     padding-top: 200px;
     padding-bottom: 200px;
-    text-align: center;">404 NOT FOUND</h1>
-        <?php
+    text-align: center;">404 NOT FOUND </h1>
+        <?php 
         } ?>
     </div>
     <?php
