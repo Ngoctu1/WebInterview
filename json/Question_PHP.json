@@ -11,11 +11,11 @@
     },
     {
         "_id": 2,
-        "answer_1": "<script>...</script>",
-        "answer_2": "<&>...</&>",
-        "answer_3": "<?php...?>  ",
-        "answer_4": "<?php>...</?>",
-        "answer_true": "<?php...?>  ",
+        "answer_1": "☇script>...☇/script>",
+        "answer_2": "<&>...☇/&>",
+        "answer_3": "☇?php...?>  ",
+        "answer_4": "☇?php>...</?>",
+        "answer_true": "☇?php... ?>  ",
         "playlist_id": 7,
         "question": "PHP server scripts are surrounded by delimiters, which?"
     },
@@ -41,7 +41,7 @@
     },
     {
         "_id": 5,
-        "answer_1": "</php>",
+        "answer_1": "☇/php>",
         "answer_2": "New line",
         "answer_3": ".",
         "answer_4": ";  ",
@@ -101,11 +101,11 @@
     },
     {
         "_id": 11,
-        "answer_1": "<?php include:\"time.inc\"; ?>",
-        "answer_2": "<?php include file=\"time.inc\"; ?>",
-        "answer_3": "<?php include \"time.inc\"; ?>  ",
-        "answer_4": "<!-- include file=\"time.inc\" -->",
-        "answer_true": "<?php include \"time.inc\"; ?>  ",
+        "answer_1": "☇?php include:\"time.inc\"; ?>",
+        "answer_2": "☇?php include file=\"time.inc\"; ?>",
+        "answer_3": "☇?php include \"time.inc\"; ?>  ",
+        "answer_4": "☇!-- include file=\"time.inc\" -->",
+        "answer_true": "☇?php include \"time.inc\"; ?>  ",
         "playlist_id": 7,
         "question": "What is the correct way to include the file \"time.inc\" ?"
     },
@@ -164,7 +164,7 @@
         "answer_1": "/*...*/  ",
         "answer_2": "<comment>...</comment>",
         "answer_3": "*\\...\\*",
-        "answer_4": "<!--...-->",
+        "answer_4": "☇!--...-->",
         "answer_true": "/*...*/  ",
         "playlist_id": 7,
         "question": "What is a correct way to add a comment in PHP?"
@@ -1021,11 +1021,11 @@
     },
     {
         "_id": 103,
-        "answer_1": "<?php ?>",
+        "answer_1": "☇?php  ?>",
         "answer_2": "< php >",
         "answer_3": "< ? php ?>",
-        "answer_4": "<? ?>",
-        "answer_true": "<? ?>",
+        "answer_4": "☇? ?>",
+        "answer_true": "☇? ?>",
         "playlist_id": 9,
         "question": "Which of the following is the correct syntax to write a PHP code?"
     },

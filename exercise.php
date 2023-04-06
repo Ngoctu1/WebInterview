@@ -21,7 +21,9 @@ if (isset($_GET["id"])) {
     $name = "Reactjs";
   }
   $json_array = json_decode($myjson, true);
-}
+
+} 
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -37,6 +39,7 @@ if (isset($_GET["id"])) {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/041cb6b55e.js" crossorigin="anonymous"></script>
+
     <title>Document</title>
 </head>
 
@@ -82,27 +85,30 @@ if (isset($_GET["id"])) {
 
         </div>
     </header>
+
     <div id="container">
         <?php if (isset($id)) { ?>
         <div class="title">
             <h1>Bài kiểm tra kiến thức <?php echo $name; ?></h1>
-            <p>Mức độ <?php if ($id == 1 || $id == 4 || $id == 7 || $id == 10 || $id == 13 || $id == 16) {
-                    echo "Dễ";
-                  } elseif ($id == 2 || $id == 5 || $id == 8 || $id == 11 || $id == 14 || $id == 17) {
-                    echo "Trung Bình";
-                  } else {
-                    echo "Khó";
-                  }
 
-                  ?></p>
+            <p>Mức độ <?php if($id == 1||$id== 4||$id== 7||$id== 10||$id== 13||$id== 16 ){
+              echo "Dễ";
+            }elseif($id == 2||$id== 5||$id== 8||$id== 11||$id== 14||$id== 17 ){
+              echo "Trung Bình";
+            }else{
+              echo "Khó";
+            }
+            
+            ?></p>
         </div>
         <div class="content">
-            <form class="quiz">
+            <form class="quiz" >
+                
+      <?php 
+ $a = 1;
+  foreach($json_array as $json_arr){ 
+      if( $json_arr['playlist_id'] == $id){  ?>
 
-                <?php
-          $a = 1;
-          foreach ($json_array as $json_arr) {
-            if ($json_arr['playlist_id'] == $id) {  ?>
 
                 <div class="ques">
                     <div class="question">
@@ -134,20 +140,21 @@ if (isset($_GET["id"])) {
                             <?php }
                     if (isset($json_arr['answer_4'])) { ?>
                             <div class="radio">
-                                <input id="inputcheck" name='<?php echo $json_arr['answer_true'], $a; ?>'
-                                    value='<?php echo $json_arr['answer_4'], $a; ?>' type="radio"
-                                    onclick="checkboxes()" />
+
+                                <input id="inputcheck" name='<?php echo $json_arr['answer_true'], $a; ?>'  value='<?php echo $json_arr['answer_4'], $a; ?>' type="radio" onclick="checkboxes()"/>
+
                                 <label><?php echo $json_arr['answer_4']  ?></label>
                             </div>
                             <?php } ?>
                         </div>
-                    </div>
 
+                        </div>
 
-                </div>
+                    
+              </div>
 
-                <?php $a++;
-            }
+          <?php $a++ ;}
+
           }
           ?>
 
@@ -183,6 +190,9 @@ if (isset($_GET["id"])) {
 
                 <input type="submit"> hoan thanh</input>
             </form>
+            <button onclick="myalert()">
+    Show Alert Message
+</button>
         </div>
         <?php } else { ?>
         <h1 style="color : white; padding-top: 200px">
@@ -277,6 +287,19 @@ function checkboxes() {
     document.getElementById('dem').innerHTML = count;
     document.getElementById('diem').innerHTML = score;
 }
+
+
+function myalert() {
+  if (confirm('Bạn có muốn nộp luôn không ?')) {
+  
+  console.log('OK');
+} else {
+  
+  console.log('HỦY');
+}
+    }
+
+
 </script>
 
 </html>
