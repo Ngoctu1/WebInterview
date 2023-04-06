@@ -4,7 +4,6 @@ if (isset($_GET["id"])) {
   if ($id >= 1 && $id <= 3) {
     $myjson = file_get_contents("json/Question_Python.json");
     $name = "Python";
-    
   } elseif ($id >= 4 && $id <= 6) {
     $myjson = file_get_contents("json/Question_OOP.json");
     $name = "OOP";
@@ -22,7 +21,7 @@ if (isset($_GET["id"])) {
     $name = "Reactjs";
   }
   $json_array = json_decode($myjson, true);
-} // suppose your json data variable name is $json then decode it and assing to a new variable $json_array
+} 
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -38,16 +37,6 @@ if (isset($_GET["id"])) {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/041cb6b55e.js" crossorigin="anonymous"></script>
-
-    <!-- <script src="js/script.js" defer></script> -->
-    
-    
-
-
-  <!-- <script src="js/script.js" defer></script> -->
-  <script src="jsonpath-0.8.0.js" defer></script>
-
-
   <title>Document</title>
 </head>
 
@@ -80,9 +69,9 @@ if (isset($_GET["id"])) {
       <?php if(isset($id)){?>
         <div class="title">
             <h1>Bài kiểm tra kiến thức <?php echo $name; ?></h1>
-            <p>Mức độ <?php if($id == 1||$id= 4||$id= 7||$id= 10||$id= 13||$id= 16 ){
+            <p>Mức độ <?php if($id == 1||$id== 4||$id== 7||$id== 10||$id== 13||$id== 16 ){
               echo "Dễ";
-            }elseif($id == 2||$id= 5||$id= 8||$id= 11||$id= 14||$id= 17 ){
+            }elseif($id == 2||$id== 5||$id== 8||$id== 11||$id== 14||$id== 17 ){
               echo "Trung Bình";
             }else{
               echo "Khó";
@@ -91,16 +80,16 @@ if (isset($_GET["id"])) {
             ?></p>
         </div>
         <div class="content">
-            <form class="quiz" method="POST" >
+            <form class="quiz" >
                 
       <?php 
- $a = 0;
-  foreach($json_array as $json_arr){ // now iterate through that array
-      if($json_arr['playlist_id'] == $id){  ?>
+ $a = 1;
+  foreach($json_array as $json_arr){ 
+      if( $json_arr['playlist_id'] == $id){  ?>
 
                 <div class="ques">
                     <div class="question">
-                        <p>Câu hỏi số <?php echo $json_arr['_id']; ?>:</p>
+                        <p>Câu hỏi số <?php echo $a; ?>:</p>
                     </div>
 
                     <div class="box_ques">
@@ -122,30 +111,17 @@ if (isset($_GET["id"])) {
                             <?php }
                             if(isset($json_arr['answer_4'])){ ?>
                             <div class="radio">
-                                <input id="inputcheck" name='<?php echo $json_arr['answer_true'], $a; ?>'  value='<?php echo $json_arr['answer_4'], $a++; ?>' type="radio" onclick="checkboxes()"/>
-                                <label><?php echo $json_arr['answer_4']; ?></label>
+                                <input id="inputcheck" name='<?php echo $json_arr['answer_true'], $a; ?>'  value='<?php echo $json_arr['answer_4'], $a; ?>' type="radio" onclick="checkboxes()"/>
+                                <label><?php $output = $json_arr['answer_4'] . ""; ?></label>
                             </div>
                             <?php } ?>
                         </div>
+                        </div>
 
-                    </div>
-                    <div class="radio">
-                      <input name="radio<?php echo $json_arr['_id']; ?>" type="radio" />
-                      <label><?php echo $json_arr['answer_2']; ?></label>
-                    </div>
-                    <div class="radio">
-                      <input name="radio<?php echo $json_arr['_id']; ?>" type="radio" />
-                      <label><?php echo $json_arr['answer_3']; ?></label>
-                    </div>
-                    <div class="radio">
-                      <input name="radio<?php echo $json_arr['_id']; ?>" type="radio" />
-                      <label><?php echo $json_arr['answer_4']; ?></label>
-                    </div>
-                  </div>
-                </div>
+                    
               </div>
 
-          <?php }
+          <?php $a++ ;}
           }
           ?>
 
