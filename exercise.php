@@ -39,6 +39,8 @@ if (isset($_GET["id"])) {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/041cb6b55e.js" crossorigin="anonymous"></script>
+    
+    <script src="js/script.js" defer></script>
 
     <title>Document</title>
 </head>
@@ -46,7 +48,7 @@ if (isset($_GET["id"])) {
 <body>
     <header>
         <div class="topnav" id="myTopnav">
-            <a href="#"><img width="130px" height="auto" src="image/logo.png" /></a>
+            <a href="index.php"><img width="130px" height="auto" src="image/logo.png" /></a>
             <a class="menuitem" href="#" class="hidden">Đăng nhập</a>
             <a class="menuitem" href="#" class="hidden">Test kiến thức ngay</a>
 
@@ -57,13 +59,12 @@ if (isset($_GET["id"])) {
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
             </a>
-        </div>
-        <div class="topnav-right">
-        <?php if (isset($id)) { ?>
+            <?php if (isset($id)) { ?>
             <div class="time">
                 <div class="number_quiz">
                     <p>Số câu trả lời</p>
-                    <p> <span style="color:white; font-size: 16px;" id="dem">0</span> /50</p>
+                    <p> <span style="color:white; font-size: 16px;" id="dem">0</span>/50</p>
+                    <p style="display: none" id="diem"></p>
                     
                 </div>
                 <div class="number_quiz">
@@ -73,6 +74,9 @@ if (isset($_GET["id"])) {
                 </div>
               </div>
               <?php } ?>
+        </div>
+        <div class="topnav-right">
+        
         </div>
     </header>
 
@@ -185,12 +189,12 @@ if (isset($_GET["id"])) {
 </button>
         </div>
         <?php } else { ?>
-        <h1 style="color : white; padding-top: 200px">
+        <h1 class="error" style="color : white; padding-top: 200px">
             <?php
       echo " 404 NOT FOUND <br>Trang Không Hợp Lệ!!!!";
     } ?></h1>
     </div>
-
+ <?php include('footer.php') ?>
 </body>
 <script>
 const quiz = document.querySelector('form');

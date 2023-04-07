@@ -29,6 +29,13 @@ h1 {
     
     padding: 80px;
 }
+@media (max-width: 768px) {
+    .content{
+padding: 20px;
+
+    }
+    
+}
 
 .ques {
     width: 50%;
