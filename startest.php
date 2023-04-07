@@ -64,7 +64,7 @@ if (isset($_POST['nametest']) && isset($_POST['name_user'])) {
                         if ($json_arr['category_id'] == $id_test) {
                     ?>
                             <div class="level">
-                                <a href="exercise.php?id=<?php echo $json_arr['_id']; ?>"><button class=""><?php echo $json_arr['title']; ?></button></a>
+                                <a href="exercise.php?id=<?php echo $json_arr['_id'];?>&name=<?php echo $_POST['name_user'];?>"><button class=""><?php echo $json_arr['title']; ?></button></a>
                             </div>
                     <?php }
                     } ?>

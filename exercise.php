@@ -59,16 +59,10 @@ if (isset($_GET["id"])) {
             </a>
         </div>
         <div class="topnav-right">
+        <?php if (isset($id)) { ?>
             <div class="time">
-
-
-
-
-
                 <div class="number_quiz">
                     <p>Số câu trả lời</p>
-                    
-                    
                     <p> <span style="color:white; font-size: 16px;" id="dem">0</span> /50</p>
                     
                 </div>
@@ -77,19 +71,15 @@ if (isset($_GET["id"])) {
                     <div id="tg">
                     </div>
                 </div>
-              
-
-            </div>
-
-           
-
+              </div>
+              <?php } ?>
         </div>
     </header>
 
     <div id="container">
         <?php if (isset($id)) { ?>
         <div class="title">
-            <h1>Bài kiểm tra kiến thức <?php echo $name; ?></h1>
+            <h1> Bài kiểm tra kiến thức <?php echo $name; ?></h1>
 
             <p>Mức độ <?php if($id == 1||$id== 4||$id== 7||$id== 10||$id== 13||$id== 16 ){
               echo "Dễ";
@@ -258,7 +248,7 @@ function countdown(elementName, minutes, seconds)
 
 
 
-countdown('tg', 1, 0);
+countdown('tg', 30, 0);
 
 
 
@@ -298,7 +288,9 @@ function myalert() {
   console.log('HỦY');
 }
     }
+<?php 
 
+?>
 
 </script>
 
