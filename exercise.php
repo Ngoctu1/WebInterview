@@ -79,7 +79,7 @@ if (isset($_GET["id"])) {
         
         </div>
     </header>
-
+    <div class="success"> </div>
     <div id="container">
         <?php if (isset($id)) { ?>
         <div class="title">
@@ -102,13 +102,10 @@ if (isset($_GET["id"])) {
  $a = 1;
   foreach($json_array as $json_arr){ 
       if( $json_arr['playlist_id'] == $id){  ?>
-
-
                 <div class="ques">
                     <div class="question">
                         <p>Câu hỏi số <?php echo $a; ?>:</p>
                     </div>
-
                     <div class="box_ques">
                         <div id="aws" class="choose">
                             <p>Chọn đáp án đúng : <span><?php echo $json_arr['question']; ?> </span></p>
@@ -134,8 +131,8 @@ if (isset($_GET["id"])) {
                             <?php }
                     if (isset($json_arr['answer_4'])) { ?>
                             <div class="radio">
-
-                                <input id="inputcheck" name='<?php echo $json_arr['answer_true'], $a; ?>'  value='<?php echo $json_arr['answer_4'], $a; ?>' type="radio" onclick="checkboxes()"/>
+                                <input id="inputcheck" name='<?php echo $json_arr['answer_true'], $a; ?>' 
+                                 value='<?php echo $json_arr['answer_4'], $a; ?>' type="radio" onclick="checkboxes()"/>
 
                                 <label><?php echo $json_arr['answer_4']  ?></label>
                             </div>
@@ -187,13 +184,15 @@ if (isset($_GET["id"])) {
             <button onclick="myalert()">
     Show Alert Message
 </button>
-        </div>
+          
         <?php } else { ?>
         <h1 class="error" style="color : white; padding-top: 200px">
             <?php
       echo " 404 NOT FOUND <br>Trang Không Hợp Lệ!!!!";
     } ?></h1>
     </div>
+    <div style="z-index: 1;position: fi; width:100%;height:100%;background-color:black; "> </div>
+        </div>
  <?php include('footer.php') ?>
 </body>
 <script>
