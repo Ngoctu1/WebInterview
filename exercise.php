@@ -79,7 +79,7 @@ if (isset($_GET["id"])) {
         
         </div>
     </header>
-    <div class="success"> </div>
+    <div id="suc" class="success"> </div>
     <div id="container">
         <?php if (isset($id)) { ?>
         <div class="title">
@@ -179,10 +179,10 @@ if (isset($_GET["id"])) {
 
 
 
-                <input type="submit"> hoan thanh</input>
+                
             </form>
-            <button onclick="myalert()">
-    Show Alert Message
+            <button class="submit-btn" onclick="myalert()">
+    Hoàn Thành
 </button>
           
         <?php } else { ?>
@@ -198,6 +198,7 @@ if (isset($_GET["id"])) {
 <script>
 const quiz = document.querySelector('form');
 const aws = document.getElementById('aws');
+var stopa = false ;
 
 function countdown(elementName, minutes, seconds)
 
@@ -226,10 +227,13 @@ function countdown(elementName, minutes, seconds)
 
         msLeft = endTime - (+new Date);
 
-        if (msLeft < 1000) {
+        if (msLeft < 1000 || stopa == true ) {
+          console.log(stopa);
 
             element.innerHTML = "Time out !";
             element.style = "color:red;";
+            const suc =  document.getElementById('suc');
+   suc.classList.add("display");
 
         } else {
 
@@ -251,7 +255,7 @@ function countdown(elementName, minutes, seconds)
 
 
 
-countdown('tg', 30, 0);
+countdown('tg', 1, 0);
 
 
 
@@ -284,6 +288,12 @@ function checkboxes() {
 
 function myalert() {
   if (confirm('Bạn có muốn nộp luôn không ?')) {
+    
+   const suc =  document.getElementById('suc');
+   suc.classList.add("display");
+   stopa = true;
+   console.log(stopa);
+    
   
   console.log('OK');
 } else {
