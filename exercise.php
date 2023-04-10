@@ -87,7 +87,8 @@ if (isset($_GET["id"])) {
       <button class="bubbly-button">Xem kết quả</button>
      </div>
     </div>
-    <div class="background">
+    <div class="background display">
+
     <div class="text">
     <h4>Bạn có chắc đã hoàn thành bài thi</h4>
       <p>Nếu chưa hãy kiểm tra lại nhé</p>
@@ -102,6 +103,7 @@ if (isset($_GET["id"])) {
     </div>
       
     </div>
+    
   </div>
   <div id="container">
     <?php if (isset($id)) { ?>

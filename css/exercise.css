@@ -134,7 +134,10 @@ label {
   background-color: rgba(0, 0, 0, 0.767);
   text-align: center;
   padding: 8% 25%;
-  /* display: none; */
+  
+}
+.display{
+    display: block !important;
 }
 .background {
   background-color: #fff;
@@ -146,6 +149,7 @@ label {
   text-align: center;
   position: absolute;
   padding-top: 25px;
+  display: none;
 }
 
 .text h4 {
