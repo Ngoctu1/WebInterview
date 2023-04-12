@@ -218,7 +218,7 @@ function countdown(elementName, minutes, seconds)
     {
 if (window.localStorage.getItem('save') != null ){
   endTime = window.localStorage.getItem('save')
-      console.log(endTime)
+      
     }
 
         msLeft = endTime - (+new Date);
