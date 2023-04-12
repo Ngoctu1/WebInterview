@@ -1025,7 +1025,7 @@
         "answer_2": " Global",
         "answer_3": "Third party",
         "answer_4": "Core",
-        "answer_true": " Third party",
+        "answer_true": "Third party",
         "playlist_id": 15,
         "question": "Http module falls under which type of module?"
     },
@@ -1131,7 +1131,7 @@
     },
     {
         "_id": 114,
-        "answer_1": " asynchronous",
+        "answer_1": "asynchronous",
         "answer_2": "synchronous",
         "answer_3": " Both A and B",
         "answer_4": "None of the above",
@@ -1245,7 +1245,7 @@
         "answer_2": "$ npm getVersion",
         "answer_3": "$ node getVersion",
         "answer_4": "$ node --version",
-        "answer_true": " $ node --version",
+        "answer_true": "$ node --version",
         "playlist_id": 15,
         "question": "Which of the following command will show version of Node?"
     },
