@@ -97,7 +97,6 @@ if (isset($_GET["id"])) {
         </div>
         <div class="content">
             <form class="quiz" >
-                
       <?php 
  $a = 1;
   foreach($json_array as $json_arr){ 
@@ -140,8 +139,6 @@ if (isset($_GET["id"])) {
                         </div>
 
                         </div>
-
-                    
               </div>
 
           <?php $a++ ;}
@@ -175,11 +172,7 @@ if (isset($_GET["id"])) {
               </div>
             </div>
           </div>
-        </div> -->
-
-
-
-                
+        </div> -->        
             </form>
             <button class="submit-btn" onclick="myalert()">
     Hoàn Thành
@@ -207,8 +200,7 @@ function countdown(elementName, minutes, seconds)
 
 
     var element, endTime, hours, mins, msLeft, time;
-
-
+    
     function twoDigits(n)
 
     {
@@ -224,11 +216,15 @@ function countdown(elementName, minutes, seconds)
     function updateTimer()
 
     {
+if (window.localStorage.getItem('save') != null ){
+  endTime = window.localStorage.getItem('save')
+      console.log(endTime)
+    }
 
         msLeft = endTime - (+new Date);
 
         if (msLeft < 1000 || stopa == true ) {
-          console.log(stopa);
+            window.alert('Hết giờ!!')
 
             element.innerHTML = "Time out !";
             element.style = "color:red;";
@@ -246,6 +242,7 @@ function countdown(elementName, minutes, seconds)
             element.innerHTML = (hours ? hours + ':' + twoDigits(mins) : mins) + ':' + twoDigits(time.getUTCSeconds());
 
             setTimeout(updateTimer, time.getUTCMilliseconds() + 500);
+            window.localStorage.setItem('save',endTime);
 
         }
 
@@ -255,7 +252,7 @@ function countdown(elementName, minutes, seconds)
 
 
 
-countdown('tg', 1, 0);
+countdown('tg', 30, 0);
 
 
 

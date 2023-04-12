@@ -74,6 +74,8 @@
 </body>
 <script>
   
+  window.localStorage.clear();
+  
 
   function onclick1() {
     
