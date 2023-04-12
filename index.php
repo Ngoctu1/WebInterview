@@ -47,5 +47,7 @@ include('footer.php')
 ?>
 </body>
 
-
+<script>
+  window.localStorage.clear();
+  </script>
 </html>

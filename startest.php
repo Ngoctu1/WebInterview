@@ -89,5 +89,8 @@ if (isset($_POST['nametest']) && isset($_POST['name_user'])) {
     include('footer.php')
     ?>
 </body>
+<script>
+  window.localStorage.clear();
+  </script>
 
 </html>

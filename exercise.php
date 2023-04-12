@@ -175,6 +175,7 @@ color: red;">Hoàn thành bài thi</p>
                     <div class="radio">
                       <input id="inputcheck" name='<?php echo $json_arr['answer_true'], $a; ?>' value='<?php echo $json_arr['answer_1'], $a; ?>' type="radio" onclick="checkboxes()" />
                       <label id="answer"><?php echo $json_arr['answer_1']; ?></label>
+
                     </div>
                     <div class="radio">
                       <input id="inputcheck" name='<?php echo $json_arr['answer_true'], $a; ?>' value='<?php echo $json_arr['answer_2'], $a; ?>' type="radio" onclick="checkboxes()" />
@@ -196,6 +197,7 @@ color: red;">Hoàn thành bài thi</p>
                   </div>
 
                 </div>
+
 
 
               </div>
@@ -231,19 +233,18 @@ color: red;">Hoàn thành bài thi</p>
               </div>
             </div>
           </div>
-        </div> -->
 
-
-
-          <input type="submit"> hoan thanh</input>
-        </form>
-        <button onclick="myalert()">
-          Show Alert Message
-        </button>
-      </div>
+        </div> -->        
+            </form>
+            <button class="submit-btn" onclick="myalert()">
+    Hoàn Thành
+</button>
+          
+        </div>
     <?php } else { ?>
       <h1 class="error" style="color : white; padding-top: 180px; padding-bottom: 120px">
       <?php
+
       echo " 404 NOT FOUND <br>Trang Không Hợp Lệ!!!!";
     } ?></h1>
 
@@ -252,14 +253,26 @@ color: red;">Hoàn thành bài thi</p>
     <?php include('footer.php') ?>
 </body>
 <script>
-  const quiz = document.querySelector('form');
-  const aws = document.getElementById('aws');
+
+const quiz = document.querySelector('form');
+const aws = document.getElementById('aws');
+var stopa = false ;
+
+function countdown(elementName, minutes, seconds)
+
+
+{
+
 
   function countdown(elementName, minutes, seconds) {
     var element, endTime, hours, mins, msLeft, time;
 
-    function twoDigits(n) {
-      return (n <= 9 ? "0" + n : n);
+    
+    function twoDigits(n)
+
+    {
+        return (n <= 9 ? "0" + n : n);
+
     }
     element = document.getElementById(elementName);
     endTime = (+new Date) + 1000 * (60 * minutes + seconds) + 500;
@@ -268,13 +281,22 @@ color: red;">Hoàn thành bài thi</p>
     function updateTimer()
 
     {
+if (window.localStorage.getItem('save') != null ){
+  endTime = window.localStorage.getItem('save')
+      
+    }
 
       msLeft = endTime - (+new Date);
 
-      if (msLeft < 1000) {
 
-        element.innerHTML = "Time out !";
-        element.style = "color:red;";
+        if (msLeft < 1000 || stopa == true ) {
+            window.alert('Hết giờ!!')
+
+            element.innerHTML = "Time out !";
+            element.style = "color:red;";
+            const suc =  document.getElementById('suc');
+   suc.classList.add("display");
+
 
       } else {
 
@@ -286,7 +308,10 @@ color: red;">Hoàn thành bài thi</p>
 
         element.innerHTML = (hours ? hours + ':' + twoDigits(mins) : mins) + ':' + twoDigits(time.getUTCSeconds());
 
-        setTimeout(updateTimer, time.getUTCMilliseconds() + 500);
+
+            setTimeout(updateTimer, time.getUTCMilliseconds() + 500);
+            window.localStorage.setItem('save',endTime);
+
 
       }
 
@@ -338,18 +363,26 @@ color: red;">Hoàn thành bài thi</p>
   }
 
 
-  function myalert() {
-    if (confirm('Bạn có muốn nộp luôn không ?')) {
 
-      console.log('OK');
-    } else {
-
-      console.log('HỦY');
+function myalert() {
+  if (confirm('Bạn có muốn nộp luôn không ?')) {
+    
+   const suc =  document.getElementById('suc');
+   suc.classList.add("display");
+   stopa = true;
+   console.log(stopa);
+    
+  
+  console.log('OK');
+} else {
+  
+  console.log('HỦY');
+}
     }
-  }
-  <?php
 
-  ?>
+
+
+     
 </script>
 
 </html>
