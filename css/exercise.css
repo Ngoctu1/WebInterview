@@ -134,13 +134,14 @@ label {
   background-color: rgba(0, 0, 0, 0.767);
   text-align: center;
   padding: 8% 25%;
+  z-index: 1;
 }
 .display {
   display: block !important;
 }
 .background {
   background-color: #fff;
-  width: 50%;
+  width: 7%;
 
   z-index: 1;
   border-radius: 40px;
@@ -319,14 +320,10 @@ label {
 @property --progress-value {
   syntax: "<integer>";
   inherits: false;
-  initial-value: 0;
+  
 }
 
-@keyframes html-progress {
-  to {
-    --progress-value: 50;
-  }
-}
+
 
 .wrapper_infor {
   display: flex;
@@ -360,6 +357,7 @@ label {
 .progress-bar::before {
   counter-reset: percentage var(--progress-value);
   content: counter(percentage) "%";
+  
 }
 
 .html {
