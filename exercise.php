@@ -332,19 +332,19 @@ countdown('tg', 30, 0);
 function checkboxes() {
     var inputElems = document.getElementsByTagName('input');
 
-    console.log(inputElems);
+   // console.log(inputElems);
     count = 0;
     score = 0;
     for (var i = 0; i < inputElems.length; i++) {
 
         if (inputElems[i].checked == true) {
             count++;
-            console.log(count);
+           // console.log(count);
 
 
             if (inputElems[i].value == inputElems[i].name) {
                 score++;
-                console.log(score);
+               // console.log(score);
                 if (score >= 35) {
                     document.getElementById('end').innerHTML = "Hoàn thành rất tốt";
                 } else if (score >= 25 && score < 35) {
@@ -373,7 +373,7 @@ function myalert() {
         const suc = document.getElementById('suc');
         suc.classList.add("display");
         stopa = true;
-        console.log(stopa);
+       // console.log(stopa);
 
 
         console.log('OK');
